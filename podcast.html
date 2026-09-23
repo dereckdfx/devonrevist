@@ -204,10 +204,10 @@
             
             <div id="interactive-header-center" class="absolute left-1/2 transform -translate-x-1/2 h-full flex items-center justify-center cursor-pointer select-none z-10 w-auto px-2 md:px-4 whitespace-nowrap">
                 
-                <!-- Logo cambiado por el GIF y | Devon (Mejor ajustado para móvil) -->
-                <div id="devon-text" class="flex items-center justify-center gap-2 md:gap-3 transition-all duration-500">
-                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e94e7d1f-3328-48d3-b11a-45e835c32fcb/dhvgkbm-ea7c097b-28b8-421d-9517-808ca4874cf0.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lOTRlN2QxZi0zMzI4LTQ4ZDMtYjExYS00NWU4MzVjMzJmY2IvZGh2Z2tibS1lYTdjMDk3Yi0yOGI4LTQyMWQtOTUxNy04MDhjYTQ4NzRjZjAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.clS1Az05Pd-Bwh-3uZzyIZFNcJC3Q6dlwSwVI2riTaU" alt="A24 Logo GIF" class="h-8 sm:h-10 md:h-12 object-contain">
-                    <span class="text-xl sm:text-2xl md:text-3xl font-bold tracking-widest text-black font-serif uppercase">| DEVON</span>
+                <!-- Devon USA wordmark -->
+                <div id="devon-text" class="flex flex-col items-center justify-center transition-all duration-500 pt-1">
+                    <span class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-widest text-black font-serif uppercase leading-none">DEVON</span>
+                    <span class="text-[7px] md:text-[8px] font-semibold tracking-[0.25em] text-black uppercase mt-1 leading-tight">USA</span>
                 </div>
 
                 <div id="dynamic-island" class="island-container absolute rounded-full flex items-center justify-center overflow-hidden shadow-xl">
@@ -295,8 +295,8 @@
             
             <!-- Columna Izquierda: Logo y Redes -->
             <div class="md:col-span-4 flex flex-col items-start">
-                <!-- Logo GIF gigante reemplazando texto DEVON -->
-                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e94e7d1f-3328-48d3-b11a-45e835c32fcb/dhvgkbm-ea7c097b-28b8-421d-9517-808ca4874cf0.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9lOTRlN2QxZi0zMzI4LTQ4ZDMtYjExYS00NWU4MzVjMzJmY2IvZGh2Z2tibS1lYTdjMDk3Yi0yOGI4LTQyMWQtOTUxNy04MDhjYTQ4NzRjZjAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.clS1Az05Pd-Bwh-3uZzyIZFNcJC3Q6dlwSwVI2riTaU" alt="Logo GIF" class="h-16 md:h-24 lg:h-32 object-contain mb-8">
+                <!-- Devon USA wordmark -->
+                <span class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-widest text-white font-serif uppercase mb-8">DEVON</span>
                 
                 <div class="flex gap-3">
                     <a href="#" class="w-10 h-10 rounded-full border border-gray-800 flex items-center justify-center hover:border-white transition-colors text-white">
@@ -392,7 +392,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
-            // --- 0. Animación Inicial (A24 Logo) ---
+            // --- 0. Intro animation (if present) ---
             const introContainer = document.getElementById('intro-container');
             const introLogo = document.getElementById('intro-logo');
 
