@@ -48,14 +48,21 @@
             background-color: currentColor; transition: width 0.25s ease;
         }
         .link-underline:hover::after { width: 100%; }
-        .hero-wordmark {
-            font-family: "Bodoni Moda", Didot, serif;
-            font-weight: 700;
-            letter-spacing: 0.06em;
-            line-height: 0.85;
-            font-size: clamp(3.5rem, 14vw, 9.5rem);
-            color: #fff;
-            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        .hero-video-wrap {
+            position: relative;
+            width: 100%;
+            background: #000;
+        }
+        .hero-video-wrap video,
+        .hero-video-wrap iframe {
+            display: block;
+            width: 100%;
+            height: min(78vh, 100%);
+            min-height: 420px;
+            max-height: 78vh;
+            border: 0;
+            background: #000;
+            object-fit: contain;
         }
     </style>
 </head>
@@ -147,7 +154,7 @@
         <!-- Secondary trending strip -->
         <div class="w-full border-t border-b border-gray-200 bg-white">
             <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
-                <a href="devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <a href="devon-world.html" class="hover:text-black transition-colors">Vogue World 2026: Milano</a>
                 <span class="text-gray-300">|</span>
                 <a href="devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
                 <span class="text-gray-300">|</span>
@@ -171,15 +178,67 @@
     </header>
 <main class="flex-1 w-full">
 
-    <section class="w-full relative">
-      <a href="https://www.vogue.com/article/watch-the-vogue-world-2026-milan-livestream" target="_blank" rel="noopener" class="block relative w-full h-[62vh] md:h-[78vh] min-h-[420px] overflow-hidden bg-neutral-900">
-        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/devon-usa/2026-09-22/6ab3300c2f378f2cffdae651.jpg" alt="Devon World" class="absolute inset-0 w-full h-full object-cover object-center"/>
-        <div class="absolute inset-0 bg-black/25"></div>
-        <div class="absolute inset-0 flex items-start justify-center pt-[12%] md:pt-[10%]">
-          <h1 class="hero-wordmark uppercase text-center px-4">Devon World</h1>
-        </div>
-      </a>
+    <!-- Vogue World Milano hero: real Vogue CNEVids livestream VOD (no text overlays) -->
+    <section class="w-full relative bg-black" aria-label="Vogue World 2026: Milano">
+      <div class="hero-video-wrap">
+        <video
+          id="vogue-world-hero"
+          class="w-full"
+          controls
+          playsinline
+          preload="metadata"
+          poster="https://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_vogue.png,fl_progressive,g_face,h_720,q_80,w_1280/v1787659854/vogue_vogue-world-la-2025.jpg"
+          title="Vogue World 2026: Milano — Watch the Livestream"
+        >
+          <source src="https://d2nig8ykak6ul6.cloudfront.net/out/v1/41206854f93f487c811a049dd0aa90c3/index.m3u8?start=2026-09-22T18%3A00%3A10.000%2B00%3A00&amp;end=2026-09-22T18%3A38%3A24.000%2B00%3A00" type="application/x-mpegURL">
+        </video>
+        <iframe
+          id="vogue-world-hero-embed"
+          class="w-full hidden"
+          title="Vogue World 2026: Milano"
+          data-src="https://player.cnevids.com/iframe/video/68dbb6bd777e2b57792927d3"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </section>
+    <script>
+      window.__devonVogueWorldHero = function () {
+        var SRC = "https://d2nig8ykak6ul6.cloudfront.net/out/v1/41206854f93f487c811a049dd0aa90c3/index.m3u8?start=2026-09-22T18%3A00%3A10.000%2B00%3A00&end=2026-09-22T18%3A38%3A24.000%2B00%3A00";
+        var EMBED = "https://player.cnevids.com/iframe/video/68dbb6bd777e2b57792927d3";
+        var video = document.getElementById("vogue-world-hero");
+        var embed = document.getElementById("vogue-world-hero-embed");
+        if (!video || video.getAttribute("data-ready") === "1") return;
+        video.setAttribute("data-ready", "1");
+        function showEmbed() {
+          video.classList.add("hidden");
+          try { video.pause(); } catch (e) {}
+          video.removeAttribute("src");
+          while (video.firstChild) video.removeChild(video.firstChild);
+          if (embed) {
+            embed.src = embed.getAttribute("data-src") || EMBED;
+            embed.classList.remove("hidden");
+          }
+        }
+        if (window.Hls && Hls.isSupported()) {
+          var hls = new Hls({ enableWorker: true, maxBufferLength: 30 });
+          hls.loadSource(SRC);
+          hls.attachMedia(video);
+          hls.on(Hls.Events.ERROR, function (_e, data) {
+            if (data && data.fatal) {
+              try { hls.destroy(); } catch (e) {}
+              showEmbed();
+            }
+          });
+        } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          video.src = SRC;
+          video.addEventListener("error", showEmbed, { once: true });
+        } else {
+          showEmbed();
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js" onload="window.__devonVogueWorldHero && window.__devonVogueWorldHero()" onerror="window.__devonVogueWorldHero && window.__devonVogueWorldHero()"></script>
     
 <div class="max-w-[1400px] mx-auto px-4 md:px-8 pb-20">
 
