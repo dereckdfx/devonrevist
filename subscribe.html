@@ -174,7 +174,15 @@
       <div class="max-w-3xl mx-auto px-6 pt-20 pb-24 text-center">
         <p class="text-[10px] tracking-[0.28em] uppercase text-gray-500 mb-4">Devon USA</p>
         <h1 class="font-serif text-4xl md:text-5xl tracking-wide uppercase text-black mb-6">Subscribe</h1>
-        <p class="text-gray-600 leading-relaxed mb-10">Join Devon USA for editor letters, runway alerts, and exclusive drops.</p>
+        <p class="text-gray-600 leading-relaxed mb-10">Join Devon USA for editor letters, runway alerts, and exclusive drops. Every morning, the day’s new stories in your inbox.</p>
+        <div id="newsletter" class="max-w-xl mx-auto text-left mb-12">
+          <form data-newsletter novalidate class="flex flex-col sm:flex-row w-full gap-0">
+            <label for="nl-email" class="sr-only">Your email address</label>
+            <input id="nl-email" type="email" name="email" required autocomplete="email" placeholder="Your email address" class="flex-1 border border-gray-300 px-4 py-4 text-sm outline-none focus:border-black rounded-none">
+            <button type="submit" class="bg-black text-white px-8 py-4 text-[11px] font-semibold tracking-[0.22em] uppercase hover:bg-neutral-800 transition-colors rounded-none">Sign up</button>
+          </form>
+          <p class="text-[11px] text-gray-500 leading-relaxed mt-3">By signing up you agree to our <a href="terms.html" class="underline hover:text-black">User Agreement</a> and <a href="privacy.html" class="underline hover:text-black">Privacy Policy</a>. You can unsubscribe at any time.</p>
+        </div>
         <a href="index.html" class="inline-block border border-black px-8 py-3 text-[11px] tracking-[0.22em] uppercase text-black hover:bg-black hover:text-white transition-colors">Back home</a>
       </div>
     </main>
@@ -269,5 +277,6 @@
             document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
         }
     </script>
+    <script src="/js/newsletter.js" defer></script>
 </body>
 </html>
