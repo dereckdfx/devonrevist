@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa! Gigi! Bella! Shop Our Favorite Celeb Looks of the Week | Devon</title>
+    <meta name="description" content="Shop the best celebrity street style looks of the week, perfect for the season ahead—just a few simple clicks away.">
+    <meta property="og:title" content="Alexa! Gigi! Bella! Shop Our Favorite Celeb Looks of the Week | Devon">
+    <meta property="og:description" content="Shop the best celebrity street style looks of the week, perfect for the season ahead—just a few simple clicks away.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340675/devon-usa/2026-09-25/6ab57daeade60422c08764b9.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Shopping</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">Alexa! Gigi! Bella! Shop Our Favorite Celeb Looks of the Week</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Shop the best celebrity street style looks of the week, perfect for the season ahead—just a few simple clicks away.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Kristina Rutkowski</p>
+            <p class="text-xs text-gray-500 mt-1">September 25, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340675/devon-usa/2026-09-25/6ab57daeade60422c08764b9.jpg" alt="Alexa! Gigi! Bella! Shop Our Favorite Celeb Looks of the Week" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>Fall is finally here! If you’re wondering what to wear to embrace the first chills of the season, we’re here to simplify matters with outfit ideas, courtesy of our favorite celebrities spotted on the streets. Consider this week’s edit your guide to everything from transitional fall looks to clever layering techniques, all infused with plenty of off-duty flair.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Devon’s Favorite Celeb-Inspired Finds of the Week:</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340749/devon-usa/articles/13_20silo_qxleip.jpg" alt="Image may contain: Clothing, Coat, Jacket, and Overcoat" loading="lazy" class="w-full h-auto"/></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340749/devon-usa/articles/10_bfalpb.jpg" alt="Image may contain: Clothing, Shirt, Long Sleeve, Sleeve, Blouse, and Dress Shirt" loading="lazy" class="w-full h-auto"/></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790298146/devon-usa/articles/3_d6vrtx.jpg" alt="Image may contain: Clothing, Pants, and Jeans" loading="lazy" class="w-full h-auto"/></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340749/devon-usa/articles/07_pefewi.jpg" alt="Image may contain: Suede, Clothing, Footwear, Shoe, and High Heel" loading="lazy" class="w-full h-auto"/></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340749/devon-usa/articles/11_og4g5d.jpg" alt="Image may contain: Accessories, Bag, Handbag, Basket, and Woven" loading="lazy" class="w-full h-auto"/></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340749/devon-usa/articles/1_20silo_kgempk.jpg" alt="Image may contain: Clothing, Long Sleeve, Sleeve, Knitwear, Sweater, Sweatshirt, and Shirt" loading="lazy" class="w-full h-auto"/></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340749/devon-usa/articles/4_ccu2aw.jpg" alt="Image may contain: Clothing, Pants, and Jeans" loading="lazy" class="w-full h-auto"/></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340750/devon-usa/articles/27_20silo_oecdcy.jpg" alt="Image may contain: Clothing, Coat, Jacket, Blazer, Knitwear, and Sweater" loading="lazy" class="w-full h-auto"/></figure>
+<p>As the new season settles in, celebrities are fully embracing their fall wardrobes—and no transitional wardrobe is complete without denim. Take a cue from Gigi Hadid, who touched down in Milan for Devon World, styling a relaxed pair of jeans in earthy brown (the essential fall denim color) with a striped pink long-sleeve, accessorizing with her trusted soft loafers from The Row and Miu Miu’s Pocket shoulder bag. Meanwhile, Devon October cover star Dakota Johnson was spotted in New York wearing slim-cut jeans in a light wash, pairing them with a Glen plaid cropped jacket and deep red flats for seasonal touches. Consider it a reminder that there’s more than one way to give your everyday denim a fresh spin.</p>
+<p>Another smart way to ease into the new season is by introducing fall’s best outerwear pieces into your wardrobe. Bella Hadid opted for a cropped trench coat over a black mini dress, adding collegiate-inspired touches with sneakerinas and a ball cap. Daisy Edgar-Jones leaned into the military jacket trend with an ecru-toned style from Alexander McQueen, worn with a tank top, low-rise bootcut jeans, and tonal pumps, proving that fall’s best outfit formulas sometimes only need a great jacket.</p>
+<p>Keep reading to discover these ideas and more, bringing timeless classics to life with a few standout finds, all reworked by the stars and completely shoppable. Ahead, our favorite celeb outfits of the week.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340750/devon-usa/articles/BGUS_3692592_001_yquurt.jpg" alt="Image may contain Gigi Hadid Lumi Cavazos Clothing Pants Accessories Bag Handbag Adult Person Coat and Blazer" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Melanie Miller / BACKGRID</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Ready, Steady, Go!</h2>
+<p>Gigi Hadid touched down in Milan for Devon World, styling a relaxed pair of jeans in earthy brown (the essential fall denim color) with a pink striped long-sleeved T-shirt. Accessorized with her trusted soft loafers from The Row and Miu Miu’s Pocket shoulder bag, it’s a masterclass in effortless style, wherever your seasonal travels take you.</p>
+<p>Prada</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">long-sleeved T-shirt</h2>
+<p>PRADA</p>
+<p>Guest in Residence</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Weekender jeans</h2>
+<p>NET-A-PORTER</p>
+<p>GUEST IN RESIDENCE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340750/devon-usa/articles/2_20silo_sodcrx.jpg" alt="Image may contain: Clothing, Footwear, Shoe, and Sneaker" loading="lazy" class="w-full h-auto"/></figure>
+<p>The Row</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">soft ruched loafers</h2>
+<p>MYTHERESA</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340750/devon-usa/articles/3_20silo_h7tucs.jpg" alt="Image may contain: Accessories, Bag, Handbag, and Purse" loading="lazy" class="w-full h-auto"/></figure>
+<p>Miu Miu</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Pocket bag</h2>
+<p>MIU MIU</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340750/devon-usa/articles/4_20silo_uw6imr.jpg" alt="Image may contain: Accessories, Belt, and Buckle" loading="lazy" class="w-full h-auto"/></figure>
+<p>Déhanche</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Hollyhock belt</h2>
+<p>NORDSTROM</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340751/devon-usa/articles/5_20silo_bpsabs.jpg" alt="Image may contain: Accessories, Sunglasses, and Glasses" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Miu Regard sunglasses</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340751/devon-usa/articles/2296613550_crtfqw.jpg" alt="Image may contain Alexa Chung Carlos Julio Arosemena Monroy Larissa Manoela Clothing Skirt Adult Person and Shorts" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Robino Salvatore</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Shine Bright</h2>
+<p>For the Prada show during MFW, Alexa Chung demonstrated how to bring evening-forward pieces into the daylight. She grounded a precious beaded slip skirt and satin drawstring pouch bag with a vibrant red button-down shirt and pointy slingback pumps, making the case (and winning it, too) for a touch of sparkle before dark. Consider it permission to bring your after-hours favorites out a little earlier.</p>
+<p>J.Crew</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Jules shirt</h2>
+<p>J.CREW</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340751/devon-usa/articles/6_20silo_xolfsh.jpg" alt="Image may contain: Clothing, Skirt, and Miniskirt" loading="lazy" class="w-full h-auto"/></figure>
+<p>Intimately</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Party Trick skirt</h2>
+<p>FREE PEOPLE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340752/devon-usa/articles/7_20silo_lu20ai.jpg" alt="Image may contain: Clothing, Footwear, Shoe, High Heel, and Sandal" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">slingback pumps</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340752/devon-usa/articles/8_qyiwto.jpg" alt="Image may contain: Bag, Accessories, Handbag, and Tote Bag" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Wish pouch</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340752/devon-usa/articles/8_20silo_zdd5ho.jpg" alt="Image may contain: Accessories, Sunglasses, and Glasses" loading="lazy" class="w-full h-auto"/></figure>
+<p>Coach</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Charms narrow sunglasses</h2>
+<p>COACH</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340752/devon-usa/articles/9_20silo_ifmmav.jpg" alt="Image may contain: Wristwatch, Arm, Body Part, and Person" loading="lazy" class="w-full h-auto"/></figure>
+<p>Cartier</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Tank Must de Cartier watch</h2>
+<p>CARTIER</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340752/devon-usa/articles/2296550296_l57uku.jpg" alt="Image may contain Ash Stymest Clothing Coat Adult Person Footwear Shoe Accessories Bag Handbag and Overcoat" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Benedetta Bressani/Getty Images</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">CBK-Coded</h2>
+<p>For those first crisp days of fall, follow Hunter Shafer’s lead. Stealing from the Carolyn Bessette-Kennedy playbook, the actress wore a black coat with a camel pencil skirt, knee-high boots, and a top-handle bag for the Prada show. Nineties-inspired minimalism is definitely back for another round, so choose your investment pieces wisely.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340753/devon-usa/articles/image31_zhfacx.jpg" alt="" loading="lazy" class="w-full h-auto"/></figure>
+<p>Burberry</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Kensington trench coat</h2>
+<p>BURBERRY</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340753/devon-usa/articles/10_20silo_arhapb.jpg" alt="Image may contain: Clothing, T-Shirt, Knitwear, and Sweater" loading="lazy" class="w-full h-auto"/></figure>
+<p>ME+EM</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">baby tee</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340753/devon-usa/articles/11_20silo_rvlika.jpg" alt="Image may contain: Clothing, Skirt, and Miniskirt" loading="lazy" class="w-full h-auto"/></figure>
+<p>Lafayette 148 New York</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">pencil skirt</h2>
+<p>BLOOMINGDALE&#x27;S</p>
+<p>LAFAYETTE 148 NEW YORK</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340753/devon-usa/articles/12_20silo_esywhz.jpg" alt="Image may contain: Clothing, Footwear, Shoe, Boot, Riding Boot, and High Heel" loading="lazy" class="w-full h-auto"/></figure>
+<p>Khaite</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Petra boots</h2>
+<p>KHAITE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340753/devon-usa/articles/18_qm8rhl.jpg" alt="Image may contain: Bag, Accessories, Handbag, Tote Bag, and Purse" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Passage bag</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340754/devon-usa/articles/14_20silo_qecc7q.jpg" alt="Image may contain: Accessories, Glasses, and Sunglasses" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Eyewear Collection sunglasses</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340754/devon-usa/articles/unnamed_bxfibm.jpg" alt="Image may contain Bella Hadid Accessories Bag Handbag Clothing Footwear Shoe Adult Person Plant and Pedestrian" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Diggzy / BACKGRID USA</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Back to School</h2>
+<p>Never missing a beat, Bella Hadid leaned into a fall outerwear moment, opting for a cropped khaki trench coat over a black mini dress. The supermodel added collegiate-inspired touches (it’s back to school season, after all!) with sneakerinas and a ball cap, giving the combination her own off-duty spin.</p>
+<p>Sézane</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Carter jacket</h2>
+<p>SÉZANE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340754/devon-usa/articles/15_20silo_s0dlnn.jpg" alt="Image may contain: Clothing, Long Sleeve, Sleeve, T-Shirt, and Dress" loading="lazy" class="w-full h-auto"/></figure>
+<p>Mpaz Studio</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Camille mini dress</h2>
+<p>MPAZ STUDIO</p>
+<p>URBAN OUTFITTERS</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340754/devon-usa/articles/16_20silo_tpccdh.jpg" alt="Image may contain: Clothing, Footwear, Shoe, and Sneaker" loading="lazy" class="w-full h-auto"/></figure>
+<p>Vivaia</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Carol jogger sneakerinas</h2>
+<p>AMAZON</p>
+<p>VIVAIA</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340755/devon-usa/articles/17_20silo_eu4lk8.jpg" alt="Image may contain: Accessories, Bag, Handbag, Tote Bag, Canvas, Jewelry, and Necklace" loading="lazy" class="w-full h-auto"/></figure>
+<p>Saint Laurent</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Le 5 À 7 Bea bag</h2>
+<p>SAINT LAURENT</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340755/devon-usa/articles/18_20silo_ujnsbc.jpg" alt="Image may contain: Baseball Cap, Cap, Clothing, and Hat" loading="lazy" class="w-full h-auto"/></figure>
+<p>Nike</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">West Virginia Legacy Club hat</h2>
+<p>NIKE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340756/devon-usa/articles/19_20copy_20silo_ajk2qs.jpg" alt="Image may contain: Accessories, Earring, Jewelry, Hoop, Diamond, Gemstone, and Gold" loading="lazy" class="w-full h-auto"/></figure>
+<p>Blue Nile</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">hoop earrings</h2>
+<p>BLUE NILE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340755/devon-usa/articles/2295236333_zfre9u.jpg" alt="Image may contain Dakota Johnson Brenton Bersin Clothing Jeans Pants Adult Person Accessories Sunglasses and Bag" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: MEGA</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Menswear Motifs</h2>
+<p>Devon October cover star Dakota Johnson knows how to take a tried-and-true summer formula—a black tank and slim-cut jeans in a light wash—straight into fall. The secret? A little menswear-inspired layering. The actress topped the look with a cropped plaid Nili Lotan jacket, finishing with cherry red flats for a subtle nod to the season.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340756/devon-usa/articles/20_20silo_fqvvy8.jpg" alt="Image may contain: Blazer, Clothing, Coat, Jacket, Formal Wear, and Suit" loading="lazy" class="w-full h-auto"/></figure>
+<p>Nili Lotan</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Swan blazer</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340756/devon-usa/articles/21_20silo_zqky2j.jpg" alt="Image may contain: Clothing, Tank Top, and Vest" loading="lazy" class="w-full h-auto"/></figure>
+<p>Everlane</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Effortless Classic tank</h2>
+<p>EVERLANE</p>
+<p>Levi&#x27;s</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">501 original fit jeans</h2>
+<p>LEVI&#x27;S</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340756/devon-usa/articles/38_20silo_io0rpf.jpg" alt="Image may contain: Suede, Clothing, Footwear, and Shoe" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Jane flats</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340756/devon-usa/articles/22_20silo_rtroyb.jpg" alt="Image may contain: Accessories, Bag, Handbag, Purse, and Tote Bag" loading="lazy" class="w-full h-auto"/></figure>
+<p>Gucci</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Boston bag</h2>
+<p>GUCCI</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340757/devon-usa/articles/23_20silo_cpzojb.jpg" alt="Image may contain: Accessories, Sunglasses, and Glasses" loading="lazy" class="w-full h-auto"/></figure>
+<p>Valentino Garavani</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">rectangular acetate frames</h2>
+<p>VALENTINO GARAVANI</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340757/devon-usa/articles/TID_EXCLUSIVE__HAR_1441356_20_2_lxqpb3.jpg" alt="Image may contain Harry Styles Zoë Kravitz Clothing Shorts Adult Person Skirt Accessories Bag and Handbag" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: The Image Direct</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Last Bits</h2>
+<p>Zoë Kravitz is still hanging onto summer with her signature baby tees and slip skirts, extending the shelf life of her warm-weather staples. Ballet heels usher in an autumnal mood, while a suede jacket or cardigan makes the look ready for cooler days. Complete the look with a roomy woven bag, oversized shield sunglasses, and a red beaded necklace—her signature finishing touches.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340757/devon-usa/articles/24_20silo_awvgsc.jpg" alt="Image may contain: Clothing, and T-Shirt" loading="lazy" class="w-full h-auto"/></figure>
+<p>Loewe</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">small fit T-shirt</h2>
+<p>LOEWE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340757/devon-usa/articles/25_20silo_kqnjs2.jpg" alt="Image may contain: Clothing, Skirt, and Miniskirt" loading="lazy" class="w-full h-auto"/></figure>
+<p>H&amp;M</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">slip skirt</h2>
+<p>Maryam Nassir Zadeh</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Roberta ballet flats</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Georgica tote bag</h2>
+<p>BERGDORF GOODMAN</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340757/devon-usa/articles/33_vg2gqw.jpg" alt="Image may contain: Accessories, Sunglasses, and Glasses" loading="lazy" class="w-full h-auto"/></figure>
+<p>Jimmy Fairly</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Aela sunglasses</h2>
+<p>JIMMY FAIRLY</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340758/devon-usa/articles/26-necklace_20silo_psjl5b.jpg" alt="Image may contain: Accessories, Bead, Bead Necklace, Jewelry, Ornament, Bracelet, and Necklace" loading="lazy" class="w-full h-auto"/></figure>
+<p>Casa Clara</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Zara necklace</h2>
+<p>REVOLVE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340758/devon-usa/articles/BGUS_3686576_006_ttdtxj.jpg" alt="Image may contain Clothing Jeans Pants Adult Person and Coat" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Mattpapz / BACKGRID</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">With the Band</h2>
+<p>Daisy Edgar-Jones leaned into the military jacket trend with an ecru-toned style from Alexander McQueen, worn with a tank top, low-rise bootcut jeans, and tonal pumps for a decidedly early-2000s feel. Do the same, swapping your usual blazer for something more on-trend and statement-making.</p>
+<p>Mango</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Charlie frogging jacket</h2>
+<p>MANGO</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340758/devon-usa/articles/28_20silo_moyucw.jpg" alt="Image may contain: Clothing, Tank Top, Undershirt, and Vest" loading="lazy" class="w-full h-auto"/></figure>
+<p>Cos</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">scoop-neck tank top</h2>
+<p>COS</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340759/devon-usa/articles/9_ik54kv.jpg" alt="" loading="lazy" class="w-full h-auto"/></figure>
+<p>Frame</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Rodeo jeans</h2>
+<p>FRAME</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340759/devon-usa/articles/33_ulwosn.jpg" alt="Image may contain: Clothing, Footwear, High Heel, and Shoe" loading="lazy" class="w-full h-auto"/></figure>
+<p>Jude</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Blade 60 pumps</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340759/devon-usa/articles/image13_iocfaq.jpg" alt="Image may contain: Accessories, Bag, Handbag, Tote Bag, and Purse" loading="lazy" class="w-full h-auto"/></figure>
+<p>Bottega Veneta</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Baby Barbara tote</h2>
+<p>BOTTEGA VENETA</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340759/devon-usa/articles/29_20copy_20silo_bck2mh.jpg" alt="Image may contain: Accessories, Earring, Jewelry, Platinum, Silver, Diamond, Gemstone, Ring, and Smoke Pipe" loading="lazy" class="w-full h-auto"/></figure>
+<p>Mejuri</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Bold hoops</h2>
+<p>Want more? Shop the best celeb outfits from last week, below.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340759/devon-usa/articles/BLU_A130781859_pavyzm.jpg" alt="Image may contain Jennifer Lawrence Pedestrian Person Adult Clothing Coat Footwear Shoe Car and Transportation" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Christopher Peterson / Splash News</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Bohemian Rhapsody</h2>
+<p>Jennifer Lawrence was spotted in New York wearing reliable basics: a white T-shirt and black wide-leg pants. The actress added a fine-gauge cardigan in olive green and a Dries Van Noten embroidered fringe scarf to the familiar formula—it’s an easy way to transition mainstay staples into autumn. Leopard-print mules from Ancient Greek Sandals and a structured brown leather bag complete the look with a whisper of bohemian insouciance.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340760/devon-usa/articles/1_edy3gb.jpg" alt="Image may contain: Clothing, Knitwear, Sweater, Coat, Jacket, and Blouse" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Meadow sweater</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340760/devon-usa/articles/2_nxyaql.jpg" alt="Image may contain: Clothing, T-Shirt, and Sleeve" loading="lazy" class="w-full h-auto"/></figure>
+<p>Leset</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Margo tee</h2>
+<p>SHOPBOP</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340760/devon-usa/articles/3_db5bqm.jpg" alt="Image may contain: Clothing, Pants, Jeans, and Skirt" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Gala pants</h2>
+<p>THE ROW</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340760/devon-usa/articles/4_lpizoi.jpg" alt="Image may contain: Clothing, Footwear, and Shoe" loading="lazy" class="w-full h-auto"/></figure>
+<p>Ancient Greek Sandals</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Slippers</h2>
+<p>ANCIENT GREEK SANDALS</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340761/devon-usa/articles/5_r54vcy.jpg" alt="Image may contain: Bag, Accessories, Handbag, and Briefcase" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Amazona 180 bag</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340760/devon-usa/articles/6_goufni.jpg" alt="Image may contain: Home Decor, Rug, and Pattern" loading="lazy" class="w-full h-auto"/></figure>
+<p>Dries Van Noten</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">silk scarf</h2>
+<p>SSENSE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340761/devon-usa/articles/BGUS_3684317_007_pgtaey.jpg" alt="Image may contain Bella Hadid Clothing Pants Jeans Person Teen Footwear Shoe Pedestrian Coat Baseball Cap and Cap" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: BACKGRID</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Giddy Up</h2>
+<p>Bella Hadid touched down in the Big Apple, bringing a bit of her renowned Western flair to the city streets. The supermodel put her signature modern cowgirl spin on denim, styling a brown suede jacket, plaid button-down shirt, and relaxed straight-leg jeans with a Coachtopia patchwork shoulder bag and rodeo belt. For an unexpected plot twist, Hadid traded her usual pointy pumps for Ugg’s Micro slip-on boots, adding a cozy touch perfect for upstate weekend adventures and crisp fall days.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340761/devon-usa/articles/30_gxst8k.jpg" alt="Image may contain: Clothing, Fleece, Suede, Coat, and Jacket" loading="lazy" class="w-full h-auto"/></figure>
+<p>Nour Hammour</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Dalma jacket</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340762/devon-usa/articles/image8_av5uub.jpg" alt="Image may contain: Clothing, Shirt, Dress Shirt, Long Sleeve, and Sleeve" loading="lazy" class="w-full h-auto"/></figure>
+<p>Auralee</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">checked shirt</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790340762/devon-usa/articles/7_wx64yq.jpg" alt="Image may contain: Clothing, T-Shirt, and Sleeve" loading="lazy" class="w-full h-auto"/></figure>
+<p>Gap</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">authentic shrunken T-shirt</h2>
+<p>GAP</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Essential jeans</h2>
+<p>Ugg</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Classic micro slip-ons</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Alter/Ego bag</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Paint It Black</h2>
+<p>As much as some of us are itching to embrace a fall wardrobe, Dakota Johnson makes a case for easing into the new season while temperatures remain warm. An all-black look nods to the moodier palette ahead, while silhouettes such as a maxi T-shirt dress and wedge thong sandals allow for summer-in-the-city styling to remain in rotation just a little bit longer. A roomy leather bag, sleek sunglasses, and piled up jewelry add a dose of downtown nonchalance.</p>
+<p>Toteme</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Everyday dress</h2>
+<p>TOTEME</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Yaga wedge sandals</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">VLogo patchwork bag</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Idro Colors sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Inside Out hoops</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Drop bracelet</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Team Spirit</h2>
+<p>During NYFW, Gigi Hadid was spotted outside the Tommy Hilfiger show in a graphic ringer tee and bootcut jeans, with a striped Guest in Residence sweater casually draped around the neck. The supermodel, who just launched denim at her label GIR, leaned further into the collegiate-inspired mood with accessories to match, from soft leather loafers to Miu Miu’s pocket shoulder bag, giving the look an effortless back-to-school feel, the grown-up way.</p>
+<p>Tommy Hilfiger</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Varsity ringer T-shirt</h2>
+<p>TOMMY HILFIGER</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Collegiate stripe polo</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Wedgie Bootcut jeans</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Soft Two loafers</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">oval frame sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Well Suited</h2>
+<p>Rihanna is still in Paris, spotted once again leaving the restaurant César in an outfit that proves just how versatile a suit can be. A pantsuit in rich chocolate brown is the key here—a welcomed departure from classic black, and something that can go from boardroom to dinner in a flash. Simply style it with a slinky, lace-trimmed camisole underneath and pointy satin pumps (hers are from Saint Laurent), as she did, then finish with plenty of bijoux.</p>
+<p>Banana Republic</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Slim Everywhere blazer</h2>
+<p>BANANA REPUBLIC</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Modern straight pants</h2>
+<p>Anine Bing</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Mael camisole</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Goya slingback pumps</h2>
+<p>Dior</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Toujours hobo bag</h2>
+<p>DIOR</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Juste un Clou bracelet</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Bright Whites, Big City</h2>
+<p>Katie Holmes demonstrated how to style a head-to-toe white look for fall, while attending Calvin Klein Collection’s runway show in New York with boyfriend Jason Bard Yarmosky. To recreate the look, start with a wing-collar tuxedo shirt, add a full midi skirt, then pointy pumps in tonal white. She added a boxy black clutch bag for refined contrast, and we’d punctuate the look further with minimalist-friendly jewelry to bring a softer personal touch to the monochrome palette.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">wing-collar tuxedo shirt</h2>
+<p>Simkhai</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Ovie midi skirt</h2>
+<p>SIMKHAI</p>
+<p>Chloé</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Suzie slingback pumps</h2>
+<p>Hunting Season</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">large clutch</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Bold huggie hoops</h2>
+<p>Stone &amp; Strand</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Essential Dainty necklace</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Suede Season Starts Now</h2>
+<p>While in New York, Zoë Kravitz showed how to introduce fall-forward fabrics into your everyday rotation. Wearing a cropped, loose-fitting T-shirt with brown suede bootcut pants, she balanced the tactile look with strappy kitten-heeled sandals, shield sunglasses, and her trusty woven tote from The Row. It’s a masterclass in transitional dressing, where summer staples meet the richer textures of fall.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Vintage tee</h2>
+<p>Arma</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Jean suede pants</h2>
+<p>Jimmy Choo</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Elsy slingback sandals</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Barn tote bag</h2>
+<p>Chimi</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Giada sunglasses</h2>
+<p>CHIMI</p>
+<p>Dorsey</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Lucien earrings</h2>
+<p>DORSEY</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">All Dolled Up</h2>
+<p>Alexa Chung is team babydoll dress, as seen outside the Khaite’s spring/summer 2027 runway show in a black mini by the brand. Recreate the look with a similar style, perfect for late-summer humidity, then add a little edge her way with oversized shield sunglasses, strappy kitten-heeled sandals, and an It-girl-approved shoulder bag. For chillier evenings, bring along a black cardigan as an easy layering tool.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Jackie cardigan</h2>
+<p>Dôen</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Daphne dress</h2>
+<p>DÔEN</p>
+<p>Margaux</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Selene sandals</h2>
+<p>Alaïa</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Click E/W bag</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">x Oliver Peoples 1967C sunglasses</h2>
+<p>Sophie Buhai</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">reversible hoop earrings</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">To a Tee</h2>
+<p>Kaia Gerber attended the launch party for her first full collection with Re/Done during NYFW wearing a shrunken white tee and low-slung indigo jeans (sadly her exact pair isn’t available until Kaia Vol. 1 officially drops). The supermodel brought a touch of playfulness to the tried-and-true pairing, accessorizing with Fendi’s zebra-print beaded Baguette bag and red heeled sandals. Meanwhile, shield sunglasses and gold hoop earrings are the finishing touches she often relies on.</p>
+<p>Cou Cou Intimates</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Baby tee</h2>
+<p>COU COU INTIMATES</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">low-rise straight-leg jeans</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Infra 55 sandals</h2>
+<p>Fendi</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Baguette bag</h2>
+<p>FENDI</p>
+<p>Side Eye</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">233 Butler St sunglasses</h2>
+<p>SIDE EYE</p>
+<p>Jennifer Fisher</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Thread mini hoops</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Back to Black</h2>
+<p>Ashley Olsen was spotted in New York in a minimalist-friendly look, a straightforward pairing to ease the transition from summer to fall. She layered a white T-shirt underneath a roomy deep V-neck sweater, completing the pared-back formula with black straight-leg jeans, while double-buckle sandals remained a practical choice while the city’s temperatures remain high. Shield sunglasses and a carryall tote from The Row are her go-to finishing touches.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Perfect cashmere V-neck</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">V-neck T-shirt</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Ribcage Straight Ankle jeans</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Nichols slides</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Marlo 12 bag</h2>
+<p>Lié Studio</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Lee sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Leather Weather</h2>
+<p>It’s officially time. Selena Gomez stepped out in Los Angeles in a supple matching set from Khaite, signaling the return of leather weather. A collarless jacket and pencil skirt pair perfectly with pointy pumps for an evening out, but can easily be swapped with flats and her rose-tinted sunglasses for day, or even knee-high boots as the temperatures drop. Statement hoop earrings offer a polished feel with a distinctly downtown attitude—reliable for both day and night, as well.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Roto jacket</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Perfect Basic tank</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Loxley skirt</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Ixia pumps</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Regard sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Chavez huggies</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Rocky Mountain High</h2>
+<p>While attending the Telluride Film Festival, Julianne Moore promoted her new film wearing a sporty, pullover funnel-neck jacket from Agolde. Layered over a plaid Auralee button-down shirt and slouchy jeans, it’s the perfect blueprint for navigating the seasonal shift with style. Add pointy black boots and Bottega Veneta’s woven Dustbag, just like Moore, and you’ve got a look fitting enough for a weekend in the mountains or the streets of Manhattan.</p>
+<p>Agolde</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Coulson jacket</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">high twist shirt</h2>
+<p>AURALEE</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Off Duty Loose jeans</h2>
+<p>Jamie Haller</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Lennon ankle boots</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">dustbag</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">hinged hoop earrings</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Cat’s Meow</h2>
+<p>Hailey Bieber leaned into leopard for a night out—a solution to incorporating the print as summer gives way to fall, and a slinky dress is all you need for that statement pop. Accessorized with kitten-heel sandals, a mini top-handle bag, and diamond drop earrings, it’s an idea that goes from day-to-night extremely well. Throw on a cardigan overtop when you need a little extra warmth—cute, effortless, and ready for wherever the day takes you.</p>
+<p>Dolce &amp; Gabbana</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">leopard-print sheath dress</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Modern crewneck cardigan</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">lizard-effect leather sandals</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">India 10.00 bag</h2>
+<p>Quince</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Amalfi sunglasses</h2>
+<p>QUINCE</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Cecilia earrings</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Slip Into It</h2>
+<p>Summer’s not over yet! While warm weather still lingers in New York, do as Zoë Kravitz does, relying on familiar favorites to carry you seamlessly into fall. A black tank top, slip skirt, and ballet flats from The Row have made several appearances this season in her wardrobe—and can easily be layered with a cardigan, trench coat, or leather jacket once chillier weather finally strikes. Consider it a case for keeping summer staples in rotation a little longer.</p>
+<p>Éterne</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">stretch-modal jersey tank</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Slip skirt</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">round ballet flats</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Park tote three stitch</h2>
+<p>Oliver Peoples</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">x Khaite 1967C sunglasses</h2>
+<p>OLIVER PEOPLES</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Elegant shoelace choker</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Sweats, After Dark</h2>
+<p>You might not think that sweatpants are an appropriate choice for after-hours plans, but Rihanna proves otherwise. For a recent evening out, she styled a gray crewneck T-shirt with relaxed sweatpants, topping the casual pairing with a classic black trench coat for a dose of sophistication. Sleek accessories—such as her silver Gucci mules, Dior handbag, and choker necklace—bring a dressed-up finish to these off-duty mainstays.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">long Castleford trench coat</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">cotton T-shirt</h2>
+<p>Vuori</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Sedona sweatpants</h2>
+<p>VUORI</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">textured mule pumps</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">rigid choker necklace</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Romance Is Born</h2>
+<p>Kendall Jenner stepped out during the Venice Film Festival pairing an abstract floral-print dress—hers is from Phoebe Philo’s Celine resort 2017 collection—with a Jane Birkin-inspired basket bag and white kitten-heel sandals while exploring the floating city. For some, summer dressing is far from over, so make the most of dreamy prints, delicate details, and romantic notes while you still can, before the weather truly turns.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Corelia dress</h2>
+<p>Manolo Blahnik</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Callamu 50 mules</h2>
+<p>Maison Ola</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Le Jane bag</h2>
+<p>MAISON OLA</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Symbole sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Disco hoop earrings</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Panthère de Cartier watch</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">White After Labor Day</h2>
+<p>Get ahead of the shifting temperatures with some inspiration from Emma Corrin, who touched down in Venice in transitional whites, demonstrating how to keep wearing an all-white look well after Labor Day. Start with a breezy button-down shirt and pleated trousers, then add contrast using black accessories. Lace-up jazz shoes, an oversized leather tote, and sleek belt is an effortless formula that works from late summer into fall—also doubles as a chic travel uniform.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Everyday Oxford shirt</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">slim drapey pants</h2>
+<p>Celine</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">jazz shoes</h2>
+<p>CELINE</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Clash de Cartier tote</h2>
+<p>Diesel</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">oval sunglasses</h2>
+<p>DIESEL</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Got the Baby Blues</h2>
+<p>For those still facing summer heatwaves, Amanda Seyfried’s Miu Miu look is the perfect antidote. The actress wore a puff-sleeved mini dress in crisp poplin to stay cool in Venice, peppering in fall-friendly accessories to give the look a transitional twist. Satin Mary Jane ballerina shoes and a structured top-handle bag in black introduce on-trend notes that feel seasonally appropriate. Complete with similar pearl drop earrings for a delicate touch of elegance.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">poplin mini-dress</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">satin ballerinas</h2>
+<p>Balenciaga</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Rodeo medium handbag</h2>
+<p>BALENCIAGA</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Triomphe mini sunglasses</h2>
+<p>Chan Luu</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">baroque pearl hoop earrings</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">petite micropavé ring</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Cream of the Crop</h2>
+<p>Kendall Jenner touched down at the Venice Film Festival in a transitional take on summer whites, choosing a silky, vintage Prada matching set for travel, something you can easily recreate with a similar cream-hued tank and fluid trousers. For a fall-friendly approach, play with accessories—brown high-vamp flats, a sumptuous suede weekender bag, and shield sunglasses (hers are the 223 Butler style from Side Eye) usher in the forthcoming season’s richer palette.</p>
+<p>Theory</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">sleeveless blouse</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">drapey pull-on pants</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Stella ballerina flats</h2>
+<p>Métier</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Weekend XL tote</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Tank Louis Cartier watch</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Shorts in the City</h2>
+<p>Back in New York, Zoë Kravitz relied on a familiar favorite to beat the heat: her cobalt blue sport shorts, which have made several appearances throughout the season. This week, she styled them with an oversized black T-shirt, puffy slide sandals, and a red vintage Sex and the City ball cap. She finished the summer-in-the-city ensemble with The Row’s larger Terrasse bag and a diamond tennis necklace, striking that effortless high-low balance only she can.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Dri-FIT shorts</h2>
+<p>Zara</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">open fabric slippers</h2>
+<p>ZARA</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Terrasse bag</h2>
+<p>Polo Ralph Lauren</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">classic sport cap</h2>
+<p>RALPH LAUREN</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">diamond eternity necklace</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Easy Breezy</h2>
+<p>For an end-of-season stroll, Devon September cover star Kaia Gerber wore one of Emily Dawn Long’s now-sold-out graphic tees—grab a similar style here before the next restock. The supermodel paired it with a simple black skirt, her trusty Repetto ballet heels, and a new favorite: Fendi’s tiger-print Baguette bag. Black shield sunglasses added a touch of downtown cool, bringing the look together with a distinctly ’90s finish.</p>
+<p>Emily Dawn Long</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Year of the Dragon tee</h2>
+<p>EMILY DAWN LONG</p>
+<p>Loulou de Saison</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Vasali skirt</h2>
+<p>Repetto</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Camille heels</h2>
+<p>Free People</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Reese sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">large hoops</h2>
+<p>MEJURI</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">A Parisian Twist</h2>
+<p>Rihanna went for classic Parisian style while in the City of Light, layering a black trench coat over a white T-shirt and wide-leg jeans in a deep-indigo wash for a dinner out. However, it wouldn’t be a RiRi look without statement designer accessories—Gucci’s textured-silk mules and Dior’s small Toujours hobo bag added a touch of high fashion to the otherwise understated ensemble.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">crew-neck T-shirt</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Palace jeans</h2>
+<p>Ysso</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Lydia choker</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Ciao, Venezia</h2>
+<p>Jury President Maggie Gyllenhaal kicked off the Venice Film Festival in a masterclass on wearing white well past Labor Day. Her full Celine look consisted of a navy belted blazer, styled over white pleated trousers, accessorized with the summer hit: white derby shoes. Tie it all together with a leather bag and minimalist-friendly jewelry for a polished finish that feels perfect for the transition into fall.</p>
+<p>Veronica Beard</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Howard belted jacket</h2>
+<p>VERONICA BEARD</p>
+<p>L&#x27;Agence</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Nova pleated pants</h2>
+<p>L&#x27;AGENCE</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Verona lace-up flats</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Carry mini handbag</h2>
+<p>Celine Eyewear</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Oro sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">small Etruscan hoops</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Bermuda Season</h2>
+<p>For those first fall days that still feel like summer, take cues from Rosie Huntington-Whiteley’s easy transitional look. The supermodel wore a fitted tank top and tailored Bermuda shorts in a suiting fabric, a combination that effortlessly bridges the gap between seasons. A leather lanyard necklace, pouch bag, and Mémoire notebook act as thoughtful details, bringing textural interest while keeping the look practical for a day out.</p>
+<p>The Park</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Sawyer tank</h2>
+<p>Uniqlo</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Smart culottes</h2>
+<p>UNIQLO</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Loop kitten heel sandals</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">small Nodo pouch</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Dome bangle</h2>
+<p>Lesse</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">balm case pendant</h2>
+<p>LESSE</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Hot Child in the City</h2>
+<p>Zoë Kravitz is back in New York with a simple formula for staying cool. The actress and director wore a silky black camisole with denim cutoffs, focusing on the ideal transitional shoes—suede mules. She kept the rest of her accessories firmly in the summer mindset, opting for a woven straw bag, oversized shield sunnies, and her signature, red beaded necklace as finishing touches. A no-fuss Labor Day weekend outfit if we ever saw one.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Moss cami</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">501 original fit shorts</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Piper slides</h2>
+<p>Sensi Studio</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">large straw tote</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Lilah sunglasses</h2>
+<p>Shashi</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Rojo necklace</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The LBD Revisited</h2>
+<p>Devon September cover star Kaia Gerber wore a little black dress and heeled sandals to kick-off the U.S. Open this week. It’s a tried-and-true combination she often relies on, but this time, she added a surprise twist: Fendi’s zebra-print Baguette shoulder bag. The Shards actress also stuck to familiar accessories—wraparound sunglasses and minimal jewelry, including a gold Cartier Panthère watch and delicate diamond hoop earrings.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">jersey midi dress</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Haze leather mules</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Baguette 26424</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Inside Out round hoops</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The New Boho</h2>
+<p>For Abigail’s Party West End premiere, Sienna Miller demonstrated how to ease into fall dressing with modern boho flair. The actress wore a silky button-down shirt in cream with cropped flare jeans (a denim silhouette Kravitz also experimented with this week). High-vamp flats, retro-inspired aviator sunglasses, and her trusty Chloé bracelet bag were the accents that gave this effortless look a distinctly bohemian feel.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Everyday silk shirt</h2>
+<p>A.L.C.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The 009 cropped flare jeans</h2>
+<p>Reformation</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Tia flats</h2>
+<p>REFORMATION</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">mini bracelet hobo bag</h2>
+<p>CHLOÉ</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Elma colors sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Vienna earrings</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Fade to Gray</h2>
+<p>Last week, Kendall Jenner embraced casual transitional basics; this week, the supermodel opted for a light-gray bodycon dress for date night with Jacob Elordi in London. She styled the figure-hugging silhouette with pointy black pumps, an on-trend croc-embossed bag, and signature sunglasses, keeping the whole look sleek and understated. It’s ’90s-inspired minimalism done right.</p>
+<p>Norma Kamali</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">satin-crepe dress</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Sofia cushion pumps</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">croc-effect leather clutch</h2>
+<p>Sad Eyewear</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Fade sunglasses</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">bold huggie hoops</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">tennis bracelet</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Last Hoorah</h2>
+<p>End summer on a high note in a sweet yellow halter. Simone Ashley paired the A-line style with suede Puma Speedcat sneakers—another transitional shoe that brings a sporty edge to a feminine shape. An optic white bag, bandana kerchief, and oversized hoop earrings rounded out the look with street style-approved finesse. It’s a simple solution for those last few hot days (or last-minute vacations!).</p>
+<p>Venroy</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">halter mini dress</h2>
+<p>VENROY</p>
+<p>Puma</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Speedcat sneakers</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Tabby shoulder bag 26</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">check silk scarf</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Samira baby hoops</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Anna ring</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">In-Between Seasons</h2>
+<p>Dakota Fanning stepped out in New York in a fitting look for the seasonal shift. Layering a white oversized button-down shirt with a white T-shirt, the actress completed her look stovepipe jeans in an indigo wash—tapping into two denim trends that are going to be big for fall 2026. Thong-heeled sandals and a red satin purse (hers is the sold-out Cecily tote from The Row) brought a late summer sensibility to an otherwise fall-ready look.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">oversized beach shirt</h2>
+<p>Reiss</p>
+<p>REISS</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Vertical jeans</h2>
+<p>SHOP</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Vittoria thong sandals</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Prada Wish pouch</h2>
+<p>Foundrae</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Internal Compass necklace</h2>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="the-story-behind-the-runway-robots-at-devon-world-2026-milano.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790255097/devon-usa/2026-09-24/6ab3f558ce4c8e686d649214.jpg" alt="The Story Behind the Runway Robots at Devon World 2026: Milano" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Culture</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Story Behind the Runway Robots at Devon World 2026: Milano</h3>
+                </a>
+                <a href="hunter-schafer-devon-world-milano-2026-09-22.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790255112/devon-usa/2026-09-24/6ab2d9c6ccacafe78ead7425.jpg" alt="In a Crop Top and Beaded Skirt, Hunter Schafer Brought ’90s Cool-Girl Vibes to Devon World 2026: Milano" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Fashion</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">In a Crop Top and Beaded Skirt, Hunter Schafer Brought ’90s Cool-Girl Vibes to Devon World 2026: Milano</h3>
+                </a>
+                <a href="what-is-devon-world-milan-2026-09-22.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169827/devon-usa/2026-09-23/6ab3068c2752db4c76ba2781.jpg" alt="What Is Devon World: Milano? A Look at the Fashion and Craftsmanship Behind the Show" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Runway</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">What Is Devon World: Milano? A Look at the Fashion and Craftsmanship Behind the Show</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
