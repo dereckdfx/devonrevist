@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 13 Best Spas in New York City | Devon</title>
+    <meta name="description" content="Every New Yorker needs to recharge sometimes. From skylit pools to luxe hotel escapes, here are the spas we love most in the city.">
+    <meta property="og:title" content="The 13 Best Spas in New York City | Devon">
+    <meta property="og:description" content="Every New Yorker needs to recharge sometimes. From skylit pools to luxe hotel escapes, here are the spas we love most in the city.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169788/devon-usa/2026-09-23/69de9e98bf5a60e9c563af85.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Global Spa Guide</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">The 13 Best Spas in New York City</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Every New Yorker needs to recharge sometimes. From skylit pools to luxe hotel escapes, here are the spas we love most in the city.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Devon</p>
+            <p class="text-xs text-gray-500 mt-1">April 23, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169788/devon-usa/2026-09-23/69de9e98bf5a60e9c563af85.jpg" alt="The 13 Best Spas in New York City" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>One of the greatest things about New York City is the plethora of treasures hiding behind impersonal brick facades. All around us, there are dimly-lit speakeasies, sprawling art installations, site-specific performances, and delightful little shops. But sometimes you just need somewhere to rest for a while, a place to steam and scrub away your worries. Luckily, when it comes to rest and relaxation amid the frenzy, there are wellness utopias, similarly hidden just steps from the concrete.</p>
+<p>In this spinoff local edition of our Global Spa Guide, we give you some of the best spas in New York City. Whether you’re looking for a subterranean cocoon, a parade of pools, or sweeping city views to enjoy post-massage, our guide has something for everyone. Read on for our picks for the best spas in New York City.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">AIRE Ancient Baths</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297910/devon-usa/articles/ANG02089-2_p9cwok.jpg" alt="Image may contain Pool Water City Swimming Pool Urban Architecture Building High Rise Hotel and Apartment Building" loading="lazy" class="w-full h-auto"/></figure>
+<p>AIRE Ancient Baths is a water lover’s paradise. With two locations (Tribeca and the Upper East Side), it just may be the crown jewel in the city’s ever-growing bathhouse revival. You can float your way through thermal baths, let a salt water pool buoy you, and get a candle-lit massage to top off a day of rejuvenation. They offer solo treatments, couple’s massages, cold-pressed juices, and more. And now, thanks to a significant renovation in 2025 that expanded the Tribeca location, you can swim around under an open-air skylight and enjoy four new baths. —Anna Grace Lee, lifestyle writer</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Aman New York</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297910/devon-usa/articles/SpaGuide_US-NYC_AmanNY-007RZ_wcf2iu.jpg" alt="A treatment room at the Aman New York spa in NYC." loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Robert Rieger/Courtesy of Aman NY</figcaption></figure>
+<p>Visiting an Aman is a bit like getting on a spacecraft destined for planet Luxury. From the moment you enter the hotel’s lobby, you’re enveloped in an all-encompassing aesthetic, each detail—from the sprig of eucalyptus poking from a hammered pewter pot to the swathes of haute taupe decor—calibrated to create a just-so environment that banishes the hectic hubbub speeding along 57th Street outside. This hotel might be in the very heart of Manhattan, but it is also worlds apart. Is this the best spa in New York City? It is certainly striving to set a very high bar. Housed in a three-story 25,000-square-foot complex, the spa has an overall aesthetic that can be described as Asian minimalist. Within the warren-like structure, an unmarked wood-paneled door opens up into a lofty atrium-like space; the private yoga studio is situated in something like a private bento box, sealed off by key card access. This is the vibe at Aman: extensive yet extremely private. The treatments menu is truly encyclopedic. You can get a bit of everything here. —Chloe Schama, senior editor</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Chelsea Hotel</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297910/devon-usa/articles/SpaGuide-HotelChelsea-002_vxpb7i.jpg" alt="Image may contain Indoors Interior Design Bed Furniture Bathing Bathtub Person Tub Wood Lamp Desk and Table" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Annie Schlechter/Courtesy of Hotel Chelsea</figcaption></figure>
+<p>Despite the spa only opening its doors in January of 2024, the rich history of Hotel Chelsea remains at the very forefront of this brand new space. As any New Yorker (or aspiring Manhattanite) is aware, the Hotel Chelsea housed residents like Patti Smith, Dylan Thomas, and Madonna. Jack Kerouac is said to have written On the Road there, and Leonard Cohen allegedly met Janis Joplin within its halls. And now, on the very top floor, you can cosplay as a tortured artist as you sip citrus water on their terrace and await your 90-minute massage. The renovation retained many of the original features, so the interiors align with the antique aesthetic of the rest of the hotel, yet it’s obvious that luxury was a leading thought when conceptualizing the new space. Although there is no shortage of wonderful spas in New York City, there is something special about the Spa at Hotel Chelsea’s embraces its idiosyncratic past. —Florence O’Connor, content manager</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Dior Spa</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297910/devon-usa/articles/SpaGuide-DiorSpaNewYork_004_dlznx0.jpg" alt="Image may contain Home Decor Lamp Furniture Couch Chair Cup Art Painting and Indoors" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Jonathan Taylor/Courtesy of Dior Spa</figcaption></figure>
+<p>This is the first Dior spa in the U.S., and it opened at the same time as the store below it in the fall of 2025. Designed and conceived of as the flagship expression of Dior skincare and as an extension of the “haute wellness” philosophy that guides all their spas, this is a hushed cosy place—more upper East Side living room than cold sanitarium. There are spas where you go to disappear to another planet, and there are spas where you want to walk out feeling like you could make it to your next meeting; this is the latter. The vibe is restrained and deeply attentive vibe—you might be reminded of one of the House&#x27;s famous ateliers, with white-coated ladies attending to your skin rather than your seams. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Fouquet’s</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297910/devon-usa/articles/2209_Fouquets-15-sauna-pool-001_ussbkr.jpg" alt="Image may contain Hot Tub Tub Floor Lamp Indoors and Interior Design" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Matthieu Salvain/Courtesy of Fouquet’s New York</figcaption></figure>
+<p>In choosing a New York City hotel, one most thoughtfully consider its amenities; and the spa at Fouquet’s makes an incredible case for booking a room. The underground spa maintains the hotel’s Parisian style—lined with marble walls, pastel finishes, and warmly dimmed lighting. However, the experience isn’t purely aesthetic—facilities include a sauna, steam room, hammam, and hydrotherapy pool for rest and relaxation of all sorts. Those interested in more targeted treatments can partake in impressive Biologique Recherche facials, lymphatic drainage massages, and jet lag-remedying body treatments tailored to guests needs. And with just five treatment rooms, the experience feels intimate. —Kiana Murden, shopping beauty editor</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Mandarin Oriental</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297910/devon-usa/articles/Pool_Mandarin_20Oriental_20New_20York_20Resized_iql43u.jpg" alt="Pool at the Spa at Mandarin Oriental New York" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Mandarin Oriental, New York</figcaption></figure>
+<p>There’s something to be said for the subterranean spa retreat (private, cocoon-like!), but when the mood is more top-of-the-world than duck-and-cover, the Spa at Mandarin Oriental awaits. Perched on the 35th floor above Columbus Circle, it is sprawling and luxurious with better views of Central Park than several actual landmarks. That&#x27;s a nice perk, although the real draw at Mandarin Oriental is the staff who execute both classic spa services (massages, facials) and newfangled treatments (”restorative detox wrap”) with an attentiveness and technique that feels genuinely different. This is not a perfunctory hotel spa with scented tea towels and a tiled steam room. This is a true wellness destination and a place of deep relaxation, worth it whether you&#x27;re on vacation or just a frazzled native New Yorker in need of well-appointed respite. —Mattie Kahn, contributor</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Remedy Place</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297911/devon-usa/articles/RemedyNYC-2592_20Resized_l7ittb.jpg" alt="Remedy Place spa in NYC." loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Benjamin Holtrop/Courtesy of Remedy Place</figcaption></figure>
+<p>There’s no gym equipment, massage tables, or beauty offerings at Remedy Place. Instead, there’s an extensive array of holistic treatments. Facilities include an infrared light sauna, acupuncture and cupping rooms, cryo chambers, hyperbaric chambers (they’re different!), and ice baths, just to name a few. Some experiences are solitary, but many can be done with friends, and that is part of the DNA of Remedy Place. When Remedy Place founder Jonathan Leary opened his first location in West Hollywood in 2019, he had the idea that he would create a “social wellness club.” (Let Leary himself define that for you: “It’s a club that is temptation-and toxin-free, that enhances health and social life at the same time.) The second opened in 2022 in Manhattan’s Flatiron District, and if you’re interested in getting your lymphatic drainage done with a friend or bringing your boyfriend along for emotional support while you endure a whole-body cryo chamber, this is the place for you. Or corral a few of your friends to take the (literal) plunge in one of their icy baths. Meanwhile, those looking for a hangover cure can opt for one of their many IV treatments. —Elise Taylor, former senior lifestyle writer</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Rescue Spa</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297911/devon-usa/articles/SpaGuide_RescueSpa_002RZ_nvejz9.jpg" alt="Image may contain Bed Furniture and Spa" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Rescue Spa</figcaption></figure>
+<p>The central location, welcoming demeanor, and edited boutique all cultivate one of the most perfect escapes from the hustle of New York City, while still making you feel—that elusive urban quest!–that you’ve found the place to be. Despite the bouncer-doorman consistently stationed at the front door, Rescue Spa is the kind of drop-by place that has become a welcoming mainstay for the downtown New Yorker. This isn’t the kind of place you go to spend the day, rather, to fit an appointment into your busy schedule, and leave refreshed and ready. But don’t let their efficiency mislead you as to the quality, in a city where there’s a HeyDay on every block, this is the upscale answer, and more than one beauty editor I know swears by their facials. The consensus among anyone who tries them is so universally glowing as to be almost suspicious. Just what are they using to scent the washcloths? —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Sage and Sound</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297911/devon-usa/articles/SpaGuide_Sage_Sound_005_RZ_bhipk4.jpg" alt="Image may contain Indoors Interior Design Cup Furniture Dressing Room Room Corner Wood and Floor" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Sage + Sound</figcaption></figure>
+<p>Uptown has a reputation for stuffiness (let’s be generous and call it an old-school vibe), but Sage + Sound brings decidedly new energy to its zip code. An airy retreat on an otherwise nondescript stretch of Third Avenue, the spa boasts both a delightfully woo-woo menu of services and an expertly trained staff that seems to have relaxation down to a science. Treatment rooms are spacious and kept at womb-like temperatures. A small retail area has a curated selection of every status skin-care and hair product you’ve been tempted to spend a small fortune on. And nontoxic nail salon Sundays maintains a connected storefront for manicures and pedicures. There are nice spas with small menus of snacks to nibble on after massages. And then there’s Sage + Sound, where the Isle of Us marketplace and café is so good that I would go back just to eat lunch. If I could have the salmon rice bowl every day, I would. —M.K.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Shibui Spa</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297911/devon-usa/articles/_DSC9575brandonlajoie-used_20copy_juwd0k.jpg" alt="Image may contain Architecture Building Hotel Resort Plant Chair Furniture Pool Water Indoors and Living Room" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Shibui Spa/The Greenwich Hotel</figcaption></figure>
+<p>When you go down the elevator at the Greenwich Hotel, it feels like the doors open into another realm. The dim lobby of the The Shibui Spa is lit by Japanese lanterns, and the tone of the staff is professionally, soothingly hushed. To begin, I was escorted into the locker room, where I was offered sake and a sparkling yuzu drink. After a dip in the pool—which was warm, but not too warm—and a steam in the locker room, I followed my massage therapist through a winding otherworldly maze to the treatment rooms.</p>
+<p>I was led up a step into a wooden-accented massage room that felt like a Japanese mountain cabin. I opted for a reflexology massage, and it lulled me into a psychoactive dream state, thoughts slipping by like little rafts in a stream. My massage therapist seemed to literally shed layers of tightness in my shoulders which had accumulated over the week. Every guest seemed to leave their treatment in the same stupefied haze of relaxation.—A.G.L.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Four Seasons Downtown</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297911/devon-usa/articles/SpaGuide-FourSeasonsNYDTWN-007_wjcmk5.jpg" alt="Swimming pool at Four Seasons New York Downtown" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Four Seasons New York Downtown</figcaption></figure>
+<p>While the OG Midtown Four Seasons is known the world over for its iconic I.M. Pei design, its Lower Manhattan outpost, which opened in 2016, is home to one of the finest spas in the city. Let’s start with the showstopper: the 75-foot lap pool—one of the city’s largest—which is surrounded by floor-to-ceiling windows. The pool is perfectly heated at about 82 to 85 degrees, and the floor is set at a temperate 85 (meaning no teeth-chattering strides back to your towel). There are seven treatment rooms, a Peloton-packed fitness center, a steam room, infrared sauna, and a sundeck that overlooks Downtown Manhattan. The Four Seasons Downtown is the kind of place you’d expect Succession’s Shiv Roy to turn up. Stylish and discrete, the hotel is for those who live in quiet luxury (but who’d never utter such a phrase). The spa is just as refined—all white marble and dappled sunlight—with plush sitting rooms for whiling away the afternoon or taking over a business empire. —Jessie Heyman, executive director, strategic content initiatives</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Ritz-Carlton New York, NoMad</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297912/devon-usa/articles/_MG_3477_20_1_qosjsj.jpg" alt="Image may contain Indoors Interior Design Lighting Lamp Sink Plant Dressing Room Room Desk Furniture and Table" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Michael Kleinberg, Courtesy of The Ritz-Carlton NoMad</figcaption></figure>
+<p>The Ritz-Carlton NoMad is a no-frills, quality, luxurious New York City spa that does exactly what it says on the tin. The spa isn’t trying to transport you to Hawaii or pretend that you are in the Swiss Alps—it’s dark, sexy, and incredibly New York. The space is clean, but not cold. It’s sleek with grey marble flooring and dark wood cabinets overflowing with Diptyque products. Whether you want to feel like an international business man or if you are looking to impress someone with a fancy date night, go to the Ritz Carlton, NoMad spa. I recommend a late afternoon massage followed by a drink at the rooftop bar so you can go directly from feeling like you are in a secret haven of relaxation underneath New York, to feeling like you are floating in the clouds above it. —F.O.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Waldorf Astoria</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297913/devon-usa/articles/SpaGuide_GuerlainWellnessSpaNewYork_001_rbzh4e.jpg" alt="Image may contain Bed Furniture Appliance Ceiling Fan Device and Electrical Device" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Guerlain Wellness Spa</figcaption></figure>
+<p>History may be everywhere you look in the ground-level lobby, but that’s not exactly the case at the Guerlain spa, which gleams anew after opening last fall, just a few months after the re-opening of the hotel. The fifth-floor space is in keeping with other Guerlain spas around the world: crisp, clean surfaces adorned with gilded flourishes, a sculptural orchid, or rows of illuminated perfume bottles standing at the entrance. The overall feel is very much in keeping with its Park Avenue address—a hushed calm above the fray, not exactly echoing the unique aesthetics of the lobby, but polished to a high sheen. At 22,000 square feet, this new spa is the largest Guerlain spa in the world, and offers a 30-page treatment menu. —C.S.</p>
+<p>This spa has been re-evaluated in 2026 with additional reporting.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="best-spas-in-the-united-states.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169787/devon-usa/2026-09-23/683f128a7925b0484c76323b.jpg" alt="The 11 Best Spa Resorts in the United States" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Global Spa Guide</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The 11 Best Spa Resorts in the United States</h3>
+                </a>
+                <a href="best-spas-in-europe.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169787/devon-usa/2026-09-23/683f130f78d116f2f3b2b15c.jpg" alt="The 10 Best Spas in Europe" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Global Spa Guide</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The 10 Best Spas in Europe</h3>
+                </a>
+                <a href="the-ouze-jewelry-homeware-spring-2027.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169787/devon-usa/2026-09-23/6ab14c39a81e1ea899b207eb.jpg" alt="This Cult London Jewelry Brand Wants to Turn Your Home Into an Heirloom" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Homes</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">This Cult London Jewelry Brand Wants to Turn Your Home Into an Heirloom</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>

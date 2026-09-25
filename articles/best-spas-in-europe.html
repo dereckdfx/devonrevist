@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 10 Best Spas in Europe | Devon</title>
+    <meta name="description" content="There are few regions as packed with world-class wellness retreats as Europe. Here, find Devon’s pick of the best spas in Europe.">
+    <meta property="og:title" content="The 10 Best Spas in Europe | Devon">
+    <meta property="og:description" content="There are few regions as packed with world-class wellness retreats as Europe. Here, find Devon’s pick of the best spas in Europe.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169787/devon-usa/2026-09-23/683f130f78d116f2f3b2b15c.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Global Spa Guide</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">The 10 Best Spas in Europe</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">There are few regions as packed with world-class wellness retreats as Europe. Here, find Devon’s pick of the best spas in Europe.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Devon</p>
+            <p class="text-xs text-gray-500 mt-1">June 3, 2025</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169787/devon-usa/2026-09-23/683f130f78d116f2f3b2b15c.jpg" alt="The 10 Best Spas in Europe" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>From high-altitude clinics in the Alps to breezy beachside retreats, there are few regions as packed with world-class spas as Europe. Across all four corners of the continent, you’ll find a dazzling variety of wellness getaways, whether you’re in the market for a week-long detox or just a classic deep tissue massage.</p>
+<p>Here, in alphabetical order, find Devon’s pick of the 10 best spas in Europe.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Chenot Palace Weggis</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297917/devon-usa/articles/SpaGuide-ChenotWeggis-006RZ_gb4ypd.jpg" alt="Image may contain Architecture Balcony Building Book Publication Nature Outdoors Scenery Accessories and Bag" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Chenot Palace Weggis</figcaption></figure>
+<p>Half a century ago, Italian doctor Henri Chenot set out to answer an age-old question: How can we live forever? Though immortality may, alas, not be possible (in this lifetime, at least), he did conclude that the human body could live to 120, if taken seriously. But how? Enter: “The Chenot Method,” a preventative medical approach vitalizing human life for longer. Thousands of people—some curious to see if the hype really is true, some being annual returnees (Naomi Campbell is among fans)—flock to the flagship spa, Chenot Palace Weggis. From its attentive eye to detail to the sweeping views of the Swiss Alps and Lake Lucerne, there’s a reason the medical spa is widely recognized as being among the world’s best detox program. On the standard seven-day retreat, your stay is bookended by in depth consultations with various doctors, nutritionists and therapists, to explain the program—really, Chenot is less like a spa but more a scientific retreat. Visiting is an opportunity to learn more about your body, its immune responses, and how to take your learnings beyond your stay and into life. Of course, there’s the lovely massages and facials involved, and other ways to relax like yoga sessions and aqua therapy. You’ll come out feeling like you’ve shed your deadweight like a snake. —Giles Hattersley</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Dior Spa at the Plaza Athénée</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297917/devon-usa/articles/Dior_20Spa_20Plaza_20Empty_20Spaces_20_c_matthieu_20salvaing_2014_20Resized_zjy41u.jpg" alt="Image may contain Home Decor Bed Furniture Indoors Interior Design Cushion and Plate" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Hôtel Plaza Athénée</figcaption></figure>
+<p>Twice a year (or six times, if you’re counting the couture and men’s shows too), a glittering phalanx of buyers, editors, stars, and influencers descend on Paris for the world’s most stylish trade fair: Fashion Week. And when it comes to accommodation, the seasoned pros know you have to book early—at least if you want to be in one of the city’s see-and-be-seen hotels. On that front, few hotels rank quite as highly as the Hôtel Plaza Athénée, which dates back to 1913—and after a major renovation of its Dior Spa, which reopened in fall 2023, the fashion crowd (or anyone) has another pressing reason to visit. There’s a head-spinning array of treatments to sample, unless you’re only there to check out the sauna and hammam. While the spa’s three signature rituals—recharge, recover, and rest—may all seem simple on the surface, how the in-house “well-being experts” help you achieve those goals is a little more complex, relying on cutting-edge technology. Most impressive, perhaps, is the Dior Light Suite, which uses LED lights scattered across the ceiling to harness the power of the sun—and the body’s circadian and chronobiological rhythms in response to it—in order to combat jet lag, encourage the body to feel reenergized, or simply strengthen the ability of your dermis to withstand the likes of pollution or stress. It’s a serene (and highly scientific) slice of paradise in the heart of the city. —Liam Hess</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Euphoria Retreat</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297917/devon-usa/articles/SpaGuide-Euphoria-005RZ_ws815m.jpg" alt="Image may contain Pool Water Outdoors Nature and Swimming Pool" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Euphoria Retreat</figcaption></figure>
+<p>Tucked up on a hillside in the Peloponnese, Euphoria is miles away from Greece’s coastal party scene, the ideal place to really immerse yourself in the ritual of relaxation, sans temptation to party. There is so much on offer here that you won’t need to leave, whether you’ve booked one of their 3-day Well-Being Detox packages or opted into the 21-day Weight Metabolic Management Program. Staff offer complete guidance on what program will serve your needs, whether it’s emotional rebalancing, fitness enhancement, or spiritual centering, and then plan a complete schedule for your stay. This might mean an early morning guided forest walk, followed by reflexology, with a Biologique Recherche lifting facial in the afternoon, and a private sound bath in the evening. There are custom smoothies each afternoon (ingredients are determined by a blood analysis) and a menu entirely attuned to an individual’s dietary quirks. Meetings with nutritionists and trainers are translated into reports for guests, a real perk for those who want to take home their newfound self-knowledge. What you can’t bring back, however, are the impeccable amenities, including an indoor/outdoor pool where you can paddle from the solitude of a domed deep water section to the open views of the Taygetus Mountains. —Hillary Kelly</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Forestis</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297906/devon-usa/articles/SpaGuide-ForestisSpa-009RZ_qsxtrd.jpg" alt="Image may contain Plant Tree Nature Outdoors Sky Landscape Vegetation Scenery Fir Sun Lake Water and Sunlight" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of FORESTIS</figcaption></figure>
+<p>Within the state-of-the-art spa complex—spread across over 2,000 square meters and two floors—you’ll find a kind of sleek Nordic Disneyland for rest and recuperation. There are all your standard spa mod cons, of course, but also briny steam baths, hot rooms scented with local herbs, and saunas set at a perfectly calibrated temperature. As is custom in this corner of Europe, inside the cabins, nudity is expected, but there is a sauna and steam room by the pool where the less brave can keep their swimwear on. And for those feeling especially plucky, there’s an outdoor Finnish sauna with a giant tub for cold plunging afterwards, refilled by a wood tube plugged straight into the side of the mountain to release its glacial waters. Forestis’ unfussy approach to wellness stems from its illustrious history as a place for recovery—the more adventurously inclined can even try out a Wyda session, a millennia-old energetic stretching practice nicknamed the “yoga of the Celts”—but within the spa, the emphasis is firmly on healing methodologies absorbed from the resort’s natural surroundings. Here, you’ll truly feel at one with the forest. —L.H.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Lefay Resort &amp; Spa Dolomiti</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297917/devon-usa/articles/SpaGuide_LefayResort_SPADolomiti_003RZ_gt4fwr.jpg" alt="Image may contain Bathing Tub Bathtub Person Adult Bed Furniture and Hot Tub" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Lefay Resort &amp; SPA Dolomiti</figcaption></figure>
+<p>Lefay Dolomiti is the seriously impressive mega-spa that has (until now) remained a best-kept secret of wellness enthusiasts from Milan to Munich. Increasingly, the secret is out: With over 5,000 square meters, it offers one of the largest spa areas in the entire Alps, and the sheer breadth of the offering here means that even after spending multiple days scrubbing and soaking, it’s practically impossible to grow bored. The centerpiece of the complex is an enormous whirlpool of magnesium-rich salt water, which you’re encouraged to return to after completing one of four “pathways,” each of which sits in its own separate wing. My personal favorite? The invigorating Red Phoenix pathway, which involved a furnace blast of 90-degree heat in a panoramic sauna followed by an icy cold plunge—followed by a cup of freshly blended “balancing” herbal tea, best enjoyed while sat on a lounger looking out through the floor-to-ceiling windows at the mountains beyond. After a long morning of hiking, it’s a genuinely restorative experience. Of course, you can also freestyle across the different spa facilities, or just relax by one of the two pools: an indoor sports pool, or a colossal indoor-outdoor family pool that allows you to take in those views from the comfort of the water. As a travel editor, I’ve been lucky enough to visit many a spa in my time—and despite being lesser known outside of Italy and its neighboring European countries, I can confidently say Lefay is up there with the very best. —L.H.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">RoseBar</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297917/devon-usa/articles/Steam_20Room_20Resized_wi21fr.jpg" alt="Image may contain Plant and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Assaf Pinchuk/Courtesy of Six Senses Ibiza</figcaption></figure>
+<p>A dedicated longevity clinic, RoseBar sits within the five-star Six Senses Ibiza on the island’s northern tip and caters to a growing appetite for functional medicine, biohacking, and genetic screening. The clinic—all jute rugs and minimalist cream furniture—boasts state-of-the-art equipment and a deeply seductive tagline: “Defy the concept of aging.” Customers might spend a half hour breathing pure oxygen in a hyperbaric chamber, submerge themselves in the world’s only automated ice bath, take a snooze under cell-rejuvenating red-light panels, or have their very DNA sent off to be assessed in a laboratory. All with the goal of staying healthy, strong, and vital for longer. RoseBar can’t stop the relentless march of time—but it can, it insists, help to prevent it from leaving its footprints on your body. The brainchild of American physician Mark Hyman, the spa reflects a new face of the White Isle, and its patrons are far less preoccupied by wild parties than they are with the very latest in wellness. Here, the cocktails are administered via IV drip (your Inner Glow cocktail won’t taste of anything, but it will make your skin pop), and the only shots being lined up are of energy-boosting B12. The focus here is on positive—and tangible—lifestyle outcomes, rather than, say, a relaxing deep-tissue massage after an afternoon by the pool. You can expect to leave feeling more informed about your overall well-being than you were going in. —Kerry McDermott</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">SHA Wellness Clinic Spain</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297917/devon-usa/articles/SpaGuide-SHASpain-010RZ_ditd7p.jpg" alt="Image may contain Architecture Building Hotel Resort Plant Vegetation Tree Summer City Condo and Housing" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of SHA Wellness Clinic Spain</figcaption></figure>
+<p>Longevity—the pursuit of living not only longer but better—may seem to be having a moment, but this clinic has been a temple of wellness for over 15 years. As Dr. Vicente Mera, one of the most prestigious experts in anti-aging and an active participant in the development of the SHA Wellness project explains, &quot;it is possible to age without illness and suffer from illness without being old.&quot; This is the key learning that you will take away from staying at SHA—cultivating good habits is the key to ageing in a healthy, beautiful way. The clinic receives an average of 4,500 people every year, and in 2023, the rate of returning customers was 53 percent. They can’t all be wrong. It is important to understand that SHA Wellness is anything but your average spa, with their medicinal waters or relaxing massages; it’s a school of longevity, and you must embrace it with a learning spirit—but the rewards of doing so are undeniable. —Ana Morales</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Surrenne Spa at the Emory</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297918/devon-usa/articles/SpaGuide-SurenneTheEmory-004RZ_rzbtjf.jpg" alt="Image may contain Bathing Bathtub Person Tub Indoors Interior Design Sink and Sink Faucet" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Surrenne at The Emory</figcaption></figure>
+<p>If the pursuit of longevity in the most luxurious of surroundings is high on the agenda, then Surrenne is the place for you. It’s an urban medi-spa that, in the words of its creative director, Inge Theron, “is the stop gap before going to the doctor. It’s the front line of medicine and wellbeing, with smart functional doctors that see things in a new way.” Surrenne is a members’ club with a hefty price tag, but what membership unlocks is more than worth its weight in wellness gold. Upon signing up, you will have access to wellbeing on tap, including a dedicated doctor focused on functional diagnostics ranging from blood work to cardiovascular and hormone tests, to microbiome mapping and epigenetic testing. The café has a juice and food menu developed by nutritionist Rosemary Ferguson, it hosts Tracy Anderson first London workout studio and a state-of-the-art gym. Weather permitting, wild swimming in the nearby Serpentine and run clubs in Hyde Park are an extension of its offerings. It’s a wellness paradise in the heart of the big city. —Jessica Diner</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Bothy at Heckfield Place</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297918/devon-usa/articles/SpaGuide-BothybyWildsmith-004RZ_zavsrr.jpg" alt="Image may contain Bed Furniture Sauna Cooktop Indoors and Kitchen" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of The Bothy by Wildsmith</figcaption></figure>
+<p>The Bothy by Wildsmith is the recently opened spa within the sprawling 438-acre estate of Heckfield Place, in Hampshire, just an hour from London. Years in the making, the spa carefully fuses the Georgian history of the stately house with the type of impressive architecture that transports you away from the world. The underground spa was the vision of Heckfield’s owner, Gerald Chan, and curated carefully by Wildsmith Skin’s general manager Katherine Pye. Based around nature’s circadian rhythm—there’s no cliché spa music but rather the sounds recorded over the course of a week from the grounds of the estate during lockdown. From the regenerative treatments that utilize the estate’s farm equipment (milk churns for its functional Farm Fit workout sessions), to cold-water immersion therapy in the lake, you’ll feel instantly grounded amid the landscape. In addition to phones, children and alcohol are not permitted. The total number of spa guests is capped at 52, ensuring tranquillity and focus, while also avoiding the crunch of back-to-back treatments—for both guests and practitioners and therapists. —Lauren Murdoch-Smith</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Vair Spa at Borgo Egnazia</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790297918/devon-usa/articles/SpaGuide-VairSpa-002RZ_dozqkp.jpg" alt="Image may contain Architecture Building House Housing Villa Pool Water Chair Furniture Swimming Pool and Backyard" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Borgo Egnazia</figcaption></figure>
+<p>Borgo Egnazia is undoubtedly one of the most extraordinary hotels in all of Italy, with 184 suites and villas laid out across a sprawling estate, all built from scratch just 16 years ago to resemble a traditional Puglian village that magically features every modern mod-con you could think of. Of course, this wouldn’t be a true luxury resort without an eye-popping spa to match, and the Vair Spa is a sight to behold. Where the rest of Borgo Egnazia is all gleaming tufo limestone (allegedly chipped away at by the architect to lend it an authentically old-world feel) and sun-dappled white-washed walls overflowing with bougainvillea, the spa takes its cues from the ancient civilizations who once occupied the region. The treatments, which take place in cabins also lit by candlelight (honestly, I’d love to know Vair Spa’s annual candle budget) place a particular emphasis on tradition, simplicity, and the use of natural or organic ingredients. Many taking their cues directly from the surrounding countryside, such as a heated stone and hot towel massage inspired by the Masciara, an ancient Puglian folk figure believed to possess magical healing powers, or the Lòuma chiaine ritual (which translates from the Puglian dialect to “full moon”) that involves caper oil and almond butter being applied in increasing intensity to the face, head, and feet in order to stimulate your memory and concentration. The cumulative effect is so transportive that it will have you stepping back into the sunlight blinking, wondering if it was all some kind of mirage. —L.H.</p>
+<p>This spa has been re-evaluated in 2026 with additional reporting.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="the-ouze-jewelry-homeware-spring-2027.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169787/devon-usa/2026-09-23/6ab14c39a81e1ea899b207eb.jpg" alt="This Cult London Jewelry Brand Wants to Turn Your Home Into an Heirloom" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Homes</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">This Cult London Jewelry Brand Wants to Turn Your Home Into an Heirloom</h3>
+                </a>
+                <a href="collina-strada-layered-home-collection-launch.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169788/devon-usa/2026-09-23/6aaab4e5c37f7b06a4127ac5.jpg" alt="The Story Behind Collina Strada’s First Home Collection—and Its Exuberant Garden Party Launch" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Homes</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Story Behind Collina Strada’s First Home Collection—and Its Exuberant Garden Party Launch</h3>
+                </a>
+                <a href="aristocrats-on-mars-simone-rizzo-and-loris-messina-share-their-vision-for-the-moschino-of.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790255132/devon-usa/2026-09-24/6ab3e68b2de19bf7e3d737d6.jpg" alt="“Aristocrats on Mars”—Simone Rizzo and Loris Messina Share Their Vision for the “Moschino of the Future”" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Runway</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">“Aristocrats on Mars”—Simone Rizzo and Loris Messina Share Their Vision for the “Moschino of the Future”</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
