@@ -1,17 +1,18 @@
 {
  "site": "devon-usa",
  "lang": "en",
- "subject": "Devon USA: The Best Backstage Photos From the Spring 2027 Ready-to-Wear Shows in Milan",
- "preheader": "7 new stories today on Devon USA",
- "date": "2026-09-25",
+ "subject": "Devon USA: A Visit to 1988, the Paris Vintage Store That Is Also a Lending Library and Designer Resource",
+ "preheader": "8 new stories today on Devon USA",
+ "date": "2026-09-30",
  "articles": [
-  "the-best-behind-the-scenes-moments-from-the-spring-2027-shows-in-milan",
-  "dove-cameron-and-damiano-david-are-married",
-  "best-long-sleeve-wedding-guest-dresses",
-  "best-london-airbnbs",
-  "merritt-wever-primetime-trailer",
-  "best-celebrity-outfits",
-  "bureau-of-imagination-francesco-risso"
+  "a-visit-to-1988-the-paris-vintage-store",
+  "sense-and-sensibility-screening-announcement",
+  "hailey-bieber-carolyn-bessette-kennedy-rehearsal-dinner-dress-narciso-rodriguez",
+  "roger-lynch-is-stepping-down-as-conde-nasts-ceo",
+  "watch-this-space-first-reactions-to-drew-henrys-courreges",
+  "closet-case-jeremyn-lee",
+  "wangari-mathenge-re-membering-levy-gorvy-dayan",
+  "brooklyn-nicola-peltz-beckham-bring-their-best-basics-to-paris-fashion-week"
  ],
  "url": "https://devonrevist.vercel.app/newsletter/latest.html"
 }
