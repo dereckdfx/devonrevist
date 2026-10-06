@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Is Big Tech Trying to Make AI Agents the New Labubus? | Devon</title>
+    <meta name="description" content="Meta and OpenAI have rolled out fuzzy, kawaii-coded personal agents to handle everything from emails to shopping. But experts warn that users, brands and the internet itself aren’t equipped to manage the risks.">
+    <meta property="og:title" content="Why Is Big Tech Trying to Make AI Agents the New Labubus? | Devon">
+    <meta property="og:description" content="Meta and OpenAI have rolled out fuzzy, kawaii-coded personal agents to handle everything from emails to shopping. But experts warn that users, brands and the internet itself aren’t equipped to manage the risks.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-06/6ac3d83d9fe8a3636090be2a.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Technology</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">Why Is Big Tech Trying to Make AI Agents the New Labubus?</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Meta and OpenAI have rolled out fuzzy, kawaii-coded personal agents to handle everything from emails to shopping. But experts warn that users, brands and the internet itself aren’t equipped to manage the risks.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Amy O’Brien</p>
+            <p class="text-xs text-gray-500 mt-1">October 6, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-06/6ac3d83d9fe8a3636090be2a.jpg" alt="Why Is Big Tech Trying to Make AI Agents the New Labubus?" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>AI agents are here, and they’re… cute?</p>
+<p>In the last two weeks, Meta released its personal AI assistant, Muse, while OpenAI released its Dots AI agent. The promise is that these agents can autonomously act on users’ behalves, from answering emails and sending invoices to booking flights and buying clothes. What’s notable is their kawaii-coded wrapping: unnervingly advanced bots dressed up as cute, unthreatening companions. OpenAI’s Dots are puffy rainbow colored blobs donning sunglasses and berets. Meta’s Muse agent mascot, named Jolly, is a fuzzy, chubby, rosy-cheeked creature that’s part-Labubu, part-Squishmallow.</p>
+<p>It will soon come with the Muse Charm, a Tamagotchi-like accessory bearing the mascot’s face that can be activated by a fingerprint sensor. “We’ve packed a lot of technology for this little guy to fit onto a keychain and always be available to talk to,” Mark Zuckerberg said in his keynote at the annual Meta Connect conference in September. Meta is yet to confirm whether the Muse Charm will feature cameras and microphones, but Zuckerberg added on stage: “You just go ahead and tap here in the fingerprint sensor in the corner and you can start talking.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791291191/devon-usa/articles/10-06-26-LABUBU-AI-INLINE-1_glfbtn.jpg" alt="Image may contain Mark Zuckerberg Clothing TShirt Photography Face Head Person Portrait Accessories and Glasses" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Meta CEO Mark Zuckerberg unveiled the Muse AI agent ‘charm’ at Meta Connect in San Francisco. Photo: Minh Connors/Bloomberg via Getty Images Bloomberg/Getty Images</figcaption></figure>
+<p>That these agents have arrived at a moment plagued by broader AI doomsday warnings about their potential threat to humanity brings this friendly packaging into sharp relief.</p>
+<p>“When these companies speak to investors, regulators and researchers, AI is described as extraordinarily powerful technology with serious and unresolved questions around safety, security, and control,” says Dr. Sarah Saska, a sociotechnologist and specialist in tech’s relationship with culture and power. “Yet, increasingly intimate versions of the same technology are presented to consumers as friendly, playful, frictionless, and low-stakes.”</p>
+<p>In the same week, OpenAI CEO Sam Altman unveiled Dots, the company pulled its latest AI model and delayed its IPO due to existential safety concerns around the very same AI agent tech. Meanwhile, just weeks before its Muse launch, Meta agreed to pay an $18 billion settlement to 48 US states — the largest-ever corporate settlement in tech sector history — to resolve claims that the algorithmic design of its Facebook and Instagram platforms harm children.</p>
+<p>Safety warnings are coming from inside the house at major rivals, too: Anthropic CEO Dario Amodei called on the industry to slow the pace of frontier AI development, a plea publicly backed by Altman, xAI’s Elon Musk, and Google DeepMind’s Demis Hassabis. (Zuckerberg, for his part, has rejected calls for an industry-wide slowdown in the pace of AI development, arguing instead that individual companies should decide for themselves if and when to slow down.)</p>
+<p>Users are nevertheless intrigued about these AI agents. Within 10 days of launch, Muse had racked up more than 730,000 US downloads and knocked ChatGPT off the top of Apple’s US App Store rankings. Days later, investor excitement around the agent helped send Meta shares up 11% in a single session, adding some $192 billion to its market value. Yet, within the first two weeks of its release, several reports raised concerns about Muse overstepping users’ intended permissions — including sharing sensitive information and taking actions users said they’d not explicitly approved.</p>
+<p>After using feminization to soften smart glasses (see Meta’s smart glasses partnerships with Kylie Jenner and Lisa), experts say kawaii-fication is the next frontier in making potentially unsettling tech feel more palatable to consumers. AI safety researchers warn this cuteness could lower consumers’ guards, dulling the privacy concerns they might otherwise have before handing an AI agent access to their emails, private messages and browsing behavior — let alone the power to spend on their behalf.</p>
+<p>“These are deliberate design choices, made with an audience and a desired response in mind,” says Lidia Velkova, managing director of Clever Together Futureproof, a governance and policy foresight agency that focuses on responsible AI and marketing. “Research on social robots shows baby-like features can increase perceived trustworthiness; separate chatbot research shows that human-like interaction can increase trust and personal disclosure,” she adds. “My concern is that these designs make powerful systems feel harmless and familiar, encouraging people to share more and question less.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">A collapse of consumer boundaries</h2>
+<p>Behind their fuzzy exteriors, personal AI agents represent a significant escalation in the access consumers are being asked to hand tech companies to their digital lives. To be genuinely useful, an agent needs context. Meta’s Muse can connect to email, calendars, Instagram, Facebook and other apps, browse the web and make purchases on users’ behalf, they can also interact with it directly through Whatsapp. But it’s exactly this access that exposes consumers to the biggest risks of their data getting into the wrong hands.</p>
+<p>“In order to make Muse as effective as possible, which makes it stickier with the general public, it defaults to opting all users into using their interactions to train its AI model, as well as storing all the data you share with it,” says Kate Winick, principal analyst at Forrester. “This creates a huge bank of personal data that can be hacked. The more you give Muse, the better it works for you, but the more exposed you are to both bad actors and bad actions by Meta.”</p>
+<p>Meta’s track record with consumer data gives them good reason for caution: the company has faced repeated fines and lawsuits over its handling of personal data in the past few years. Just days after Muse launched, a New Mexico jury found Meta had misled users about its data practices in a case stemming from the Cambridge Analytica scandal in 2018. A spokesperson for Meta told Devon Business: “We disagree with the verdict and will continue to defend ourselves against efforts to distort our record.”</p>
+<p>Meta confirms that use of Muse interactions for AI training is enabled by default, though users can opt out. It also says Muse operates inside an isolated virtual machine where it stores the user’s data and files, with a separate Sentinel system that monitors and vets the agent’s actions. But Meta itself acknowledges these safeguards don’t remove the risk of data breaches.</p>
+<p>“Muse isn’t immune to attack. Prompt injection remains an open problem in the industry — and Muse will sometimes make mistakes,” Meta said in a blog post about the tech’s privacy measures.</p>
+<p>Early users are already seeing potential risks playing out. When YouTuber Matt Robb asked his Muse to help him sell a keyboard on Facebook Marketplace, his agent subsequently shared his home address with a prospective buyer, negotiated on his behalf and arranged a collection, with Robb only realizing when the buyer and their family turned up at his front door. It turned out that in this incident, there had been no technical breach or hack; rather, it stemmed from an “allow-always” permission Robb had selected, effectively handing Muse the reins to his future Marketplace conversations, including the ability to draw on personal details he had previously shared, such as his home address.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791291191/devon-usa/articles/10-06-26-LABUBU-AI-INLINE-4_ks87vn.jpg" alt="Image may contain Adult Person People Text Symbol and Toy" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">OpenAI CEO Sam Altman unveiled the ChatGPT maker’s new “Dot” agents at OpenAI’s DevDay last week. Photo: Heather Diehl/Getty Images</figcaption></figure>
+<p>The episode exposes agentic AI’s biggest problem in practice: where we draw the line between access and authority. Consumers are accustomed to clicking through app permissions, but allowing software to read information is different from allowing it to negotiate with strangers, disclose that information, and make decisions in your name. An agent can technically be acting within a permission a user granted, while doing something the user never imagined they had authorized. A Meta customer help page on how Muse makes payments explicitly states to consumers: “You’re responsible for all transactions that your Muse makes on your behalf. Keep an eye out for email confirmations, receipts and statements.”</p>
+<p>A spokesperson for Meta told Devon Business: “Users can take over at any time, Muse is designed to always ask permission before buying, and it applies ethical browsing principles when asked to do things that a human could not — like buying all the tickets to an event.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Where brands must pick up the bill</h2>
+<p>The idea is that agents will maneuver around the internet on our behalf — and that lack of distinction between bot and customer is a growing problem for brands and retailers. Amazon has already blocked Muse from shopping on its site, arguing that Meta had not sought its proper permission, the agent did not identify itself as AI, and its access to customer accounts and login credentials raised privacy and security concerns.</p>
+<p>By contrast, Muse has a much smoother path into brands and retailers that have formally opened their doors to it. Meta has announced integrations with Walmart, Sephora, Gap and others, while its partnership with Shopify already gives Muse structured access to merchants’ product catalogues and, for eligible stores, a direct route through checkout — two options that Shopify says merchants can toggle on or off.</p>
+<p>For brands, that can mean gaining access to a potentially powerful new sales channel without leaving an AI agent to navigate their websites unaided. But it also requires ceding some control over a crucial part of the customer journey to Meta. The agent can increasingly stand between shopper and store, discovering products, making recommendations, and completing purchases without a customer necessarily visiting the retailer’s own website. In other words, brands may gain a new customer in Muse, while surrendering some of the data and direct relationship that traditionally came with them. That raises questions over everything from customer data and brand experience to fraud and accountability when an agent gets something wrong.</p>
+<p>It also leaves smaller brands in a more precarious position: without the resources or leverage to negotiate bespoke integrations, an AI agent could arrive on their site and transact on a customer’s behalf without any direct relationship with the company behind it.</p>
+<p>“The brand or merchant potentially bears residual risk where no merchant agreement exists with Meta, leaving retailers exposed to unvetted agentic transactions,” says Nick Phillips, intellectual property partner at Edwin Coe LLP.</p>
+<p>Concerns over these loopholes led six major banks, including Bank of America and Capital One, to jointly call this week for common global standards governing agentic commerce, including clearer rules around transparency, consumer consent, fraud, data privacy, and who is liable when an AI-driven transaction goes wrong.</p>
+<p>The bank intervention points to the bigger unresolved question for brands: when an AI agent makes a purchase that a consumer later disputes, who is responsible for putting it right? For now, experts say much of that burden may still land with the retailer.</p>
+<p>“Brands can expect all the responsibility they currently bear in digital transactions to apply to agentic transactions. They must protect the security of purchases made on their site, accurately represent and deliver products, and they have to honor their existing consumer protection laws, as well as manage reputational issues, just as they always have,” Winick says.</p>
+<p>She points to cases where a child places an Amazon order via Alexa, and the retailer generally still refunds the order, even though their technical set-up does place the burden of preventing the order on parents and how they manage their own account settings. “AI agents aren’t children, but when they take actions customers are unhappy with, retailers will feel the pressure to make it right even if they’re not legally required to do so,” she says.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="prime-day-beauty-deals-10-06-2026.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-06/6ac3ea0522196f84d2f6865d.jpg" alt="The Amazon Prime Day Beauty Deals Are Just Getting Started—Here’s What I’d Recommend" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">SALE</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Amazon Prime Day Beauty Deals Are Just Getting Started—Here’s What I’d Recommend</h3>
+                </a>
+                <a href="best-prime-day-clothing-deals-10-06-2026.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-06/6ac3cbd2bff8998e9b1d3e14.jpg" alt="I Combed Through Pages of Prime Day Clothing Deals—Here’s What Stood Out" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">SALE</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">I Combed Through Pages of Prime Day Clothing Deals—Here’s What Stood Out</h3>
+                </a>
+                <a href="us-open-best-parties-new-york-2026.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169758/devon-usa/2026-09-23/6a95922107fcb8817600150b.jpg" alt="Courtside to Cocktail Hour: Inside the Best and Buzziest US Open Parties" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Parties</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Courtside to Cocktail Hour: Inside the Best and Buzziest US Open Parties</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
