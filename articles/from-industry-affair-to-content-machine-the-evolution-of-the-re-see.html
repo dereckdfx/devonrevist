@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Industry Affair to Content Machine: The Evolution of the Re-See | Devon</title>
+    <meta name="description" content="Once reserved for editors and buyers, the re-see is evolving into a content opportunity — and a way for brands to reach more fashion fans.">
+    <meta property="og:title" content="From Industry Affair to Content Machine: The Evolution of the Re-See | Devon">
+    <meta property="og:description" content="Once reserved for editors and buyers, the re-see is evolving into a content opportunity — and a way for brands to reach more fashion fans.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac669a8a97f606a8139b951.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Fashion</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">From Industry Affair to Content Machine: The Evolution of the Re-See</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Once reserved for editors and buyers, the re-see is evolving into a content opportunity — and a way for brands to reach more fashion fans.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Madeleine Schulz</p>
+            <p class="text-xs text-gray-500 mt-1">October 8, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac669a8a97f606a8139b951.jpg" alt="From Industry Affair to Content Machine: The Evolution of the Re-See" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>Would you delay your flight to look at Chanel’s Spring/Summer 2027 collection up close? At least one Paris Fashion Week attendee did, after they received an invite to the brand’s coveted re-see on October 6, the date many editors, buyers and VICs were heading to Charles de Gaulle to catch their flights out of the city. Meanwhile, a veteran editor was told that the event was at capacity, an unusual occurrence for the re-see.</p>
+<p>The re-see is where a collection is put on display, fresh off the runway, for a closer look. Once relegated to buyers, fashion editors and (to a lesser extent) VICs, who have an immediate need to see a new collection in close proximity — to decide what to stock, shoot, or buy — the re-see has traditionally gone under the radar.</p>
+<p>But in recent seasons, thanks to a bevy of social media content, the nature and purpose of the re-see has shifted, from an insider-y industry happening to yet another coveted invite on the fashion month calendar to attend, capture and share. Come Tuesday morning New York time — barely 14 hours after the Chanel show wrapped across the pond — fashion Instagram was flooded with close-ups of Matthieu Blazy’s beaded dresses, 3D knits, spunky shoes and colorful flap bags, this time on mannequins.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464157/devon-usa/articles/IMG_1452_alit5o.jpg" alt="Image may contain Accessories Bag Handbag Purse Art and Handicraft" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Chanel SS27. Photo: Devon social</figcaption></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464157/devon-usa/articles/IMG_1446_akkgxx.jpg" alt="Image may contain Accessories Bag Handbag Purse and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Chanel SS27. Photo: Devon social</figcaption></figure>
+<p>Re-see content has been bubbling over the past year. Dior, which has hosted its re-sees at its show venue since Jonathan Anderson joined, has amped up the production value and merchandising of its re-sees, as has Bottega Veneta, attendees say. This season, Celine’s was a standout, at private mansion Hôtel Particulier Colbert de Torcy in the 2nd arrondissement, with clothing displayed in an array of fashions, from folded shirts to mannequins and pieces pinned to the walls throughout different rooms. Stylist and consultant Declan Chan called it “the most beautiful presentation I have ever seen”.</p>
+<p>It’s a sign of the times. Though re-sees have been content fodder for fashion insiders for the last few years, only recently have they become a feed mainstay the morning after a show. It’s largely down to who’s invited: fashion influencers, Substackers and other creators — all of whom tend to have big followings — have brought more eyeballs to the re-see. Brands are responding in turn with photo-ready re-see setups. The result is a content-generating extravaganza that veers deeper into runway show territory than low-key industry appointment.</p>
+<p>To Tank Magazine CEO and consultant Caroline Issa, who has been attending re-sees for more than 22 years, it was only a matter of time before they made their way onto non-industry attendees’ fashion week schedules — and feeds. You get to see the clothes and the craft up close, speak to the brand teams to learn more about the collection — and make content. “It’s all about the content these days,” she says.</p>
+<p>The re-see is a way for brands to showcase the detail and craft of the clothing — now one of luxury’s most valuable currencies — at a time and place where they were already planning to do so. Amid a sea of runway videos, it’s also a way for brands to better cut through the noise amid a busy fashion week. These days, Issa doesn’t post many runway videos; a bad seat means bad images, and her audience is more interested in the re-see details anyway, she says.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464158/devon-usa/articles/-story-inline_20copy_202_m2nz6a.jpg" alt="Image may contain Accessories Bag Handbag Clothing Sleeve Body Part Finger Hand and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Celine SS27. Photo: Madeline Fass</figcaption></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464157/devon-usa/articles/-story-inline_20copy_204_ryhb1q.jpg" alt="Image may contain Clothing Coat Blazer Jacket Blouse and Sleeve" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Celine SS27. Photo: Madeline Fass</figcaption></figure>
+<p>The re-see is ostensibly more about the clothes than the content, where this season customers could marvel over details like Prada’s velcro closures and Chanel’s fabric innovation. But is the sanctity of the re-see at risk when yet another industry appointment becomes a content machine? “Fashion, on one hand, wants to make it a more luxurious, niche experience. On the other hand, it wants to cover as much as it can, using people that are not exactly insiders, or people working in the industry,” says luxury fashion consultant Carlos Gago Rodriguez. “It’s why they need user-generated content to spread the vision and the world of the brand.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">For who and for what?</h2>
+<p>Re-sees used to operate on a ‘who has to be there’ basis; those invited were in the room because they needed to see the clothes up close. Often, it was a way to accommodate the wider editorial team who weren’t at the show, so they could see the collection details before calling it in for shoots, says brand consultant Julia Melbourne.</p>
+<p>Now, brands are shifting tack to maximize the post-show moment. They might use the re-see as compensation for not giving someone a seat allocation, with brands moving their re-sees to cast a wider net. Dolce &amp; Gabbana this season moved its re-see from Milan to its 54 Avenue Montaigne store in Paris for the first time, the logic being that this would enable the brand to connect with a broader international media audience, who might not have traveled to Milan, but did to Paris. Burberry, which shows in London, also hosted a Paris re-see. Versace put on an additional re-see in New York last September to also reach those who didn’t travel for the show.</p>
+<p>For some, attending the re-see is a matter of signaling that they’re ‘in’ with the brand, and they go to take photos as proof they were there and to build a relationship. Critic and commentator Osama Chabbi says that his re-see content has been “very, very successful, especially when it comes to brands like Chanel or Bottega, where people expect them to do all kinds of craft gymnastics and impress”. It’s notable to be so close to a garment that has yet to be produced, he adds.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464157/devon-usa/articles/-story-inline_20copy_203_u5hfph.jpg" alt="Image may contain Indoors Interior Design Architecture Building Foyer Chandelier Lamp Adult Person and Furniture" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The Celine re-see was an editor favorite. Photo: Madeline Fass</figcaption></figure>
+<p>But fitting time in on the busy fashion week schedule can be tricky, attendees flag — especially as some brands shift their windows to enable press, buyers, VICs and creators to each walk through at specific times. Dior, for instance, offered Issa a two-hour slot the morning after the show, a shift from the traditional day-long invite format that allows guests to pop in as they please. Rodriguez, who attends some re-sees as a spectator and others as a buyer, hopes that more brands will start to separate time slots, so that buyers and editors can better do their jobs, as creators capture their content.</p>
+<p>Not all re-sees are opening their doors wide. Chanel’s access is more limited than its show’s, says Chabbi, which is “quite special”. Issa has found that press windows are getting smaller. Some, like Saint Laurent, don’t let attendees take photos, says one VIC client, who adds that, at one point, the brand had attendees even cover their phone cameras. Others, like Comme des Garçons, prohibit attendees from posting any images they take inside.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The content-to-sales pipeline</h2>
+<p>At the Dior re-see, trend forecaster and creator Mandy Lee watched VICs circling the mannequins, notebooks in hand, writing down the looks they planned to pre-order. Back in the 2010s, VICs weren’t at the re-sees, says Rodriguez; they’d be at the later-date trunk shows. These still happen, notes Peter Griffith, CEO of fashion platform Bond, who is a VIC at brands including Dior and Rick Owens — but he prefers going to a re-see for pre-order.</p>
+<p>“The problem with the trunk show sometimes is that it’s so far off from the show itself that a sense of what that original show was, what the product was, what the theme was is lost,” he says. “The trunk show doesn’t come to you for another two months. I mean, we’re in a world now where immediate gratification takes too long.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464157/devon-usa/articles/IMG_1333_dchpq4.jpg" alt="Image may contain Clothing Coat Jacket Blazer Knitwear Sweater and Scarf" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Chanel SS27. Photo: Devon social</figcaption></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464158/devon-usa/articles/IMG_1347_n3bdp7.jpg" alt="Image may contain Adult Person Clothing Footwear Shoe Accessories Bag Handbag and Wedding" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Chanel SS27. Photo: Devon social</figcaption></figure>
+<p>It was at the Celine re-sees during Hedi Slimane’s days that Griffith met the clienteling team. Before that, he only knew his sales associate. Afterwards, he was invited by the brand to PSG soccer matches and on a boat for his birthday. “By the time you’ve come out of the Celine experience, you are thinking about what a wonderful show, amazing fabric, what a great experience, maybe I should buy that couture coat,” he says. “The re-see tends to kick off those moments.”</p>
+<p>For those not spending enough to get them to re-see as a VIC, the way they’re introduced to the collection is on social media. This is how most consumers first engage with collections, and re-sees create a second — and more intimate — moment for the pieces online, enabling brands to prolong the momentum, says Melbourne.</p>
+<p>Some users see content from the VICs themselves. Of Dior, Griffith says, “they let us shoot, film, and the amount of questions and comments we have gotten on those videos, like, ‘Which one are you choosing? What’s the fabric?’ It really has been a great marketing tool for them.” On Chabbi and Lee’s videos, too, there are plenty of questions about materials and sizes — which they’re well poised to answer, after getting the full run-through.</p>
+<p>It comes down to moneymaking potential, experts agree. Setting up a space evocative of the previous day’s runway, as many brands now do, with amped-up merchandising — as opposed to simple racks of clothing like the old days — is an expensive feat, Rodriguez says. “It’s a huge investment to replicate these shows.” It’s a shift from what was once a low-cost, utilitarian endeavor for brands to ensure industry professionals got what they needed on the backend.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464158/devon-usa/articles/-story-inline_20copy_205_a584hi.jpg" alt="Image may contain Clothing Coat Jacket Adult Person and Mannequin" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">At the Givenchy re-see. Photo: Madeline Fass</figcaption></figure>
+<p>It’s one brands seem confident is worth it; a small detail can make (or break) a purchase. Lee recalls the mini buttons that spelled out ‘Dior’ on a coat that were so tiny, you’d miss them even in a runway detail shot. “Those little Dior buttons might tug on some rich lady’s heartstrings, and she might be like, ‘I need this jacket now’,” she says.</p>
+<p>Ultimately, the re-see’s focus on craftsmanship and material is good advertising for brands. It was when this conversation picked up last year that Chabbi felt brands began placing more emphasis on the format. Encouraging attendee-made content is a fitting response to audiences questioning a brand’s value and authenticity, Rodriguez adds. “People seeing you touch this stuff suddenly makes it real,” says Chabbi.</p>
+<p>The quality and value play was, in large part, the reason for D&amp;G’s Milan-to-Paris switch-up. The brand believes that allowing attendees to see, touch and fully appreciate the craftsmanship, materials and details of the garments is essential to convey the full value of the collection. This conviction is strong enough that, in the future, the brand plans to host re-sees across multiple cities and markets.</p>
+<p>Re-see content is, at this early stage, a great deal for brands, Lee argues. “They get a bunch of free content and they didn’t have to use a seat allocation. If you’re an influencer and you want to go to this show in the future, you’re going to go to the re-see, you’re going to post about it, you’re going to give it a fabulous review.” To date, no sources have been paid for re-see content like they might be for show content, nor do they know of anyone who has been. Given this season’s re-see fervor, this could well shift by February’s Fall/Winter 2027 season.</p>
+<p>More from this author:</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="gilded-age-walking-tour-nyc.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6abe6324cd062db23eb7f3de.jpg" alt="7 Fascinating Facts I Learned From an NYC Gilded Age Walking Tour" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Living</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">7 Fascinating Facts I Learned From an NYC Gilded Age Walking Tour</h3>
+                </a>
+                <a href="best-prime-day-clothing-deals-10-07-2026.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-07/698e34c96e575434bf1bb1de.jpg" alt="I Combed Through Pages of Prime Day Clothing Deals—Here’s What Stood Out" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">SALE</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">I Combed Through Pages of Prime Day Clothing Deals—Here’s What Stood Out</h3>
+                </a>
+                <a href="us-open-best-parties-new-york-2026.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169758/devon-usa/2026-09-23/6a95922107fcb8817600150b.jpg" alt="Courtside to Cocktail Hour: Inside the Best and Buzziest US Open Parties" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Parties</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Courtside to Cocktail Hour: Inside the Best and Buzziest US Open Parties</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Would You Pay to Redesign Your Clothes Rather Than Get Rid of Them? | Devon</title>
+    <meta name="description" content="Beyond donation and resale, a new wave of businesses is cropping up to help consumers find new life in their old favorites. Devon Business is putting them to the test, and London redesign studio Phini is up first.">
+    <meta property="og:title" content="Would You Pay to Redesign Your Clothes Rather Than Get Rid of Them? | Devon">
+    <meta property="og:description" content="Beyond donation and resale, a new wave of businesses is cropping up to help consumers find new life in their old favorites. Devon Business is putting them to the test, and London redesign studio Phini is up first.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac6540c8c0d85d71b8f5c3a.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Sustainability</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">Would You Pay to Redesign Your Clothes Rather Than Get Rid of Them?</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Beyond donation and resale, a new wave of businesses is cropping up to help consumers find new life in their old favorites. Devon Business is putting them to the test, and London redesign studio Phini is up first.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Bella Webb</p>
+            <p class="text-xs text-gray-500 mt-1">October 8, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac6540c8c0d85d71b8f5c3a.jpg" alt="Would You Pay to Redesign Your Clothes Rather Than Get Rid of Them?" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>We all have clothes hiding in the back of our closets that we no longer wear. But with so many gaps and limitations in the circular economy, it can be hard to know what to do with your old clothes. Now, a new crop of fashion businesses is asking customers to keep hold of them, redesigning them to prolong their lifespan and keep them out of otherwise flawed circular pathways.</p>
+<p>London-based studio Phini is one such business, offering bespoke redesign services targeting a luxury clientele. The company initially launched as an app called Loom in February 2025, bringing together over 100 vetted designers to upcycle, embroider, dye, or tailor old garments. Having struggled to price upcycling as accessibly as planned, it relaunched as Phini in August, positioning itself as a luxury redesign studio instead. The large network of upcyclers was replaced with a closer-knit cohort of six designers, specializing in bridal — partly because of the higher price point and sentimental value — but also open to everyday clothes.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464135/devon-usa/articles/-story-inline_l6ffvm.jpg" alt="Redesign your clothes Image may contain Redesign studio upcycled fashion phini. Adult Person Sitting Furniture Animal..." loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Phini founder Daisy Harvey in the company’s East London studio. Photo: Phini</figcaption></figure>
+<p>The items people bring to Phini tend to have a lot of life left in them. They could technically continue to be worn as they are, so this isn’t upcycling per se. But something is holding their owners back: a lack of formal occasions, a hem that doesn’t quite sit right, a color they no longer gravitate toward. Some of Phini’s past projects include separating a wedding dress into a top and skirt, turning a pair of jeans into a bag, and dyeing or altering family heirlooms. Devon Business put it to the test.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464135/devon-usa/articles/-story-inline_20copy_h7jovy.jpg" alt="Image may contain Blazer Clothing Coat Jacket Formal Wear Suit Photography Face Head Person and Portrait" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Rosie enlisted Phini to dye her Reformation wedding suit green. Photos: Courtesy of Phini</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Endless possibilities</h2>
+<p>Customers schedule an appointment — either virtual or in-person at the London studio — then share an initial brief with the team. Phini connects you with a specific designer, who can walk you through sketches, dye samples and other options, until you land on a redesign that feels right. It then sends through a bespoke quote, as well as regular updates via Whatsapp to keep customers in the loop, and leaving space for iterations or tweaks if needed. The big reveal also happens in-person, unless customers opt for a delivery service.</p>
+<p>“With Loom, the whole process was digital, but we found that customers wanted to meet the team in-person and have a more personalized service,” says Phini founder Daisy Harvey. “Because everything is bespoke by nature, our designers also wanted an in-person touchpoint to get the measurements right and meet the customers.”</p>
+<p>I went back and forth over what to redesign, eventually landing on one of my favorite knit pieces: the Pendle jumper from Herd, made from British wool, traced from farm to finished product. It holds close sentimental value for me. When I was reporting our Made in the UK series last year, I visited the farm where the wool is sourced, alongside Herd owner Ruth Alice Rands. I sat in the farmer’s kitchen and had a wide-ranging chat about the state of British farming with him and his wife over a cup of tea. While we were on-site, one of the bluefaced Leicester sheep the wool is sourced from gave birth — the farmer named the lambs Bella and Devon. The jumper is also impossibly soft and cozy, and I have to hold myself back from wearing it everyday in the winter.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464136/devon-usa/articles/-story-inline_20copy_202_nhtdki.jpg" alt="Image may contain Jacqueline Emerson Clothing Knitwear Sweater Adult and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The Herd jumper before (left) and after (right) the redesign. Phini dyed the jumper navy blue, and added embroidery on the collar and cuffs. Photos: Herd, Niall Wilson</figcaption></figure>
+<p>Needless to say, I was hesitant to hand it over. But since I had a color analysis carried out for a story back in June, I’ve been slowly reshaping my wardrobe, and the warm-toned cream color wasn’t one I reached for anymore. It was time for a redesign.</p>
+<p>Even though I work in fashion, and have strong opinions about what I do and don’t like, it was surprisingly hard to pin down a design when faced with endless possibilities. Like most consumers, I have a limited knowledge of the technical restrictions of working with different materials, or how certain changes would affect the drape of a fabric, and needed the designer’s input to find a path forward. Phini often invites customers to share a Pinterest board or inspiration images for this very reason. “The biggest thing is getting a grip on their style,” says Harvey. “We also have ideas and inspiration images, either from our previous work, or things we’ve seen along the way. A small minority come to us with a super clear idea of what they want, but the majority of people are just open to seeing what’s possible.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464136/devon-usa/articles/-story-inline_20copy_203_cmltku.jpg" alt="Image may contain Clothing Knitwear Sweater Footwear Sandal Adult Person Face and Head" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The inspiration photos Bella shared with Phini included an Isabel Marant jumper from the Spring/Summer 2021 Etoile collection. Photo: Isabel Marant</figcaption></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464136/devon-usa/articles/-story-inline_20copy_205_ptc5ce.jpg" alt="Image may contain Clothing Knitwear Sweater Blouse Adult Person Face and Head" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The final design was an amalgamation of several others, incorporating embroidery on the collar and cuff, but excluding the chest embroidery in previous iterations. Photo: Phini</figcaption></figure>
+<p>In the end, I decided to dye the jumper navy and add some embroidery around the cuffs and collar. We toyed with more detailing on the chest, but decided it was too busy, and suggestions of adding red were eventually sidelined for white and pale blue.</p>
+<p>A lot of the time, Phini’s job is about managing expectations, says Harvey. “Someone might ask us to dye a polyester dress black, which we won’t be able to do [it’s much harder to achieve darker colors in synthetic materials], or they might be looking for a certain type of movement that the fabric won’t give. There’s always something we can suggest, but we have to manage expectations from the outset.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The barriers of bespoke</h2>
+<p>The other challenge is intellectual property, continues Harvey. “We haven’t really struggled with this since we relaunched, because we’re more involved in the process now, and we’re very protective of our own designers’ work, as well as other people’s,” she says. “But sometimes we have to tell customers: we can use this picture as inspiration, but we can’t create an exact replica. Most of the time, the final product is a mix of lots of different inspiration images, so it’s not really a problem.”</p>
+<p>When the designers need additional materials, Phini encourages them to use scraps and leftover fabric from previous projects. Because most of them have worked in bridal and luxury for decades, they have a plentiful supply of high-quality materials, so it’s rare that Phini needs to source anything new. “It’s never going to be 100% zero-waste, but we do as much as we can,” says Harvey.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464136/devon-usa/articles/-story-inline_20copy_206_ots2lu.jpg" alt="Image may contain Clothing Knitwear Sweater Coat and Jacket" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The final product. Between the dye and embroidery, this project would have cost £600, almost double what the original jumper cost. Photos: Phini, Niall Wilson</figcaption></figure>
+<p>The service certainly comes with a luxury price tag. While my jumper retails for £365, Harvey says it would have cost £200 for the embroidery and £400 for the dye (in this case, the fee was waived). If that seems steep for an everyday jumper, it’s worth noting that the majority of pieces Phini redesigns are wedding dresses. These bridal redesigns start at £600, with simple alteration projects closer to £200. Dye is especially expensive because bespoke colors need to be sampled on similar fabrics and the color is built up slowly over multiple dye baths, she explains. “The process is very time-intensive. Bespoke dyeing really is an artisanal craft.”</p>
+<p>Price was also a sticking point with Loom, says Harvey, as is the case with lots of upcycling and redesign services. “A lot of the cost goes into the design side, because we take something that exists and turn it into something else, so there isn’t an existing pattern we can use, and every piece is bespoke,” she explains. “With Loom, we often found that there was a mismatch between people loving the idea and not wanting to invest that much money in the project. The luxury positioning of Phini has helped with that. We also only work with really experienced artisans now, whereas with Loom, some of the upcyclers were just starting out. So the price reflects that shift and ensures our designers are paid fairly.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464136/devon-usa/articles/-story-inline_20copy_207_ytwm9a.jpg" alt="Image may contain Clothing Dress Formal Wear Fashion Gown Wedding Wedding Gown Evening Dress Adult Person and Face" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Grace also used Phini to dye her wedding dress. Bridal services tend to start around £600. Photos: Courtesy of Phini</figcaption></figure>
+<p>With such a high price point ruling out the vast majority of customers, this isn’t a scalable sustainability solution that will reduce waste in a meaningful way. But for luxury customers that would otherwise tend toward one-time wear or who wouldn’t otherwise consider sustainability when getting rid of garments, it could be a useful gateway to prolonging their lifespans. “It’s still such early days for redesign and upcycling,” says Harvey. She still harbors visions of an accessible upcycling service, but concedes that right now, Phini will remain limited to luxury. “The benefit to that is reaching people who maybe wouldn’t have considered sustainability or upcycling before. At the end of the day, the result is the same: we help someone reimagine their clothes and keep those positive memories alive.”</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="after-10-years-fabscrap-knows-what-circular-fashion-is-missing.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac650ac4205e3c3fbff8f39.jpg" alt="After 10 Years, Fabscrap Knows What Circular Fashion Is Missing" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Sustainability</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">After 10 Years, Fabscrap Knows What Circular Fashion Is Missing</h3>
+                </a>
+                <a href="noguchi-to-asawa-designing-postwar-america-barnes-foundation.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac72079a0db381dea058a92.jpg" alt="The Japanese Artists Whose Traumas Changed American Design" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Arts</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Japanese Artists Whose Traumas Changed American Design</h3>
+                </a>
+                <a href="best-vintage-stores-in-milan.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2da76929a89e77a0c6b5b.png" alt="The Best Vintage Stores in Milan" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in Milan</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>

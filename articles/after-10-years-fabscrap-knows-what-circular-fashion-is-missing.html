@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After 10 Years, Fabscrap Knows What Circular Fashion Is Missing | Devon</title>
+    <meta name="description" content="The New York non-profit has spent the last decade sorting and recirculating fashion’s pre-consumer waste. The next decade is all about collaboration and scale, says co-founder Camille Tagle.">
+    <meta property="og:title" content="After 10 Years, Fabscrap Knows What Circular Fashion Is Missing | Devon">
+    <meta property="og:description" content="The New York non-profit has spent the last decade sorting and recirculating fashion’s pre-consumer waste. The next decade is all about collaboration and scale, says co-founder Camille Tagle.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac650ac4205e3c3fbff8f39.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Sustainability</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">After 10 Years, Fabscrap Knows What Circular Fashion Is Missing</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">The New York non-profit has spent the last decade sorting and recirculating fashion’s pre-consumer waste. The next decade is all about collaboration and scale, says co-founder Camille Tagle.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Bella Webb</p>
+            <p class="text-xs text-gray-500 mt-1">October 8, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac650ac4205e3c3fbff8f39.jpg" alt="After 10 Years, Fabscrap Knows What Circular Fashion Is Missing" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>Fashion’s waste crisis is well-documented. We’ve all seen the images of post-consumer textile waste clogging the beaches in Ghana and the mountains of textile waste in Chile, which are now visible from outer space. What we don’t see very often is the secondary textile waste crisis hiding in plain sight: the post-industrial, pre-consumer waste that spans fabric samples, swatches and development prototypes, amounting to some 12% of fashion’s total fabric consumption. This is the waste stream New York-based non-profit Fabscrap has dedicated the last decade to tackling.</p>
+<p>Fabscrap was founded in 2016 by New York City Department of Sanitation employee Jessica Schreiber. Fielding more and more questions from brands about how to dispose of excess fabric, and facing a shortage of viable answers, Schreiber took her idea for a waste removal and fabric redistribution business on the short-lived television series Project Runway: Fashion Startup, unlocking the funding to road-test Fabscrap with real brands. Co-founder and executive director Camille Tagle came on board a year later, bringing the perspective of a former luxury eveningwear designer, frustrated by what she deemed a “criminal” culture of waste and keen to do something about it.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464138/devon-usa/articles/-story-inline_20copy_206_lsz0ob.jpg" alt="Image may contain textile waste circular fashion Fabscrap Adult and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Fabscrap co-founder and executive director Camille Tagle. Photo: Fabscrap</figcaption></figure>
+<p>In the time since, Fabscrap has been through its fair share of “revamps, corrections and additional streamlining”, says Tagle, who stepped into the executive director role after Schreiber’s departure in 2025 to focus on her family. Today, it focuses on collecting pre-consumer waste from local brands, and recirculating as much as possible, with small amounts going to downcycling or landfill.</p>
+<p>It operates on a ‘pay as you throw’ model, scaled according to donation size. For smaller donations, brands pay per bag before collection. For larger donations, which usually arrive on pallets, brands pay per pound, after Fabscrap has collected and weighed the donations. Tagle introduced this distinction in 2025 following a donation audit, which revealed that 24% of brands donated 84% of incoming materials during the year. She also optimized the warehouse processes, improving sorting rates by 58% in the past 18 months and reducing the backlog of donations by 159,407 lbs.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464138/devon-usa/articles/-story-inline_20copy_202_lzhlpo.jpg" alt="Image may contain Bag Furniture Clothing Coat Jacket Machine and Wheel" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Brands sending smaller donations receive a Fabscrap bag to fill with waste, which is then weighed and catalogued on arrival. Brands sending more waste tend to use pallets. Photo: Dawnpoint Studios</figcaption></figure>
+<p>Over the last decade, Fabscrap has collected pre-consumer waste from more than 900 brands across the US, mainly concentrated around New York, but also including Philadelphia, Pennsylvania, New Jersey and Massachusetts. It currently has around 400 regular customers, spanning luxury to mass market. J.Crew, PVH, Steve Madden and Urban Outfitters parent company Urbn has worked with Fabscrap since its foundation, and several of those brands (plus others like Carolina Herrera) have also supported the non-profit with grants and group volunteering.</p>
+<p>But Tagle says Fabscrap’s potential to scale is limited by a lack of industry collaboration. Getting to the next level, and keeping more waste in circulation, will rely on brand and manufacturing partners upstream designing with circularity in mind. There’s a long way to go.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">First measure, then reduce</h2>
+<p>To prove that you’re reducing waste, you need to know where you’re starting from. That’s why brand donations are weighed and catalogued before they’re sorted. It’s important that this data is broken down by brand, says Tagle, because you can’t reduce what you don’t measure. “We track each brand’s data individually, so they can understand their environmental impact,” she explains, noting that each brand receives an annual impact report showing the weight collected, the number of collections, and how those donations broke down into reuse, downcycling and landfill.</p>
+<p>After the collection has been weighed, it gets processed, ready for volunteers to sort through (there have been 10,000 volunteers and counting over the past decade). Larger pieces of fabric and prototype samples without too many imperfections are sorted for reuse, as well as smaller pieces of leather. These are recirculated through Fabscrap’s online store and in-person thrift store, which together make up the non-profit’s second largest revenue stream after brand fees.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464138/devon-usa/articles/-story-inline_jikfj3.jpg" alt="Image may contain Furniture Baby and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Where possible, Fabscrap earmarks materials for reuse, selling them on via its online shop and in-person thrift store. Volunteers are able to choose materials from the store in exchange for their time. Photo: Brenda Emily</figcaption></figure>
+<p>The materials that can’t be reused — because they are torn, stained, or simply too small — are set aside for downcycling, usually shredded for insulation by Fabscrap’s partner in North Carolina. Preparing materials for downcycling is a “tricky” process, says Tagle, which requires volunteers to meticulously remove any stickers, safety pins, buttons or zippers. Everything that can be reused is, including these fixtures and fastenings, but a small percentage still goes to landfill.</p>
+<p>Right now, one of the biggest buckets going to landfill is the waste brands marked as “proprietary” before collection, says Tagle. The category exists to protect brands from identifiable logos or design features making their way back into the market, but many brands are overly liberal applying this to donations, reducing the potential for perfectly usable fabrics to be recirculated. It’s an ongoing battle educating brands to be less strict about this. “There’s really no reason why a leather hide with no branding should be marked as proprietary,” she notes.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Tackling misconceptions, mobilizing the public</h2>
+<p>Over the last decade, investors and industry alike have funneled hundreds of millions of dollars into textile-to-textile recycling, chasing the — so far elusive — promise of turning mountains of post-consumer textile waste into new products. These efforts have largely concentrated around cotton and polyester, with some solutions catering to blended fabrics, but the majority are still weeding out huge swathes of waste, while struggling with time and cost-intensive disassembly processes. The problem is that potential feedstocks are so easily contaminated, especially in fashion — an industry obsessed with novelty and differentiation, where polyester might be embellished with sequins, or cotton might be blended with elastane.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464138/devon-usa/articles/-story-inline_20copy_pnvjyf.jpg" alt="Image may contain Adult Person Formal Wear Clothing and Dress" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Donations range from small offcuts to swatches to rolls of fabric and even prototype garments. Photos: Brenda Emily</figcaption></figure>
+<p>“There’s a misconception that it’s really easy to recycle fabric, but it’s actually very, very difficult,” says Tagle. Fabscrap tracked cotton and polyester waste separately for the first eight years, hoping to accrue enough to make a meaningful feedstock donation to textile-to-textile recyclers, but the amount of qualifying material never surpassed 4% of total donations, she adds. “Our volunteers often walk away with a new understanding of what it takes, and how many grey areas there are.”</p>
+<p>That has been an unexpected bonus to its volunteer program, continues Tagle. “At the beginning, Fabscrap was about making the biggest environmental impact possible,” she explains. “That’s still core to what we do, but a really beautiful development has been engaging the public. So many textile recycling initiatives skip the general public entirely, but Fabscrap has volunteer opportunities baked in, and our volunteers can go home with some fabric for their creative pursuits as a thank you. We’ve had well over 10,000 volunteers at this point. They geek out over fabric, they care about sustainability, and they’re excited to trade stories or sewing techniques, too. It’s become a genuinely strong community.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">No automation without standardization</h2>
+<p>During New York Climate Week in September, I had the opportunity to visit Fabscrap’s Brooklyn warehouse and see the process up close. It quickly became apparent how time and labor-intensive sorting and disassembly can be.</p>
+<p>Much of the waste Fabscrap deals with comes directly from design rooms. It’s a complex mess of fabric samples, prototypes and headers (the swatches fabric mills and producers send to brands to showcase their seasonal range). No two are the same. Developmental samples are experimental by nature, often mixing different materials and fibers, playing around with sequins or embellishments, maybe integrating zippers or buttons. Even the headers lack standardization — some have metal or paper hangers, so they can be displayed on a rail; some are stapled or glued to a sheet of paper or cardboard bearing its composition, while others are sent in binders; some are small squares, where others are larger rectangles. “Every swatch is completely random,” says Tagle. “When you don’t have standardization, you can’t automate anything.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464138/devon-usa/articles/-story-inline_20copy_205_tmmvox.jpg" alt="Image may contain Child and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Textiles mills send countless headers to brands each season, showcasing their seasonal offering. But these headers often have different formats, and without standardization, it’s hard for Fabscrap to automate its process. Photo: Youn Jung Kim</figcaption></figure>
+<p>Development samples have limited potential for standardization, but headers are primed for it, says Tagle. Late last year, Fabscrap released a white paper charting its explorations of pre-consumer waste materials and making recommendations for the industry to embed circularity upstream. Among the suggestions was a framework for “smarter swatches” designed for disassembly and recycling or reuse. In an ideal world, according to Fabscrap, headers would be smaller than two yards, with no backing material, and a small sticker detailing material content and other descriptive elements, such as weight and country of origin, as required.</p>
+<p>This would help volunteers at Fabscrap make sense of swatches, so they know which materials qualify for recycling versus reuse or downcycling. But it would also reduce costs and environmental impacts for fabric mills, removing the need for paper, plastic or metal components. To help textile mills assess the impact of their headers, Fabscrap also developed a Smart Swatch Scorecard, which assigns header designs a grade, based on the number of components and the relative ease of disassembling them.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791464138/devon-usa/articles/-story-inline_20copy_204_fhjql6.jpg" alt="Image may contain Accessories and Jewelry" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Much of the waste Fabscrap receives is shredded or downcycled, to be used in insulation. But in order to do this, volunteers first have to remove any embellishments and fastenings, including buttons, which are recirculated in the store. Photo: Jennifer Mason</figcaption></figure>
+<p>Moving forward, Tagle says her focus is on this kind of industry education and collaboration, helping stakeholders at every step of the design process understand how their choices can enable and accelerate circularity downstream. “Finding ways to deal with the waste that nobody else wants to deal with is a huge puzzle,” says Tagle. “It will probably take us the next 10 years to solve.”</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="noguchi-to-asawa-designing-postwar-america-barnes-foundation.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-08/6ac72079a0db381dea058a92.jpg" alt="The Japanese Artists Whose Traumas Changed American Design" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Arts</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Japanese Artists Whose Traumas Changed American Design</h3>
+                </a>
+                <a href="best-vintage-stores-in-milan.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2da76929a89e77a0c6b5b.png" alt="The Best Vintage Stores in Milan" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in Milan</h3>
+                </a>
+                <a href="best-vintage-stores-in-sao-paulo.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2db3840b182bd675ee52d.png" alt="The Best Vintage Stores in São Paulo" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in São Paulo</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
