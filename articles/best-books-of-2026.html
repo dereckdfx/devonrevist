@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Books of 2026 | Devon</title>
+    <meta name="description" content="Nothing quite beats the thrill of a new book season. In that spirit, we present to you the best books of 2026.">
+    <meta property="og:title" content="The Best Books of 2026 | Devon">
+    <meta property="og:description" content="Nothing quite beats the thrill of a new book season. In that spirit, we present to you the best books of 2026.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-09/697513cc459a91d363f396ef.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Books</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">The Best Books of 2026</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Nothing quite beats the thrill of a new book season. In that spirit, we present to you the best books of 2026.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Chloe Schama, Taylor Antrim, Liam Hess, Emma Specter, Kylee McGuigan</p>
+            <p class="text-xs text-gray-500 mt-1">October 8, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-09/697513cc459a91d363f396ef.jpg" alt="The Best Books of 2026" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>It’s been a banger year for books. Cast your mind, and remember that this was the same year that Belle Burden’s Strangers became the volume in everyone’s bag. And then came the summer and Lena Dunham’s Famesick. And then, and then… As fall begins, we’re taking stock of what’s been published and what’s coming, highlighting some of the best (and most attention-grabbing) publications of recent months. We’re starting to winnow down our favorites—at least two editors have cast votes for books published this fall. (We love you, Marlon James and Louise Kennedy!) We still have a few months to go, but you’ll find more than enough options to get a sense of the best books of 2026 below. As is the case in years past, this isn’t a fully comprehensive list—but a well-developed sample of what we’ve been loving. Read on here, then go pick up a book!</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Cormorant Hunt by Michael Idov (January)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551163/devon-usa/articles/91y80MxShNL._SL1500__m9yd0r.jpg" alt="Image may contain: Book, Publication, Novel, Advertisement, Poster, Person, Adult, Face, and Head" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Cormorant Hunt: A Novel</h2>
+<p>Amazon</p>
+<p>Back in 2024, I was taken with Michael Idov’s well-paced espionage debut, The Collaborators. It starred a dry-witted millennial spy named Ari Falk who tripped all over Eastern Europe with a fetching Russian American heiress, uncovering rot at the heart of the CIA. Fun as it was, that novel felt like a slightly offhand diversion that didn’t exactly demand a sequel, but here it is, titled The Cormorant Hunt (Scribner), and having raced through it, I’m now committed to as many Ari Falk novels as Idov can muster. Idov has been a magazine journalist, the editor of GQ Russia, and a screenwriter, and I suspect these other lives have trained him in the art of keeping things moving. The Cormorant Hunt is as headlong a novel as its predecessor—a deepening of the conspiracy at the CIA, with Falk now hiding in deep cover in Tbilisi and a new pair of youngish CIA spooks, Jim Otterbeck (privileged, hapless) and deputy director Asha Tamaskar (ambitious, single), drawing him out when a Julian Assange–esque media figure is murdered in Prague. There’s a shadowy traitor—of course there is—high up in the CIA ranks (nicknamed the Cormorant) that Falk is determined to unmask, and a plot is afoot to derail the world order via a German right-wing populist sect. I was amazed at the pace of reversals and action sequences; buoyed by the novel’s intelligent, quippy humor; and pleased by a romance sparking between Falk and Tamaskar. Bring me the film adaptation stat. —Taylor Antrim</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Strangers: A Memoir of Marriage by Belle Burden (January)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551163/devon-usa/articles/81821RzbAaL._SL1500__our2r0.jpg" alt="Image may contain: Advertisement, Poster, Aircraft, Airplane, Transportation, and Vehicle" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Strangers: A Memoir of Marriage</h2>
+<p>BOOKSHOP</p>
+<p>Not every Modern Love column needs to be a full-length book, but there are certainly some where you’d take a bit more backstory. Belle Burden’s Strangers: A Memoir of Marriage (Dial Press) falls into the latter category. Elided in her 2023 essay that appeared in The New York Times’ popular franchise was the fact that Burden is the granddaughter of Babe Paley, and so her specific divorce memoir (certainly an entry in the burgeoning genre) is inflected with assumptions of old-money decorum that lend it an anthropological appeal. The essay tells the story of the initial blow, when Burden was forced to ask herself if she was married to a man who was essentially a stranger. The book picks up in the aftermath, leading you no closer to an absolute answer but through the tangled impossibility of ever fully knowing another person. —Chloe Schama</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">I Could Be Famous: Stories by Sydney Rende (January)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551163/devon-usa/articles/square-image_20_1_20copy_2010_j7hthg.jpg" alt="Image may contain: Jean-Baptiste Greuze, Publication, Book, Adult, Person, Face, Head, and Magazine" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">I Could Be Famous</h2>
+<p>Sydney Rende’s debut shines a light on what we’re all most concerned about these days: how we’re perceived. I Could Be Famous: Stories (Bloomsbury) is a collection of 11 quippy, relatable anecdotes from 10 female narrators, with one twisted, hotshot male actor connecting them all. Each woman shares—in her own way—her various desires and dreams yet is so hung up on the potential of failure or what other people might think about her. Rende’s short stories are brilliant and convince readers that, with enough confidence (or potentially a lack thereof) and delusion, we all, one day, could be famous. —Kylee McGuigan</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Lost Lambs by Madeline Cash (January)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551163/devon-usa/articles/square-image_20_1_20copy_203_dpcsxz.jpg" alt="Image may contain: Text, Baby, Person, Face, Head, Handwriting, Book, and Publication" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Lost Lambs</h2>
+<p>Madeline Cash’s delightful debut about family dysfunction, Lost Lambs (Farrar, Straus and Giroux), calls to mind early Maria Semple with the density of its wit and the intricacies of its plot. The novel lovingly depicts a family succumbing to the pressures of an open marriage, teenage rebellion, and homeownership. Such familiar domestic conundrums don’t sound like the stuff of exciting new fiction—but Cash’s book is one of the most thrilling debuts I’ve encountered in a while. (That teenage rebellion is anything but humdrum: One daughter is dating an ex-soldier who goes by War Crimes Wes, another is deep in an online relationship with a fundamentalist terrorist, and the youngest might just have uncovered a massive scam.) I’m placing bets that this will be one of the books of the year. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">White River Crossing by Ian McGuire (February)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551163/devon-usa/articles/square-image_20_1_20copy_206_lqc9yi.jpg" alt="Image may contain: Book, Publication, Novel, Animal, and Bird" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">White River Crossing</h2>
+<p>A decade ago, the English novelist Ian McGuire made a name for himself with the bleak, hyperrealist 19th-century whaling adventure novel The North Water (which was adapted into a fantastic BBC series). McGuire’s new novel, White River Crossing (Crown), offers similarly rugged wintry pleasures. Set in the frozen Canadian wilderness of Hudson Bay in the late 18th century, the propulsive story follows a dangerous expedition by English traders into the subarctic wilderness in search of gold. McGuire’s goal here is entertainment (achieved), but his empathetic treatment of the Indigenous tribes with whom the English come into contact and conflict gives his novel a mournful air of tragedy. —T.A.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">This Is Not About Us by Allegra Goodman (February)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551163/devon-usa/articles/square-image_20_1_20copy_208_wtvk4w.jpg" alt="Image may contain: Book, Publication, Food, Meat, and Pork" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">This Is Not About Us</h2>
+<p>Allegra Goodman’s utterly charming new book is carving out fresh territory in the genre of linked short stories. This Is Not About Us (Dial Press) is the story of a family told by its various members, each with their own perspective and entrenched narrative. The book begins by the deathbed of an elderly sister whose two remaining sisters have a falling out over cake—the kind of domestic spat that becomes mythic and completely unspecific, the details lost in a lingering fog of resentment. Over the subsequent stories, Goodman crafts subtle investigations of the relations between siblings, the fine blend of anxiety and pride that parents feel for their offspring, and the bemused affection an aunt or uncle might feel for their aimless nieces or haphazard nephews. Unsurprisingly, as Goodman has written gorgeously about raising her own children, the book is most affecting when shifting between the points of view of parent and child. But this is a volume that builds and surprises on many fronts, the cacophony of love and discontent reifying into filigreed depictions of the familial ties that bind. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Celestial Lights by Cecile Pin (March)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551164/devon-usa/articles/square-image_20_1_20copy_207_no9bei.jpg" alt="Image may contain: Book, Publication, Novel, Person, Advertisement, and Poster" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Celestial Lights</h2>
+<p>Tales of emotionally tormented men leaving behind their families to explore the outer realms of the solar system may feel like well-worn territory. But with her exquisite and deeply felt second book, the London author Cecile Pin finds plenty of new emotional depths to plumb. Celestial Lights (Holt) follows the journey of astronaut Ollie over multiple timelines—from his first blush of romance with a neighbor growing up in rural England to his recruitment by a Musk-like figure to work on the world’s most ambitious space program and the flight logs that document his 10-year journey aboard a flight to one of Jupiter’s moons, as he and his colleagues long for the comforts of home. It’s this contrast between Ollie’s cool, cerebral approach to life in space—Pin wears her impressively researched knowledge of astrophysics lightly, never letting it bog down the page-turning yarn she’s spinning—and the beating heart of his passionate relationship with his wife that makes the book sing, finding powerful new ways to examine the sacrifices we all have to make in order to pursue our passions. —Liam Hess</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Gunk by Saba Sams (March)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551164/devon-usa/articles/square-image_20_1_dn8kc7.jpg" alt="Image may contain: Candle" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Gunk</h2>
+<p>A strangely appealing book, Gunk (Knopf) by Saba Sams tells the story of an aimless 30-something bar manager who has found herself in possession of a baby she did not give birth to. The biological mother, an enigmatic teenage bar employee, has vanished. While this may seem like a promising start for a plotty caper, what unfolds for the rest of the novel is how this situation came to be—and an exploration of the grottier side of British nightlife, the surrogate families formed after-hours, and the allure of mind-altering substances and experiences, whether chemical or biological. A funky, surreptitiously fun debut. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Down Time by Andrew Martin (March)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551164/devon-usa/articles/square-image_20_1_20copy_202_pvfopc.jpg" alt="Image may contain: Advertisement, Poster, Nature, Outdoors, and Sky" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Down Time</h2>
+<p>Andrew Martin’s first novel, Early Work, marked him as a droll chronicler of what it means to be young, frequently lustful, and offhandedly intent on leading a literary life. The novel, lightly plotted, didn’t cry out for a sequel, but Martin’s new Down Time (Farrar, Straus &amp; Giroux) offers a continuation of sorts (in mood at least). Here are five postcollegiate friends—two men, three women—divided between Boston and Brooklyn, attempting, with varying degrees of vigor, to figure out how to basically get their shit together. Story is not as important here as mood and vividly described amusements, of which Down Time has many. The sexual entanglements are elaborate and fearlessly described; so too are the perils of substance addiction and depression. The novel zips by, with a peculiar if pleasantly disaffected vigor. —T.A.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Whidbey by T. Kira Madden (March)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551164/devon-usa/articles/square-image_20_1_20copy_204_w07g5n.jpg" alt="Image may contain: Publication, Book, and Novel" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Whidbey</h2>
+<p>I expected big things from Madden’s first novel after the success of her gorgeously rendered and often heartbreaking 2019 debut memoir, Long Live the Tribe of Fatherless Girls. But it’s fair to say that her novel Whidbey (Mariner)—a literary thriller told from the alternating perspectives of a child abuser’s mother and two of his victims—met my anticipation and raised the stakes. Whidbey is just as closely observed and skillfully narrated as Long Live, but it’s particularly notable for its empathy toward the characters whose intersecting paths it tracks. Madden is uniquely interested in complicating our idea of who “deserves” justice or forgiveness, and the dark, desolate, and stunningly compelling story she knits together in Whidbey is one I won’t soon forget. —Emma Specter</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">London Falling: A Mysterious Death in a Gilded City and a Family’s Search for Truth by Patrick Radden Keefe (April)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551164/devon-usa/articles/81eRsW9FoNL._SL1500__nqpcsj.jpg" alt="Image may contain: Advertisement, Poster, Outdoors, Water, City, Nature, and Sea" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">London Falling: A Mysterious Death in a Gilded City and a Family&#x27;s Search for Truth</h2>
+<p>By now, you don’t need anyone to tell you that Patrick Radden Keefe is one of the most gripping storytellers currently writing. No one quite spins a story like Keefe, turning what seems like neighborhood lore into a narrative that explains the Irish Troubles, for example, or in this case, a family tragedy into a yarn that explains the economic and social evolution of London over the past 20 years. This is a book for the true-crime junkie and the lover of Dickens, a story that shows how expansive and compact a city can be at the same time, and how urban fabric contains, within its very architecture, layered, hidden histories. The book builds on Keefe’s 2024 article in The New Yorker, but rather than simply expanding on what was covered there, it brings the story into the present, offering a fascinating glimpse into the aftereffects of investigative journalism—and a sense of how a story like this is never truly finished. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Famesick by Lena Dunham (April)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551164/devon-usa/articles/81euaJoSsDL._SL1500__eycjtv.jpg" alt="Image may contain: Clothing, Footwear, Shoe, Publication, Book, Adult, Person, and Hosiery" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Famesick: A Memoir</h2>
+<p>It is a considerable feat that a celebrity frequently accused of overexposure has published one of the most acclaimed and charming memoirs of the year, refreshing in its honesty and sweetly tender depictions of love and illness. There are shocking revelations in this book—people behaving badly (often in professional settings) and the extent of the suffering Dunham endured—but the writing is tempered by wit and humor. This is a book with some very dark moments that somehow never takes on a somber tone but rather offers its insight in effervescent, wise prose. Perhaps most appealing of all, Dunham doesn’t shy away from her own mistakes but bravely pokes at them to try to piece together a larger picture about the force of fame and illness on someone who was faced with both when she was younger—in life and experience—than you ever might have really considered. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">John of John by Douglas Stuart (April)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551165/devon-usa/articles/81Txd18wgTL._SL1500__20copy_ntap1r.jpg" alt="Image may contain: Book, Publication, Novel, and Text" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">John of John: A Novel</h2>
+<p>Douglas Stuart’s John of John (Grove) follows young John-Calum “Cal” MacLeod, a recent art school graduate with no prospects, who returns to his hometown in the remote Scottish Isle of Harris to help his strict Presbyterian father, John, care for his maternal grandmother. As Cal reluctantly reintegrates into the small-town life he was eager to leave, the delicate balance of the MacLeods and their community is threatened by long-buried secrets that resurface. In a similar vein as its brutal and moving predecessors, Stuart’s Young Mungo (2022) and the Booker Prize–winning Shuggie Bain (2020), John of John intricately weaves exploration of sexuality, masculinity, and generational trauma with the harsh realities of life in rural Scotland, often inducing a thrilling whiplash in the contrast of quotidian village life with explosive family conflicts. With his latest, Stuart has established himself as a master of human emotion. I’ll be thinking of these characters for a long time. —Jillian Selzer</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Last Night in Brooklyn by Xochitl Gonzalez (April)</h2>
+<p>In the rapidly gentrifying Brooklyn neighborhood of Fort Greene circa 2007, 20-something Alicia Canales Forten is caught between the pressures applied by her dutiful, class-conscious mother and a life of liberty embodied by the kind of young artists who make chainsaw ice sculptures in abandoned Dumbo lofts. Alicia is a Boricua Nick Carraway—proximal to wealth but not of it, Ivy League educated but raised in the far reaches of the outer boroughs. A rare handwritten invitation to the allegedly spontaneous house parties thrown by fashion designer–slash–girl-about-town La Garza prompts an awakening to the idea of New York—and life—as a playground. La Garza, witty and ferocious, becomes both a mirror for Alicia and a symbol of a kind of cultural life that New York has lost in the past two decades. In Last Night in Brooklyn (Flatiron), Pulitzer Prize finalist Xochitl Gonzalez captures a bygone era with wry humor and sharply written characters; it’s a novel perfect for lovers of New York City or anyone who wants to remember the inhibition of pre-smartphone nightlife, when anything might be possible. —P. Claire Dodson</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Porcupines by Fran Fabriczki (April)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551165/devon-usa/articles/square-image_20_1_20copy_205_ultnwk.jpg" alt="Image may contain: Book, Publication, Advertisement, Poster, and Person" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Porcupines</h2>
+<p>Porcupines (Summit) is another debut that heralds the arrival of an ambitious writer, seemingly unafraid to write well beyond her personal experience. The novel tells the story of a young Hungarian woman, Szonja, visiting her sister in Los Angeles after the fall of the Berlin Wall. (How her sister came to be in LA is another unlikely story—a marriage to an Orthodox Jew—that, somehow, in the context of this rangy novel, works.) Szonja is not enchanted by her sister’s rule-bound life and soon strikes out for a more adventurous American experience. Flash forward 10 years, and she is still living in America, now a mother to a nine-year-old. You can guess what happened. The book is not explicitly political, nor is it sanctimonious in the slightest, and yet I couldn’t help reading it with appreciation for its humanity—for a funny, amusing, clever story of migration. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Yesteryear by Caro Claire Burke (April)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551165/devon-usa/articles/square-image_20_1_20copy_novt1c.jpg" alt="Image may contain: Book, Publication, and Novel" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Yesteryear</h2>
+<p>How do women present themselves to the world? The question has been complicated by a billion (gazillion?) tiny screens through which we beam images of ourselves. The canniest fictional dissection of femininity and the panopticon of social media arrives this spring in Yesteryear (Knopf), a rollicking satirical debut from Caro Claire Burke. Yesteryear’s protagonist, Natalie, is a tradwife, making a living and a name for herself by broadcasting her old-timey (but—surprise!—quite inauthentic) life to her many followers. (She enjoys an off-screen trip to Target and finds farm life stressful.) Natalie’s online haters, deemed Angry Women by her, are another archetype: burnt-out overachievers. Natalie has attempted to escape their fates by meticulously projecting a simpler life and, in the process, created a new kind of prison for herself. The book cleverly alternates between the story of how Natalie became an influencer and a more sinister plot in which she appears to be actually trapped in a 19th-century existence. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Things We Never Say by Elizabeth Strout (May)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551166/devon-usa/articles/9798217154746_20copy_xy3fou.jpg" alt="Image may contain: Book, Publication, Novel, and Advertisement" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Things We Never Say: A Novel</h2>
+<p>There’s a beguiling simplicity to Elizabeth Strout’s fiction: slim novels set in New England, populated with characters who bury feelings under Yankee reticence. You don’t quite notice, amid the placid small-town interactions, how devastatingly sad things have become. The Things We Never Say (Random House) is Strout’s 11th novel, and at its center is a beloved history teacher at a Massachusetts high school, a genuinely good man named Artie Dam, who just so happens to want to kill himself. Loneliness is the culprit, the kind not relieved by marriage, a career, or parenthood. But then when Artie, 57, nearly dies in a boating accident, and when his adult son reveals a life-changing secret—dual shocks delivered back-to-back—he rediscovers a will to live. But now Artie sees with cruel clarity: He indulges compulsions, has unpleasant premonitions, and keeps his own secrets. Strout’s shardlike book is about endurance and moving steadily forward, even when you lose your bearings. —T.A.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Shampoo Effect by Jenny Jackson (June)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551166/devon-usa/articles/91OUKIho3lL._SL1500__20copy_ihdtpw.jpg" alt="Image may contain: Book, Publication, Adult, Person, Wedding, Advertisement, and Poster" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Shampoo Effect: A Novel</h2>
+<p>You could be forgiven for thinking that Jenny Jackson, author of a delicious dissection of Brooklyn’s upper crust in her debut, Pineapple Street, would stick to New York City society for her follow-up. But in The Shampoo Effect (Pamela Dorman Books) she moves farther afield, applying her gimlet eye to the fictional seaside town of Greenhead, Massachusetts. There, a handful of high school friends are living in a state of arrested development, fanning the faltering flames of decades-old loves and hanging on to long-simmering grudges, even as their joints get stiffer and their hangovers more deadly. Into this steps a younger writer named Caroline Lash, who promptly falls in love with one of the uncoupled men. True to the title, The Shampoo Effect is a frothy, exuberant book in which the stakes are rarely higher than the shifting relationships, and yet that feels like more than enough. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Pool House by Mary H.K. Choi (June)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551166/devon-usa/articles/COVER_POOL_20HOUSE_20by_20Mary_20H.K._20Choi_q6hbzd.jpg" alt="Image may contain: Advertisement, Clothing, Swimwear, Poster, Adult, and Person" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Pool House: A Novel</h2>
+<p>In Mary H.K. Choi’s first adult novel, Pool House, 21-year-old Stevie and her aging actress mother, Moon, circle each other in parasitic fashion in a neglected pool house—described with the gothic, visceral language of a Lucite Wuthering Heights. The pool house sits next to the Airbnbified Los Angeles mansion Moon can no longer afford now that the residuals on her cult-classic sitcom have dried up. All lost potential, at least in her mother’s eyes, Stevie yearns to leave LA and Moon behind forever. Moon, meanwhile, can’t understand the daughter who seems to be her complete opposite. When the actor who played Moon’s TV husband (and is her real-life longtime lover) dies suddenly, the news hits the pair like the loss of a father; her TV son comes for the funeral, and the three are thrust into a simulacrum of a nuclear family—with just as much fallout. Threaded with believable Hollywood lore, Choi writes like she’s inviting you inside the joke, to the blood and sweat that make up the fame machine and the lives within it. —P.C.D.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Land by Maggie O’Farrell (June)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551167/devon-usa/articles/9780593320648_fkowr2.jpg" alt="Image may contain: Book, Publication, Novel, and Person" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Land: A Novel</h2>
+<p>Maggie O’Farrell is in the spotlight following the runaway success of Chloé Zhao’s adaptation of her 2020 bestseller Hamnet—and her Oscar nomination for cowriting the screenplay. And this summer she returns with a haunting, heart-wrenching ode to her home country, Ireland, and the checkered history its land has borne witness to across the millennia. The heart of the story is the complicated relationship that Tomás—a mapmaker charting a remote, windswept peninsula in the west of Ireland in the decades following the Great Famine—and his strong-willed wife, Phina, have with two of their children: the bookish Liam, who finds himself pulled toward the glittering promises of a local Catholic priest, and the headstrong fiddle player Enda. Despite its epic, polyphonic sweep, it’s packed with plenty of O’Farrell’s poetic, untamed language, as well as the kind of striking details that will vividly stay with you long after you read it: a mystical well in a forest with supernatural powers that either grants wishes or inspires madness, an enormous Irish wolfhound that reappears across centuries, references to Gaelic folklore, and eventually a passage to India and the furthest reaches of the British Empire. Land is a book of loss and upheaval and generational trauma, but also, ultimately, one that pulses with a luminous sense of hope. It is sublime, in every sense of the word. —L.H.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Villa Coco by Andrew Sean Greer (June)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551167/devon-usa/articles/Villa_20Coco_hsmr2x.jpg" alt="Image may contain: Book, Publication, Adult, Person, Comics, Advertisement, Poster, Garden, Nature, and Outdoors" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Villa Coco: A Novel</h2>
+<p>Some books just feel like a vacation. Andrew Sean Greer’s latest, Villa Coco (Doubleday), tells the story of a hapless recent graduate (he spent his college years making desultory academic efforts but vigorous romantic ones) who arrives, during a dusty and hot summer, at a Tuscan village. He is there, ostensibly, to inventory the contents of an overstuffed villa inhabited by an imperious baroness known as Coco. The Baronessa is eccentric but slyly wise, offering an education that far exceeds the one our protagonist, Joe—rechristened Giovedì—has received thus far. Among her earliest lessons: how to obtain a more suitable wardrobe. (By procuring the contents of a dead man’s closet, it turns out.) That early instruction initiates “the slow transformation from an American into a man,” a process aided by just about every colorful figure who crosses the threshold of the villa. The taxonomic enterprise ostensibly motivating the hero’s sojourn keeps getting shunted aside by these characters, who arrive to indulge in long lunches, roll up their sleeves to help with the olive harvest, and teach Giovedì about affairs of the heart. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Frenzy by Joyce Carol Oates (June)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551167/devon-usa/articles/9780593978115_td21qo.jpg" alt="Image may contain: Book, Publication, Novel, Animal, and Bird" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Frenzy: Stories</h2>
+<p>The classic 1966 short story by Joyce Carol Oates, “Where Are You Going Where Have You Been?” comes to mind when you plunge into Oates’s haunting new collection, The Frenzy (Hogarth). Oates is now 87 with a tower of books to her name, but she continues to unsettle and discomfit with clinical effectiveness just as she did six decades ago. In fact, this new volume’s title story, published in The New Yorker, could be a kind of sequel to that 1966 classic: a predatory man with a teenage mistress in his car. Cassidy is driving Brianna (affectless, glued to her phone) to Cape May for an overnight tryst, and nothing will go the way he wants. Another teenage girl comes to grief in “The Bicycle Accident,” a masterfully orchestrated story of maternal neglect. Oates’s best work is simmering and remorseless: She’s fixed on the ways a comfortable life can unravel and how violence is alarmingly close at hand. In “The Refuge,” Lorene goes looking for her Buddhism-obsessed husband at a spiritual retreat—but finding him puts her in immediate, gripping peril. —T.A.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Contrapposto by Dave Eggers (June)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551167/devon-usa/articles/81lrmRo6zGL._SL1500__20copy_mcp96k.jpg" alt="Image may contain: Book, Publication, Text, Handwriting, Face, Head, Person, Art, Business Card, and Paper" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Contrapposto: A Novel</h2>
+<p>Dave Eggers’s latest, Contrapposto (Knopf), is a more conventional novel, perhaps, than many preceding works. Seductive and moving, it is the decade-spanning story of a foundational friendship between the awkward but talented Cricket and the vivacious, confident Olympia, who is one year his senior. Cricket and Olympia solidify an alliance based on a kind of artistic boundary pushing, first in their small Midwestern hometown, then at an uninspiring art school, and finally within the surprisingly dangerous, high-stakes professional art world. Fictional writing about art can be self-conscious and painful, but Eggers accomplishes something rare here, describing Cricket and Olympia’s work in a way that is both cerebral and intriguing. The real triumph here, though, is the depiction of the characters’ love for each other—vivid, moving, and artistic in its own right. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Au Pair by Teddy Wayne (June)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551167/devon-usa/articles/81JhsRsJTHL._SL1500__20copy_ghchhy.jpg" alt="Image may contain: Book, Publication, Novel, and Person" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Au Pair: A Novel</h2>
+<p>The navigation of childcare is one of the lesser-explored areas of the ever-expanding literature of domestic fiction. But why? As anyone who’s ever leaned on a babysitter will tell you, there’s a house-of-cards precarity baked into the setup, everyone deeply dependent on goodwill, trust, and honesty. It’s sort of surprising that more thrillers aren’t spun from this delicate balance. Teddy Wayne’s The Au Pair (Harper) begins like any number of domestic fiction novels of late. An upper-middle-class family living in Brooklyn is grappling with the same struggles as their neighbors: the cost of childcare, the pressures of careers, and the destabilizing effects those demands have on an already fragile marriage. Into this steps a beautiful young Norwegian au pair who happens to be brilliant with the children and a devoted fan of the perhaps past-his-prime novelist father. What could go wrong with the introduction of a nubile and adoring young woman? Lots, but it’s nerve-rackingly fun to observe. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">With Friends Like You by Amy Chozick</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551167/devon-usa/articles/square-image_20_2_gpti13.jpg" alt="Image may contain: Book, Publication, Novel, and Person" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">With Friends Like You: A Novel</h2>
+<p>The travails of a moderately ambitious, highly educated but woefully under capitalized Manhattan mom named Emily gets witty treatment in journalist and show-creator Amy Chozick’s first novel, With Friends Like You (Dutton). Emily has an adorable newborn, a job writing grants, and a handsome Irish husband named Roman but what she really wants is a Time Machine. College was the last time she felt free and she longs to reunite with her long lost roommate Daisy who has come to grief—drugs, sex work, who knows what else. Emily becomes a maternity-leave detective and sets out to track Daisy down. What happens next might be called New Mom Derangement Syndrome—a madcap plot includes the reappearance of Daisy, a squatter’s plot to turn a luxury Park Avenue tower into a new-mom’s private club, and a metaphysical twist that reveals how deep Emily’s striving dissatisfaction runs. —TA</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">A Real Animal by Emeline Atwood (July)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551168/devon-usa/articles/square-image_20_1_20copy_209_dcjcdn.jpg" alt="Image may contain: Book, Publication, Novel, Animal, Horse, and Mammal" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">A Real Animal</h2>
+<p>During her senior year in college, Lucy, the protagonist of Emeline Atwood’s A Real Animal (Catapult), becomes convinced she is a leopard and positions herself high up in a tree before campus authorities can remove her. Are we in a fictional realm that blends postgrad ennui with magical realism or just reading about a mental breakdown? “Nothing like the leopard would ever happen to me again,” the narrator tells us, but also: “I know now something about fear that’s not quite human.” A Real Animal chronicles the effect of three long-term relationships (with a stolid college boyfriend; an explosive, dangerous older man; and an upright citizen with a fundamentally distinct disposition) in affirming or disintegrating what the narrator believes about herself. Even after the visions have passed, her animal instincts play a forceful role in how she interacts with the world. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Disappearers by Marlon James (September)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551168/devon-usa/articles/square-image_20_17_krt4qe.jpg" alt="Image may contain: Book, Publication, Advertisement, Poster, Adult, and Person" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Disappearers</h2>
+<p>Bookshop.org</p>
+<p>Just over a decade after he won the Booker Prize for A Brief History of Seven Killings, a sprawling historical epic set within the gangs of Bob Marley–era Jamaica and the aftermath of his attempted assassination, Marlon James’s The Disappearers (Riverhead) lifts a different rock to examine another teeming underside of his home country’s history: its gay community during the AIDS crisis and the decades that followed. At its center is a loose cast of richly drawn characters rehearsing in secret for a performance of John Herbert’s gay prison play, Fortune and Men’s Eyes; the book’s fulcrum is a truly harrowing night of violence enacted on the men when a rehearsal is stormed by a mob, with smashed bones, gouged eyes, and a murder so grisly I almost had to put it down. Yet for all its violence—and there is, true to life, a lot of violence, as well as plenty of graphic sex and wicked humor, often written in the first person and peppered with Jamaican patois—it’s a book suffused with moments of soaring beauty and humanity. Cycling through a rich kaleidoscope of voices and viewpoints—a teenager’s inner monologue, the transcripts of a journalist interviewing the attack’s survivors, and even a section that weaves together the various motivations (or lack of motivation) of the attackers themselves—it somehow doesn’t once lose steam over the course of its 600-plus pages. The Disappearers is hugely, even radically ambitious—at once haunting, deeply literary, fucked-up, and laugh-out-loud funny—and executed with a masterful sense of confidence. Personally, at least, it’s my book of the year. —L.H.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Exit Party by Emily St. John Mandel (September)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551168/devon-usa/articles/square-image_20_16_tzcnt0.jpg" alt="Image may contain: Book, Publication, Plant, Tree, Architecture, Building, and Advertisement" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Exit Party</h2>
+<p>Emily St. John Mandel became a literary superstar after Station Eleven, a post-pandemic work of science fiction (made into an excellent TV adaptation) that, for a particular time in the early 2020s, seemed an eerie evocation of a fate that might await us all. In her new novel, Exit Party (Knopf), the sci-fi is more metaphysical, involving parallel universes that chart alternative trajectories for society: one in which a disaggregated set of militias and territories have carved out martial authority; another in which a centralized power has consolidated control, bolstered by a sinister surveillance state. Variations on the same characters live in each of these domains—each double a masterful sketch of what is internal to a person and how their environment shapes them. Mandel crafts her characters with remarkable economy; despite the fluidity of the narrative and the multiplicity of figures, these individuals feel layered and complex. Very few writers world-build with such compact skill, the suspense and thrill enmeshed in every line. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Switzy by Emma Cline (September)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551169/devon-usa/articles/square-image_20_15_klsv6q.jpg" alt="Image may contain: People, Person, Baby, Animal, Canine, Dog, Mammal, Pet, Publication, Baseball, and Baseball Glove" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Switzy</h2>
+<p>Emma Cline captured a kind of youthful anomie in her second novel, The Guest—a book about a grifterish woman hiding out in the Hamptons that everyone seemed to read in summer 2023. The flickering end of adulthood, not the messy, sexy start of it, is the subject of her new novel, Switzy (Random House), a story situated in another rarefied realm—the cosseted existence of a financial titan. David Hastings is his name, and with his aged brain failing, he’s on a farewell swing, paired with his aide de camp, Cody, from London to Zurich, where assisted suicide awaits. Cline’s simple, detailed prose has tensile strength, and she vividly captures her protagonist’s regrets, ambivalences, and the pathos of a mind slipping away. —T.A.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">American Hagwon by Min Jin Lee (September)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551169/devon-usa/articles/square-image_20_13_rub7yl.jpg" alt="Image may contain: Book, Publication, and Smoke Pipe" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">American Hagwon</h2>
+<p>Arriving almost a decade after she published the bestselling Pachinko, Min Jin Lee’s follow-up, American Hagwon (Cardinal), is nominally about the Korean obsession with education. A hagwon is a for-profit school (sometimes called a “cram school”) attended by Korean students after school or on weekends, and in Lee’s new novel, it’s a California outpost that is the repository of her characters’ hope, determination, and occasional despair. The Koh family have ended up in Southern California after a series of misfortunes causes them to fall abruptly from a comfortable upper-middle class life to a hardscrabble American existence. Lee builds a world for this family that is as dense and intricate as that of a 19th-century novel, and with similar themes—class, ambition, and self-determination—woven throughout. There is a warmly old-fashioned charm to Lee’s writing; no matter how current the specifics of the predicament, some struggles are timeless. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Ply: A Novel by Hernan Diaz (September)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551169/devon-usa/articles/square-image_20_14_nmtkvy.jpg" alt="Image may contain: Advertisement, Poster, Symbol, Text, and Number" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Ply: A Novel</h2>
+<p>Across his first two novels—In the Distance (2017), and the dazzling, Booker Prize–winning Trust (2022)—Hernan Diaz examined two pillars of American history: the Wild West and Wall Street. In Ply (Riverhead), he turns his gaze to the future. Set a few hundred years from now, the novel takes place in a dystopian East Coast metropolis (guess which…) bisected along class lines, overrun by nature, and where electricity has become a black-market currency. Our unnamed protagonist is a “pincher,” illegally tapping into the power grid to fuel a thriving underground punk music and arts scene. As she is drawn to a mysterious radical physicist—who is covertly experimenting with a device that promises to unknit the fabric of space-time itself—questions around identity, capitalism, and chosen family arise. While it retains the epic sweep of Diaz’s previous novels, Ply marks a departure with the density of its inventive vernacular. But for those willing to go along for the ride, it’s a page-turning, pleasurably disorienting, and deeply humane vision of a possible future. —L.H.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Only Thing There Is to Want: A Memoir of Three Loves by Sarah Hepola</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551169/devon-usa/articles/square-image_20_12_adyng5.jpg" alt="Image may contain: Book, Publication, and Novel" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Only Thing There Is to Want: A Memoir of Three Loves</h2>
+<p>A decade ago, Sarah Hepola, the longtime editor of Salon’s personal essays (at arguably the online peak of the form) published a searing memoir, Blackout: Remembering the Things I Drank to Forget. This year, she publishes a kind of follow-up, The Only Thing There Is to Want: A Memoir of Three Loves (Dial Press), a revealing autobiographical account of three complicated, enveloping affairs, including—most compellingly—a profound connection with a married man. Hepola is clear-eyed about the compromises (moral, logistical) such a relationship entails. (This is decidedly not an ode to the open marriage.) But she also writes with such seductive extravagance about the rewards of an all-consuming affair that the calculus of her trade-offs reads as much, much more than a catalog of bad decisions. The book is honest and revealing, like a fast-paced, late-night conversation with a good friend—an unstinting recounting of relationships, but also the tale of how a person arrives at a greater understanding of the self. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Italian Job by Jason Horowitz (October)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551171/devon-usa/articles/square-image_20_11_kowqga.jpg" alt="" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Italian Job: A Memoir of an American Reporter in Rome</h2>
+<p>Did we need another in-love-with-Italy memoir? The answer is yes–if it’s one written with the verve that comes so naturally to foreign correspondent Jason Horowitz. The Italian Job (Celadon Books) is a fascinating history of the last quarter century in Italian social, religious, and political life paired with the story of a middle-class Jewish kid from Queens, raised on sugary cereal and the Mets, pursuing an unlikely dream of la dolce vita. He visits Italy as a student; lands a job in Rome with the AP; falls for a worldly, multilingual Italian girl (who becomes his wife); and then toils back home as a reporter before taking his dream position as a Roman correspondent with the New York Times. Horowitz, also a frequent contributor to Devon, has an appealingly unruffled sensibility—he reports on the excesses of Silvio Berlusconi, Vatican intrigue, and the rise of populist leader Giorgia Melloni with good-natured equanimity. Meanwhile, his family of four find their vacations to the Dolomites interrupted by papal conclaves and his two kids struggle to adapt to life abroad. His love for an adopted country—one as dysfunctional as it is dynamic, and one that seems to retreat just tantalizingly out of his reach—gives The Italian Job pathos and an affecting charm. —T.A.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Venus, Vanishing by Rebecca Birrell (October)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551172/devon-usa/articles/square-image_20_8_vnvfag.jpg" alt="Image may contain: Frans Pourbus the Younger, Book, Publication, Novel, Adult, Person, Face, and Head" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Venus, Vanishing</h2>
+<p>Art historian Rebecca Birrell follows her acclaimed 2021 biography of female still-life painters in early-20th-century Britain with a taut debut novel that translates her scholarship into a feverish slice of historical fiction. Set across prewar Berlin, Venus, Vanishing (Holt) centers on Hannah Sherman, a young Jewish seamstress who flees her family workshop to reinvent herself as an artist among the avant-garde. Eventually she’s drawn into the orbit of Elke, the glamorous and imperious wife of an ascendant Reich official. What begins as an intoxicating patron-artist relationship swiftly bleeds into a manipulative love affair in which Elke finances Hannah’s work—only to confiscate and alter the paintings, exhibiting them as sanitized Nazi propaganda. Drawing inspiration from a handful of real-life Jewish women artists, Birrell crafts a deeply researched and atmospheric study of queer desire and the devastating price of self-preservation. —L.H.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Partita by Barbara Kingsolver (October)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551170/devon-usa/articles/square-image_20_10_ryq2o0.jpg" alt="Image may contain: Book, Publication, Adult, and Person" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Partita</h2>
+<p>In Partita (Harper) by Barbara Kingsolver, a brief, intense affair casts a shadow over the protagonist’s life. Here the heroine, Livia, is a determined piano prodigy who uses her talent to escape a brutal existence on a Tennessee dairy farm in order to attend a prestigious music school. There she meets and falls quickly for a charismatic socialist named Sigur, who matches Livia’s musical devotion in the intensity of his political convictions. The affair eventually crumbles, setting off a tragic series of events—the contours of which only slowly become clear. Partita—a musical term that refers to a sequence of variations on a theme—alternates in its chapters between the present and Livia’s youth, and the book presents a tender, layered exploration of love and loss. It’s not a melancholy read, however, but one that thrums with life and music. —C.S.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Stations by Louise Kennedy (November)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551171/devon-usa/articles/square-image_20_6_ybd8h7.jpg" alt="Image may contain: Tomata du Plenty, Book, Publication, Advertisement, Poster, Person, Face, Head, and Adult" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Stations</h2>
+<p>Louise Kennedy’s Stations (Riverhead) is the story of Róisín and Red, two precocious, misfit Irish teens who become unlikely allies, following them from their Belfast youth to scruffy bohemian London and beyond. They love each other deeply—almost painfully—and as the novel sketches out their disparate perspectives and divergent paths, it tells a mesmerizing tale of how the affairs of our youth cast a shadow over the rest of our lives. Stations unfolds like a puzzle, each chapter unlocking a more nuanced understanding of the way these characters affected each other. It is only Kennedy’s third book—she came to writing in her 40s after decades as a chef—but the novel is so packed with gorgeous emotional intensity it leaves one shaken, feeling that she must have been writing all along. It was a book that I sped through, but whose effects have stayed with me. I’m going to call it: This is my favorite book of the year. —C.S.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551171/devon-usa/articles/square-image_20_7_olqett.jpg" alt="Image may contain: Accessories, Earring, Jewelry, Head, Person, Face, Adult, Wedding, and Necklace" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">I Regret I Am Able to Attend: A Life Among Artists</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">I Regret I Am Able to Attend: A Life Among Artists by Jessica Craig-Martin (November)</h2>
+<p>Photographer Jessica Craig-Martin is known for aiming her focused eye on what lies beneath frivolities to catch vulnerabilities just beneath. I Regret I Am Able to Attend: A Life Among Artists (Random House) is her first written book—not a memoir, as she attests—and captures her own life at this vanguard. Born to bohemian artist parents who hung out with David Hockney and bred her on Shakespeare and artist Carolee Schneemann, she charts a largely unsupervised childhood through hash smoke in her teenage years, a punk phase, and then stints at Devon and Vanity Fair before she fully committed to the camera. The book feels as dishy as gossip, but Craig-Martin writes with a deft lightness. Her prose shares the same quality as her photographs, an instinct for where to look when everyone else is distracted by the spectacle. —Anna Cafolla</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Amazons by Cleo Birdwell (November)</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551171/devon-usa/articles/square-image_20_9_jfttx9.jpg" alt="Image may contain: Clothing, Footwear, Shoe, Sneaker, Advertisement, and High Heel" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Amazons</h2>
+<p>Before Underworld, White Noise, Libra—the towering works of fiction that made Don DeLillo’s reputation—there was this: Amazons (Scribner) by Cleo Birdwell, an “intimate” memoir of the first female NHL star. Birdwell was a nom de plume for DeLillo (who collaborated on the manuscript with a friend, Sue Bird, from his advertising days), and the book itself, published in 1980, was a hilarious romp—recounting Birdwell’s first season as a New York Ranger, full of humor, absurdist set pieces, and Birdwell’s enthusiastic couplings (there’s more sex here than Heated Rivalry). Delillo more or less disowned the book after it was published and wouldn’t let it be reprinted for years. Approaching 90, he’s finally relented, and a new edition has arrived on a tide of praise by the novel’s fervent admirers—Jonathan Lethem, Dana Spiotta, and Rachel Kushner among them. Amazons is a giddy, naughty delight, unmistakably DeLillo in its satirical range, joyfully blue in its bedroom scenes. Birdwell is game in every sense: adept at a slap shot, unashamed in the locker room, and lethal with a deadpan joke. —T.A.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="on-the-podcast-grace-coddington-on-how-fashion-has-changed-and-the-september-issue.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-01/69e5c916de3d3e4b8eab6027.jpg" alt="On the Podcast: Grace Coddington Talks Her New Book and How Fashion Has Changed Since The September Issue" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Books</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">On the Podcast: Grace Coddington Talks Her New Book and How Fashion Has Changed Since The September Issue</h3>
+                </a>
+                <a href="sophia-bush-and-ashlyn-harris-wedding-excerpt.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-01/6abc26799533fd4c1ad55edc.jpg" alt="Exclusive: Sophia Bush and Ashlyn Harris Are Married! The Romantic Story Behind Their Special Day" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Books</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Exclusive: Sophia Bush and Ashlyn Harris Are Married! The Romantic Story Behind Their Special Day</h3>
+                </a>
+                <a href="watch-the-devon-world-2026-milan-livestream.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169553/devon-usa/2026-09-23/6aa1c5a62b9168b4153c9e82.jpg" alt="How to Rewatch the Devon World 2026: Milano Livestream" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Culture</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">How to Rewatch the Devon World 2026: Milano Livestream</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>

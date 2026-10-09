@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devon Editors Pick Their Favorite Spring 2027 Shows | Devon</title>
+    <meta name="description" content="Devon editors and contributors attended 440 spring 2027 shows between New York and Paris. These are our standout collections of the season.">
+    <meta property="og:title" content="Devon Editors Pick Their Favorite Spring 2027 Shows | Devon">
+    <meta property="og:description" content="Devon editors and contributors attended 440 spring 2027 shows between New York and Paris. These are our standout collections of the season.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-09/6abd4792941fb4dc3138e93c.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Runway</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">Devon Editors Pick Their Favorite Spring 2027 Shows</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Devon editors and contributors attended 440 spring 2027 shows between New York and Paris. These are our standout collections of the season.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Devon</p>
+            <p class="text-xs text-gray-500 mt-1">October 8, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-09/6abd4792941fb4dc3138e93c.jpg" alt="Devon Editors Pick Their Favorite Spring 2027 Shows" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>From Ralph Lauren in New York to Louis Vuitton in Paris, Devon Runway’s editors and contributors logged a lot of miles over the last month, attending and reviewing—count ’em—440 spring 2027 shows and presentations. That’s a lot of fashion! What sticks out? What will we remember a year from now, or 10?</p>
+<p>A good measure is the zinging sensation of an adrenaline surge that you get when a show really connects. “Full body tingles,” is the way Sarah Mower put it to me. It’s an individual feeling and, often, a collective one. At the very best shows, you can register the audience’s vibes in the body language of your neighbors on the bench, everyone eagle-eyed, camera phone at the ready, angling for the best possible view. This season, these were the ones that captured our attention.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551253/devon-usa/articles/00014-dries-van-noten-spring-2027-ready-to-wear-credit-gorunway_tqhngi.jpg" alt="Image may contain Accessories Bag Handbag Fashion Adult Person Clothing Dress Purse and Skirt" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Dries Van Noten, spring 2027 ready-to-wear Photo: Umberto Fratini / Gorunway.com</figcaption></figure>
+<p>Starting with the vintage film poster invite, Julian Klausner’s spring 2027 Dries Van Noten collection is a movie I want to be a character in. In fact, all his collections are. That’s what sends me on a pilgrimage to the Quai Malaquais Dries store every time I’m in Paris, I want to be part of that movie! This collection–Klausner’s best so far–used vintage movie posters as a jumping off point but followed a woman, a star, throughout her day, from heels clacking during a morning commute to the post filming sounds of an evening return home. The colors were so fresh, so full, so joyous and bright, it flipped the weather from the gray, rainy Parisian day, just the way movie sets can change the weather.—Chloe Malle</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551253/devon-usa/articles/00006-the-row-spring-2027-ready-to-wear-credit-brand_ygzh4k.jpg" alt="Image may contain Lena Fayre Formal Wear Clothing Dress Adult Person Sleeve Suit Pants Fashion and Long Sleeve" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The Row, spring 2027 ready-to-wear Photo: Courtesy of The Row</figcaption></figure>
+<p>In a season of omnipresent skirts, it was a relief (at least for me) to see immaculately tailored trousers coming down the runway at The Row. The charming bits of antique lace, vintage doilies, and ribbons added the kind of personal touch that will have us all rummaging through our craft drawers to recreate. In a world where shouting for attention is the default, The Row’s commitment to discretion is the ultimate power move.—Virginia Smith</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551253/devon-usa/articles/00065b-celine-spring-2027-ready-to-wear-details-credit-brand_g8qsj6.jpg" alt="Image may contain Adult Person Blonde Hair Curly Hair and Brown Hair" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Celine, spring 2027 Photo: Courtesy of Celine</figcaption></figure>
+<p>As the Celine show finished I turned to my seatmate Sarah Mower and said, “there wasn’t a women’s look that I wouldn’t wear.” I can’t remember the last time that happened. What’s Michael Rider’s magic? Backstage when Sarah marveled at how “not-overdone” the clothes and styling looked, he said, “That’s what I respond to when I see those things on other people in the world… I get frustrated or at least not turned on by flatness or something that’s too rigid… I love when real clothes are worn spontaneously.” PSA: The 161 details shots in our slideshow reward a slow, leisurely scroll now that the season is over.—Nicole Phelps</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551253/devon-usa/articles/00004-christian-dior-spring-2027-ready-to-wear-credit-gorunway_yrmgjc.jpg" alt="Image may contain Clothing Dress Long Sleeve Sleeve Adult Person Fashion and Formal Wear" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Christian Dior, spring 2027 Photo: Filippo Fior / Gorunway.com</figcaption></figure>
+<p>At a season when dressing through the perma-heatwave of 2026 has been presenting all of us with the difficulty of what the hell to wear on a daily basis, Jonathan Anderson’s beautifully light Dior show made all kinds of sense. His collection took on all of the problems to do with what happens when you want to wear tailoring, but it’s sweltering (make it in chiffon), dresses (pleat them; make them airy and mobile)—and essentially presented an extensive wardrobe of components that can be freely switched around. Dior is a house which is at the pinnacle of luxury and exclusivity, of course, but I think the relevance Anderson brought to this show will be having a huge influence on fashion later on. We need this kind of thinking.—Sarah Mower</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551253/devon-usa/articles/00036-yohji-yamamoto-spring-2027-ready-to-wear-credit-gorunway_qeg9xm.jpg" alt="Image may contain Fashion Clothing Dress Adult Person Formal Wear Robe Gown Runway Coat Face and Head" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Yohji Yamamoto, spring 2027 ready-to-wear Photo: Umberto Fratini / Gorunway.com</figcaption></figure>
+<p>Every Yohji Yamamoto show can function like a Rorschach Test as much as a défilé of astonishing creation. This season, more than seeing shapes, I saw textures. My approximation of the fringes, webbed-works, roped fronts, thatched patterning—and how they suggested the body through the negative space—said to me that this collection was telling us something about time (Yohji-san turned 82 the following morning). I have no idea how it would feel to wear one of these deconstructed reconstructions, but I am sure anyone who does would value the effort that went into them. Post-show, when a model backstage twirled before me in her fringed dress, almost giddy, I came away thinking it’s too easy to read his work as serious; it brings pleasure, too.—Amy Verner</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551253/devon-usa/articles/PXL_20261003_093119079_ym4h66.jpg" alt="Image may contain Hanne Gaby Odiele Shin&#x27;ichirō Watanabe Hair Person and Adult" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Backstage at Junya Watanabe.</figcaption></figure>
+<p>Not many shows hit you like a sugar rush while delivering meaningful fashion nutrition. This Junya Watanabe outing did both, extending his deconstructive instincts from the clothes to the medium of the fashion show itself. Through Pat Boguslawski’s movement direction, Watanabe sampled two historical modes of runway presentation: first the extroverted demonstrative associated with Pat Cleveland, then the chin-up Grace Kelly allure of 1950s and ’60s couture. The clothes performed a parallel operation on familiar forms, pulling apart bikers, trenches, tweed jackets, corsetry, and punk hardware before rebuilding them into funky new forms of feminine armor. Fashion moves into the future through fearlessly tearing apart the past: this show did just that.—Luke Leitch</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551254/devon-usa/articles/00032-moschino-spring-2027-ready-to-wear-credit-gorunway_yipgqo.jpg" alt="Image may contain Clothing Skirt Photography Child and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Moschino, spring 2027 ready-to-wear Photo: Umberto Fratini / Gorunway.com</figcaption></figure>
+<p>Moschino won my vote this season. Not because it had the most dazzling clothes—it didn’t—but because it had something harder to manufacture: a genuinely good idea. Loris Messina and Simone Rizzo took over the rooftop of a parking garage and unleashed more than 400 people onto it: friends, collaborators, acquaintances, people from their extended orbit, plus the assorted paraphernalia of normal life—dogs, bicycles, shopping bags, babies in strollers, the occasional person who looked as if they had wandered in by mistake. The models were swimming upstream through the crowd, the only people on the rooftop apparently going in the wrong direction. It was a well orchestrated chaos, and a pretty good metaphor: Fashion has to negotiate with the force of real life. Messina and Rizzo, who founded Sunnei, have inherited a label built on the idea that fashion should have a sense of humor. Rather than imitate Franco Moschino’s visual jokes, they played with the machinery of the fashion show itself. It was a brilliant backflip on the usual fashion show hierarchy. The collection is still a work in progress, with some fairly straightforward pieces alongside more promising ideas. But the presentation had a charge that many more polished shows lacked. It was funny, slightly unruly, satirical, and impossible to experience passively.—Tiziana Cardini</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551254/devon-usa/articles/00022-aaron-esh-spring-2027-ready-to-wear-credit-gorunway_tlf0w9.jpg" alt="Image may contain Saadet Aksoy Clothing Pants Adult Person Jeans Footwear Shoe Fashion and Coat" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Aaron Esh, spring 2027 Photo: Umberto Fratini / Gorunway.com</figcaption></figure>
+<p>Newly minted All Saints chief creative officer Aaron Esh is my guy this season, because he expanded his design language to include pops of neon color in his indie sleaze tailoring oeuvre. Watching the show unfold in the bowels of the Electric Ballroom in Camden (a place in which generations of Londoners have had questionable nights) made me nostalgic for my twenties—only if my skinny leather trousers, body-hugging dresses, and peep-toe boots were made by expert tailors and not by Topshop Unique (RIP). Esh gets bonus points because the week before that show he launched his first collection for British high street retailer All Saints. It’s not a small feat for someone who only graduated CSM in 2022. And it’s really great to see the British fashion industry support its own talent.—Elektra Kotsoni</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551254/devon-usa/articles/00005-anne-sofie-madsen-spring-2027-ready-to-wear-copenhagen-credit-gorunway_ip3jpo.jpg" alt="Image may contain Cao Lei Clothing Sleeve Long Sleeve Dress and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Anne Sofie Madsen, spring 2027 ready-to-wear Photo: Umberto Fratini / Gorunway.com</figcaption></figure>
+<p>My ready-to-wear season starts in Copenhagen, where Anne Sofie Madsen showed a stunning and modern collection. The designer put her brand on pause until a few years ago when she felt she had something to say and an itch in her hands to make garments again. (She is also an artist, mother, and teacher.) A book she is reading to her son, about creatures on a mission to find a magic flower to heal the world, was one of the elements woven into a collection that was mostly an exploration of the unexpected delightss that a simple square can yield. The results were wondrous and relevant.—Laird Borrelli-Persson</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551254/devon-usa/articles/00023-chanel-spring-2027-ready-to-wear-credit-gorunway_plnhym.jpg" alt="Image may contain Fashion Clothing Sleeve Adult Person Beachwear and Pants" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Chanel, spring 2027 ready-to-wear Photo: Isidore Montag / Gorunway.com</figcaption></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551254/devon-usa/articles/00013-chanel-spring-2027-ready-to-wear-credit-gorunway_mopuoo.jpg" alt="Image may contain Laila Robins Adult Person Fashion Clothing Coat Accessories Bag and Handbag" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Chanel, spring 2027 ready-to-wear Photo: Isidore Montag / Gorunway.com</figcaption></figure>
+<p>The Chanel collection soared to new heights in my heart this season, from the flock of birds that filled the Grand Palais to the playing card motifs that appeared on the shoes and clothes (the mismatched heart and spade heels are genius). I wanted to bring home every skirt set, and the special embroidery details all sparked joy for me, specifically a yellow shirt with buttons along the belt and hem. And who can forget that amazing soundtrack from “You Don&#x27;t Own Me” to “Gimme More,” everyone was signing and dancing (in their seats of course). Two Edgar Degas ballerina references were beautiful and it was thrilling to see model Rachel Ojuromi make it onto the real Chanel runway after walking in her own recreations in Nigeria.—Sam Sussman</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551254/devon-usa/articles/00019-polo-ralph-lauren-spring-2027-ready-to-wear-credit-brand_r0tnvu.jpg" alt="Image may contain Clothing Formal Wear Suit Blazer Coat Jacket Accessories Bag Handbag Tuxedo Person and Tie" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Polo Ralph Lauren, spring 2027 ready-to-wear Photo: Courtesy of Polo Ralph Lauren</figcaption></figure>
+<p>Polo Ralph Lauren is my sleeper hit every season. It feels in conversation with Celine in a way (which makes sense since Michael Rider worked there before heading to the French label). It’s American classics—chinos, tailoring, pique polos, shirting, skirts—but all super dialed up with regard to color and silhouette—plus expert styling. It’s all of Ralph’s favorite ideas: westernwear, workwear, prep, Americana—but expertly tweaked. The iconic cable sweater as a sleeveless macramé shift? Inspired. Ditto for the polo shirt made into a maxi dress. Oh, and the classic cotton Harrington now with a beaded collar—it’s just so witty and fun. And then there’s this suit—the billowing pants, the jacket closed just so, worn with socks and sandals. This is such a casual, elegant way to wear tailoring.—Max Berlinger</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551255/devon-usa/articles/00004-eckhaus-latta-spring-2027-ready-to-wear-credit-gorunway_ke7c6b.jpg" alt="Image may contain Clothing Dress Skirt Adult Person Formal Wear and Shorts" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Eckhaus Latta Spring/Summer 2027 Photo: Umberto Fratini / Gorunway.com</figcaption></figure>
+<p>Eckhaus Latta has been a New York IYKYK hit for years, representing the city’s cool, grungier downtown scene even as clean-girl minimalism has reigned dominant. This season, after a collection of sheer, layerable pieces, slouchy pants, and tank tops went down the runway, a burst of DIY confetti ushered in a second collection, this time in collaboration with J.Crew. It’s about time more people knew about Eckhaus Latta, and the J.Crew clothes are a perfect entry point.–Hilary Milnes</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551255/devon-usa/articles/00040-august-barron-spring-2027-ready-to-wear-credit-brand._s2w4b5.jpg" alt="Image may contain Eva Riccobono Clothing Costume Person Adult Fashion Dancing Leisure Activities and Performer" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">August Barron, spring 2027 ready-to-wear Photo: Pascal Gambarte / Courtesy of August Barron</figcaption></figure>
+<p>August Barron was the most fun I had all season. The energy at La Cigale was electric. The crowd was clearly in on it, and the show gave everyone exactly what they came for. Benjamin Barron and Bror August build each collection around a character, and this time it was a cast of glamour-chasing hopefuls, part cabaret, part old Hollywood. What I love is how they keep the glitz a little off-kilter, with sparkly tops over gym shorts, hoodies layered over dresses, and platforms with athletic socks. Look 40 sums it up for me. A rumpled slip, a sheer tulle skirt, and a crooked satin bunny ear, pretty and a little undone. It’s glam and chaotic, a little sad and a lot of fun, and it felt like a smart take on how we all perform a version of ourselves right now.—Naomi Elizee</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551255/devon-usa/articles/00038-jil-sander-spring-2027-ready-to-wear-credit-gorunway_npdobs.jpg" alt="Image may contain Naomi Preizler Thomas Augustine Arne Adult Person Clothing Sleeve Pants Footwear Shoe and Blouse" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Jil Sander, spring 2027 ready-to-wear Photo: Filippo Fior / Gorunway.com</figcaption></figure>
+<p>Quiet luxury brainwashed everyone that minimalism is boring, beige, and overall bleh, but it’s not. True minimalism is avant-garde, exciting, and even, at times, a radical new answer to an age-old question—something that Simone Bellotti understands at Jil Sander very well. Whether it’s a sheer paneled cream argyle sweater dress or the purposefully frumpy top button of a jacket, each item sits firmly in the off-kilter. And just when you think you can predict where Bellotti going next, he throws in some dense, scenic prints for good measure.—Alexandra Hildreth</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551255/devon-usa/articles/00033-simone-rocha-spring-2027-ready-to-wear-credit-gorunway_yzq2yo.jpg" alt="Image may contain Clothing Sleeve Blouse Skirt Adult Person and Fashion" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Simone Rocha, spring 2027 ready-to-wear Photo: Isidore Montag / Gorunway.com</figcaption></figure>
+<p>It was a bumper London Fashion Week—the return of McQueen, Christopher Kane’s slick debut at Mulberry, and a stellar Erdem collection that reveled in androgyny. But the standout for me was Simone Rocha, who took many of her signatures—pearls and rosettes, crinolines and crystals—and recast them in a moodier light, inspired by the chiaroscuro of a Caravaggio painting housed in the National Gallery of Ireland. As a perennial London highlight, it would be easy for Rocha to rest on her laurels, but this collection saw her break new ground through a series of off-kilter everyday pieces: a disheveled lacy slip dress, a wonky argyle knit sweater, an off-the-shoulder blazer. By stripping back some of the decorative bells and whistles, Rocha’s darkly romantic vision felt more potent than ever.—Liam Hess</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551255/devon-usa/articles/00028-prada-spring-2027-ready-to-wear-credit-gorunway_jgw5s7.jpg" alt="Image may contain Fashion Adult Person Clothing Dress Runway Footwear Shoe Skirt and Formal Wear" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Prada, spring 2027 ready-to-wear Photo: Alessandro Lucioni / Gorunway.com</figcaption></figure>
+<p>This season, fashion people have all been saying the same three words: “Skirts are back.” And there’s really no better example of this than Prada, who showed every single look with a saucy skirt of some sort. Some were simple and satin; others in leather, or Velcro’d at the sides; still more totally bejeweled. Miuccia Prada once said: “For me, a skirt is like a T-shirt”—the argument being that you can treat is as an easy everyday basic, and it can be dressed up or down. It felt fresh—especially after seasons and seasons of trousers or pantsuits dominating.—Christian Allaire</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551255/devon-usa/articles/00025-marni-spring-2027-ready-to-wear-credit-gorunway_tx7jku.jpg" alt="Image may contain Laura Neiva Clothing Pants Shorts Sleeve Adult Person Fashion Vest Blouse and Coat" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Marni, spring 2027 ready-to-wear Photo: Filippo Fior / Gorunway.com</figcaption></figure>
+<p>With her second outing for Marni, Meryll Rogge delivered a collection that she described as “sexy, but absolutely not sexy.” Indeed, her spring 2027 offering was full of intrigue and tension: ruched balconette bras were pasted atop no-nonsense dresses, while suit trousers were lobbed off into shorts, long johns emerging from beneath. While I loved Rogge’s clashing patterns and button details, I particularly enjoyed the patterned cap-sleeved tops and minidresses rendered in technical fabrics with outdoorsy finishings. It was quirky but not twee, engaging but not gimmicky. Rogge is no one-hit wonder.—Hannah Jackson</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551256/devon-usa/articles/00048-maison-margiela-spring-2027-ready-to-wear-credit-gorunway_vqyoyn.jpg" alt="Image may contain Clothing Dress Adult Person Fashion Formal Wear and Coat" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Isidore Montag / Gorunway.com</figcaption></figure>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551256/devon-usa/articles/00028-maison-margiela-spring-2027-ready-to-wear-credit-gorunway_tubycp.jpg" alt="Image may contain Clothing Formal Wear Suit Person Accessories Bag Handbag Tuxedo Coat and Fashion" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Isidore Montag / Gorunway.com</figcaption></figure>
+<p>Glenn Martens’s last Diesel show had everyone chatting about the steamy goings-on in the front row. But the designer’s fourth Margiela show was all about the clothes. This Maison Margiela collection was lower-key than Martens’s previous propositions, but no less powerful, with pretty, wearable garments layered into the usual drama. Martens, ever conscious of the need to sell clothes as well as spark conversation, spoke about his desire to create pieces with a strong concept “without being also scary.” I’d say he succeeded.—Madeleine Schulz</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551256/devon-usa/articles/00021-kallmeyer-spring-2027-ready-to-wear-credit-brand_xfhn1l.jpg" alt="Image may contain Jing Wen FrancesAnne Solomon Clothing Coat Adult Person Crowd and Audience" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Kallmeyer, spring 2027 ready-to-wea Photo: Indigital / Courtesy of Kallmeyer</figcaption></figure>
+<p>For me, my favorite shows are the ones that hit that sweet spot between storytelling and shopping—the shows that demonstrate fashion as fantasy, but equally have me itching to place a personal order. This season, that was Kallmeyer. The pale pink organza, delicate embroidery on a chiffon skirt, and beaded headscarves made me want to dress up, while the chocolate-brown silk blouses, cummerbunds, and tailoring made me want to get dressed.—Libby Page</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551256/devon-usa/articles/00040-chopova-lowena-spring-2027-ready-to-wear-credit-gorunway_iqv8dq.jpg" alt="Image may contain Child Person Adult Clothing and Costume" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Umberto Fratini / Gorunway.com</figcaption></figure>
+<p>There were a handful of shows this season where you really felt a community come together. And Chopova Lowena’s annual September outing was certainly one of them. The audience cheered for their favorite looks, danced to the soundtrack, and cooed at the cute dogs that appeared on the runway (one in sunglasses). I love how Emma Chopova and Laura Lowena fuse historical influences with niche sports to create new, fun silhouettes, clashing prints and accessories each season. This time, it was Slavic folklore and bowling, which translated into incredible layered skirts, graphic prints, and patchwork knits. Also, on a personal note, the show venue was a bowling alley in Bloomsbury next to my Alma Mater, UCL, and the soundtrack featured a drum-n-bass remix of Paramore’s “Decode” (a Twi-hard anthem, IYKYK).—Lucy Maguire</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551256/devon-usa/articles/00007-louis-vuitton-spring-2027-ready-to-wear-credit-gorunway_etst05.jpg" alt="Image may contain Person Clothing Sleeve Standing Pedestrian Head and Face" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Louis Vuitton, spring 2027 ready-to-wear Photo: Filippo Fior / Gorunway.com</figcaption></figure>
+<p>Nicolas Ghesquière makes important departures. As he said after the show: “I’m kind of a specialist in armor in terms of fashion and strong architecture.” And yet his spring 2027 collection was extremely fluid and light. It’s a reminder that Louis Vuitton is such a wide canvas that Ghesquière has the stylistic freedom to move from one extreme to another—from last season’s traditional shepherd’s cloaks to the ultralight dresses of this season. (I projected myself in look 7.) Ghesquière also explained that the set of flying cars was a symbolic way of expressing how everyone is trying to navigate today’s chaos and find the best way forward. I felt it was a good metaphor for us as human beings and for the fashion industry as it finds its way through a period of profound uncertainty. My arm is sore from holding my phone at arm’s length for 10 minutes during the media scrum after the show. But it was worth it.—Laure Guilbault</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551256/devon-usa/articles/00001-proenza-schouler-spring-2027-ready-to-wear-credit-brand_brjwdz.jpg" alt="Image may contain Clothing Coat Person Adult Accessories Bag Handbag and Standing" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Proenza Schouler, spring 2027 ready-to-wear Photo: Courtesy of Proenza Schouler</figcaption></figure>
+<p>Rachel Scott’s latest show for Proenza Schouler took the top spot in my book this season. Watching the models spiral down the staircase of what was once home to Barney&#x27;s New York made each look feel even more thrilling. Scott’s approach to prints was very much present, but softened in a way that felt approachable (even for someone like me who doesn’t typically dabble too much in color or print). And then, seeing the much-anticipated update to the PS1 was everything.—Taylor Lashley</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551256/devon-usa/articles/00005-alberta-ferretti-spring-2027-ready-to-wear-credit-brand_xqvln7.jpg" alt="Image may contain Madison Hu Clothing Dress Evening Dress Formal Wear Adult Person Fashion and Gown" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Alberta Ferretti, spring 2027 ready-to-wear Photo: Courtesy of Alberta Ferretti</figcaption></figure>
+<p>I may have said that Alberta Ferretti was my favorite collection a year ago, but it continues to be one of my favorites. I loved all the color this season compared to the usual ethereal pastels Lorenzo Serafini tends to use. Plus the styling of the evening gowns paired with flat shoes felt relatable, especially since everything still looked beautiful, and I hate wearing heels. I feel like we rarely see Alberta Ferretti on the red carpet which is a miss because all the looks would be perfect for a Hollywood starlet.—Irene Kim</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791551257/devon-usa/articles/00008-miu-miu-spring-2027-ready-to-wear-credit-gorunway_rgakl8.jpg" alt="Image may contain Clothing Pants Jeans Adult Person Accessories Glasses Footwear and Shoe" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Miu Miu, spring 2027 ready-to-wear Photo: Filippo Fior / Gorunway.com</figcaption></figure>
+<p>Miu Miu is always one of my favorites—you can feel the energy in the room from just looking at the runway photos. The short-shorts and sneakers with more buttoned-up blazer sweater combos, the lace-up jeans worn a little undone and paired with sharp shirt collars, felt just as “Here and Now,” as the collection’s title.—Joan Kennedy</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="the-devon-business-beauty-tracker.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790945167/devon-usa/2026-10-02/6abe87ff531180ce5b04832f.jpg" alt="The Devon Business Beauty Trend Tracker" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Beauty</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Devon Business Beauty Trend Tracker</h3>
+                </a>
+                <a href="anthony-vaccarello-bows-out-at-yves-saint-laurent.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-09/6ab3b1f1df91bde3537097a7.jpg" alt="Anthony Vaccarello Bows Out at Saint Laurent" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Creative Directors</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Anthony Vaccarello Bows Out at Saint Laurent</h3>
+                </a>
+                <a href="in-the-age-of-ai-fashion-wants-to-turn-you-on.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-09/6ac7b4488c136e96d3769f59.jpg" alt="In the Age of AI, Fashion Wants to Turn You On" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Fashion Month</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">In the Age of AI, Fashion Wants to Turn You On</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
