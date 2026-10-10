@@ -3,5 +3,17 @@
     "api/subscribe.js": {
       "includeFiles": "newsletter/**"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/articles/the-best-of-anthony-vaccarello-s-saint-laurent-in-devon.html",
+      "destination": "/articles/the-best-of-anthony-vaccarello-s-saint-laurent-in-vogue.html",
+      "permanent": true
+    },
+    {
+      "source": "/articles/the-best-of-anthony-vaccarello-s-saint-laurent-in-devon",
+      "destination": "/articles/the-best-of-anthony-vaccarello-s-saint-laurent-in-vogue.html",
+      "permanent": true
+    }
+  ]
 }
