@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From the Archives: Lee Krasner, American Great | Devon</title>
+    <meta name="description" content="“American Great: Lee Krasner,” by Barbara Rose, was originally published in the June 1972 issue of Devon.">
+    <meta property="og:title" content="From the Archives: Lee Krasner, American Great | Devon">
+    <meta property="og:description" content="“American Great: Lee Krasner,” by Barbara Rose, was originally published in the June 1972 issue of Devon.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-11/6ac65ae913f80b7657e93a80.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Magazine</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">From the Archives: Lee Krasner, American Great</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">“American Great: Lee Krasner,” by Barbara Rose, was originally published in the June 1972 issue of Devon.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Barbara Rose</p>
+            <p class="text-xs text-gray-500 mt-1">October 11, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-11/6ac65ae913f80b7657e93a80.jpg" alt="From the Archives: Lee Krasner, American Great" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>“American Great: Lee Krasner,” by Barbara Rose, was originally published in the June 1972 issue of Devon.</p>
+<p>At the center of the artistic upheaval that made New York the art capital of the world in the late nineteen-forties and early ’fifties were Jackson Pollock and his wife, Lee Krasner, an intense, forceful woman with steady gray-blue eyes reflecting her carefully tended independence. Their painting style—Abstract Expressionism—with its revolutionary use of physical gesture, bold images, and rich painterly surfaces made a wide sweep of the then prevailing European Cubist esthetic. What Paris had been to American writing in the ’twenties, New York suddenly became to American painting in the ’forties and ’fifties. But, unlike Zelda Fitzgerald and the wives of many other American men in the art-and-literary world between the World Wars, Lee Krasner was her own woman, an artist.</p>
+<p>Although much curiosity, much speculation surround the formidable personality of Lee Pollock, the widow of the great American painter, very little is known about Lee Krasner, the artist who fought the same battles, exhibited in the same galleries, and painted side by side with her famous, now legendary, husband. For me, as well as many other critics, Lee Krasner is one of the significant painters of the twentieth century—an artist whose importance is only now beginning to be seen.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791722942/devon-usa/articles/3244106_fvh2vc.jpg" alt="Image may contain Jackson Pollock Door Child Person Adult Firearm Weapon Face Head Wood Gun and Rifle" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Jackson Pollock and Lee Krasner in Springs, 1953. Photo: Getty Images</figcaption></figure>
+<p>When I asked Lee Krasner why she was not one of the “Irascible Eighteen,” the now famous group of New York School artists who signed a petition in the ’forties—precipitating one of the most notable controversies ever stirred up about American painting—a petition protesting the virtual absence of American art in The Metropolitan Museum of Art in New York, she answered, “I wasn’t asked to sign. Barney Newman [the organizer of the protest, Barnett Newman, the outstanding American painter who died in 1970] called, and when I answered the phone, he asked for Jackson. He didn’t even bother to inform me of the protest.”</p>
+<p>And so it went, until recently—when Lee Krasner the painter began to replace Mrs. Jackson Pollock as a public personality.</p>
+<p>The Pollocks and their marriage were, and are, their own untold story. Despite his image as the macho he-man, Pollock treated Lee Krasner as an equal, a serious professional artist whose work he admired. In her home, Lee Krasner was at least as much painter and comrade-in-art as wife. It turns out that, in fact, Pollock was the only major American artist of the great ’forties to marry another avant-garde artist of his generation.</p>
+<p>And Pollock, alone among the patriarchal Abstract Expressionists, investigated the myths of female creativity, painting feminine archetypes (like “The She-Wolf” and “Pasiphaë”), totems, and symbols to balance the masculine principle. While his contemporaries, for the most part, turned to Freud for inspiration, Pollock preferred Jungian subject matter, subject matter that gave equal if not greater emphasis to earth goddesses and the primal creativity of the feminine.</p>
+<p>Pollock was not afraid of strong women and Lee Krasner was one of the most courageous, outspoken, and tenacious women any man might have chosen. In many respects, her education was better than Pollock’s. A New Yorker who had studied at Cooper Union and the National Academy School of Fine Arts, she had discovered modern art as a young painter during the ’thirties, while Pollock was still painting the American Scene in the manner of his teacher, Thomas Hart Benton, the Missouri painter who tried to make an epic subject of the prairies and fields of rural America but ended with provincial versions of the old masters. Indeed, many have credited Lee Krasner with deflecting Pollock’s attention from Benton and focusing it on the great modern masters. She is reticent on the subject. “When I first met Pollock, we disagreed on many things,” she admits. “But as struck as I was by the revelation his paintings were to me, still I couldn’t believe he was discussing Benton that seriously. I can’t say if I affected Pollock’s views at all. I know that Pollock affected me enormously; I dare say I must have had some effect on him.”</p>
+<p>As I spoke with Lee Krasner, I became increasingly aware of the enormous inner strength it must have taken to have lived her life as an abstract painter, given the obstacles she had to overcome to continue to paint and to paint what she wanted. At first, she had joined the small number of American modernists who fought against academicism and the buckeye illustration of American Scene painting. Surviving the Depression, she battled to find a style that went beyond the limits of European Cubism, a freer, more spontaneously emotional style that eventually became known as Abstract Expressionism. Whatever the odds against her—whether it was the antagonism of her fellow artists whose wives worked to support them, or the indifference of museums, or later the tragedy of her husband’s death and the endless litigation over the estate—Lee Krasner kept on painting. Depressed, sleepless, sometimes ill—she continued working. Recently, she has entered a new phase of prolific activity. Her studio is slowly filling up with canvases of pure radiant color contrasted with big open areas of bright white. A floral image seems to dominate; but in many works, with their swirling circular motifs, the sense of a physical rhythm and powerful energy link these works with her earliest paintings.</p>
+<p>“I have just given all the Pollock material to Eugene Thaw and Virginia Allen, who are preparing the definitive catalogue raisonné,” she said with an obvious sense of relief. “Now I can once again concentrate on being Lee Krasner the painter.” Lee Krasner’s life touches every moment of the formation and evolution of postwar American painting—youth in Bohemian Greenwich Village; classes with Hans Hofmann, who brought modern-art theories from Europe to New York; work as one of the few women in the art section of the W.P.A. (the government-supported Depression work project); marriage to Pollock; and, finally, success as a painter on her own.</p>
+<p>Today, Lee Krasner lives during the summer in the Long Island house she shared with Pollock in Springs in East Hampton, New York. During the winter, she paints in a studio in her large, light-filled apartment on Manhattan’s Upper East Side. It was there in her living room, surrounded by the plants, shells, rocks, and unusual art-nouveau pieces that have much in common with the circling organic forms of her paintings, that I spoke with her about her forty-year career as a woman artist and her experiences, bitter and sweet, as the wife of the man often considered America’s greatest painter.</p>
+<p>Rose: Was it hard to be a woman artist in the ’thirties, forties, and ’fifties?</p>
+<p>Krasner: I never got any very positive responses to my work. When I met Hans Hofmann, he said, “Zis is so good you would not know it was done by a woman”—meaning the highest compliment he could pay me. That was always there, maybe it will be for a long time. It’s as old as Judeo-Christianity. In Western thought—not Eastern—the God image is a male concept and there isn’t much room for the female. Those are facts not to be denied. I had an awareness of this way back, somewhere when I was studying at Cooper Union. But it didn’t hit me too hard until the recent women’s movement. Now, there is an attempt to get a number of women on the scene. For me, it comes a little late.</p>
+<p>Q: Yet you have described Pollock’s attitude toward your work as very supportive. That he was willing to make provisions for your being an artist must have been important.</p>
+<p>A: I don’t know how I would have felt if he’d said, “I don’t want you to paint,” or acted it out in any way. The issue, of course, never arose; but it’s inconceivable to me that I would have stopped painting if my husband hadn’t approved. Since Pollock was a turbulent man, living with him was never very calm. But the question—should I paint, shouldn’t I paint—never arose. I didn’t hide my paintings in a closet; they hung on the wall next to his. Since his death, of course, being “Mrs. Jackson Pollock” has become something of a burden—an art-world burden, that is. It was never that while Pollock was alive.</p>
+<p>Q: I was amazed to hear you say Pollock would wash the dishes if necessary. That image goes so much against the stereotype of Pollock, the two-fisted all-American cowboy, invented by male critics and journalists.</p>
+<p>A: Jackson always did the baking. If he wanted apple pie, he baked it. I didn’t know how to bake. I usually cooked—but he cooked, too. He also did other necessary household chores. Perhaps if we’d had more money, we would have hired people to do things. But we didn’t, so we had to do everything ourselves, and we shared the work.</p>
+<p>Q: Is it strange to have witnessed The Triumph of American Painting (Irving Sandler’s title for his book on the New York School), to have lived through the desperation and struggle, and finally to have seen victory and the fruits of victory?</p>
+<p>A: I feel what has happened is quite fantastic. How did it quickly cycle into a scene so foreign… what happened? In the ’fifties, there was still vitality and warmth in the art world—it was alive and meaningful. In the ’sixties, I don’t know what happened. It wasn’t that long ago that Arshile Gorky didn’t have a gallery, de Kooning didn’t have a gallery. Who had galleries? Now overnight, young artists have whole museums. A mushroom can’t blow up that fast!</p>
+<p>Q: You were among the very first Americans to understand the greatness of Picasso, Matisse, and Mondrian while your contemporaries were still painting the American Scene. But you seem to have had a realization of what was mainstream, of what counted, long before others…</p>
+<p>A: Not before Gorky!</p>
+<p>Q: How did you feel about the kind of art the Whitney Museum showed in the ’forties?</p>
+<p>A: I felt it was pretty depressing. By definition, it is the American Whitney. And I can’t be an American anything. Art is art no matter where it is. When it’s happening in Paris, you acknowledge that. The last argument I had on this subject was with Mr. Clement Greenberg about the phrase “American-type painting.” It offends me. The minute you send up a slogan, you can put anything in the bag and the slogan carries it. That’s boring and provincial in thought and concept, and the antithesis of what I mean by art.</p>
+<p>Q: Do you feel the same about the new feminist movement? Perhaps the attempt to isolate “feminine” subject matter is as foolish as isolating “American-type” painting.</p>
+<p>A: I don’t know what’s meant by “feminine” subject matter, any more than I understand what’s meant by “masculine” subject matter. I’m sympathetic to the women’s movement, but I could never support anything called “American” art.</p>
+<p>Q: Aside from Mondrian, Picasso, and Matisse, who were you most affected by?</p>
+<p>A: Pollock, of course. After meeting Pollock, I gave up the model and still life. I began with a blank canvas and nothing in front of me. Trying to break up the Cubist grid, I started covering the canvas with paint until there was a pile-up of gray matter. This didn’t change until I began the Little Image paintings after we had finished cleaning up the house in Springs in 1946. In Pollock, I felt a force that once more moved me as strongly as the impact of Matisse or Picasso.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791722942/devon-usa/articles/56898384_ivet24.jpg" alt="Image may contain Jackson Pollock Silvina Ocampo Adult Person Art Painting Photography Clothing Jeans and Pants" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">In Pollock’s Springs studio with a guest, 1953. Photo: Getty Images</figcaption></figure>
+<p>Q: When did you and Pollock move to Long Island?</p>
+<p>A: In November, 1945. We had visited in East Hampton with some friends the previous summer. It was very beautiful, and we had heard that rents were cheap during the winter. I said, “Why don’t we rent the place on Eighth Street”—we were living then in a top floor that had a studio on either end and an apartment in between—“and take some canvas and books and try it out in the country for a winter?” Jackson’s response was, “Have you gone nuts? Leave New York?” I decided I must have gone nuts. I didn’t know where the thought came from. He was probably right, it was crazy to leave the city. But Jackson had a delayed reaction. Two or three weeks later, he said, “We’re going out there and [buying] a house and we are going to give up New York.” Then my reaction was that he had flipped his lid. Buy a house on what? We had forty dollars between us. Finally we did buy the house I’m still in now. The barn was originally directly behidn the house. We moved it so it wouldn’t block off the view of the marshes, and it became Pollock’s studio.</p>
+<p>Q: And where did you paint?</p>
+<p>A: We arrived in Springs during a northeaster—what an entrance! The house was stuffed with the belongings of people who had lived there. It was a rough scene. The barn was packed solid with cast-iron farm tools. So it was a matter of cleaning everything out before either of us could work. In the meantime, Jackson took one of the bedrooms to try to paint in. When we finally moved the barn and cleaned it out, Jackson began painting there and I worked in the bedroom. We were so busy for about two years tearing off wallpaper and burning up the contents of the house that we didn’t have time to do much else. I began making the mosaic table you like because I couldn’t work.</p>
+<p>Q: Did you look at each other’s work and offer criticism?</p>
+<p>A: Only by polite invitation to each other’s studios. I always responded to his invitation. Sometimes I had to invite him three times to come to mine, but he eventually did come. I always admired what I saw in his studio; I never said, “Change that corner” or “clip that edge.” The last time he came to my studio was just before I left for Europe in 1956. (It was my first trip to Europe.) I had just finished a painting called “Prophecy.” He said, “Fine. Leave it alone. Except for this,” and he pointed to one spot where I had scratched with the back of the brush in wet paint a form like an eye. He advised me to take it out. I thought it was all right and I left it in.</p>
+<p>Today, many more American women are choosing Lee Krasner’s lifestyle and her commitments; but to pioneer took a special kind of courage. As her paintings are visionary statements providing mysterious insights into the inner life of an artist, so, too, is Lee Krasner a visionary and a revolutionary personality as a woman.</p>
+<p>In 1965, the first breakthrough of recognition for her work came in a retrospective show organized by Bryan Robertson at London’s Whitechapel Gallery, one of the most influential public galleries in Europe, an exhibition that was widely praised in the English press. It remains, however, for America to acknowledge that Lee Krasner’s works share the same esthetic, the same content, the same history and are of the same quality as those of her male colleagues, the “first generation” New York painters.</p>
+<p>Perhaps, because these painters called themselves “heroic,” and because we as a people are slower to honor our heroines than our heroes, this recognition has been unnecessarily delayed. But, throughout our history, we have had brave, self-reliant American women who struck out on unknown paths. Lee Krasner is one of them.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="where-to-stay-in-the-pacific-northwest.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-11/6ac5137d635119edc5dd9124.jpg" alt="Where to Stay in the Pacific Northwest for a Coastal Fall Getaway" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Travel</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Where to Stay in the Pacific Northwest for a Coastal Fall Getaway</h3>
+                </a>
+                <a href="our-legacy-ceo-talks-betting-on-china-and-its-biggest-store-yet.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-11/6ac8ddc4cec3b7f4e8ad6e75.jpg" alt="Our Legacy CEO Talks Betting on China and Its Biggest Store Yet" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Global Markets</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Our Legacy CEO Talks Betting on China and Its Biggest Store Yet</h3>
+                </a>
+                <a href="jacqueline-de-ribes-south-of-france-holiday-home.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169724/devon-usa/2026-09-23/6a954865f03c2cac5ba860d2.jpg" alt="Inside the French Riviera Holiday Home of the Late Fashion Icon Jacqueline de Ribes" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Homes</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Inside the French Riviera Holiday Home of the Late Fashion Icon Jacqueline de Ribes</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
