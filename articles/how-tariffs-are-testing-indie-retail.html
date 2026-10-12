@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Tariffs Are Testing Indie Retail | Devon</title>
+    <meta name="description" content="Data suggests independent retailers can adapt to tariff shifts faster than larger chains, but duties, shipping terms, supplier trust and thin margins limit that agility.">
+    <meta property="og:title" content="How Tariffs Are Testing Indie Retail | Devon">
+    <meta property="og:description" content="Data suggests independent retailers can adapt to tariff shifts faster than larger chains, but duties, shipping terms, supplier trust and thin margins limit that agility.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810453/devon-usa/2026-10-12/6ac90d0ef6290573609091c2.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Retail</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">How Tariffs Are Testing Indie Retail</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Data suggests independent retailers can adapt to tariff shifts faster than larger chains, but duties, shipping terms, supplier trust and thin margins limit that agility.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Jessica Binns</p>
+            <p class="text-xs text-gray-500 mt-1">October 12, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810453/devon-usa/2026-10-12/6ac90d0ef6290573609091c2.jpg" alt="How Tariffs Are Testing Indie Retail" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>A $1,700 duties bill was enough to change how Tara Stover thinks about imported fashion.</p>
+<p>In January, before she opened her Shoppe Cozette boutique in suburban Detroit’s affluent suburb of Birmingham this summer, Stover received a shipment from Danish label Skall Studio — along with sticker shock from the unexpectedly steep UPS bill. Though the Scandi brand was selling at a brisk pace to her online customers, Stover knew the economics weren’t going to work for the long term if every reorder was saddled with that kind of extra cost. When she voiced her concerns, the brand ultimately covered the duties on that shipment and moved to delivered-duty-paid terms, meaning the tariff burden would be handled by the brand before the product arrived at her door.</p>
+<p>That kind of negotiation is now part of the gauntlet independent retailers face when buying for their boutiques. Eighteen months of trade chaos and tariff whiplash have added another variable to the already delicate calculation of what to carry, how much to order, which vendors to back and when to walk away. With no clear end to the volatility, independent retailers are having to build it into their buying strategies, prioritizing flexible orders, transparent shipping terms, and suppliers willing to share the risk.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">A faster read on tariff shifts</h2>
+<p>New data from Faire, the wholesale marketplace for independent retailers and brands, suggests smaller retailers can react to tariff changes faster than large chains because many are buying closer to need. Faire says it now has tens of thousands of brands, hundreds of thousands of retailers, and billions of dollars in volume flowing through the platform, giving it a valuable view into wholesale behavior that doesn’t always show up in import data or earnings calls.</p>
+<p>Independent retailers often begin changing behavior when tariffs are announced, before they formally take effect, says Jeff Kolovson, Faire’s co-founder and chief operating officer. Some products can arrive in one to two weeks, with average lead times measured in weeks rather than months. That flexibility allows boutiques to manage inventory and cash flow on a more rolling basis than large retailers tied to notoriously long seasonal calendars. Independent retailers typically place smaller orders, have fewer approval layers, and can adjust assortments closer to delivery than large national chains.</p>
+<p>“Our customers are smaller and they move a lot faster than a big-box retailer that has a six-month supply chain locked up,” says Kolovson.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810546/devon-usa/articles/-story-inline_20_55_qia6nj.jpg" alt="Image may contain Electronics Phone Computer Laptop Pc Mobile Phone Adult Person Face and Head" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Faire’s wholesale marketplace helps independent retailers discover and source brands. The company’s data has documented shifts in buying behaviour in response to tariff volatility. Photo: Courtesy of Faire</figcaption></figure>
+<p>Not every tariff announcement or enforcement lands with equal weight. Kolovson says flat tariffs — those that are levied at the same rate across several markets — pressure margins and pricing, but do not always prompt a visible shift in buying patterns, because they do not change the relative economics of one sourcing lane versus another. Tariffs that vary by origin country are already changing where retailers spend. If products from one market become more expensive to import, a boutique might trim that order and redirect its budget toward domestic goods or products made in a lower-tariff country.</p>
+<p>In Canada, Faire’s data shows that domestic buying had been rising since 2019, as more Canadian brands joined the platform, but accelerated after recent cross-border friction. Canadian independent retailers shifted most dramatically after the US implemented a 50% tariff on $27.6 billion of Canadian goods effective August 22, with Canadian brands’ share of spend rising 19 percentage points in the 30 days after August 25, according to Faire. New domestic relationships among fashion brands and retailers that formed after the announcement showed a 20% higher reorder rate within 30 days — suggesting these strengthened in-country ties have staying power.</p>
+<p>US fashion shows a different kind of dynamic playing out. Faire says every imported fashion sub-category it examined across apparel, accessories and beauty lost US retailers in the wake of last year’s “Liberation Day” tariffs. Gross merchandise value for women’s apparel still ticked up, because the retailers that continued to buy ordered more frequently and at higher price points. Premium fabrications including European linen and Italian leather grew both orders and retailer count, according to Faire, suggesting demand is consolidating around imported products with enough differentiation to maintain a top spot in the purchasing pecking order.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810546/devon-usa/articles/-story-inline_20copy_202_20_34_dphy9o.jpg" alt="Image may contain Number Symbol and Text" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Boutiques and small retail chains use Faire to discover a unique assortment of lifestyle brands. Photo: Courtesy of Faire</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">When imports are still worth it</h2>
+<p>Stover’s boutique closely mirrors these trends. The majority of Shoppe Cozette’s inventory is women’s clothing, with a smaller lifestyle curation of non-toxic beauty, jewelry and handbags. Roughly 90% of sales are made in-store, with Instagram and repeat customers driving much of the business.</p>
+<p>Sourcing heavily from US brands gives Stover the practical advantages of faster delivery, easier reorders, fewer shipping headaches, smaller minimums and simpler communication. Still, some of her strongest brands are European. Leoní, a Swedish designer line for which Shoppe Cozette is the sole US stockist, according to Stover, was recently her top-selling brand. If tariffs on imports from the EU rose sharply, Stover says she would have to weigh the pros and cons of carrying some labels from the bloc, but Leoní’s quality and differentiation make it hard to part with.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810546/devon-usa/articles/-story-inline_20copy_20_52_ptr8hm.jpg" alt="Image may contain Accessories Bag Handbag Furniture Indoors Tote Bag Dressing Room Room Closet and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Shop Cozette</figcaption></figure>
+<p>That aligns with what Kolovson has observed across Faire. “The brands that have been the most insulated from tariffs are brands that have a real followership and affinity and distinctiveness,” he says.</p>
+<p>For a boutique, tariff exposure can become a brand-by-brand decision. If a shipment arrives delivered duty paid (DDP), Stover can evaluate the line on product, margin and sell-through, but a surprise duty bill landing after the fact quickly changes the calculation.</p>
+<p>Faire is part of that system, though not her whole buying strategy. Stover uses the platform for some product discovery and filler categories, including cards, matches, wrapping paper, hair products, lotions and soaps. That is how she discovered My Neighbor’s, the New York-based skincare brand whose products she has now reordered several times since July with expanded assortments.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Domestic brands, global costs</h2>
+<p>Though My Neighbor’s manufactures its beef tallow soaps, hand washes and other products in-house, which gives the brand more control over speed and margin, it’s still exposed to the whims of global supply chains. Founder Harri Magaldi buys jars from China and asks suppliers for the fully landed price, including duties and shipping, because that is the only number that matters. US packaging alternatives, she says, were about three times the price, and some were reselling the same Chinese jars.</p>
+<p>The freight math can be maddening. Magaldi says 10,000 body wash containers cost about $12,000, while shipping them costs about $13,000. “I never ask suppliers to send us the price without shipping and duties,” she says. “I don’t even want to know.”</p>
+<p>Growth has helped offset some pressure, because larger order quantities improve pricing but scaling brings new commitments. My Neighbor’s is preparing to enter Whole Foods, Natural Grocer and Wegmans, exploring Target, raising capital and buying an 8,000-square-foot facility to increase and automate production.</p>
+<p>For smaller brands, the room is thinner. Kiyamel, a Delaware-based skincare brand founded by Jocelyne Firmin, is primarily direct-to-consumer (DTC), with some wholesale through Faire and small partnerships with independent pharmacies. Kirmin launched the brand in 2021 after her daughter developed eczema as an infant, and says the business has served close to 50,000 customers.</p>
+<p>Kiyamel sources most ingredients through a US supplier in Ohio, though some inputs originate from international markets. The price for mango butter, a key ingredient in its body butters, has jumped from $362 for 55 pounds three years ago to nearly $500 today, she says. Packaging sourced from China has also become more expensive.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810546/devon-usa/articles/-story-inline_20copy_203_20_23_stemzv.jpg" alt="Image may contain Clothing Sleeve Cup and Disposable Cup" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Kiyamel</figcaption></figure>
+<p>Supplier switching carries its own risk, even when it seems the most tempting way to quickly tame rising costs. Firmin says Kiyamel once changed suppliers, which altered the formula and alienated customers. She has kept the current supplier despite the 38% price increase, because consistency matters, even as she absorbs a roughly 20% decline in profit margin; if that reaches 25% or 30%, however, Kirmin would have little choice but to raise prices.</p>
+<p>For Kiyamel, tariff uncertainty fed into a larger cost reckoning. She had already closed the brand’s bricks-and-mortar store after reviewing the business with her small business adviser in Delaware. “The very first decision that I made prior to even facing the tariff was to close down my bricks-and-mortar,” Kiyamel says. “The talk about tariffs was circulating, but we didn’t know if it was going to come into effect. My adviser told me to not renew my store lease, which at that time I was not happy about because I was in my feelings. But now looking back, I’m so glad that I closed down.”</p>
+<p>Staying e-commerce, she says, became one way to reduce fixed costs before the full impact of tariff pressure was clear.</p>
+<p>That recalibration captures the strain beneath Faire’s data. Independent retailers can move quickly when tariff economics shift. Domestic brands can benefit from the search for speed, proximity and certainty, provided they can handle the working capital demands that come with larger or faster-moving orders. The businesses feeding that system still run on supplier trust, cash flow and limited margin for error. Tariffs can redirect spend in weeks; they can also reveal how little slack many small brands and retailers have left.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="pencil-skirt-and-pointed-shoe-outfits.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810457/devon-usa/2026-10-12/6ac921951e49ac96c31ef05e.jpg" alt="The Shoe and Skirt Combination Sweeping the Street-Style Scene This Month" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Fashion</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Shoe and Skirt Combination Sweeping the Street-Style Scene This Month</h3>
+                </a>
+                <a href="best-airbnbs-in-new-england.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810460/devon-usa/2026-10-12/6a32d7e79eff9211d07f8825.jpg" alt="For an Idyllic Fall Getaway, Book One of New England’s Coziest Airbnbs" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Shopping</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">For an Idyllic Fall Getaway, Book One of New England’s Coziest Airbnbs</h3>
+                </a>
+                <a href="jacqueline-de-ribes-south-of-france-holiday-home.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169724/devon-usa/2026-09-23/6a954865f03c2cac5ba860d2.jpg" alt="Inside the French Riviera Holiday Home of the Late Fashion Icon Jacqueline de Ribes" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Homes</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Inside the French Riviera Holiday Home of the Late Fashion Icon Jacqueline de Ribes</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>

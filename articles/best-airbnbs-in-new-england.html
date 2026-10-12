@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For an Idyllic Fall Getaway, Book One of New England’s Coziest Airbnbs | Devon</title>
+    <meta name="description" content="Planning a trip to the Northeast this season? Stay in one of the best Airbnbs in New England—our list of favorites covers every state (and style).">
+    <meta property="og:title" content="For an Idyllic Fall Getaway, Book One of New England’s Coziest Airbnbs | Devon">
+    <meta property="og:description" content="Planning a trip to the Northeast this season? Stay in one of the best Airbnbs in New England—our list of favorites covers every state (and style).">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810460/devon-usa/2026-10-12/6a32d7e79eff9211d07f8825.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Shopping</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">For an Idyllic Fall Getaway, Book One of New England’s Coziest Airbnbs</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Planning a trip to the Northeast this season? Stay in one of the best Airbnbs in New England—our list of favorites covers every state (and style).</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Elly Leavitt, Angela Tafoya</p>
+            <p class="text-xs text-gray-500 mt-1">October 12, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810460/devon-usa/2026-10-12/6a32d7e79eff9211d07f8825.jpg" alt="For an Idyllic Fall Getaway, Book One of New England’s Coziest Airbnbs" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>New England is one of those regions packed with charming small towns that shines all year long. In the fall, trade farmstand foraging for apple-picking; meanwhile, mountain hiking trails and coastal shorelines offer a full itinerary for the active traveler in every season. If all you want is your very own quaint cottage, the area has that too—and if you want to experience it firsthand, the best Airbnbs in New England should be your starting point.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Devon’s Favorite Airbnbs in New England:</h2>
+<ul class="list-disc pl-6 space-y-2"><li>For a Sweet Cottage: Cottage Litchfield Hills , from $325 per night</li><li>For Alpine-Inspired Style: The Berghüttli , from $280 per night</li><li>For a Secluded Farm Stay: Peaceful Studio Farmstay , from $227 per night</li><li>For Lots of Design Inspiration: Historic Schoolhouse , from $368 per night</li><li>For Classic Coastal Charm: Martha’s Vineyard Oceanview Retreat , from $651 per night</li><li>For a Rustic Cabin: 1794 Vermont Home , from $301 per night</li><li>For a Family Retreat: Sargent Woods Cottage , from $590 per night</li></ul>
+<p>New England encompasses Maine, Massachusetts (including the coastal enclaves of Cape Cod and Nantucket), Vermont, Connecticut, New Hampshire, and Rhode Island; and within each state, you’ll find a lot of vacation rental variety. You can book an airy Swiss-inspired treehouse in one part of the region, only to find an 18th-century cozy cabin a few hours away.</p>
+<p>Wherever your Northeast travels take you, get a head start by booking one of these Airbnbs.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Cottage Litchfield Hills</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810556/devon-usa/articles/3c51f96d-11a2-4349-a4f5-ce36df7be4e4_mzoww6.jpg" alt="Image may contain Indoors Interior Design Appliance Device Electrical Device Refrigerator Chair Furniture and Table" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>This Connecticut cottage lands somewhere between Practical Magic and The Holiday in the best way. The sun-washed interiors are peppered with antique artwork and furnishings, with a bright (and fully updated) lemon yellow kitchen anchoring the space.</p>
+<p>It sits on five wooded acres with a wide stone porch out front and a wood-burning fireplace inside for cold nights. The house is right on the border of Washington and Bantam, so in terms of exploring, you have plenty of choices. Hike the trails at White Memorial Conservation Center along Bantam Lake, grab a cone at Arethusa Farm Dairy, or climb to the Steep Rock overlook in Washington.</p>
+<p>Location: Morris, Connecticut</p>
+<p>Rooms: 2 bedrooms, 2 bathrooms</p>
+<p>Amenities: Indoor fireplace, AC, WiFi, central heating, circle drive with parking</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Moss House</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810556/devon-usa/articles/07043b86-ee09-4193-852d-cd27b309cc83_heste2.jpg" alt="Image may contain Indoors Interior Design Furniture Sideboard and Kitchen" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>As the name suggests, you’ll be surrounded by greenery at this property. The cabin sits among tall pines above the Sheepscot River, with pine floors, poured concrete, lime plaster, and handmade tile that nod to both Nordic and Japanese design sensibilities. Speaking of, the interiors are restrained, save for a few pops of green—most notably, a hand-painted landscape on the celery-colored kitchen cabinet. But don’t spend your whole weekend cooped up: Down the path, there’s a private shoreline where you can take out provided kayaks for a spin, and a dock made for morning coffee or a good glass of wine.</p>
+<p>Location: Georgetown, Maine</p>
+<p>Rooms: 2 bedrooms, 1 bathroom</p>
+<p>Amenities: Private dock, 4 kayaks, wood stove, outdoor fire pit, waterside Adirondack chairs, hammocks, heat pump and AC, radiant bathroom floors, washer/dryer, WiFi</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Fox Den</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810556/devon-usa/articles/bd59506d-ce1e-4454-b082-fbba486f2e3d_s713l4.jpg" alt="Image may contain Indoors Interior Design Wood Floor Home Decor Hardwood Cushion Clothing Hat Art and Painting" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>The Fox Den is a sweet little cabin made for doing very little. It sits on seven private acres in the woods of southern New Hampshire, overlooking a pond. The home is thoughtfully decorated, leaning nostalgic with a screened porch for reading in the afternoon and a deck facing the water for gazing out. Here’s one quirk for the adventurous traveler: Technically, the bathroom is an outhouse, but it’s definitely the cutest one you&#x27;ll ever see. (And for those looking to truly disconnect, an outdoor shower under shady maples is pure relaxation.)</p>
+<p>Whether you chose to paddle the pond or end the night around the fire pit beneath a sky full of stars, this is the kind of spot that encourages unplugging, and guarantees a return home in revived spirits.</p>
+<p>Location: Deering, New Hampshire</p>
+<p>Rooms: 1 bedroom, 1 bathroom</p>
+<p>Amenities: Screened porch, deck, outdoor shower, fire pit, canoe/kayak</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Wellfleet Cottage By the Sea</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810556/devon-usa/articles/ef815f2d-ca2c-4e38-9aed-c0f6281fd5e8_fc261q.jpg" alt="Image may contain Architecture Building Cottage House Housing Chair Furniture and Door" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>The Cape Cod cottage starts with a sweet butter yellow exterior—matching striped umbrella and all—and only gets more picturesque. It’s ideally sized for a couple, with cozy, wood-paneled interiors and a small kitchen for those evenings where you want to stay in. It opens up directly to the beach, with sandy stairs leading down to the shore; grab the provided beach chairs and head down with your coffee each morning.</p>
+<p>Location: Wellfleet, Massachusetts</p>
+<p>Amenities: Outdoor shower, pet-friendly, beach essentials</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">This Maine House</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810556/devon-usa/articles/9b0207b2-0284-4dc9-a920-d0ac2d9aa11f_tabyfz.jpg" alt="Image may contain Home Decor Rug Furniture Table Indoors Interior Design Dining Table Floor Lamp and Architecture" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>A quick 30-minute drive to Acadia National Park, this light and airy home will feel like the reset you need after an adventurous day on the trails. It’s well-sized for larger groups (you can fit up to six people) with plenty of room across the living spaces and three bedrooms. The design leans more elegant than traditional coastal—think, vintage Persian rugs and terracotta urns, paper pendant lights, and iron-frame outdoor furniture. You’ll leave with a filled photo album.</p>
+<p>Location: Tremont, Maine</p>
+<p>Rooms: 3 bedrooms, 2.5 bathrooms</p>
+<p>Amenities: Bathtub, washer/dryer, AC, free parking, grill</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Farmstead Cabin</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810556/devon-usa/articles/bf025f53-b450-4cee-be40-9cda49cf42f6_bukxfo.jpg" alt="Image may contain Wood Hardwood Stained Wood Indoors Interior Design Architecture Building House Housing and Loft" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>Tucked into the foothills of the Berkshires, this cabin sets you up for a slow-paced vacation. Spend your days hiking, your nights stargazing by the fire pit, and fill the in-between with quiet moments in the beautifully decorated home (make sure to pack a deck of cards). From the sink skirt in the kitchen to the slipcovered sofas in the living area to the covered front porch, the decor makes it easy to cosplay the country mouse.</p>
+<p>Location: Chester, Massachusetts</p>
+<p>Amenities: High chair, fireplace, patio, fire pit, grill, free parking</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Berghüttli</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810557/devon-usa/articles/cec814b7-6689-426a-85e5-af9d14cb_y3wpwn.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>Inspired by Swiss mountain chalets, this cozy spot offers near-panoramic views of the surrounding forest so you’ll feel like you’re staying in your own little tree house. A small but well-appointed kitchen has you covered for long weekend stays, and there’s an outdoor dining area so you can eat al fresco as long as the temperatures allow.</p>
+<p>Location: Goshen, Vermont</p>
+<p>Amenities: Bluetooth sound system, travel crib, indoor fireplace, coffee maker, fire pit, hammock, outdoor dining, EV charger</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Good Morning A-Frame</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810557/devon-usa/articles/1393bb2b-83e2-4d45-91e8-f502f47c_pqu2ik.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>Ultra-high ceilings and a wood-burning stove set against a polished, fully renovated interior will make you feel like you’re staying in the most elevated cabin ever. This A-frame is situated amongst campgrounds and hiking trails, offering adventurous travelers lots to do during their stay in New Hampshire (it’s close enough to the Vermont border for day trips across state lines, too). Families will love the full kitchen, which has everything you need to whip up meals at home after a day outdoors.</p>
+<p>Location: Littleton, New Hampshire</p>
+<p>Rooms: 3 bedrooms, 2 bathrooms</p>
+<p>Amenities: Bathtub, washer, dryer, record player, arcade games, board games, indoor fireplace, coffee maker, fire pit, outdoor dining</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Peaceful Studio Farmstay</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810557/devon-usa/articles/1ba0cacc-c0f1-4bff-b3dc-03ae4cec_20_1_sncldl.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>For a couple (or solo traveler) looking for a tranquil New England stay, this little spot is perfect. It’s actually the re-purposed garage of a 1740s-era farmhouse, with clear attention paid to every detail: checkerboard bar stools, ruffled pendant lighting, and reclaimed wood doors all make for sweet touches. And though it may be peaceful, you’re far from alone: The property is also home to chickens, geese, ducks, and cows. Feeding (and photo evidence of your stint as a farmer) encouraged.</p>
+<p>Location: Eliot, Maine</p>
+<p>Amenities: Bathtub, coffee maker, housekeeping available for a fee</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Saltbox by the Sea</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810557/devon-usa/articles/d3f4dc28-4aab-4294-911f-e8979757_i0arrl.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>Slipcovered furniture, jute rugs, wood paneling—this Rhode Island home right in Newport is coastal style at its finest. It sleeps up to six, and has a dedicated office space to accommodate remote workers looking to book a longer stay. The home itself is a colonial house built in 1760, and you can still see tell-tale signs of its original character; wide-plank floor boards and rustic ceilings add to its cozy appeal.</p>
+<p>Location: Portsmouth, Rhode Island</p>
+<p>Rooms: 3 bedrooms, 1.5 bathrooms</p>
+<p>Amenities: Bathtub, outdoor shower, washer, dryer, TV, board games, indoor fireplace, coffee maker, fire pit, outdoor dining, pets allowed</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Historic Schoolhouse</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810557/devon-usa/articles/4eaeaaa2-8930-4e59-aecc-4bac85eb_y1ah3p.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>Hidden inside a restored schoolhouse from around 1866 is a surprisingly bright, charming, and effortlessly bohemian space that’s brimming with design ideas to steal. (Think, layered rugs, a vintage world map used as a headboard, and heated brick floors—all housed, for the most part, in one big room.) Shapleigh Pond offers waterfront views, and in the peak seasons, kayaks, canoes, and paddle boards are all available for renters looking to take advantage of this rental’s proximity to the lake.</p>
+<p>Location: Shapleigh, Maine</p>
+<p>Amenities: Washer, dryer, TV, record player, crib/travel crib/changing table available upon request, high chair, board games, indoor fireplace, coffee maker, fire pit, outdoor dining, hammock, kayaks, sun loungers, shared outdoor pool, private hot tub, pets allowed</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Cozy Log Cabin</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810557/devon-usa/articles/baf8c5c6-ec66-49a7-8804-fb8a286b_jumvwa.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>This quaint log cabin is postcard New England, complete with mountain views and, of course, the requisite fire pit. It’s conveniently located near several ski resorts, breweries, and antique shops, with a screened-in porch for soaking in the sprawling vistas. It’s also great for the traveler in search of going off the grid. The home is fairly remote, and as there’s no television, unplugging is encouraged.</p>
+<p>Location: West Paris, Maine</p>
+<p>Amenities: Bathtub, washer, dryer, record player, Bluetooth sound system, travel crib, board games, indoor fireplace, coffee maker, fire pit, outdoor dining, hot tub, pet-friendly</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Martha’s Vineyard Oceanview Retreat</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810558/devon-usa/articles/1dcfd7f3-3240-4977-8b0f-79471622_kcsslb.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>In terms of coastal charm, there’s no beating this Martha’s Vineyard spot. It’s perched on a bluff that overlooks the Menemsha Harbor and the Vineyard Sound, and as a guest, you’ll have access to residents-only beaches that are all within walking distance. The nautical style is your chance to lean into East Coast prep; between the shiplap kitchen to the wicker- and raffia-accented furniture, it’s a Nancy Meyers moodboard come to life.</p>
+<p>Location: Aquinnah, Massachusetts</p>
+<p>Amenities: Washer, dryer, TV, board games, coffee maker, beach access, balcony, outdoor dining, BBQ grill, beach essentials, housekeeping available</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Sargent Woods Cottage</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810558/devon-usa/articles/d2a70d53-4596-496c-97c8-2406e7d7_zvyxri.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>Right on the edges of Acadia National Park, this 100-year-old cottage is a great family stay. The second bedroom has two sets of bunk beds and the Adirondack chair-lined fire pit is a prime spot for late-night ghost stories. Inside, an open-concept kitchen, living, and dining area will make you excited to stay in (the Airbnb even comes with an assortment of board games).</p>
+<p>Location: Mount Desert, Maine</p>
+<p>Amenities: Bathtub, washer, dryer, travel crib, board games, indoor fireplace, coffee maker, fire pit, BBQ grill</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">1794 Vermont Home</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810558/devon-usa/articles/47ddb0a8-e712-4bce-a995-1c6e303b_jhz2vv.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of Airbnb</figcaption></figure>
+<p>Original wood beam ceilings run throughout this 18th-century home for a healthy dose of rustic charm. A short drive from hiking trails and ski resorts alike, it’s a great option for a group looking for a home base for outdoorsy adventures (the house can sleep four). Spend brisk evenings around the backyard fire pit or inside, playing cards at the kitchen table.</p>
+<p>Location: Springfield, Vermont</p>
+<p>Rooms: 2 bedrooms, 1.5 bathrooms</p>
+<p>Amenities: Washer, dryer, TV, coffee maker, fire pit, outdoor furniture, BBQ grill</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Private Cape Cottage</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791810558/devon-usa/articles/1d42ddbd-ad9c-4ad8-846e-031f0b4d_rsloy6.jpg" alt="The 16 Best Airbnbs in New England Include Cozy Cabins Coastal Retreats" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of Airbnb</figcaption></figure>
+<p>Heading to Cape Cod? This well-appointed two-bedroom cottage has everything you need for a beach trip. Walk or bike to nearby salt marshes, beaches, and oyster grounds before heading home to unwind from your day of exploring in the outdoor tub or shower (yes, the house has both). The original space dates back to 1963, and while it retains some of that old-school charm, it has been updated to include all the modern conveniences—including a state-of-the-art chef’s kitchen.</p>
+<p>Amenities: Bathtub, outdoor shower, outdoor bathtub, washer, dryer, TV, vintage sound system, indoor fireplace, coffee maker, hammock, fire pit, outdoor dining, BBQ grill, beach essentials</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="jacqueline-de-ribes-south-of-france-holiday-home.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169724/devon-usa/2026-09-23/6a954865f03c2cac5ba860d2.jpg" alt="Inside the French Riviera Holiday Home of the Late Fashion Icon Jacqueline de Ribes" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Homes</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Inside the French Riviera Holiday Home of the Late Fashion Icon Jacqueline de Ribes</h3>
+                </a>
+                <a href="how-to-shop-the-farmers-market-like-a-new-york-city-chef.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169724/devon-usa/2026-09-23/6a8c7a919e5a0da938b856ce.jpg" alt="How to Shop the Farmers Market Like a New York City Chef" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Food</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">How to Shop the Farmers Market Like a New York City Chef</h3>
+                </a>
+                <a href="low-abv-cocktails-for-summer.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1790169725/devon-usa/2026-09-23/6a7c8fb79eed2dc33fb8b295.jpg" alt="Everyone’s On the Low-ABV Bandwagon This Summer" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Food</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Everyone’s On the Low-ABV Bandwagon This Summer</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
