@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is AI Face the New Instagram Face? | Devon</title>
+    <meta name="description" content="Just as fashion is using AI to mock up creative concepts, patients are using it to mock up their faces before cosmetic surgery. But when the brief is your own appearance, the gap between AI-generated vision and reality comes with much higher stakes.">
+    <meta property="og:title" content="Is AI Face the New Instagram Face? | Devon">
+    <meta property="og:description" content="Just as fashion is using AI to mock up creative concepts, patients are using it to mock up their faces before cosmetic surgery. But when the brief is your own appearance, the gap between AI-generated vision and reality comes with much higher stakes.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-13/6acd0744745f952feea50fff.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Technology</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">Is AI Face the New Instagram Face?</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Just as fashion is using AI to mock up creative concepts, patients are using it to mock up their faces before cosmetic surgery. But when the brief is your own appearance, the gap between AI-generated vision and reality comes with much higher stakes.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Amy O’Brien</p>
+            <p class="text-xs text-gray-500 mt-1">October 13, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-13/6acd0744745f952feea50fff.jpg" alt="Is AI Face the New Instagram Face?" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>After years spent chasing the hyper-filtered features of our favorite influencers, AI is shifting our gaze back from others’ faces to impossibly perfected, artificial versions of our own.</p>
+<p>“I think we are witnessing the possible evolution of the ‘Instagram Face’ into what we might call the ‘AI Face’,” explains Anil Joshi, cosmetic surgeon and president of the British Society of Facial Plastic Surgeons, who says his patients are now bringing AI-rendered images of themselves “very regularly” into consultations to show their desired look. These AI-generated mock-ups are now so readily available through the chatbots we’ve embedded into our day-to-day lives that surgeons say they’re replacing celebrity images and heavily filtered selfies as the blueprint for a “perfect” face.</p>
+<p>On the day we speak, a patient of Joshi’s had just arrived with an AI-generated image of their nose that bore no resemblance to what they’d discussed in earlier rhinoplasty consultations — a scenario that brings new challenges for aesthetic doctors, who must manage expectations and keep patients safe.</p>
+<p>“It took a very long consultation to address some of the requests,” Joshi says. “An AI-generated face must be understood as a creative interpretation, not an anatomically accurate prediction. My concern is that technology may encourage people to confuse digital possibility with what surgery can realistically achieve.”</p>
+<p>As AI image generators become higher res and more convincing by the day, the line between digital fantasy and surgical possibility is becoming increasingly blurred. Improvements in AI’s “multimodality” — for instance, its ability to process image, audio and video inputs as well as text — has spawned a cottage industry of dedicated facial analysis tools offering AI-powered scans that score users’ appearances, pinpoint perceived imperfections, and recommend changes to ‘optimize’ their looks against supposedly objective, ‘science-backed’ beauty ideals.</p>
+<p>Among them are LooksMax AI and Umax, each downloaded more than 10 million times on Google Play alone. Another is Qoves, a facial analysis firm that offers what founder and CTO Shafee Hassan calls “educational videos” dissecting celebrity features against supposedly scientific beauty standards and posted to its three million social media followers.</p>
+<h3 class="text-xl md:text-2xl font-semibold text-black pt-2">Instagram content</h3>
+<p>For $150 a year, Qoves offers personalized facial assessments, claiming to combine proprietary AI models with human analysis to score customers against what it calls “research-based aesthetic benchmarks” spanning more than 160 facial markers, from facial symmetry to skin quality. Customers then receive a personalized “improvement protocol” — a step-by-step plan recommending changes to their appearance, alongside AI-generated images visualizing the potential results. It’s a popular service: Qoves now serves 80,000 clients between the ages of 20 and late 50s, who can pay $180 for an upgrade to receive surgical recommendations, too.</p>
+<p>This growing appetite for the digitally optimized self comes amid surging demand for cosmetic surgery. In the US, cosmetic surgical procedures rose 7% last year, according to the American Society of Plastic Surgeons. All the surgeons Devon Business spoke to say they’ve experienced a significant uptick in demand since Covid, a trend they link to a life lived increasingly online.</p>
+<p>“We’ve gone from the mirror generation, who used to look at themselves maybe three or four times a day when brushing their teeth or taking the lift, to the selfie generation, who stare at themselves constantly on-screen, take pictures and are so much more critical because they constantly see what the ‘ideal’ is,” says Dr. Brian J. F. Wong, a professor of otolaryngology and biomedical engineering at the University of California, Irvine. “Now, that ideal is being driven by what the large language models [LLMs] get by scraping the internet.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Unrealistic expectations</h2>
+<p>In his research comparing AI-generated attractiveness scores with human judgements, Dr. Wong has found that the two closely align — perhaps unsurprisingly, given that AI models are trained on vast datasets that reflect existing human perceptions and biases around beauty. But while AI may be reinforcing rather than redefining conventional beauty standards, the ease with which it allows us to create idealized versions of ourselves risks distorting expectations of what can realistically be achieved. “It’s amplifying the insecurities that we all to some degree feel,” Dr. Wong says. “You just can’t make someone look completely different and like what Dr. AI can create, and it’s distressing seeing younger patients that are so heavily influenced by what they see online, as well as what they can create using the very sophisticated software that now lives on their phones.”</p>
+<p>The challenge now facing aesthetic doctors is twofold: patients are arriving with digitally perfected versions of their own faces that appear more photorealistic and attainable than traditional celebrity reference photos, yet may depict changes that are anatomically impossible to achieve through surgery. Where traditional Instagram filters usually modify an existing photograph, generative AI can reconstruct facial features without respecting the biological limitations of the original face.</p>
+<p>“AI is effortless and much more convincing,” says Dr. Anisha Kumar, a New York-based facial plastic surgeon and assistant professor at Stony Brook University, whose work examines how AI facial analysis tools can shape beauty standards and expectations of cosmetic surgery.</p>
+<p>Among the limitations patients may not appreciate, Dr. Kumar says that AI-generated simulations cannot account for individual anatomy — from skin thickness and cartilage strength to bone structure — or how tissue will scar and heal post-surgery. Nor can a static, often front-facing, image capture how a face looks from different angles or in motion.</p>
+<p>Experts say it’s on each doctor to understand treatment limits, and communicate the difference between reality and what the AI may visualize. “I have to spend a lot of time with patients telling them that the difference of a millimeter, for example, on the nose is profound,” says Dr. Wong. “It’s very hard to do with the precision that pushing a button on your phone will render with AI, and there are risk and reward curves.”</p>
+<p>At the same time, a client bringing an AI-generated image to a consultation should not be dismissed, Joshi says. “It can be an excellent starting point for a meaningful conversation. My first question would be: What exactly is it about this image that you like?” he says. Likewise, when Joshi uses AI simulations in his practice to visualize what he can do, he also emphasizes to clients it’s a “communication tool”, not an exact promise of the end result.</p>
+<p>Joshi and other doctors are calling for additional training to help surgeons understand how AI alters facial images, its anatomical limitations and its potential psychological effects on patients. He also wants clearer industry guidelines on how clinics communicate the scientific validity of AI-generated assessments and recommendations.</p>
+<p>“There are fundamental expectations around patient safety, informed consent, appropriate treatment, psychological wellbeing and honest communication. However, I believe we need clearer guidance on how to apply these principles to emerging AI technologies,” Joshi says.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Hyper-homogenization</h2>
+<p>Beyond unrealistic expectations, experts warn of a more pervasive consequence: as AI increasingly shapes how we assess and alter our faces, it could accelerate the homogenization of beauty standards, pushing us toward an ever-narrower ideal of what it means to be attractive.</p>
+<p>This homogenization was already underway with the rise of the Instagram Face, characterized by prominent cheekbones, fuller lips, sharp jawlines and lifted eyes. Doctors say AI Face favors similar features, but with a subtler finish and an added emphasis on impossibly smooth, poreless skin. As Joshi puts it: “In some ways more deceptive. AI can generate aesthetic uniformity remarkably well, but this should never become our definition of beauty.”</p>
+<p>This is a central concern of Dr. Kumar’s latest research for the Journal of Medical Internet Research, which examines how biases in AI training data — both in the faces represented and in whose judgements of attractiveness are prioritized — risk reinforcing narrow beauty ideals. As these tools become more widely used, Dr. Kumar warns they could steer patients and surgeons toward increasingly uniform standards that treat distinctive ethnic features as flaws to be corrected. Dr. Kumar is now studying whether AI-generated rhinoplasty simulations preserve patients’ ethnic characteristics or alter them.</p>
+<p>She also warns of a self-reinforcing cycle in which AI-generated beauty ideals influence patients’ requests, with the resulting images potentially feeding back into future training datasets and further narrowing the standards they promote. Dr. Kumar and her fellow researchers, therefore, argue that commercial facial AI apps and filters (currently unregulated) should be required to publicly disclose how their tools were trained and tested.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1791896523/devon-usa/articles/procedures-vogue-business-story-inline_vldtog.jpg" alt="Image may contain Jackie Rice Adult Person Sitting Clothing and Coat" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Dr. Maryam Zamani, founder of Maryam Zamani Clinic. Photo: Courtesy of Maryam Zamani Clinic</figcaption></figure>
+<p>Some experts also warn that the consequences of this homogenization may extend beyond the faces patients aspire to have, to how they perceive their own. “When we are constantly exposed to filtered or digitally enhanced images, our perception of what is normal can gradually shift. This is a type of perception drift,” says Dr. Maryam Zamani, founder of the eponymous Chelsea clinic. “We start to think the enhanced images are what we are striving for. Features that are entirely natural may begin to appear imperfect simply because we are comparing ourselves with images that have been altered.”</p>
+<p>Psychologists caution that research into the effects of increasingly pervasive AI-generated imagery on mental health and body dysmorphia is still in its infancy, but early findings suggest it could exacerbate existing appearance-related anxieties. Some invoke feminist objectification theory, which links societal pressures around appearance to chronic self-scrutiny, warning that AI facial analysis apps’ “optimization recommendations” could intensify this cycle.</p>
+<p>“The process of being told precisely how to ‘fix’ or ‘optimize’ your appearance can prompt greater self-scrutiny of how you look,” says Dr. Nadia Craddock, psychologist and research fellow at the Centre of Appearance Research, UWE Bristol. She also points to research suggesting that people feel worse comparing themselves with peers than celebrities, perhaps because peers represent a more attainable standard they feel they ‘should’ meet. “This suggests that how much a person can distance themselves from the target image is important.”</p>
+<p>By that logic, an AI-generated image of one’s own face, perfected beyond what is realistically achievable, could prove the most difficult comparison of all — and one from which there is virtually no psychological distance. Surgeons warn that, when this idealized version of yourself becomes the benchmark, even entirely normal features can begin to look like flaws in need of fixing.</p>
+<p>“There is a distinction between wanting to look and feel your best and feeling compelled to correct every perceived imperfection,” says Dr. Zamani. “My concern is that these technologies could encourage people to view normal human variation as a defect requiring correction. We should be using technology to support clinical judgement, not allowing an algorithm to dictate what a face should look like. The perception drift is real.”</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="who-won-fashion-month-ss27-on-social-media.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-13/6acd232a1a2087292d73a3ce.jpg" alt="Who Won Fashion Month SS27 on Social Media?" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Fashion Month</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Who Won Fashion Month SS27 on Social Media?</h3>
+                </a>
+                <a href="veronica-beard-built-a-dollar400m-brand-by-banking-on-the-everywoman-whats-next.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-13/6acd005f760cb71dd6d4bfb2.jpg" alt="Veronica Beard Built a $400m Brand By Banking on the Everywoman. What’s Next?" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Fashion</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Veronica Beard Built a $400m Brand By Banking on the Everywoman. What’s Next?</h3>
+                </a>
+                <a href="best-vintage-stores-in-milan.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2da76929a89e77a0c6b5b.png" alt="The Best Vintage Stores in Milan" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in Milan</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
