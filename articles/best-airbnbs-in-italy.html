@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Airbnbs in Italy, From Puglia to the Dolomites | Devon</title>
+    <meta name="description" content="Whether you’re dreaming of rugged coastlines or rambling hillsides, these are the best Airbnbs to book in Italy, from Puglia to Tuscany to the Amalfi Coast.">
+    <meta property="og:title" content="The Best Airbnbs in Italy, From Puglia to the Dolomites | Devon">
+    <meta property="og:description" content="Whether you’re dreaming of rugged coastlines or rambling hillsides, these are the best Airbnbs to book in Italy, from Puglia to Tuscany to the Amalfi Coast.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-17/6a18f607ebedd4e34fd1c145.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Travel</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">The Best Airbnbs in Italy, From Puglia to the Dolomites</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Whether you’re dreaming of rugged coastlines or rambling hillsides, these are the best Airbnbs to book in Italy, from Puglia to Tuscany to the Amalfi Coast.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Nicole Kliest, Elly Leavitt</p>
+            <p class="text-xs text-gray-500 mt-1">October 17, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-17/6a18f607ebedd4e34fd1c145.jpg" alt="The Best Airbnbs in Italy, From Puglia to the Dolomites" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>There is always a reason to talk about Italy. Perhaps it’s to celebrate the country’s craft heritage, which has been passed down for generations. Or to explore the merits of its multitudinous pasta shapes and grape varietals (around 500 each, if you can believe). The natural landscapes are so mind-bogglingly beautiful they tend to invite clichés, and the country’s landmarks—from Rome’s Colosseum to Florence’s Ponte Vecchio—manage to awe and inspire even the most jaded travelers among us. Suffice it to say, it is always a good time to visit Italy.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Devon’s Guide to the Best Airbnbs in Italy</h2>
+<ul class="list-disc pl-6 space-y-2"><li>For Aromatic Gardens: Trullo in Fasano, from $1,115 per night</li><li>For Canalside Living: Zattere Luxury in Venice, from $570 per night</li><li>For Easy Beach Access: Private View on Amalfi Coast, from $1,690 per night</li><li>For Art History Buffs: Torre Quattro Venti in Capri, from $1,624 per night</li><li>For Prime Sightseeing: Luxury Terrace in Rome, from $1,549 per night</li><li>For an Island Escape: Stairway to Heaven in Alicudi, from $171 per night</li><li>For 1400s-era Frescoes: Charming Large Apartment in Genoa, from $261 per night</li></ul>
+<p>If you’re itching to plan a dolce vita getaway, start by perusing the compelling vacation rentals below to pick out a home base. We’ve scoured listings in the country’s most breathtaking regions—from a Sardinian home with a sea access staircase built into the rocks, to a 1700s-era apartment nestled in the old Sicilian town of Modica. Or perhaps you’re in need of isolation? We found a home in a car-free, medieval village in the hills of Tuscany. Whatever your pursuit, the 25 Airbnbs below deliver in spades.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Cipressini</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241322/devon-usa/articles/539031a4-cd1b-4d92-a912-45bfcac44176_cl1o1b.jpg" alt="Image may contain Pool Water Swimming Pool Outdoors Aerial View and Nature" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>This 17th-century stone farmhouse, part of a larger, four-hectare property, sits in the heart of Chianti Classico on a landscape dotted with olive trees and centuries-old oaks. There’s a fireplace for snuggling up inside, and a sprawling garden and swimming pool for afternoons enjoyed outdoors. When you’re ready to explore the region, buzzy destinations like Siena and Florence are easily reached by car.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 1 bedroom, 1 bathroom</li><li>Amenities: Washer, central AC, wood-burning fireplace, central heating, backyard, outdoor dining area, BBQ, sun loungers, pool, free parking</li><li>Highlight: The swimming pool and sun loungers are surrounded by rolling vineyards.</li><li>Location: Chianti</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Casa Tellina</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241322/devon-usa/articles/e5130a60-1d6a-47cf-be8d-9c3e6d400781_apyrbd.jpg" alt="Image may contain Indoors Interior Design Kitchen Home Decor and Lamp" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>Within a 1920s Liberty-style building on a hill behind Corso Vittorio Emanuele, this peaceful apartment gives you a chance to see a sleepier side of Naples. Guests enjoy sweeping views of the sea and Capri, but can also hop out to the Petraio stairway, where nearby shops and restaurants await. The eclectic interiors reflect the owners penchant for design, while period details like high ceilings and original windows give it an authentic touch.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1.5 bathrooms</li><li>Amenities: Washer, AC, heating, balcony</li><li>Highlight: The area is well-regarded for food, with delis, fruit and vegetable shops, a bakery, and a local fish shop all close by.</li><li>Location: Naples</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Casa Tudor Art</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241322/devon-usa/articles/9c3b89c9-f633-4022-95a4-8dac70dc193e_n0woga.jpg" alt="Image may contain Architecture Building Cityscape Urban Castle Fortress Plant Outdoors and Nature" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>If you’ve checked off Italy’s heavy-hitters and want to venture somewhere lesser-known, consider the ancient city of Matera. The destination is renowned for its labyrinth of cave dwellings carved into a limestone ravine, and this beautiful villa places visitors in the midst of it all. When you’re not exploring, take a glass of wine out onto the various outdoor areas, which has direct views of the 10,000-year-old town.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 3 bedrooms, 2 bathrooms</li><li>Amenities: AC, indoor fireplace, crib, balcony, outdoor dining area, city skyline view, pet-friendly</li><li>Highlight: The outdoor areas, which include several nooks and even a dining set, offer a private view of this UNESCO World Heritage Site.</li><li>Location: Matera</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Borgo Metato</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241322/devon-usa/articles/24ef966d-d464-4bc8-b5c3-3f8e7776ebdf_vpiyju.jpg" alt="Image may contain Hardwood Wood Stained Wood Indoors Interior Design Lamp Candle Art Painting and Architecture" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of the Airbnb Photographer Community</figcaption></figure>
+<p>Surrounded by olive trees, mountains, and even a few friendly donkeys, this two-story home in Tuscany is a slice of heaven. It was designed by a prominent Italian architect and features a double bedroom as well as a wooded cabin with two single beds (ideal for families traveling with small children). There is a garden with two charming terraces and a pool with awe-inspiring views—plus, a small cellar stocked with local wines and regional products for your own aperitivo hour.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 3 bedrooms, 1 bathroom</li><li>Amenities: Washer, backyard, outdoor dining area, sun loungers, pool.</li><li>Highlight: The property was designed by the Architect Stefano Viviani.</li><li>Location: Metato</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Jatu Villa</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241322/devon-usa/articles/3ee32fc2-46b1-42d3-9509-ee120507f43c_wrziu4.jpg" alt="Image may contain Indoors Interior Design Architecture Building House Housing Patio Porch Plant and Portico" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>Escape to Italy’s “toe” for a memorable stay in this private villa set on eight glorious hectares. The home comes with a swimming pool that’s carved into the tuff and faces the sea, plus there are summer-ready essentials like a wood-fired oven and flowered pergola to keep the festivities going all day long.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1 bathroom</li><li>Amenities: Outdoor shower, AC, backyard, fire pit, outdoor dining area, hammock, BBQ, pool, EV charger</li><li>Highlight: The property is a stone’s throw from the village of Tropea.</li><li>Location: Calabria</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Zattere Luxury</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241322/devon-usa/articles/9f3e1d15-9bab-41f3-a75b-b2ae0c16_zjuktk.jpg" alt="Image may contain Indoors Interior Design Kitchen Plant Floor Chair Furniture Kitchen Island and Cup" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>Choose a historic palazzo in Venice’s equally historic center: This one is right next to a vaporetto stop and in the true heart of the city. Peeks of the Giudecca canal come from every room in the house, which includes grand touches like antique Venetian furniture, a 1,000+ title-strong library, and an exquisite floral mural drawn in the bar area.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 3 bedrooms, 1.5 bathrooms</li><li>Amenities: Bathtub, washer/dryer, safe, TV, crib, travel crib, high chair, air conditioning, balcony, coffee maker, outdoor furniture, elevator</li><li>Highlight: For around 2€, take the gondola ferry (the stop is right by the home)to the Piazza San Marco for a scenic trip.</li><li>Location: Venice</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Agriturismo Il Conte Vassallo</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241323/devon-usa/articles/457b465b-a52d-42f4-a9a4-444fbaa2_aupzkv.jpg" alt="Image may contain Furniture Table Nature Outdoors Scenery Cup Lamp Chair Dining Table Architecture and Building" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>Just south of the Dolomites in the Prosecco Hills, this farmhouse stay is quite the idyllic retreat. You’ll be surrounded by rolling vineyards and mountain views (the area is a UNESCO World Heritage site) as you take in your morning cappuccino from the sunny greenhouse. In the warmer months, take your meals outdoors: The garden has plenty of seating space for dinners at home.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1 bathroom</li><li>Amenities: Air conditioning, indoor fireplace, coffee maker, backyard, fire pit, barbecue, outdoor dining furniture, pet-friendly, free parking</li><li>Highlight: Make sure to indulge in a crisp glass (or two) of Prosecco during your stay—it’s a regional specialty.</li><li>Location: Veneto</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Stuart White Tea Central Panoramic &amp; Garden</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241323/devon-usa/articles/59c13bdd-fd94-4f06-8b9b-aca1ae45_lfysd4.jpg" alt="Image may contain Furniture Indoors Bed Bedroom Room Chair and Canopy Bed" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>Live out your Under the Tuscan Sun dreams in this treetop rental in the heart of the region. The spacious apartment grants you access to a quiet private garden, which is covered in English roses and bushes of herbs. As for the rooms themselves, they’re impressive on their own—we doubt you’d wake up to a nicer view anywhere else.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 2 bathrooms</li><li>Amenities: Washer, TV, crib, travel crib, high chair, coffee maker, backyard, free street parking, pet-friendly</li><li>Highlight: Too tired to head into town early in the morning? Stay in for breakfast: There’s a café on the property that provides a great spread.</li><li>Location: Montepulciano</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Country House</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241323/devon-usa/articles/3f4a5c2a-ccbe-4e0e-b06a-da99873ed121_hlwaax.jpg" alt="Image may contain Chair Furniture Cup Floor and Outdoors" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>This breathtaking country house in the Dolomites has a core that dates back to the 1600s—in fact, it sits on an ancient Roman watchtower. Exposed wood and stone give the interiors a true alpine feel, while modern amenities like underfloor heating keep it cozy throughout the winter. In the warmer months, grab a racket and head to the rental’s private court, voted the most beautiful tennis court in the world by Wilson (yes, that Wilson).</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1 bathroom</li><li>Amenities: Washer, central AC, heating, backyard, outdoor dining area, charcoal grill, sun loungers.</li><li>Highlight: The home comes with its own tennis court and gear.</li><li>Location: The Dolomites</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Trastevere Terrace</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241323/devon-usa/articles/e2282a54-90e9-4af4-b3d1-ebc79968_mcncty.jpg" alt="Image may contain Furniture Table Architecture Building Dining Room Dining Table Indoors Room Chair and Home Decor" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>Your Roman pied-à-terre, this sweet spot is in the middle of Trastevere and just the right size for a couples’ getaway. You’ll start your day on the sunny terrace—which overlooks the city’s terracotta rooftops—before heading out to explore the lively streets. Charming touches are a given in this building, which dates back to the 1800s with one notable update: It has an elevator.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 1 bedroom, 1 bathroom</li><li>Amenities: Washer/dryer, iron, crib, travel crib, high chair, air conditioning, balcony, elevator</li><li>Highlight: Pack a tote bag and some cash and head to Porta Portese, Rome’s most famous vintage market, which is held in this neighborhood every Sunday.</li><li>Location: Rome</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Sicilian Escape</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241323/devon-usa/articles/29998178-035d-42eb-801e-b8b3ff25_ko0hks.jpg" alt="Image may contain Home Decor Floor Architecture Building Foyer Indoors Art Painting Bench Furniture and Chair" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>With original floors that date back to the 18th century, high, frescoed ceilings, and stunning tilework, it’s hard to imagine a more architecturally impressive Airbnb. Enjoy views of the town from the balconies and the garden, and if you’re planning a day trip to a nearby beach, the host offers portable WiFi to take with you.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1.5 bathrooms</li><li>Amenities: Washer, crib, high chair, air conditioning, coffee maker, patio, pet-friendly, free street parking</li><li>Highlight: The garden features plants specifically from this region: lemon trees, mandarins, and succulents are the stand-outs.</li><li>Location: Modica</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Volcano Lover</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241323/devon-usa/articles/42a993b1-3913-4684-bbe4-c65bddd4_qkpvjn.jpg" alt="The 25 Best Airbnbs in Italy From Puglia to the Dolomites" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>Visiting Pompeii? Book a stay in this 18th-century apartment with a prime location. It has a stunning outdoor terrace, where mountain views and ocean views vy for your attention, while the inside is equally impressive. Two-tone tiled floors, extra-tall ceilings, and crystal chandeliers make for quite the elegant design.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1 bathroom</li><li>Amenities: Bathtub, washer, sound system, workout equipment, crib, pack &#x27;n play crib, indoor fireplace, terrace, outdoor dining, bicycles, loungers, EV charger, breakfast included, pets allowed</li><li>Highlight: After a day of exploring, pick up some snacks and a bottle of wine for aperitivo at home on the patio with a perfect view of the sunset.</li><li>Location: Torre del Greco</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Villa due Marie</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/9029d5fd-7d4a-4141-bb22-1dbed55bf34f_uuorjk.jpg" alt="Image may contain Furniture Chair and Wood" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photography community</figcaption></figure>
+<p>For travelers who are determined to spend their summer as close to on the Mediterranean as possible, this breathtaking Sardinian home is just the ticket. The property is located at the tip of a dead end road on a promontory, with a smattering of outdoor areas for dining and relaxing—all enveloped by wild gardens and glittering sea views. It can sleep a large group, making it ideal for a longer family vacation.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 3 bedrooms, 3 bathrooms</li><li>Amenities: AC, beach access, outdoor dining area, BBQ, free parking</li><li>Highlight: The home offers direct sea access, via a picturesque staircase built into the rocks.</li><li>Location: Sardinia</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Green Hills Monferrato</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/7bd16b50-a820-4e77-8446-ae3cc732a692_wfy6ri.jpg" alt="Image may contain Desk Furniture Table Home Decor Chair Rug Floor Indoors Interior Design Art Painting and Window" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of the Airbnb Photographer Community</figcaption></figure>
+<p>Savor the beauty of the Piedmont hills in this country house, surrounded by a sprawling private garden. The property is shaded by olive trees and features several outdoor spaces for relaxing, including a large outdoor dining table, where you’ll want to take most of your meals. Inside, natural textures like marble, granite, and wood mix and mingle with decorative touches, like hanging tapestries and lush house plants.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 2 bathrooms</li><li>Amenities: Bathtub, washer, piano, fireplace, backyard, BBQ, sun loungers.</li><li>Highlight: Within a 600-meter private garden, there is an outdoor dining table for six people.</li><li>Location: Piedmont</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Charming Large Apartment</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/aa3016d9-576b-477c-a5a8-4f3013c2_szbvuo.jpg" alt="The 25 Best Airbnbs in Italy From Puglia to the Dolomites" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of Airbnb</figcaption></figure>
+<p>The port city of Genoa has a lot to offer, from bustling shopping streets to art-filled museums. This spacious apartment in the city’s historic center almost looks like a museum itself: Soaring ceilings give way to intricately painted frescoes, while the elegant furnishings do justice to the building’s 1400s-era origins. If you’re traveling with children, the property offers several suitable amenities for convenience, too, like a travel crib that&#x27;s available upon request.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1.5 bathrooms</li><li>Amenities: Bathtub, washer, dryer, crib, changing table, indoor fireplace, pets allowed, cleaning service available</li><li>Highlight: As incredible as the interiors are, the location is another massive bonus: You’re a mere two minutes away from the ferries to Portofino, for a beachy day trip.</li><li>Location: Genoa</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Stairway to Heaven</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/366b7abe-d6fd-41fd-b9f1-a1fc0401_d71djl.jpg" alt="The 25 Best Airbnbs in Italy From Puglia to the Dolomites" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of Airbnb</figcaption></figure>
+<p>Perfectly tranquil and perched above the sea, this island stay captures the best of indoor-outdoor living. The outdoor dining space and living area is where you’ll want to spend most of your time; both offer unobstructed views of the Tyrrhenian. Inside, a cozy space is ideal for a small family.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1.5 bathrooms</li><li>Amenities: Outdoor shower, washer, hammock, grill, terrace, outdoor dining</li><li>Highlight: In the warmer months, take advantage of the outdoor shower post-swim.</li><li>Location: Alicudi</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Charming Apartment</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/850ea64a-8e3a-4668-9fb0-2c8c06e5_20_1_lofnit.jpg" alt="The 25 Best Airbnbs in Italy From Puglia to the Dolomites" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of Airbnb</figcaption></figure>
+<p>In the heart of Milan’s Chinatown neighborhood, this 20th-century building hides a small but well-appointed apartment ideal for a quick stay to the fashion capital. An eclectic mix of antique furnishings makes the space feel homey, and while the location is central, the house itself is relatively quiet.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 1 bedroom, 1 bathroom</li><li>Amenities: Bathtub, washer, piano, high chair, balcony, pets allowed</li><li>Highlight: For the musically inclined traveler, the electric piano is sure to delight.</li><li>Location: Milan</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Casa Pinti</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/3c2655b4-77a5-4c1a-b7a4-0d7232af_pmkjzj.jpg" alt="The 25 Best Airbnbs in Italy From Puglia to the Dolomites" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of Airbnb</figcaption></figure>
+<p>Terracotta floors and wood beams run throughout this cozy space. The building itself dates back to the 16th century, and while there are a few modern conveniences (like a Nespresso machine and a sound system for your playlists), the apartment is old-school. You’ll get a healthy dose of antique charm and may come away from your stay with a hankering to explore your own local vintage markets for similarly rustic furniture.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 1 bedroom, 1 bathroom</li><li>Amenities: Washer, television, sound system</li><li>Highlight: The Airbnb is conveniently located near a number of the city&#x27;s best restaurants—ask the host for a personalized list of recommendations.</li><li>Location: Florence</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Trullo</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/9df4e74f-4038-432f-9335-2da22c2c_fge3sj.jpg" alt="Image may contain Architecture Building House Housing Villa Pool Water Swimming Pool Backyard Nature and Outdoors" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Airbnb</figcaption></figure>
+<p>Adventure to the heel of Italy’s boot to stay in this sun-dappled property that overlooks rolling hilltops and the sparkling sea in the distance. Design details feel distinctly Italian—arched doorways, tiled floors, shuttered windows—and picturesque nooks scattered throughout the property make it easy to while away the afternoon.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 3 bedrooms, 2 baths</li><li>Amenities: Housekeeping, private pool, kitchen, washer, AC, outdoor shower, BBQ grill.</li><li>Highlight: The exterior landscaping is impeccable. We could see ourselves never wanting to leave that pool, except, perhaps, for a leisurely aperitivo at the al fresco table beneath a vine-covered trellis.</li><li>Location: Fasano</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Beachfront Villa</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/092d5937-9333-4d01-9efd-cb67e51dc6ca_ze37to.jpg" alt="Image may contain Nature Outdoors Scenery Chair Furniture Desk Table Architecture Balcony Building and Bench" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Airbnb</figcaption></figure>
+<p>Live out your Sicilian villa fantasy in this three-level 1920s estate. The waterfront home is just a few miles from Palermo, but feels like a world of its own with details like Art Nouveau facades and an elegant turret. Don’t forget to pack a swimsuit: You can stroll directly to the sea from the property’s garden via a small gate.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms : 5 bedrooms, 4 bathrooms</li><li>Amenities : Bathtub, outdoor shower, washer, AC, beach access, BBQ, outdoor dining.</li><li>Highlight : The home has direct access to the sea from the garden, which is shaded by hundreds-of-years-old maritime pines.</li><li>Location: Palermo</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Villa Vecere</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241324/devon-usa/articles/d94c3396-e53b-4816-a5b4-b36ac64f_tmouvu.jpg" alt="The 25 Best Airbnbs in Italy From Puglia to the Dolomites" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of Airbnb</figcaption></figure>
+<p>Bright, breezy, and full of character, this property perched high on the Positano cliffside is a picturesque getaway. Modern baroque interiors set the tone for a glamorous stay, with Renaissance paintings and colorful frescoes in abundance. Wander outside and you’ll discover a picture-perfect swimming pool that overlooks the famed coastal city and its vibrant buildings.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 12 bedrooms, 12 baths</li><li>Amenities: Chef service, housekeeping, private pool, kitchen, washer/dryer, AC, balcony, BBQ grill, pizza oven.</li><li>Highlight: Take the scenic drive two miles downhill to Fornillo Beach for a day by the water.</li><li>Location: Positano</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Torre Quattro Venti</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241325/devon-usa/articles/4983f7de-b9ba-4e63-b7fe-9bbc2808_lesku7.jpg" alt="Image may contain Architecture Building House Housing Villa Hotel Resort Chair Furniture Plant and Nature" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Airbnb</figcaption></figure>
+<p>This picturesque villa overlooking the Bay of Naples was built by American Painter Elihu Vedder in the typical Moorish style. The large terrace is equipped with lovely sun beds and a rustic wooden dining table for al fresco meals. Inside, an open kitchen takes center stage, with pops of color via tiles and decor accents.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 2 baths</li><li>Amenities: Ocean view, outdoor shower, washer, central AC, indoor fireplace, kitchen, balcony.</li><li>Highlight: An original early 1900s wooden staircase is still intact, which winds upward to the master bedroom.</li><li>Location: Capri</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">House and Garden</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241325/devon-usa/articles/cinque_20terre_x4nyir.jpg" alt="Image may contain Nature Outdoors Scenery Chair Furniture Plant and Lakefront" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Airbnb</figcaption></figure>
+<p>This beautiful stone house overlooking the sea is located in Montemarcello Natural Park, not far from Cinque Terre. Every bedroom has views of the water, and there’s a large garden that comes with an outdoor kitchen and traditional pizza oven. While you’re outside, you might as well pop into the al fresco shower for an afternoon cool off, followed by a sunset spritz on the tiled terrace.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms : 3 bedrooms, 2 bathrooms</li><li>Amenities : Washer/dryer, indoor fireplace, backyard, outdoor dining area, BBQ.</li><li>Highlight : There&#x27;s an outdoor kitchen with a traditional pizza oven—need we say more?</li><li>Location: Cinque Terre</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Private View</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241325/devon-usa/articles/69a53e0f-443e-462e-9138-5db51a5c_rp0xlj.jpg" alt="The 25 Best Airbnbs in Italy From Puglia to the Dolomites" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of Airbnb</figcaption></figure>
+<p>Close to grottos and dramatic cliffside, this striking property lets nature do the talking. Interiors are calm and clean, while the coastline exteriors serve up top-notch vibes. If your idea of the perfect rental is one that affords you boundless opportunities to savor the great outdoors (perhaps with a spritz and plate of olives in hand), this is the booking to make.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 3 bedrooms, 3 baths</li><li>Amenities: Sea view, kitchen, AC, kitchen, backyard.</li><li>Highlight: The property is designed with steps that lead down to the ocean, with sun loungers and an umbrella down by the water’s edge.</li><li>Location: Amalfi</li></ul>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Démodé Studios</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792241325/devon-usa/articles/139c4f76-2256-4eef-a353-6c62e22dd932_inn1jm.jpg" alt="Image may contain Indoors Interior Design Closet Cupboard Furniture Wood Hardwood and Stained Wood" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>For travelers wanting to explore the historic center of Reggio Emilia, you’ll be teed up well in this stylish apartment located within walking distance of it all. The home is spacious and bright, with tall ceilings, elegant decor, and a sanctuary-like bedroom that will feel wonderful to return to after a day of sightseeing.</p>
+<ul class="list-disc pl-6 space-y-2"><li>Rooms: 2 bedrooms, 1 bathroom</li><li>Amenities: Washer, record player, heating, free parking, balcony, breakfast.</li><li>Highlight: The apartment is walking distance from the historic center.</li><li>Location: Emilia-Romagna</li></ul>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="skillcations-travel-trend.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792068768/devon-usa/2026-10-15/6ad00a528f6d372f3fa47810.jpg" alt="How “Skillcations” Became One of the Year’s Biggest Travel Trends" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Travel</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">How “Skillcations” Became One of the Year’s Biggest Travel Trends</h3>
+                </a>
+                <a href="talisman-amulet-trend.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-17/6ad2897cbeb1b24378a1148d.jpg" alt="Now Might Be a Good Time for a Talisman" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Living</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Now Might Be a Good Time for a Talisman</h3>
+                </a>
+                <a href="h-mart-cookbook-interview.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792068768/devon-usa/2026-10-15/6acfdb34bb4f852a12514fe9.jpg" alt="H Mart’s First Cookbook Is a Love Letter to Korean American Food" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Food</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">H Mart’s First Cookbook Is a Love Letter to Korean American Food</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
