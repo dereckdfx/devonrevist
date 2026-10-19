@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“We Are Facing a Pandemic of People Shrinking”: 3 Designers on the State of Size Inclusivity | Devon</title>
+    <meta name="description" content="As the rest of the industry regresses when it comes to size inclusivity, some designers are holding firm. But at what cost?">
+    <meta property="og:title" content="“We Are Facing a Pandemic of People Shrinking”: 3 Designers on the State of Size Inclusivity | Devon">
+    <meta property="og:description" content="As the rest of the industry regresses when it comes to size inclusivity, some designers are holding firm. But at what cost?">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-19/6ad246fce5ce533e10a202d1.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Fashion</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">“We Are Facing a Pandemic of People Shrinking”: 3 Designers on the State of Size Inclusivity</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">As the rest of the industry regresses when it comes to size inclusivity, some designers are holding firm. But at what cost?</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Lucy Maguire</p>
+            <p class="text-xs text-gray-500 mt-1">October 19, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-19/6ad246fce5ce533e10a202d1.jpg" alt="“We Are Facing a Pandemic of People Shrinking”: 3 Designers on the State of Size Inclusivity" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>As fashion keeps getting skinnier, there are a few designers who are still fighting the good fight. When size-inclusive designers Ester Manas, Sinéad O’Dwyer or Karoline Vitto don’t show in Paris or London, respectively, the city’s mid and plus-size representation plummets, according to four years of Devon Business Size Inclusivity reports.</p>
+<p>This season, O’Dwyer did an early runway show at the V&amp;A in July, while Vitto showed at Rio Fashion Week in April. In London, just 0.5% of looks were plus-size (down from 0.8% last season), 3.6% were mid-size (down from 6.5% last season), and 95.9% were straight-size (up from 92.7% last season). Likewise, Ester Manas, founded by Manas and her husband and co-creative director Balthazar Delepierre, returned to the Paris runway this season after a two-year break. It’s no coincidence that body diversity in Paris showed incremental improvement. Manas and Delepierre always prioritize curve models in their shows: this season featured 42.4% mid-size looks and 36.4% plus-size. And in Paris this season, 0.5% of looks were plus-size (up from 0.1% last season), 2% of looks were mid-size (up from 0.4%), and 97.5% of looks were straight-size (down from 99.5%).</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414192/devon-usa/articles/-story-inline_20copy_zff8ro.png" alt="Image may contain Rosalía Fashion Adult Person Clothing Skirt Dress Skin Tattoo Face Head and Formal Wear" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">A look from Karoline Vitto’s LFW FW26 collection. She showed in her native Brazil for SS27 at Rio Fashion Week. Photo: GoRunway.com</figcaption></figure>
+<p>While established brands show the occasional curve look on the catwalk (typically on the back of one of few famous curve models), the aforementioned designers commit to size inclusivity season after season. And they don’t just present bigger bodies on the catwalk. They actually design, produce and sell mid and plus-size clothing, and are building small but hyper-engaged communities of customers who are thrilled to be able to wear creative but well-fitting luxury clothes.</p>
+<p>While Manas and Delepierre, O’Dwyer, and Vitto often top the rankings of our size inclusivity reports with their respective brands, they tend to rank alongside designers who have tokenistically included one curve model for one season only, cast a plus-size celebrity, or featured a couple of athletic models at the very low end of mid-size. So, ahead of the Spring/Summer 2027 season, we decided to host an open discussion with the fashion world’s most size inclusive designers, on Zoom from their respective studios, to allow them to unpack their success in the space, their frustrations with the industry, breaking out of institutional structures, and where we go from here.</p>
+<p>Here’s our full conversation (responses have been edited for clarity):</p>
+<p>Devon: What does size inclusivity mean to your brand and your practice today?</p>
+<p>Ester: At the beginning, it was maybe from a selfish point of view, if I can say that. I’m size EU 44, 46, or 48 depending on the brand. So I decided to do something for myself because I was in the design industry, designing every day for a size EU 38 or 36 or 34.</p>
+<p>Balthazar: When we launched, it had such a big reaction. I think it’s super nice that we can talk all together today. We each have a specific take on inclusivity and what it means in design. And I think we are all super different.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414192/devon-usa/articles/-story-inline_20_7_oomaia.jpg" alt="Image may contain Clothing Dress Fashion Formal Wear Evening Dress Adult Person Gown Accessories Bag and Handbag" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Ester Manas returned to the runway for SS27 after a two year break, boosting Paris Fashion Week’s curve representation. Photo: Isidore Montag / Gorunway.com</figcaption></figure>
+<p>Devon: Sinéad, what about you?</p>
+<p>Sinéad: I think I always struggled with being in the industry and being around its exclusionary practices. I had an eating disorder when I was younger, and saw how much that shaped so many of my moments and relationships. I feel so deeply for young people experiencing luxury today, because we all experience luxury, even if we don’t buy it.</p>
+<p>Now that I’m in the industry, I have overcome so much, but that’s [from] a privileged position of understanding how it all works — how all the choices are being made commercially. But when you aren’t part of that, and also when you’re very young, you are really vulnerable to the mental health impacts of only seeing one type of person all the time, the same size, height, abilities. As much as the last [few] years have been so difficult, what I haven’t been able to shake is this empathy I feel for my younger self. I can viscerally feel how much [the lack of representation in luxury] impacted me. So that’s why it’s so important, even in moments where it feels so frustrating and slightly hopeless.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414192/devon-usa/articles/VB-SIZE-INC-LEAD-SS27_fjyzen.gif" alt="article image" loading="lazy" class="w-full h-auto"/></figure>
+<p>Karoline: For me, it was a little bit like what Ester said. It was very self-indulgent in the sense that I wanted to try my own pieces. So it did start from a private point of view, but then quickly I found other women that related to what I was saying. At the moment, we are working towards the idea of sizing being something that we don’t even have to talk about. I would love it if we — all of us in this conversation — didn’t have to be seen as ‘these guys are doing something that no one else is doing’. I would love it if we were not the exception.</p>
+<p>Devon: What we’ve seen in the SS27 Size Inclusivity Report is a major decline in size inclusivity across the board, again. Over the course of each of your careers, how has industry support for size inclusive brands evolved?</p>
+<p>Balthazar: I think we have jumped from a point where it was like, ‘This is kind of a new thing,’ where people were using the body as a new field of design and experimentation, to now, where we’ve seen the mask fall down. We are able to reach new customers and be visible by being size inclusive, without relying on fashion channels [like social media buzz] and people and institutions [like multi-brand stores].</p>
+<p>Ester: Weirdly, today I feel like we are slower and more discreet [at Ester Manas]. It’s maybe less sexy from a brand point of view, but if at the end we are actually dressing women, our goal is achieved. I think that’s the main thing.</p>
+<p>Sinéad: What you’re both saying really resonates with me. I tried really hard to do wholesale for so many years and it’s just so hard. Being small, there’s so much against you. Even if you were literally making the easiest dress in the world for size 8 only, being an independent brand already is this enormous thing to contend with, and then trying to offer a broad range of sizes, and actually having a design vision, makes it almost impossible to stick within these like standard routes.</p>
+<p>There’s been seasons where I’ve produced up to a US 20 for a very large store, a lot of pieces, and they just don’t market them. They won’t even put them on the curve section of the website. It’s like, why did you buy these sizes if you’re not going to even hint that you have them? We put all this energy and love into making all these clothes that are not being accessed by the right people. So it just feels frustrating and not worth it at all. Whereas when you actually work with one person on a custom [look], at least it is a relief in knowing that the effort is being enjoyed.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414192/devon-usa/articles/SINEAD-PORTRAIT_na7rep.jpg" alt="Image may contain Clothing Dress Evening Dress Formal Wear Adult Person Face Head Photography Portrait and Fashion" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Sinéad O’Dwyer, founder of her eponymous brand. Photo: Courtesy of Sinéad O’Dwyer</figcaption></figure>
+<p>Karoline: I agree with what you are all saying. We don’t really do wholesale at Karoline Vitto. We do a few small boutiques that we really believe in, that believe in us, and are willing to show the sizes and talk about the sizes. The beauty of it for us is, with DTC, we got so much closer to the customer than if I had just jumped into stores straight away. When we receive a notification of an order, sometimes I know customers by their name, which is a really great feeling.</p>
+<p>Devon: It’s clear you’ve all learned to adapt because traditional trajectories don’t fit brands that break the mold. What are your frustrations with the way the industry is set up right now, and what are the hurdles to scaling your brands your own way?</p>
+<p>Ester: The frustration I have is when brands say they are inclusive, but in the end, it’s just a one-off communication stunt. They can involve a lot of super famous curvy girls, because they can, then a lot of media report on it. Everyone then thinks this is what the brand stands for. There’s a lot of pretense from brands. But we are doing the real work, and we’re not as big on the internet so people don’t see it. With money you can lie, and I’m not OK with it. I am shocked every season.</p>
+<p>At one point, when we had just launched the brand, we were in touch with a lot of people from the industry, and the goal was to be able to run a big house, still with our size inclusive [ethos]. But we did some interviews [at bigger houses], and I was like, ‘If we continue the interview, I would like to develop the sizing at the brand.’ The interview was shut down immediately.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414192/devon-usa/articles/ESTER_20MANAS_20PORTRAIT_yscjoy.jpg" alt="Image may contain Clothing Formal Wear Suit Blazer Coat Jacket Pants Adult Person Dress Face and Head" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Ester Manas and Balthazar Delepierre, co-creative directors of Ester Manas. Photo: Courtesy of Ester Manas</figcaption></figure>
+<p>Sinéad: It shows fashion’s true colors. I’m not sure we’re in the right industry for a whole lot of ethics. That’s sort of how I feel at the moment.</p>
+<p>Karoline: I still don’t understand because the mass market has already solved it. Like they are totally fine with curve [models] in campaigns. Cosmetics, also — they are putting a lot of non-skinny girls in their campaigns. Why can’t luxury do it?</p>
+<p>Devon: Part of the reason that we had this discussion was myself, Ester and Balthazar were talking last season about the fact that in our Devon Business Size Inclusivity Report, we do the best we can to celebrate people who win and hold a mirror up to the industry. But alongside all of you, there are lots of brands that are possibly in the ranking for one season because they’ve had a couple of curve models, and because everything else is so bleak, they rank really high. How does it feel to be brands that are really dedicating your entire creative lives to size inclusivity, to be ranked against brands that maybe do it as a one-off?</p>
+<p>Karoline: For me, it’s always interesting. Certain brands will say, ‘All of our models were mid-size,’ but they were literally a size 8. You can see it. But more broadly, I’m of the perspective that I would rather brands include one or two curve models rather than no curve models at all. I think it’s better to have some curve models than none.</p>
+<p>I think this season, the report will be really interesting in London. For this September season, Sinéad and I are not showing. I am worried about what’s going to come up, but I’m hoping to be surprised. It’s bittersweet really. Obviously, I like the fact that me and Sinéad are mentioned here in London when people talk about size inclusivity, but it makes me feel a level of responsibility to continue the work that we are doing. It’s a very strange feeling.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414192/devon-usa/articles/KAROLINE-PORTRAIT_pyqgvr.jpg" alt="Image may contain Saima Noor Clothing Pants Person Sitting Jeans and Adult" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Karoline Vitto, founder of her eponymous brand. Photo: Courtesy of Karoline Vitto</figcaption></figure>
+<p>Ester: Karoline, you mentioned that you are happy when a brand puts one or two curvy girls in their show. But for me, it’s a pity. Not because they are two curve girls, but because they are always famous [supermodels]. Lucy, you know my feeling about that, but for me they should not be included in the Devon Business Size Inclusivity Report. It’s not inclusive to [cast] them. And in the report with these big brands, it’s usually the same [famous] faces every time.</p>
+<p>I know it’s difficult to put on a [size inclusive] show. In London maybe it’s better; I don’t want to speak for you guys, but for us in Paris, the choice is super tricky season to season. It’s always ‘What kind of model is in town? What kind of budget do we have to properly showcase the collection as we want to?’</p>
+<p>Sinéad: I always find it a bit funny, because at the end of the day, runway sizing is so small that I would love to see a US 4; I’m dying to see a US 6. These runway models are [so small] that it’s concerning, culturally. So when there are brands that have one of the famous curve models or an actress or someone on the runway, I still think that’s super impactful, even though I agree with you that the brand shouldn’t necessarily be getting a gold star. But culturally, it’s important for people to see a really beautiful, famous woman who’s above US 8.</p>
+<p>Devon: Our report is one thing, but more broadly, how can the media push for a more inclusive industry when it comes to size? Or, based on what we’ve talked about, is it another institution that you perhaps don’t need?</p>
+<p>Sinéad: For some of the people looking at runway images, I don’t feel like people truly understand how small the people they are looking at are. That’s why everyone’s vision of themselves gets very skewed. I think maybe [the media] should have more conversations about the reality of that again. Back when it was really bad in the early 2000s, Model Alliance and the media were sort of trying to educate people how small models had gotten.</p>
+<p>Devon: It’s difficult for us in the GLP-1 era, because within the report, we can’t quantify that the small is getting smaller. There’s no way to do it unless the brands give us exact measurements, which they would never do. It makes the time we are in quite strange. There’s another thing that I’ve noticed lately that I wanted to bring up here. When I’m watching shows, I feel like the models are shrinking, but then the garments are constructed to mimic curves — we’re distorting the proportions of garments to create huge hips or a bigger bust, even if the model has neither. Is that something that you’ve noticed? And how do you all feel about that, as people who work the opposite way?</p>
+<p>Karoline: That’s the ultimate piss take. I hate it. I love the craftsmanship, don’t get me wrong. In the studio, we appreciate that those garments are beautifully made. But my question is why are you not just going with a model that is maybe two sizes bigger than what you used? Why not work with a body that is already there, and then maybe you can have more interesting design possibilities?</p>
+<p>They’re trying to feed us this idea that you can have curves, but only if it’s fake, or only if it’s imposed by a designer in a very controlled way. It’s saying, ‘I’m dictating exactly where your proportions should be, and that’s beautiful. But if you’re naturally like that, it’s not OK.’</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414193/devon-usa/articles/-story_20_8_lercnj.jpg" alt="Image may contain: Adult, Person, Clothing, Swimwear, Fashion, Dress, Accessories, Jewelry, Necklace, Face, and Head" loading="lazy" class="w-full h-auto"/></figure>
+<p>Devon: I wanted to spend part of this conversation talking about the positives as well. What’s the response you get from your communities? Beyond the financial opportunity, what shows you that what you do is so important?</p>
+<p>Sinéad: When I get to do a pop-up, that is the most validating moment — certain customers come in and buy so many things, and everything fits them perfectly. Sometimes, especially with wholesale and online, it feels a bit like screaming into a void. [But when] this person comes in that is just who you were designing for, it feels totally worth it.</p>
+<p>Karoline: Echoing what Sinéad said, when we see the girls coming through the door and spending their money on clothes that we spent months making, and they’re happy to do so. At one sample sale, the girls ignored the dressing room, and everyone just started trying everything on together and looking at each other and hyping each other up. It felt like the ultimate girlhood moment.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414193/devon-usa/articles/-story-inline_20copy_202_20_7_jjwioe.jpg" alt="Image may contain Clothing Coat Adult and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Sinéad O’Dwyer presented her SS27 collection at London’s V&amp;A museum in July. Photo: Isidore Montag / Gorunway.com</figcaption></figure>
+<p>Ester: We have the same story. The same customer is coming back, coming back, and coming back. We even receive emails like, ‘Take all my money, please!’</p>
+<p>Devon: We’re almost out of time. There’s way more that I’d love to talk about, but what is something that you would like to convey to the industry, as a parting message?</p>
+<p>Balthazar: Obviously, we are not saving lives, but we are making lives better. All of us are now in this weird [landscape], and truly we have power by being able to speak to you. We need all the support we can get to make it happen.</p>
+<p>Sinéad: I’m still waiting for a fund, perhaps from a patron, someone who believes in extended sizing, to offer a certain amount of grants per season to brands who want to start to develop a second sample size. I think the barrier is money. Not for larger brands, but for small brands, so many people I know actually want to improve their casting to resonate more with the audiences that they’re trying to go after.</p>
+<p>Karoline: Sinéad told me this idea before over dinner, and I was like, yes! I think there needs to be more initiatives in place. We are now facing this pandemic of people shrinking themselves, and we don’t really know what consequences there will be for that in the future. How is it going to affect teenage girls who are looking at these shows?</p>
+<p>Ester: Change can come from the bottom also. I think schools need to teach in a different way and stop only buying mannequins in EU 36. Students can’t all do a free internship at Ester Manas, Sinéad O’Dwyer and Karoline Vitto. But without that, they will not learn to work around a different body. Everything has to come from the top, yes, but also maybe the other way — these ideas need to come from education.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="the-devon-business-spring-summer-2027-size-inclusivity-report.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792414192/devon-usa/articles/VB-SIZE-INC-LEAD-SS27_fjyzen.gif" alt="The Devon Business Spring/Summer 2027 Size Inclusivity Report" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Fashion Month</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Devon Business Spring/Summer 2027 Size Inclusivity Report</h3>
+                </a>
+                <a href="victorias-secret-fashion-show-red-carpet-10-18-2026.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-19/6ad543a66ce8756e830328bd.jpg" alt="All the Stars at the 2026 Victoria’s Secret Fashion Show" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Celebrity Style</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">All the Stars at the 2026 Victoria’s Secret Fashion Show</h3>
+                </a>
+                <a href="kendall-jenner-valentino-polkadots-2026-academy-museum-gala-10-18-2026.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-19/6ad525804cee9bb5341e6908.jpg" alt="Kendall Jenner Finally Got Her Polka-Dot Moment at the 2026 Academy Museum Gala" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Celebrity Style</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Kendall Jenner Finally Got Her Polka-Dot Moment at the 2026 Academy Museum Gala</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
