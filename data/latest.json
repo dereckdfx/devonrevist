@@ -1,151 +1,151 @@
 {
-  "scraped_at": "2026-10-19T06:48:20-06:00",
+  "scraped_at": "2026-10-20T06:53:03-06:00",
   "source": "https://www.vogue.com",
   "slots": {
     "hero": {
-      "title": "Orange-Peel Silk and Veggie Cashmere: How the 2026 CFDA/ Vogue Fashion Fund Finalists Imagined Signature Silhouettes for a More Sustainable Future",
-      "url": "https://www.vogue.com/article/cfda-vogue-fashion-fund-sustainability-challenge-10-16-2026",
-      "image": "https://assets.vogue.com/photos/6ad2280c4d4273d7590d3170/3:4/w_1280,c_limit/CFDA%2520Vogue%2520Fashion%2520Fund%2520Design%2520Challenge%2520DSC_9727%252020261015.jpg",
-      "category": "Runway",
-      "date": "2026.10.19",
+      "title": "Where The Wild Things Are: Tactically Tinged Fashion Takes to the Water—and the Woods—in Maine",
+      "url": "https://www.vogue.com/article/maine-fashion-birdwatching",
+      "image": "https://assets.vogue.com/photos/6acf9dab2b72b97fe4aed2f1/3:4/w_1280,c_limit/VO1126_Birdwatching_01.jpg",
+      "category": "Magazine",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Alexandra Hildreth",
-      "public_id": "devon-usa/2026-10-19/6ad2280c4d4273d7590d3170_CFDA_Vogue_Fashion_Fund_Design_Challenge"
+      "author": "Heidi Julavits Photography by Sebastián Faena",
+      "public_id": "devon-usa/2026-10-20/6acf9dab2b72b97fe4aed2f1_VO1126_Birdwatching_01"
     },
     "today_large": {
-      "title": "Phoebe Philo Has the Last Word—Her Sophisticated, Subtly Sexy New Collection for Spring Is Here",
-      "url": "https://www.vogue.com/slideshow/phoebe-philo-has-the-last-word-her-sophisticated-subtly-sexy-new-collection-for-spring-is-here",
-      "image": "https://assets.vogue.com/photos/6acfeb2a5e40f82aed4e7694/1:1/w_1280,c_limit/Phoebe%2520Philo%2520Collection%2520F_3x4_52.jpg",
-      "category": "Runway",
-      "date": "2026.10.19",
+      "title": "6 Fall Boot Trends to Try, From Buckled Styles to Slim Knee-Highs",
+      "url": "https://www.vogue.com/article/fall-2026-boot-trends",
+      "image": "https://assets.vogue.com/photos/6ad288c267b21e4f29adda10/1:1/w_1280,c_limit/boottrends_leadholding.jpeg",
+      "category": "Fashion",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Sarah Mower",
-      "public_id": "devon-usa/2026-10-19/6acfeb2a5e40f82aed4e7694_Phoebe_Philo_Collection_F_3x4_52"
+      "author": "Christina Holevas",
+      "public_id": "devon-usa/2026-10-20/6ad288c267b21e4f29adda10_boottrends_leadholding"
     },
     "today_small": [
       {
-        "title": "Prada, Miu Miu, and Lots of Chloé: Here’s How Daisy Edgar-Jones’s Stylist, Brought Elinor Dashwood to 2026 for Sense and Sensibility",
-        "url": "https://www.vogue.com/slideshow/daisy-edgar-jones-sense-and-sensibility-press-tour-dani-michelle-interview",
-        "image": "https://assets.vogue.com/photos/6ad22e77294b0e26011a48b5/1:1/w_1280,c_limit/Daisy_16x9.jpg",
-        "category": "Celebrity Style",
-        "date": "2026.10.19",
+        "title": "A Fifth Fashion Week Capital? Shanghai Makes the Case for Itself",
+        "url": "https://www.vogue.com/article/a-fifth-fashion-week-capital-shanghai-makes-the-case-for-itself",
+        "image": "https://assets.vogue.com/photos/6acf68bc2cbeeefdc912fb15/1:1/w_1280,c_limit/00009-samuel-gui-yang-spring-2027-ready-to-wear-shanghai-credit-brand.jpg",
+        "category": "Runway",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Hannah Jackson",
-        "public_id": "devon-usa/2026-10-19/6ad22e77294b0e26011a48b5_Daisy_16x9"
+        "author": "Tiziana Cardini",
+        "public_id": "devon-usa/2026-10-20/6acf68bc2cbeeefdc912fb15_00009-samuel-gui-yang-spring-2027-ready-"
       },
       {
-        "title": "Visiting With Alex Katz, the 99-Year-Old Artist Who Doesn’t Stop",
-        "url": "https://www.vogue.com/article/alex-katz-tenth-decade",
-        "image": "https://assets.vogue.com/photos/6acf8b4647bda1bb0729e86b/3:4/w_1280%2Cc_limit/2026_08_05_Katz_Alex_0480+523+581+473_Final.jpg",
-        "category": "Magazine",
-        "date": "2026.10.19",
+        "title": "“I Love Seeing a Woman Age Gracefully”: Kendall Jenner's Simple Approach to Skincare and Life",
+        "url": "https://www.vogue.com/article/kendall-jenner-beauty-interview-2026",
+        "image": "https://assets.vogue.com/photos/6ad7280e2d481af4c04ca0ae/3:4/w_1280%2Cc_limit/2300238711",
+        "category": "Skin",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Dodie Kazanjian",
-        "public_id": "devon-usa/2026-10-19/6acf8b4647bda1bb0729e86b_2026_08_05_Katz_Alex_0480_523_581_473_Fi"
+        "author": "Margaux Anbouba",
+        "public_id": "devon-usa/2026-10-20/6ad7280e2d481af4c04ca0ae_2300238711"
       },
       {
-        "title": "Here’s How 14 Vogue Editors Dress for Black-Tie Weddings",
-        "url": "https://www.vogue.com/article/vogue-editor-black-tie-wedding-guest-dresses",
-        "image": "https://assets.vogue.com/photos/6aceb5167d3dfa69d54a9adc/3:4/w_1280%2Cc_limit/v2_101326_blacktieweddingguest_tryp.jpg",
-        "category": "Wedding",
-        "date": "2026.10.19",
+        "title": "Adrian Danchig-Waring Bid Farewell to New York City Ballet With a Post-Show Rave",
+        "url": "https://www.vogue.com/slideshow/adrian-danchig-farewell-performance-party-new-york-city-ballet",
+        "image": "https://assets.vogue.com/photos/6ad75c657b5cf007e92d37de/3:4/w_1280%2Cc_limit/BFA_56373_8272604.jpg",
+        "category": "Parties",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Fred Sahai",
-        "public_id": "devon-usa/2026-10-19/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp"
+        "author": "Laura Regensdorf",
+        "public_id": "devon-usa/2026-10-20/6ad75c657b5cf007e92d37de_BFA_56373_8272604"
       },
       {
-        "title": "Sheer Looks to Lingerie: Are GLP-1s Changing the Way We Dress?",
-        "url": "https://www.vogue.com/article/sheer-looks-to-lingerie-are-glp-1s-changing-the-way-we-dress",
-        "image": "https://assets.vogue.com/photos/6ad259b2e5ce533e10a202e2/3:4/w_1280%2Cc_limit/-story%2520(8).jpg",
-        "category": "Fashion Month",
-        "date": "2026.10.19",
+        "title": "Creepy, Crawly, And Chic: Spider Nails Are Halloween 2026’s Breakout Manicure",
+        "url": "https://www.vogue.com/article/spider-nails-halloween-2026",
+        "image": "https://assets.vogue.com/photos/6ad729f6cf35cb21bb683a21/3:4/w_1280%2Cc_limit/SnapInsta.to_846375257_18501369814098611_1054531923699197309_n.jpg",
+        "category": "Makeup",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Rachael Akhidenor",
-        "public_id": "devon-usa/2026-10-19/6ad259b2e5ce533e10a202e2_-story_8"
+        "author": "Margaux Anbouba",
+        "public_id": "devon-usa/2026-10-20/6ad729f6cf35cb21bb683a21_SnapInsta_to_846375257_18501369814098611"
       }
     ],
     "best": [
       {
-        "title": "“We Are Facing a Pandemic of People Shrinking”: 3 Designers on the State of Size Inclusivity",
-        "url": "https://www.vogue.com/article/we-are-facing-a-pandemic-of-people-shrinking-3-designers-on-the-state-of-size-inclusivity",
-        "image": "https://assets.vogue.com/photos/6ad246fce5ce533e10a202d1/3:4/w_1280%2Cc_limit/-story.jpg",
-        "category": "Fashion",
-        "date": "2026.10.19",
+        "title": "The Dallas Cowboys Cheerleaders—and Ricky Martin and Pedro Sampaio—Left Brazil Thunderstruck at the NFL’s Rio Debut",
+        "url": "https://www.vogue.com/slideshow/the-dallas-cowboys-cheerleaders-ricky-martin-pedro-sampaio-nfl-rio",
+        "image": "https://assets.vogue.com/photos/6ad752850a742893d190aede/3:4/w_1280%2Cc_limit/GettyImages-2296910168.jpg",
+        "category": "Parties",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Lucy Maguire",
-        "public_id": "devon-usa/2026-10-19/6ad246fce5ce533e10a202d1_-story"
+        "author": "Raymond Braun",
+        "public_id": "devon-usa/2026-10-20/6ad752850a742893d190aede_GettyImages-2296910168"
       },
       {
-        "title": "The Vogue Business Spring/Summer 2027 Size Inclusivity Report",
-        "url": "https://www.vogue.com/article/the-vogue-business-spring-summer-2027-size-inclusivity-report",
-        "image": "https://assets.vogue.com/photos/6ad25833eeb470219a506143/3:4/w_1280%2Cc_limit/VB-SIZE-INC-LEAD-SS27.gif",
-        "category": "Fashion Month",
-        "date": "2026.10.19",
+        "title": "Victoria Beckham’s Second Gap Collection Reimagines Fall’s Essential Layers",
+        "url": "https://www.vogue.com/article/victoria-beckham-gap-collaboration-fall-2026",
+        "image": "https://assets.vogue.com/photos/6ad664d3ec15db916b269896/3:4/w_1280%2Cc_limit/Gap%2520x%2520Victoria%2520Beckham_1.jpg",
+        "category": "Fashion",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Joe Bobowicz",
-        "public_id": "devon-usa/2026-10-19/6ad25833eeb470219a506143_VB-SIZE-INC-LEAD-SS27"
+        "author": "Angela Tafoya",
+        "public_id": "devon-usa/2026-10-20/6ad664d3ec15db916b269896_Gap_x_Victoria_Beckham_1"
+      },
+      {
+        "title": "Bella Hadid’s Victoria’s Secret After-Party Look Channels Britney Spears",
+        "url": "https://www.vogue.com/article/bella-hadid-victorias-secret-after-party-look-10-19-2026",
+        "image": "https://assets.vogue.com/photos/6ad6240b6ce8756e83032d9c/4:3/w_2560%2Cc_limit/BGUS_3719684_020.jpg",
+        "category": "Celebrity Style",
+        "date": "2026.10.20",
+        "section": "home",
+        "author": "Christian Allaire",
+        "public_id": "devon-usa/2026-10-20/6ad6240b6ce8756e83032d9c_BGUS_3719684_020"
       },
       {
         "title": "All the Stars at the 2026 Victoria’s Secret Fashion Show",
         "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-red-carpet-10-18-2026",
         "image": "https://assets.vogue.com/photos/6ad543a66ce8756e830328bd/4:3/w_2560%2Cc_limit/GettyImages-2300867467-1.jpg",
         "category": "Celebrity Style",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "home",
         "author": "Christian Allaire",
-        "public_id": "devon-usa/2026-10-19/6ad543a66ce8756e830328bd_GettyImages-2300867467-1"
-      },
+        "public_id": "devon-usa/2026-10-20/6ad543a66ce8756e830328bd_GettyImages-2300867467-1"
+      }
+    ],
+    "must": [
       {
         "title": "Kendall Jenner Finally Got Her Polka-Dot Moment at the 2026 Academy Museum Gala",
         "url": "https://www.vogue.com/slideshow/kendall-jenner-valentino-polkadots-2026-academy-museum-gala-10-18-2026",
         "image": "https://assets.vogue.com/photos/6ad525804cee9bb5341e6908/4:3/w_2560%2Cc_limit/KJ_Vogue_PaigePowell-30-1.jpg",
         "category": "Celebrity Style",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "home",
         "author": "Christian Allaire",
-        "public_id": "devon-usa/2026-10-19/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1"
-      }
-    ],
-    "must": [
+        "public_id": "devon-usa/2026-10-20/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1"
+      },
       {
         "title": "Da’Vine Joy Randolph Wanted to “Give Drama—and Body” at the 2026 Academy Museum Gala",
         "url": "https://www.vogue.com/slideshow/davine-joy-randolph-2026-academy-gala-louis-vuitton-10-18-2026",
         "image": "https://assets.vogue.com/photos/6ad4e47503a8194d85de0f45/4:3/w_2560%2Cc_limit/BH%2520GARDEN-1.jpg",
         "category": "Celebrity Style",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "home",
         "author": "Christian Allaire",
-        "public_id": "devon-usa/2026-10-19/6ad4e47503a8194d85de0f45_BH_GARDEN-1"
+        "public_id": "devon-usa/2026-10-20/6ad4e47503a8194d85de0f45_BH_GARDEN-1"
       },
       {
-        "title": "Winona Ryder Was on the Mood Board for Emma Chamberlain’s Glam at the 2026 Academy Museum Gala",
-        "url": "https://www.vogue.com/slideshow/emma-chamberlain-academy-museum-gala-2026-10-17",
-        "image": "https://assets.vogue.com/photos/6ad4e29f8dfe2ccb142beb96/4:3/w_2560%2Cc_limit/@cibelleleviCIBELLELEVIxArmaniEmma__20.jpg",
-        "category": "Celebrity Beauty",
-        "date": "2026.10.19",
+        "title": "Contact Sport: How Much Eye Contact Is Too much?",
+        "url": "https://www.vogue.com/article/too-much-eye-contact-reveal",
+        "image": "https://assets.vogue.com/photos/6ad24ffa06e485ebafc72784/4:3/w_1600%2Cc_limit/MCDYOCA_EC125%2520(1)%2520copy%25202.jpg",
+        "category": "Wellness",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Anna Grace Lee",
-        "public_id": "devon-usa/2026-10-19/6ad4e29f8dfe2ccb142beb96_cibelleleviCIBELLELEVIxArmaniEmma__20"
+        "author": "Margaux Anbouba",
+        "public_id": "devon-usa/2026-10-20/6ad24ffa06e485ebafc72784_MCDYOCA_EC125_1_copy_2"
       },
       {
-        "title": "An Exclusive Behind-the-Scenes Look at the 2026 Victoria’s Secret Fashion Show",
-        "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-backstage-photos-2026",
-        "image": "https://assets.vogue.com/photos/6ad58e5d3de0a292845c4146/4:3/w_1600%2Cc_limit/corey-tenold-photography-66.jpg",
-        "category": "Runway",
-        "date": "2026.10.19",
+        "title": "Why the Travel Cardigan Deserves a Spot in Your Airport Wardrobe",
+        "url": "https://www.vogue.com/article/best-travel-cardigans",
+        "image": "https://assets.vogue.com/photos/6ad10fc7fa5d673bce4db4f4/4:3/w_1600%2Cc_limit/image23.jpg",
+        "category": "Fashion",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Max Berlinger Photography by Corey Tenold",
-        "public_id": "devon-usa/2026-10-19/6ad58e5d3de0a292845c4146_corey-tenold-photography-66"
-      },
-      {
-        "title": "Join The Waitlist | Vogue Business Global Summit: New York",
-        "url": "https://www.vogue.com/article/buy-a-ticket-vogue-business-global-summit-new-york",
-        "image": "https://assets.vogue.com/photos/6a9fd814d37209a9e50e9780/4:3/w_1600%2Cc_limit/VB-GS-NYC-ARTICLE-STORY-V3.jpg",
-        "category": "Events",
-        "date": "2026.10.19",
-        "section": "home",
-        "author": "Vogue Business Team",
-        "public_id": "devon-usa/2026-10-19/6a9fd814d37209a9e50e9780_VB-GS-NYC-ARTICLE-STORY-V3"
+        "author": "Rosie Jarman",
+        "public_id": "devon-usa/2026-10-20/6ad10fc7fa5d673bce4db4f4_image23"
       }
     ],
     "fashion": [
@@ -154,50 +154,50 @@
         "url": "https://www.vogue.com/article/watch-the-vogue-world-2026-milan-livestream",
         "image": "https://assets.vogue.com/photos/6aa1c5a62b9168b4153c9e82/3:4/w_1024%2Cc_limit/VO1026_Bardia_VW_04.jpg",
         "category": "Culture",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Emma Specter",
-        "public_id": "devon-usa/2026-10-19/6aa1c5a62b9168b4153c9e82_VO1026_Bardia_VW_04"
+        "public_id": "devon-usa/2026-10-20/6aa1c5a62b9168b4153c9e82_VO1026_Bardia_VW_04"
       },
       {
         "title": "The Best Backstage Photos From the Spring 2027 Shows in New York",
         "url": "https://www.vogue.com/slideshow/the-best-backstage-photos-from-the-spring-2027-shows-in-new-york",
         "image": "https://assets.vogue.com/photos/6aaaa645d53ca4acf163a4a5/1:1/w_640%2Cc_limit/ThomBrowne_NYFW_SS27_backstage_acielle_05.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Photography by Acielle/Style Du Monde",
-        "public_id": "devon-usa/2026-10-19/6aaaa645d53ca4acf163a4a5_ThomBrowne_NYFW_SS27_backstage_acielle_0"
+        "public_id": "devon-usa/2026-10-20/6aaaa645d53ca4acf163a4a5_ThomBrowne_NYFW_SS27_backstage_acielle_0"
       },
       {
         "title": "On the Podcast: Paloma Elsesser Wants More Fearless Designers",
         "url": "https://www.vogue.com/article/on-the-podcast-paloma-elsesser-wants-more-fearless-designers",
         "image": "https://assets.vogue.com/photos/6aa81547583a35aed88c33ce/1:1/w_640%2Cc_limit/GettyImages-2214291850.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Alexandra Di Palma",
-        "public_id": "devon-usa/2026-10-19/6aa81547583a35aed88c33ce_GettyImages-2214291850"
+        "public_id": "devon-usa/2026-10-20/6aa81547583a35aed88c33ce_GettyImages-2214291850"
       },
       {
         "title": "From the Tory Burch Catwalk to Late Night Karaoke: A Day in the Life of Model Lulu Tenney",
         "url": "https://www.vogue.com/slideshow/lulu-tenney-model-diary",
         "image": "https://assets.vogue.com/photos/6aabecd36ffbb91686fe24e3/1:1/w_640%2Cc_limit/000044760025.jpg",
         "category": "Fashion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Irene Kim",
-        "public_id": "devon-usa/2026-10-19/6aabecd36ffbb91686fe24e3_000044760025"
+        "public_id": "devon-usa/2026-10-20/6aabecd36ffbb91686fe24e3_000044760025"
       },
       {
         "title": "Très Chic! 10 Paris Fashion Week Looks to Recreate Now",
         "url": "https://www.vogue.com/article/fashion-week-trends",
         "image": "https://assets.vogue.com/photos/6abe69b049d6c63a9f5048c1/1:1/w_640%2Cc_limit/ParisFashionweek_SS27_streetstyle_day3_philoh_43.jpg",
         "category": "Shopping",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Laura Jackson",
-        "public_id": "devon-usa/2026-10-19/6abe69b049d6c63a9f5048c1_ParisFashionweek_SS27_streetstyle_day3_p"
+        "public_id": "devon-usa/2026-10-20/6abe69b049d6c63a9f5048c1_ParisFashionweek_SS27_streetstyle_day3_p"
       }
     ],
     "beauty": [
@@ -206,50 +206,50 @@
         "url": "https://www.vogue.com/article/beauty-secrets-yoonchae",
         "image": "https://assets.vogue.com/photos/6abd4fec275aa05570537b23/3:4/w_1024%2Cc_limit/vogue_beauty-secrets-yoonchae-katseye.jpg",
         "category": "Celebrity Beauty",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Jenny Berg",
-        "public_id": "devon-usa/2026-10-19/6abd4fec275aa05570537b23_vogue_beauty-secrets-yoonchae-katseye"
+        "public_id": "devon-usa/2026-10-20/6abd4fec275aa05570537b23_vogue_beauty-secrets-yoonchae-katseye"
       },
       {
         "title": "The “Curtain Crop” Is the Cool-Girl Haircut for Fall",
         "url": "https://www.vogue.com/article/curtain-crop-2026",
         "image": "https://assets.vogue.com/photos/6a90bdc8328fef43de49b78b/1:1/w_640%2Cc_limit/2171111550",
         "category": "Hair",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Daisy Jones",
-        "public_id": "devon-usa/2026-10-19/6a90bdc8328fef43de49b78b_2171111550"
+        "public_id": "devon-usa/2026-10-20/6a90bdc8328fef43de49b78b_2171111550"
       },
       {
         "title": "The Wrinkle Creams Dermatologists Swear By",
         "url": "https://www.vogue.com/article/best-wrinkle-cream",
         "image": "https://assets.vogue.com/photos/6ac3b1271fff82525c522135/1:1/w_640%2Cc_limit/v2_wrinklecreams_polaroid_beautyholding.jpg",
         "category": "Beauty",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Jenny Berg",
-        "public_id": "devon-usa/2026-10-19/6ac3b1271fff82525c522135_v2_wrinklecreams_polaroid_beautyholding"
+        "public_id": "devon-usa/2026-10-20/6ac3b1271fff82525c522135_v2_wrinklecreams_polaroid_beautyholding"
       },
       {
         "title": "Brooke Eby Chronicled Her Own Death Online to Find a Cure",
         "url": "https://www.vogue.com/article/brooke-eby-als-tribute",
         "image": "https://assets.vogue.com/photos/6abfee6ff5f28b09808daeee/1:1/w_640%2Cc_limit/IMG_1293.jpg",
         "category": "Wellness",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Margaux Anbouba",
-        "public_id": "devon-usa/2026-10-19/6abfee6ff5f28b09808daeee_IMG_1293"
+        "public_id": "devon-usa/2026-10-20/6abfee6ff5f28b09808daeee_IMG_1293"
       },
       {
         "title": "Miu Miu Wants You To Embrace Messy Beauty",
         "url": "https://www.vogue.com/article/forget-clean-girl-miu-miu-wants-you-to-embrace-messy-beauty",
         "image": "https://assets.vogue.com/photos/6ac535e3b4f781883e84b959/1:1/w_640%2Cc_limit/IMG_0420.jpeg",
         "category": "Makeup",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Margaux Anbouba",
-        "public_id": "devon-usa/2026-10-19/6ac535e3b4f781883e84b959_IMG_0420"
+        "public_id": "devon-usa/2026-10-20/6ac535e3b4f781883e84b959_IMG_0420"
       }
     ],
     "living": [
@@ -258,40 +258,40 @@
         "url": "https://www.vogue.com/article/skillcations-travel-trend",
         "image": "https://assets.vogue.com/photos/6ad00a528f6d372f3fa47810/3:4/w_1024%2Cc_limit/VO0921_BeatrixFarrand_01.jpg",
         "category": "Travel",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Julia Eskins",
-        "public_id": "devon-usa/2026-10-19/6ad00a528f6d372f3fa47810_VO0921_BeatrixFarrand_01"
+        "public_id": "devon-usa/2026-10-20/6ad00a528f6d372f3fa47810_VO0921_BeatrixFarrand_01"
       },
       {
         "title": "Now Might Be a Good Time for a Talisman",
         "url": "https://www.vogue.com/article/talisman-amulet-trend",
         "image": "https://assets.vogue.com/photos/6ad2897cbeb1b24378a1148d/1:1/w_640%2Cc_limit/00-medium.jpg",
         "category": "Living",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Nicole Kliest",
-        "public_id": "devon-usa/2026-10-19/6ad2897cbeb1b24378a1148d_00-medium"
+        "public_id": "devon-usa/2026-10-20/6ad2897cbeb1b24378a1148d_00-medium"
       },
       {
         "title": "H Mart’s First Cookbook Is a Love Letter to Korean American Food",
         "url": "https://www.vogue.com/article/h-mart-cookbook-interview",
         "image": "https://assets.vogue.com/photos/6acfdb34bb4f852a12514fe9/1:1/w_640%2Cc_limit/p.%2520221%2520Japchae.jpg",
         "category": "Food",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Anna Grace Lee",
-        "public_id": "devon-usa/2026-10-19/6acfdb34bb4f852a12514fe9_p_221_Japchae"
+        "public_id": "devon-usa/2026-10-20/6acfdb34bb4f852a12514fe9_p_221_Japchae"
       },
       {
         "title": "The Allure of the Antique-Buying Vacation",
         "url": "https://www.vogue.com/article/the-allure-of-the-antique-buying-vacation",
         "image": "https://assets.vogue.com/photos/6ad1013e6e5a262bef4d7fae/1:1/w_640%2Cc_limit/0905-VO-WE92.01.jpg",
         "category": "Travel",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Annachiara Barretto-Grignoli",
-        "public_id": "devon-usa/2026-10-19/6ad1013e6e5a262bef4d7fae_0905-VO-WE92_01"
+        "public_id": "devon-usa/2026-10-20/6ad1013e6e5a262bef4d7fae_0905-VO-WE92_01"
       }
     ],
     "culture": [
@@ -300,40 +300,40 @@
         "url": "https://www.vogue.com/article/a-first-look-at-vogue-portraits",
         "image": "https://assets.vogue.com/photos/6acfaa100ebd615a27783d39/3:4/w_1024%2Cc_limit/0912-VO-EDEY20.01.jpg",
         "category": "Books",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Anna Wintour",
-        "public_id": "devon-usa/2026-10-19/6acfaa100ebd615a27783d39_0912-VO-EDEY20_01"
+        "public_id": "devon-usa/2026-10-20/6acfaa100ebd615a27783d39_0912-VO-EDEY20_01"
       },
       {
         "title": "I Want My Sons to Know What Happened to Me",
         "url": "https://www.vogue.com/article/i-want-my-sons-to-know-what-happened-to-me",
         "image": "https://assets.vogue.com/photos/6acf27f7b9b445d46ca9f77a/1:1/w_640%2Cc_limit/GettyImages-1354584068.jpg",
         "category": "Opinion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Anna Sullivan",
-        "public_id": "devon-usa/2026-10-19/6acf27f7b9b445d46ca9f77a_GettyImages-1354584068"
+        "public_id": "devon-usa/2026-10-20/6acf27f7b9b445d46ca9f77a_GettyImages-1354584068"
       },
       {
         "title": "Where Will the Titular Girls of HBO’s Girls Find Themselves 10 Years Later? Some Guesses",
         "url": "https://www.vogue.com/article/where-will-the-titular-girls-of-hbos-girls-find-themselves-10-years-later-2026-10-13",
         "image": "https://assets.vogue.com/photos/6ace90d268b77ba97dd713ef/1:1/w_640%2Cc_limit/TCDGIRL_EC057.jpg",
         "category": "TV & Movies",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Emma Specter",
-        "public_id": "devon-usa/2026-10-19/6ace90d268b77ba97dd713ef_TCDGIRL_EC057"
+        "public_id": "devon-usa/2026-10-20/6ace90d268b77ba97dd713ef_TCDGIRL_EC057"
       },
       {
         "title": "At the Bourse de Commerce, Barbara Kruger Isn’t Mincing Words",
         "url": "https://www.vogue.com/article/barbara-kruger-the-history-of-tears-remember-me-bourse",
         "image": "https://assets.vogue.com/photos/6acbe1d68630cb7731829b30/1:1/w_640%2Cc_limit/_The%2520History%2520of%2520Tears_(8).jpg",
         "category": "Arts",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Amy Verner",
-        "public_id": "devon-usa/2026-10-19/6acbe1d68630cb7731829b30_The_History_of_Tears__8"
+        "public_id": "devon-usa/2026-10-20/6acbe1d68630cb7731829b30_The_History_of_Tears__8"
       }
     ],
     "shopping": [
@@ -342,162 +342,162 @@
         "url": "https://www.vogue.com/article/tommy-tons-take",
         "image": "https://assets.vogue.com/photos/6ad134a073e7d92f19242741/4:3/w_1600%2Cc_limit/101526_Tommy's-Take-Holding_4x5.jpg",
         "category": "Fashion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Tommy Ton October 18, 2026",
-        "public_id": "devon-usa/2026-10-19/6ad134a073e7d92f19242741_101526_Tommy_s-Take-Holding_4x5"
+        "public_id": "devon-usa/2026-10-20/6ad134a073e7d92f19242741_101526_Tommy_s-Take-Holding_4x5"
       },
       {
         "title": "Eagle Eye on… Art Deco",
         "url": "https://www.vogue.com/article/eagle-eye-art-deco",
         "image": "https://assets.vogue.com/photos/6a7cd8f79c9a2bec8d5de17e/4:3/w_1600%2Cc_limit/16x9_banner_eagleeye.jpg",
         "category": "Shopping",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Alex Eagle September 8, 2026",
-        "public_id": "devon-usa/2026-10-19/6a7cd8f79c9a2bec8d5de17e_16x9_banner_eagleeye"
+        "public_id": "devon-usa/2026-10-20/6a7cd8f79c9a2bec8d5de17e_16x9_banner_eagleeye"
       },
       {
         "title": "The Hot List: 10 Must-Have Pieces, According to Instagram’s Favorite Fashion Sourcer",
         "url": "https://www.vogue.com/article/the-hot-list-with-gab-waller",
         "image": "https://assets.vogue.com/photos/6a9adaf1f2f72e76a1831b15/4:3/w_1600%2Cc_limit/090126_September%2520Gab%2520Waller%2520Collage%2520(updated).jpg",
         "category": "Fashion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Gab Waller September 8, 2026",
-        "public_id": "devon-usa/2026-10-19/6a9adaf1f2f72e76a1831b15_090126_September_Gab_Waller_Collage_upda"
+        "public_id": "devon-usa/2026-10-20/6a9adaf1f2f72e76a1831b15_090126_September_Gab_Waller_Collage_upda"
       },
       {
-        "title": "Here’s How 14 Vogue Editors Dress for Black-Tie Weddings",
-        "url": "https://www.vogue.com/article/vogue-editor-black-tie-wedding-guest-dresses",
-        "image": "https://assets.vogue.com/photos/6aceb5167d3dfa69d54a9adc/4:3/w_1600%2Cc_limit/v2_101326_blacktieweddingguest_tryp.jpg",
-        "category": "Wedding",
-        "date": "2026.10.19",
+        "title": "Victoria Beckham’s Second Gap Collection Reimagines Fall’s Essential Layers",
+        "url": "https://www.vogue.com/article/victoria-beckham-gap-collaboration-fall-2026",
+        "image": "https://assets.vogue.com/photos/6ad664d3ec15db916b269896/4:3/w_1600%2Cc_limit/Gap%2520x%2520Victoria%2520Beckham_1.jpg",
+        "category": "Fashion",
+        "date": "2026.10.20",
         "section": "shopping",
-        "author": "Fred Sahai October 19, 2026",
-        "public_id": "devon-usa/2026-10-19/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp"
+        "author": "Angela Tafoya October 20, 2026",
+        "public_id": "devon-usa/2026-10-20/6ad664d3ec15db916b269896_Gap_x_Victoria_Beckham_1"
       }
     ],
     "latest": [
       {
-        "title": "Orange-Peel Silk and Veggie Cashmere: How the 2026 CFDA/ Vogue Fashion Fund Finalists Imagined Signature Silhouettes for a More Sustainable Future",
-        "url": "https://www.vogue.com/article/cfda-vogue-fashion-fund-sustainability-challenge-10-16-2026",
-        "image": "https://assets.vogue.com/photos/6ad2280c4d4273d7590d3170/3:4/w_1280,c_limit/CFDA%2520Vogue%2520Fashion%2520Fund%2520Design%2520Challenge%2520DSC_9727%252020261015.jpg",
-        "category": "Runway",
-        "date": "2026.10.19",
-        "section": "home",
-        "author": "Alexandra Hildreth",
-        "public_id": "devon-usa/2026-10-19/6ad2280c4d4273d7590d3170_CFDA_Vogue_Fashion_Fund_Design_Challenge"
-      },
-      {
-        "title": "Phoebe Philo Has the Last Word—Her Sophisticated, Subtly Sexy New Collection for Spring Is Here",
-        "url": "https://www.vogue.com/slideshow/phoebe-philo-has-the-last-word-her-sophisticated-subtly-sexy-new-collection-for-spring-is-here",
-        "image": "https://assets.vogue.com/photos/6acfeb2a5e40f82aed4e7694/1:1/w_1280,c_limit/Phoebe%2520Philo%2520Collection%2520F_3x4_52.jpg",
-        "category": "Runway",
-        "date": "2026.10.19",
-        "section": "home",
-        "author": "Sarah Mower",
-        "public_id": "devon-usa/2026-10-19/6acfeb2a5e40f82aed4e7694_Phoebe_Philo_Collection_F_3x4_52"
-      },
-      {
-        "title": "Prada, Miu Miu, and Lots of Chloé: Here’s How Daisy Edgar-Jones’s Stylist, Brought Elinor Dashwood to 2026 for Sense and Sensibility",
-        "url": "https://www.vogue.com/slideshow/daisy-edgar-jones-sense-and-sensibility-press-tour-dani-michelle-interview",
-        "image": "https://assets.vogue.com/photos/6ad22e77294b0e26011a48b5/1:1/w_1280,c_limit/Daisy_16x9.jpg",
-        "category": "Celebrity Style",
-        "date": "2026.10.19",
-        "section": "home",
-        "author": "Hannah Jackson",
-        "public_id": "devon-usa/2026-10-19/6ad22e77294b0e26011a48b5_Daisy_16x9"
-      },
-      {
-        "title": "Visiting With Alex Katz, the 99-Year-Old Artist Who Doesn’t Stop",
-        "url": "https://www.vogue.com/article/alex-katz-tenth-decade",
-        "image": "https://assets.vogue.com/photos/6acf8b4647bda1bb0729e86b/3:4/w_1280%2Cc_limit/2026_08_05_Katz_Alex_0480+523+581+473_Final.jpg",
+        "title": "Where The Wild Things Are: Tactically Tinged Fashion Takes to the Water—and the Woods—in Maine",
+        "url": "https://www.vogue.com/article/maine-fashion-birdwatching",
+        "image": "https://assets.vogue.com/photos/6acf9dab2b72b97fe4aed2f1/3:4/w_1280,c_limit/VO1126_Birdwatching_01.jpg",
         "category": "Magazine",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Dodie Kazanjian",
-        "public_id": "devon-usa/2026-10-19/6acf8b4647bda1bb0729e86b_2026_08_05_Katz_Alex_0480_523_581_473_Fi"
+        "author": "Heidi Julavits Photography by Sebastián Faena",
+        "public_id": "devon-usa/2026-10-20/6acf9dab2b72b97fe4aed2f1_VO1126_Birdwatching_01"
       },
       {
-        "title": "Here’s How 14 Vogue Editors Dress for Black-Tie Weddings",
-        "url": "https://www.vogue.com/article/vogue-editor-black-tie-wedding-guest-dresses",
-        "image": "https://assets.vogue.com/photos/6aceb5167d3dfa69d54a9adc/3:4/w_1280%2Cc_limit/v2_101326_blacktieweddingguest_tryp.jpg",
-        "category": "Wedding",
-        "date": "2026.10.19",
-        "section": "home",
-        "author": "Fred Sahai",
-        "public_id": "devon-usa/2026-10-19/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp"
-      },
-      {
-        "title": "Sheer Looks to Lingerie: Are GLP-1s Changing the Way We Dress?",
-        "url": "https://www.vogue.com/article/sheer-looks-to-lingerie-are-glp-1s-changing-the-way-we-dress",
-        "image": "https://assets.vogue.com/photos/6ad259b2e5ce533e10a202e2/3:4/w_1280%2Cc_limit/-story%2520(8).jpg",
-        "category": "Fashion Month",
-        "date": "2026.10.19",
-        "section": "home",
-        "author": "Rachael Akhidenor",
-        "public_id": "devon-usa/2026-10-19/6ad259b2e5ce533e10a202e2_-story_8"
-      },
-      {
-        "title": "“We Are Facing a Pandemic of People Shrinking”: 3 Designers on the State of Size Inclusivity",
-        "url": "https://www.vogue.com/article/we-are-facing-a-pandemic-of-people-shrinking-3-designers-on-the-state-of-size-inclusivity",
-        "image": "https://assets.vogue.com/photos/6ad246fce5ce533e10a202d1/3:4/w_1280%2Cc_limit/-story.jpg",
+        "title": "6 Fall Boot Trends to Try, From Buckled Styles to Slim Knee-Highs",
+        "url": "https://www.vogue.com/article/fall-2026-boot-trends",
+        "image": "https://assets.vogue.com/photos/6ad288c267b21e4f29adda10/1:1/w_1280,c_limit/boottrends_leadholding.jpeg",
         "category": "Fashion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Lucy Maguire",
-        "public_id": "devon-usa/2026-10-19/6ad246fce5ce533e10a202d1_-story"
+        "author": "Christina Holevas",
+        "public_id": "devon-usa/2026-10-20/6ad288c267b21e4f29adda10_boottrends_leadholding"
       },
       {
-        "title": "The Vogue Business Spring/Summer 2027 Size Inclusivity Report",
-        "url": "https://www.vogue.com/article/the-vogue-business-spring-summer-2027-size-inclusivity-report",
-        "image": "https://assets.vogue.com/photos/6ad25833eeb470219a506143/3:4/w_1280%2Cc_limit/VB-SIZE-INC-LEAD-SS27.gif",
-        "category": "Fashion Month",
-        "date": "2026.10.19",
+        "title": "A Fifth Fashion Week Capital? Shanghai Makes the Case for Itself",
+        "url": "https://www.vogue.com/article/a-fifth-fashion-week-capital-shanghai-makes-the-case-for-itself",
+        "image": "https://assets.vogue.com/photos/6acf68bc2cbeeefdc912fb15/1:1/w_1280,c_limit/00009-samuel-gui-yang-spring-2027-ready-to-wear-shanghai-credit-brand.jpg",
+        "category": "Runway",
+        "date": "2026.10.20",
         "section": "home",
-        "author": "Joe Bobowicz",
-        "public_id": "devon-usa/2026-10-19/6ad25833eeb470219a506143_VB-SIZE-INC-LEAD-SS27"
+        "author": "Tiziana Cardini",
+        "public_id": "devon-usa/2026-10-20/6acf68bc2cbeeefdc912fb15_00009-samuel-gui-yang-spring-2027-ready-"
+      },
+      {
+        "title": "“I Love Seeing a Woman Age Gracefully”: Kendall Jenner's Simple Approach to Skincare and Life",
+        "url": "https://www.vogue.com/article/kendall-jenner-beauty-interview-2026",
+        "image": "https://assets.vogue.com/photos/6ad7280e2d481af4c04ca0ae/3:4/w_1280%2Cc_limit/2300238711",
+        "category": "Skin",
+        "date": "2026.10.20",
+        "section": "home",
+        "author": "Margaux Anbouba",
+        "public_id": "devon-usa/2026-10-20/6ad7280e2d481af4c04ca0ae_2300238711"
+      },
+      {
+        "title": "Adrian Danchig-Waring Bid Farewell to New York City Ballet With a Post-Show Rave",
+        "url": "https://www.vogue.com/slideshow/adrian-danchig-farewell-performance-party-new-york-city-ballet",
+        "image": "https://assets.vogue.com/photos/6ad75c657b5cf007e92d37de/3:4/w_1280%2Cc_limit/BFA_56373_8272604.jpg",
+        "category": "Parties",
+        "date": "2026.10.20",
+        "section": "home",
+        "author": "Laura Regensdorf",
+        "public_id": "devon-usa/2026-10-20/6ad75c657b5cf007e92d37de_BFA_56373_8272604"
+      },
+      {
+        "title": "Creepy, Crawly, And Chic: Spider Nails Are Halloween 2026’s Breakout Manicure",
+        "url": "https://www.vogue.com/article/spider-nails-halloween-2026",
+        "image": "https://assets.vogue.com/photos/6ad729f6cf35cb21bb683a21/3:4/w_1280%2Cc_limit/SnapInsta.to_846375257_18501369814098611_1054531923699197309_n.jpg",
+        "category": "Makeup",
+        "date": "2026.10.20",
+        "section": "home",
+        "author": "Margaux Anbouba",
+        "public_id": "devon-usa/2026-10-20/6ad729f6cf35cb21bb683a21_SnapInsta_to_846375257_18501369814098611"
+      },
+      {
+        "title": "The Dallas Cowboys Cheerleaders—and Ricky Martin and Pedro Sampaio—Left Brazil Thunderstruck at the NFL’s Rio Debut",
+        "url": "https://www.vogue.com/slideshow/the-dallas-cowboys-cheerleaders-ricky-martin-pedro-sampaio-nfl-rio",
+        "image": "https://assets.vogue.com/photos/6ad752850a742893d190aede/3:4/w_1280%2Cc_limit/GettyImages-2296910168.jpg",
+        "category": "Parties",
+        "date": "2026.10.20",
+        "section": "home",
+        "author": "Raymond Braun",
+        "public_id": "devon-usa/2026-10-20/6ad752850a742893d190aede_GettyImages-2296910168"
+      },
+      {
+        "title": "Victoria Beckham’s Second Gap Collection Reimagines Fall’s Essential Layers",
+        "url": "https://www.vogue.com/article/victoria-beckham-gap-collaboration-fall-2026",
+        "image": "https://assets.vogue.com/photos/6ad664d3ec15db916b269896/3:4/w_1280%2Cc_limit/Gap%2520x%2520Victoria%2520Beckham_1.jpg",
+        "category": "Fashion",
+        "date": "2026.10.20",
+        "section": "home",
+        "author": "Angela Tafoya",
+        "public_id": "devon-usa/2026-10-20/6ad664d3ec15db916b269896_Gap_x_Victoria_Beckham_1"
+      },
+      {
+        "title": "Bella Hadid’s Victoria’s Secret After-Party Look Channels Britney Spears",
+        "url": "https://www.vogue.com/article/bella-hadid-victorias-secret-after-party-look-10-19-2026",
+        "image": "https://assets.vogue.com/photos/6ad6240b6ce8756e83032d9c/4:3/w_2560%2Cc_limit/BGUS_3719684_020.jpg",
+        "category": "Celebrity Style",
+        "date": "2026.10.20",
+        "section": "home",
+        "author": "Christian Allaire",
+        "public_id": "devon-usa/2026-10-20/6ad6240b6ce8756e83032d9c_BGUS_3719684_020"
       },
       {
         "title": "All the Stars at the 2026 Victoria’s Secret Fashion Show",
         "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-red-carpet-10-18-2026",
         "image": "https://assets.vogue.com/photos/6ad543a66ce8756e830328bd/4:3/w_2560%2Cc_limit/GettyImages-2300867467-1.jpg",
         "category": "Celebrity Style",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "home",
         "author": "Christian Allaire",
-        "public_id": "devon-usa/2026-10-19/6ad543a66ce8756e830328bd_GettyImages-2300867467-1"
+        "public_id": "devon-usa/2026-10-20/6ad543a66ce8756e830328bd_GettyImages-2300867467-1"
       },
       {
         "title": "Kendall Jenner Finally Got Her Polka-Dot Moment at the 2026 Academy Museum Gala",
         "url": "https://www.vogue.com/slideshow/kendall-jenner-valentino-polkadots-2026-academy-museum-gala-10-18-2026",
         "image": "https://assets.vogue.com/photos/6ad525804cee9bb5341e6908/4:3/w_2560%2Cc_limit/KJ_Vogue_PaigePowell-30-1.jpg",
         "category": "Celebrity Style",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "home",
         "author": "Christian Allaire",
-        "public_id": "devon-usa/2026-10-19/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1"
+        "public_id": "devon-usa/2026-10-20/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1"
       },
       {
         "title": "Da’Vine Joy Randolph Wanted to “Give Drama—and Body” at the 2026 Academy Museum Gala",
         "url": "https://www.vogue.com/slideshow/davine-joy-randolph-2026-academy-gala-louis-vuitton-10-18-2026",
         "image": "https://assets.vogue.com/photos/6ad4e47503a8194d85de0f45/4:3/w_2560%2Cc_limit/BH%2520GARDEN-1.jpg",
         "category": "Celebrity Style",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "home",
         "author": "Christian Allaire",
-        "public_id": "devon-usa/2026-10-19/6ad4e47503a8194d85de0f45_BH_GARDEN-1"
-      },
-      {
-        "title": "Winona Ryder Was on the Mood Board for Emma Chamberlain’s Glam at the 2026 Academy Museum Gala",
-        "url": "https://www.vogue.com/slideshow/emma-chamberlain-academy-museum-gala-2026-10-17",
-        "image": "https://assets.vogue.com/photos/6ad4e29f8dfe2ccb142beb96/4:3/w_2560%2Cc_limit/@cibelleleviCIBELLELEVIxArmaniEmma__20.jpg",
-        "category": "Celebrity Beauty",
-        "date": "2026.10.19",
-        "section": "home",
-        "author": "Anna Grace Lee",
-        "public_id": "devon-usa/2026-10-19/6ad4e29f8dfe2ccb142beb96_cibelleleviCIBELLELEVIxArmaniEmma__20"
+        "public_id": "devon-usa/2026-10-20/6ad4e47503a8194d85de0f45_BH_GARDEN-1"
       }
     ]
   },
@@ -508,120 +508,120 @@
         "url": "https://www.vogue.com/article/watch-the-vogue-world-2026-milan-livestream",
         "image": "https://assets.vogue.com/photos/6aa1c5a62b9168b4153c9e82/3:4/w_1024%2Cc_limit/VO1026_Bardia_VW_04.jpg",
         "category": "Culture",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Emma Specter",
-        "public_id": "devon-usa/2026-10-19/6aa1c5a62b9168b4153c9e82_VO1026_Bardia_VW_04"
+        "public_id": "devon-usa/2026-10-20/6aa1c5a62b9168b4153c9e82_VO1026_Bardia_VW_04"
       },
       {
         "title": "The Best Backstage Photos From the Spring 2027 Shows in New York",
         "url": "https://www.vogue.com/slideshow/the-best-backstage-photos-from-the-spring-2027-shows-in-new-york",
         "image": "https://assets.vogue.com/photos/6aaaa645d53ca4acf163a4a5/1:1/w_640%2Cc_limit/ThomBrowne_NYFW_SS27_backstage_acielle_05.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Photography by Acielle/Style Du Monde",
-        "public_id": "devon-usa/2026-10-19/6aaaa645d53ca4acf163a4a5_ThomBrowne_NYFW_SS27_backstage_acielle_0"
+        "public_id": "devon-usa/2026-10-20/6aaaa645d53ca4acf163a4a5_ThomBrowne_NYFW_SS27_backstage_acielle_0"
       },
       {
         "title": "On the Podcast: Paloma Elsesser Wants More Fearless Designers",
         "url": "https://www.vogue.com/article/on-the-podcast-paloma-elsesser-wants-more-fearless-designers",
         "image": "https://assets.vogue.com/photos/6aa81547583a35aed88c33ce/1:1/w_640%2Cc_limit/GettyImages-2214291850.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Alexandra Di Palma",
-        "public_id": "devon-usa/2026-10-19/6aa81547583a35aed88c33ce_GettyImages-2214291850"
+        "public_id": "devon-usa/2026-10-20/6aa81547583a35aed88c33ce_GettyImages-2214291850"
       },
       {
         "title": "From the Tory Burch Catwalk to Late Night Karaoke: A Day in the Life of Model Lulu Tenney",
         "url": "https://www.vogue.com/slideshow/lulu-tenney-model-diary",
         "image": "https://assets.vogue.com/photos/6aabecd36ffbb91686fe24e3/1:1/w_640%2Cc_limit/000044760025.jpg",
         "category": "Fashion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Irene Kim",
-        "public_id": "devon-usa/2026-10-19/6aabecd36ffbb91686fe24e3_000044760025"
+        "public_id": "devon-usa/2026-10-20/6aabecd36ffbb91686fe24e3_000044760025"
       },
       {
         "title": "Très Chic! 10 Paris Fashion Week Looks to Recreate Now",
         "url": "https://www.vogue.com/article/fashion-week-trends",
         "image": "https://assets.vogue.com/photos/6abe69b049d6c63a9f5048c1/1:1/w_640%2Cc_limit/ParisFashionweek_SS27_streetstyle_day3_philoh_43.jpg",
         "category": "Shopping",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Laura Jackson",
-        "public_id": "devon-usa/2026-10-19/6abe69b049d6c63a9f5048c1_ParisFashionweek_SS27_streetstyle_day3_p"
+        "public_id": "devon-usa/2026-10-20/6abe69b049d6c63a9f5048c1_ParisFashionweek_SS27_streetstyle_day3_p"
       },
       {
         "title": "The Best Vintage Stores in Dallas Fort Worth",
         "url": "https://www.vogue.com/article/the-best-vintage-stores-in-dallas-fort-worth",
         "image": "https://assets.vogue.com/photos/67e2d9df25eb8a39283e3532/4:3/w_1600%2Cc_limit/VO_VintageGuide-US-Dallas.png",
         "category": "Devon's Vintage Directory",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Margaux Anbouba",
-        "public_id": "devon-usa/2026-10-19/67e2d9df25eb8a39283e3532_VO_VintageGuide-US-Dallas"
+        "public_id": "devon-usa/2026-10-20/67e2d9df25eb8a39283e3532_VO_VintageGuide-US-Dallas"
       },
       {
         "title": "The Best Vintage Stores in Milan",
         "url": "https://www.vogue.com/article/best-vintage-stores-in-milan",
         "image": "https://assets.vogue.com/photos/67e2da76929a89e77a0c6b5b/4:3/w_1600%2Cc_limit/VO_VintageGuide-EU-Milan.png",
         "category": "Devon’s Vintage Directory",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Selene Oliva and Margaux Anbouba",
-        "public_id": "devon-usa/2026-10-19/67e2da76929a89e77a0c6b5b_VO_VintageGuide-EU-Milan"
+        "public_id": "devon-usa/2026-10-20/67e2da76929a89e77a0c6b5b_VO_VintageGuide-EU-Milan"
       },
       {
         "title": "The Best Vintage Stores in São Paulo",
         "url": "https://www.vogue.com/article/best-vintage-stores-in-sao-paulo",
         "image": "https://assets.vogue.com/photos/67e2db3840b182bd675ee52d/4:3/w_1600%2Cc_limit/VO_VintageGuide-LATAM-SaoPaolo.png",
         "category": "Devon’s Vintage Directory",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Lilah Ramzi",
-        "public_id": "devon-usa/2026-10-19/67e2db3840b182bd675ee52d_VO_VintageGuide-LATAM-SaoPaolo"
+        "public_id": "devon-usa/2026-10-20/67e2db3840b182bd675ee52d_VO_VintageGuide-LATAM-SaoPaolo"
       },
       {
         "title": "The Best Vintage Stores in Beirut",
         "url": "https://www.vogue.com/article/best-vintage-stores-in-beirut",
         "image": "https://assets.vogue.com/photos/67e2db585dd9ada192622d26/4:3/w_1600%2Cc_limit/VO_VintageGuide-MENA-Beirut.png",
         "category": "Devon’s Vintage Directory",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Lilah Ramzi",
-        "public_id": "devon-usa/2026-10-19/67e2db585dd9ada192622d26_VO_VintageGuide-MENA-Beirut"
+        "public_id": "devon-usa/2026-10-20/67e2db585dd9ada192622d26_VO_VintageGuide-MENA-Beirut"
       },
       {
         "title": "The Best Vintage Stores in Tokyo",
         "url": "https://www.vogue.com/article/best-vintage-stores-in-tokyo",
         "image": "https://assets.vogue.com/photos/67e2dac61b0c936abd717c1f/4:3/w_1600%2Cc_limit/VO_VintageGuide-APAC-Tokyo.png",
         "category": "Devon'S VINTAGE DIRECTORY",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Margaux Anbouba",
-        "public_id": "devon-usa/2026-10-19/67e2dac61b0c936abd717c1f_VO_VintageGuide-APAC-Tokyo"
+        "public_id": "devon-usa/2026-10-20/67e2dac61b0c936abd717c1f_VO_VintageGuide-APAC-Tokyo"
+      },
+      {
+        "title": "Bella Hadid’s Victoria’s Secret After-Party Look Channels Britney Spears",
+        "url": "https://www.vogue.com/article/bella-hadid-victorias-secret-after-party-look-10-19-2026",
+        "image": "https://assets.vogue.com/photos/6ad6240b6ce8756e83032d9c/4:3/w_2560%2Cc_limit/BGUS_3719684_020.jpg",
+        "category": "Celebrity Style",
+        "date": "2026.10.20",
+        "section": "fashion",
+        "author": "Christian Allaire",
+        "public_id": "devon-usa/2026-10-20/6ad6240b6ce8756e83032d9c_BGUS_3719684_020"
       },
       {
         "title": "All the Stars at the 2026 Victoria’s Secret Fashion Show",
         "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-red-carpet-10-18-2026",
         "image": "https://assets.vogue.com/photos/6ad543a66ce8756e830328bd/4:3/w_2560%2Cc_limit/GettyImages-2300867467-1.jpg",
         "category": "Celebrity Style",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion",
         "author": "Christian Allaire",
-        "public_id": "devon-usa/2026-10-19/6ad543a66ce8756e830328bd_GettyImages-2300867467-1"
-      },
-      {
-        "title": "Kendall Jenner Finally Got Her Polka-Dot Moment at the 2026 Academy Museum Gala",
-        "url": "https://www.vogue.com/slideshow/kendall-jenner-valentino-polkadots-2026-academy-museum-gala-10-18-2026",
-        "image": "https://assets.vogue.com/photos/6ad525804cee9bb5341e6908/4:3/w_2560%2Cc_limit/KJ_Vogue_PaigePowell-30-1.jpg",
-        "category": "Celebrity Style",
-        "date": "2026.10.19",
-        "section": "fashion",
-        "author": "Christian Allaire",
-        "public_id": "devon-usa/2026-10-19/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1"
+        "public_id": "devon-usa/2026-10-20/6ad543a66ce8756e830328bd_GettyImages-2300867467-1"
       }
     ],
     "beauty": [
@@ -630,120 +630,120 @@
         "url": "https://www.vogue.com/article/beauty-secrets-yoonchae",
         "image": "https://assets.vogue.com/photos/6abd4fec275aa05570537b23/3:4/w_1024%2Cc_limit/vogue_beauty-secrets-yoonchae-katseye.jpg",
         "category": "Celebrity Beauty",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Jenny Berg",
-        "public_id": "devon-usa/2026-10-19/6abd4fec275aa05570537b23_vogue_beauty-secrets-yoonchae-katseye"
+        "public_id": "devon-usa/2026-10-20/6abd4fec275aa05570537b23_vogue_beauty-secrets-yoonchae-katseye"
       },
       {
         "title": "The “Curtain Crop” Is the Cool-Girl Haircut for Fall",
         "url": "https://www.vogue.com/article/curtain-crop-2026",
         "image": "https://assets.vogue.com/photos/6a90bdc8328fef43de49b78b/1:1/w_640%2Cc_limit/2171111550",
         "category": "Hair",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Daisy Jones",
-        "public_id": "devon-usa/2026-10-19/6a90bdc8328fef43de49b78b_2171111550"
+        "public_id": "devon-usa/2026-10-20/6a90bdc8328fef43de49b78b_2171111550"
       },
       {
         "title": "The Wrinkle Creams Dermatologists Swear By",
         "url": "https://www.vogue.com/article/best-wrinkle-cream",
         "image": "https://assets.vogue.com/photos/6ac3b1271fff82525c522135/1:1/w_640%2Cc_limit/v2_wrinklecreams_polaroid_beautyholding.jpg",
         "category": "Beauty",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Jenny Berg",
-        "public_id": "devon-usa/2026-10-19/6ac3b1271fff82525c522135_v2_wrinklecreams_polaroid_beautyholding"
+        "public_id": "devon-usa/2026-10-20/6ac3b1271fff82525c522135_v2_wrinklecreams_polaroid_beautyholding"
       },
       {
         "title": "Brooke Eby Chronicled Her Own Death Online to Find a Cure",
         "url": "https://www.vogue.com/article/brooke-eby-als-tribute",
         "image": "https://assets.vogue.com/photos/6abfee6ff5f28b09808daeee/1:1/w_640%2Cc_limit/IMG_1293.jpg",
         "category": "Wellness",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Margaux Anbouba",
-        "public_id": "devon-usa/2026-10-19/6abfee6ff5f28b09808daeee_IMG_1293"
+        "public_id": "devon-usa/2026-10-20/6abfee6ff5f28b09808daeee_IMG_1293"
       },
       {
         "title": "Miu Miu Wants You To Embrace Messy Beauty",
         "url": "https://www.vogue.com/article/forget-clean-girl-miu-miu-wants-you-to-embrace-messy-beauty",
         "image": "https://assets.vogue.com/photos/6ac535e3b4f781883e84b959/1:1/w_640%2Cc_limit/IMG_0420.jpeg",
         "category": "Makeup",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Margaux Anbouba",
-        "public_id": "devon-usa/2026-10-19/6ac535e3b4f781883e84b959_IMG_0420"
+        "public_id": "devon-usa/2026-10-20/6ac535e3b4f781883e84b959_IMG_0420"
       },
       {
         "title": "A Golden Thread: How Turmeric Binds Indian Weddings Across the Generations",
         "url": "https://www.vogue.com/article/how-turmeric-binds-indian-weddings-across-the-generations",
         "image": "https://assets.vogue.com/photos/682dd1667cb49ebca75d2e7a/4:3/w_1600%2Cc_limit/GettyImages-161733634.jpg",
         "category": "The Makeup of a Marriage",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Sara Hussain",
-        "public_id": "devon-usa/2026-10-19/682dd1667cb49ebca75d2e7a_GettyImages-161733634"
+        "public_id": "devon-usa/2026-10-20/682dd1667cb49ebca75d2e7a_GettyImages-161733634"
       },
       {
         "title": "An Ethiopian-Eritrean Bride on the Quiet Power of Her Wedding-Day Braids",
         "url": "https://www.vogue.com/article/ethiopian-eritrean-bride-wedding-day-braids",
         "image": "https://assets.vogue.com/photos/68237f07e858016c0e2972d9/4:3/w_1600%2Cc_limit/BRIE23430%2520copy.jpg",
         "category": "The Makeup of a Marriage",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Ruhama Wolle Photography by Elizabeth Lavin",
-        "public_id": "devon-usa/2026-10-19/68237f07e858016c0e2972d9_BRIE23430_copy"
+        "public_id": "devon-usa/2026-10-20/68237f07e858016c0e2972d9_BRIE23430_copy"
       },
       {
         "title": "The Sacred Malian Henna Ceremony That Signifies the Transition From Girl to Woman",
         "url": "https://www.vogue.com/article/global-women-mali-henna-ceremony",
         "image": "https://assets.vogue.com/photos/682ec4473a5eae78be3c5315/4:3/w_1600%2Cc_limit/WeddingTraditions_MaliHenna_DeniseStephanie_002RZ.jpg",
         "category": "The Makeup of a Marriage",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Kiana Murden Photography by Denise Stephanie",
-        "public_id": "devon-usa/2026-10-19/682ec4473a5eae78be3c5315_WeddingTraditions_MaliHenna_DeniseStepha"
+        "public_id": "devon-usa/2026-10-20/682ec4473a5eae78be3c5315_WeddingTraditions_MaliHenna_DeniseStepha"
       },
       {
         "title": "Rainwater Baths, Milk and Honey Facials, and My Cuban Abuela",
         "url": "https://www.vogue.com/article/rainwater-baths-milk-and-honey-facials-and-my-cuban-abuela",
         "image": "https://assets.vogue.com/photos/682e288c21bf0160581428d9/4:3/w_1600%2Cc_limit/IMG_4944.jpg",
         "category": "The Makeup of a Marriage",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Carolina Dalia Gonzalez",
-        "public_id": "devon-usa/2026-10-19/682e288c21bf0160581428d9_IMG_4944"
+        "public_id": "devon-usa/2026-10-20/682e288c21bf0160581428d9_IMG_4944"
       },
       {
         "title": "How Modern Korean Brides Are Upholding This Traditional Joseon-Era Beauty Look",
         "url": "https://www.vogue.com/article/modern-korean-brides-traditional-joseon-era-beauty-look",
         "image": "https://assets.vogue.com/photos/682ebb55e5998f513e94e9c8/4:3/w_1600%2Cc_limit/WeddingTraditions_KoreanMakeup_ShinaPeng_001RZ.jpg",
         "category": "The Makeup of a Marriage",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Margaux Anbouba Photography by Shina Peng",
-        "public_id": "devon-usa/2026-10-19/682ebb55e5998f513e94e9c8_WeddingTraditions_KoreanMakeup_ShinaPeng"
+        "public_id": "devon-usa/2026-10-20/682ebb55e5998f513e94e9c8_WeddingTraditions_KoreanMakeup_ShinaPeng"
       },
       {
         "title": "How a Golden Hairbrush Helped One Bride Connect to Her Chinese Heritage",
         "url": "https://www.vogue.com/article/golden-hairbrush-chinese-heritage-bride",
         "image": "https://assets.vogue.com/photos/682f5d2e0df4b423b5c21729/4:3/w_1600%2Cc_limit/_STORY-WeddingHairComb_HuyLuong_006rz%2520copy.jpg",
         "category": "The Makeup of a Marriage",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Lisa Wong Macabasco Photography by Huy Luong",
-        "public_id": "devon-usa/2026-10-19/682f5d2e0df4b423b5c21729_STORY-WeddingHairComb_HuyLuong_006rz_cop"
+        "public_id": "devon-usa/2026-10-20/682f5d2e0df4b423b5c21729_STORY-WeddingHairComb_HuyLuong_006rz_cop"
       },
       {
         "title": "The Deeper Meaning Behind Olive Oil’s Use as a Southern Italian Bridal Beauty Ritual",
         "url": "https://www.vogue.com/article/olive-oils-southern-italian-bridal-beauty-ritual",
         "image": "https://assets.vogue.com/photos/682dde312fb7ef7a2bf439aa/4:3/w_1600%2Cc_limit/vogue_italia%2520006.jpg",
         "category": "The Makeup of a Marriage",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "beauty",
         "author": "Laura Tortora",
-        "public_id": "devon-usa/2026-10-19/682dde312fb7ef7a2bf439aa_vogue_italia_006"
+        "public_id": "devon-usa/2026-10-20/682dde312fb7ef7a2bf439aa_vogue_italia_006"
       }
     ],
     "living": [
@@ -752,120 +752,120 @@
         "url": "https://www.vogue.com/article/skillcations-travel-trend",
         "image": "https://assets.vogue.com/photos/6ad00a528f6d372f3fa47810/3:4/w_1024%2Cc_limit/VO0921_BeatrixFarrand_01.jpg",
         "category": "Travel",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Julia Eskins",
-        "public_id": "devon-usa/2026-10-19/6ad00a528f6d372f3fa47810_VO0921_BeatrixFarrand_01"
+        "public_id": "devon-usa/2026-10-20/6ad00a528f6d372f3fa47810_VO0921_BeatrixFarrand_01"
       },
       {
         "title": "Now Might Be a Good Time for a Talisman",
         "url": "https://www.vogue.com/article/talisman-amulet-trend",
         "image": "https://assets.vogue.com/photos/6ad2897cbeb1b24378a1148d/1:1/w_640%2Cc_limit/00-medium.jpg",
         "category": "Living",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Nicole Kliest",
-        "public_id": "devon-usa/2026-10-19/6ad2897cbeb1b24378a1148d_00-medium"
+        "public_id": "devon-usa/2026-10-20/6ad2897cbeb1b24378a1148d_00-medium"
       },
       {
         "title": "H Mart’s First Cookbook Is a Love Letter to Korean American Food",
         "url": "https://www.vogue.com/article/h-mart-cookbook-interview",
         "image": "https://assets.vogue.com/photos/6acfdb34bb4f852a12514fe9/1:1/w_640%2Cc_limit/p.%2520221%2520Japchae.jpg",
         "category": "Food",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Anna Grace Lee",
-        "public_id": "devon-usa/2026-10-19/6acfdb34bb4f852a12514fe9_p_221_Japchae"
+        "public_id": "devon-usa/2026-10-20/6acfdb34bb4f852a12514fe9_p_221_Japchae"
       },
       {
         "title": "The Allure of the Antique-Buying Vacation",
         "url": "https://www.vogue.com/article/the-allure-of-the-antique-buying-vacation",
         "image": "https://assets.vogue.com/photos/6ad1013e6e5a262bef4d7fae/1:1/w_640%2Cc_limit/0905-VO-WE92.01.jpg",
         "category": "Travel",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Annachiara Barretto-Grignoli",
-        "public_id": "devon-usa/2026-10-19/6ad1013e6e5a262bef4d7fae_0905-VO-WE92_01"
+        "public_id": "devon-usa/2026-10-20/6ad1013e6e5a262bef4d7fae_0905-VO-WE92_01"
       },
       {
         "title": "Sisters and Spritzes: Inside the Vogue Book Club Sense and Sensibility Screening With Daisy Edgar-Jones",
         "url": "https://www.vogue.com/slideshow/vogue-book-club-sense-and-sensibility-screening",
         "image": "https://assets.vogue.com/photos/6ad10718fec07feb109ab6dc/1:1/w_640%2Cc_limit/_MG_3020%2520copy.jpg",
         "category": "Parties",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Anna Grace Lee",
-        "public_id": "devon-usa/2026-10-19/6ad10718fec07feb109ab6dc_MG_3020_copy"
+        "public_id": "devon-usa/2026-10-20/6ad10718fec07feb109ab6dc_MG_3020_copy"
       },
       {
         "title": "How We Made Vogue ’s Global Spa Guide",
         "url": "https://www.vogue.com/article/vogue-global-spa-guide-how-we-made-it",
         "image": "https://assets.vogue.com/photos/65ce2ff2cd341596bc4ea6fc/4:3/w_1600%2Cc_limit/14818%2520UVO%252004G%2520PD%2520U30MK1.jpg",
         "category": "Global Spa Guide",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Devon Editors",
-        "public_id": "devon-usa/2026-10-19/65ce2ff2cd341596bc4ea6fc_14818_UVO_04G_PD_U30MK1"
+        "public_id": "devon-usa/2026-10-20/65ce2ff2cd341596bc4ea6fc_14818_UVO_04G_PD_U30MK1"
       },
       {
         "title": "The 10 Best Spas in the World",
         "url": "https://www.vogue.com/article/best-spas-in-the-world",
         "image": "https://assets.vogue.com/photos/683f12a3918422581c5098ae/4:3/w_1600%2Cc_limit/_WORLD-SpaGuide-EynshamBaths-014RZ.jpg",
         "category": "Global Spa Guide",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Vogue",
-        "public_id": "devon-usa/2026-10-19/683f12a3918422581c5098ae_WORLD-SpaGuide-EynshamBaths-014RZ"
+        "public_id": "devon-usa/2026-10-20/683f12a3918422581c5098ae_WORLD-SpaGuide-EynshamBaths-014RZ"
       },
       {
         "title": "The 5 Best Spas in New York City",
         "url": "https://www.vogue.com/article/best-spas-in-nyc",
         "image": "https://assets.vogue.com/photos/69de9e98bf5a60e9c563af85/4:3/w_1600%2Cc_limit/ANG02098_vin%25CC%2583eta.jpg",
         "category": "Global Spa Guide",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Vogue",
-        "public_id": "devon-usa/2026-10-19/69de9e98bf5a60e9c563af85_ANG02098_vin_eta"
+        "public_id": "devon-usa/2026-10-20/69de9e98bf5a60e9c563af85_ANG02098_vin_eta"
       },
       {
         "title": "The 10 Best Spa Resorts in the United States",
         "url": "https://www.vogue.com/article/best-spas-in-the-united-states",
         "image": "https://assets.vogue.com/photos/683f128a7925b0484c76323b/4:3/w_1600%2Cc_limit/_USA-SpaGuide_Amangiri_002_RZ.jpg",
         "category": "Global Spa Guide",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Vogue",
-        "public_id": "devon-usa/2026-10-19/683f128a7925b0484c76323b_USA-SpaGuide_Amangiri_002_RZ"
+        "public_id": "devon-usa/2026-10-20/683f128a7925b0484c76323b_USA-SpaGuide_Amangiri_002_RZ"
       },
       {
         "title": "The 10 Best Spas in Europe",
         "url": "https://www.vogue.com/article/best-spas-in-europe",
         "image": "https://assets.vogue.com/photos/683f130f78d116f2f3b2b15c/4:3/w_1600%2Cc_limit/_EUROPE-SpaGuide-DiorSpa-005RZ%2520copy.jpg",
         "category": "Global Spa Guide",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Vogue",
-        "public_id": "devon-usa/2026-10-19/683f130f78d116f2f3b2b15c_EUROPE-SpaGuide-DiorSpa-005RZ_copy"
+        "public_id": "devon-usa/2026-10-20/683f130f78d116f2f3b2b15c_EUROPE-SpaGuide-DiorSpa-005RZ_copy"
       },
       {
         "title": "From Rich Plum to ’70s Glamour: 7 Fall Decor Trends Interior Designers Want You to Know",
         "url": "https://www.vogue.com/article/fall-home-decor-trends-2026",
         "image": "https://assets.vogue.com/photos/6ac93ab064d73b52c8121e0f/4:3/w_2560%2Cc_limit/image19.jpg",
         "category": "Homes",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Hannah Coates",
-        "public_id": "devon-usa/2026-10-19/6ac93ab064d73b52c8121e0f_image19"
+        "public_id": "devon-usa/2026-10-20/6ac93ab064d73b52c8121e0f_image19"
       },
       {
         "title": "The Best Places to Buy Rugs Online, Whether You’re a Traditionalist, Minimalist, or Somewhere in Between",
         "url": "https://www.vogue.com/article/where-to-buy-rugs-online",
         "image": "https://assets.vogue.com/photos/6abd0baea5bdfd5370ba3208/4:3/w_2560%2Cc_limit/image3.png",
         "category": "Home",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "living",
         "author": "Elly Leavitt and Erika Owen",
-        "public_id": "devon-usa/2026-10-19/6abd0baea5bdfd5370ba3208_image3"
+        "public_id": "devon-usa/2026-10-20/6abd0baea5bdfd5370ba3208_image3"
       }
     ],
     "culture": [
@@ -874,120 +874,120 @@
         "url": "https://www.vogue.com/article/a-first-look-at-vogue-portraits",
         "image": "https://assets.vogue.com/photos/6acfaa100ebd615a27783d39/3:4/w_1024%2Cc_limit/0912-VO-EDEY20.01.jpg",
         "category": "Books",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Anna Wintour",
-        "public_id": "devon-usa/2026-10-19/6acfaa100ebd615a27783d39_0912-VO-EDEY20_01"
+        "public_id": "devon-usa/2026-10-20/6acfaa100ebd615a27783d39_0912-VO-EDEY20_01"
       },
       {
         "title": "I Want My Sons to Know What Happened to Me",
         "url": "https://www.vogue.com/article/i-want-my-sons-to-know-what-happened-to-me",
         "image": "https://assets.vogue.com/photos/6acf27f7b9b445d46ca9f77a/1:1/w_640%2Cc_limit/GettyImages-1354584068.jpg",
         "category": "Opinion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Anna Sullivan",
-        "public_id": "devon-usa/2026-10-19/6acf27f7b9b445d46ca9f77a_GettyImages-1354584068"
+        "public_id": "devon-usa/2026-10-20/6acf27f7b9b445d46ca9f77a_GettyImages-1354584068"
       },
       {
         "title": "Where Will the Titular Girls of HBO’s Girls Find Themselves 10 Years Later? Some Guesses",
         "url": "https://www.vogue.com/article/where-will-the-titular-girls-of-hbos-girls-find-themselves-10-years-later-2026-10-13",
         "image": "https://assets.vogue.com/photos/6ace90d268b77ba97dd713ef/1:1/w_640%2Cc_limit/TCDGIRL_EC057.jpg",
         "category": "TV & Movies",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Emma Specter",
-        "public_id": "devon-usa/2026-10-19/6ace90d268b77ba97dd713ef_TCDGIRL_EC057"
+        "public_id": "devon-usa/2026-10-20/6ace90d268b77ba97dd713ef_TCDGIRL_EC057"
       },
       {
         "title": "At the Bourse de Commerce, Barbara Kruger Isn’t Mincing Words",
         "url": "https://www.vogue.com/article/barbara-kruger-the-history-of-tears-remember-me-bourse",
         "image": "https://assets.vogue.com/photos/6acbe1d68630cb7731829b30/1:1/w_640%2Cc_limit/_The%2520History%2520of%2520Tears_(8).jpg",
         "category": "Arts",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Amy Verner",
-        "public_id": "devon-usa/2026-10-19/6acbe1d68630cb7731829b30_The_History_of_Tears__8"
+        "public_id": "devon-usa/2026-10-20/6acbe1d68630cb7731829b30_The_History_of_Tears__8"
       },
       {
         "title": "150 Spoilery Thoughts I Had While Watching You Can See Everything",
         "url": "https://www.vogue.com/article/150-spoilery-thoughts-i-had-while-watching-you-can-see-everything",
         "image": "https://assets.vogue.com/photos/6ad2d711716d3869ff7a6e99/1:1/w_640%2Cc_limit/MCDYOCA_EC124.jpg",
         "category": "Opinion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Emma Specter",
-        "public_id": "devon-usa/2026-10-19/6ad2d711716d3869ff7a6e99_MCDYOCA_EC124"
+        "public_id": "devon-usa/2026-10-20/6ad2d711716d3869ff7a6e99_MCDYOCA_EC124"
       },
       {
         "title": "Exclusive: Inside the After-Party for Kate Berlant’s New Special, Parmesan",
         "url": "https://www.vogue.com/slideshow/exclusive-inside-the-after-party-for-parmesan-kate-berlant",
         "image": "https://assets.vogue.com/photos/6ad129cd882a41ccf7baeb9e/4:3/w_2560%2Cc_limit/IMG_6582.JPG",
         "category": "TV & Movies",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Emma Specter",
-        "public_id": "devon-usa/2026-10-19/6ad129cd882a41ccf7baeb9e_IMG_6582"
+        "public_id": "devon-usa/2026-10-20/6ad129cd882a41ccf7baeb9e_IMG_6582"
       },
       {
         "title": "On the Podcast: Daisy Edgar-Jones Talks Sense and Sensibility , Hair Discourse, and Sisterhood",
         "url": "https://www.vogue.com/article/on-the-podcast-daisy-edgar-jones-talks-sense-and-sensibility-hair-discourse-and-sisterhood",
         "image": "https://assets.vogue.com/photos/6ad0f4dc236958f0b5d42d77/4:3/w_2560%2Cc_limit/0929_SenseandSensibility_VogueBookClub_quadirmoore_15.jpg",
         "category": "TV & Movies",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Devon Editors",
-        "public_id": "devon-usa/2026-10-19/6ad0f4dc236958f0b5d42d77_0929_SenseandSensibility_VogueBookClub_q"
+        "public_id": "devon-usa/2026-10-20/6ad0f4dc236958f0b5d42d77_0929_SenseandSensibility_VogueBookClub_q"
       },
       {
         "title": "22 Thoughts I Had About Season 13, Episode 8 of American Horror Story",
         "url": "https://www.vogue.com/article/22-thoughts-i-had-about-season-13-episode-8-of-american-horror-story",
         "image": "https://assets.vogue.com/photos/6ace4713e42ee0c810b5d852/4:3/w_2560%2Cc_limit/AHS%2520PENTHOUSE_ep1310_00078_f.jpg",
         "category": "TV & Movies",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Emma Specter",
-        "public_id": "devon-usa/2026-10-19/6ace4713e42ee0c810b5d852_AHS_PENTHOUSE_ep1310_00078_f"
+        "public_id": "devon-usa/2026-10-20/6ace4713e42ee0c810b5d852_AHS_PENTHOUSE_ep1310_00078_f"
       },
       {
         "title": "“She’s a Survivor, and I’d Like to Think I’ve Got a Bit of That”: Rosalind Eleazar on the Making of Misty Green",
         "url": "https://www.vogue.com/article/rosalind-eleazar-misty-green-interview",
         "image": "https://assets.vogue.com/photos/6ace31c788fdbe98f91f43b3/4:3/w_2560%2Cc_limit/https___cdn.sanity.io_images_xq1bjtf4_production_363fc46d9a1774bdd289e121ce9db18f03698689-6000x4000.jpg",
         "category": "TV & Movies",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Alex Jhamb Burns",
-        "public_id": "devon-usa/2026-10-19/6ace31c788fdbe98f91f43b3_https___cdn_sanity_io_images_xq1bjtf4_pr"
+        "public_id": "devon-usa/2026-10-20/6ace31c788fdbe98f91f43b3_https___cdn_sanity_io_images_xq1bjtf4_pr"
+      },
+      {
+        "title": "Do Female Writers Have to Turn Themselves Into a Brand While Men Get a Pass?",
+        "url": "https://www.vogue.com/article/female-writers-brand",
+        "image": "https://assets.vogue.com/photos/6ad6505f2e08ccaf44b60577/4:3/w_2560%2Cc_limit/01-joan-didion-the-last-love-song.jpeg",
+        "category": "Books",
+        "date": "2026.10.20",
+        "section": "culture",
+        "author": "Krista Diamond",
+        "public_id": "devon-usa/2026-10-20/6ad6505f2e08ccaf44b60577_01-joan-didion-the-last-love-song"
       },
       {
         "title": "City Hikes and Day Trips to the DMZ—Eric Ripert’s Guide to Seoul",
         "url": "https://www.vogue.com/article/eric-riperts-guide-to-seoul",
         "image": "https://assets.vogue.com/photos/6acfaf3245de90a800e0255f/4:3/w_2560%2Cc_limit/Book%2520It%2520Stockholm%2520(2)%2520copy.jpg",
         "category": "Book It",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Riza Cruz",
-        "public_id": "devon-usa/2026-10-19/6acfaf3245de90a800e0255f_Book_It_Stockholm_2_copy"
+        "public_id": "devon-usa/2026-10-20/6acfaf3245de90a800e0255f_Book_It_Stockholm_2_copy"
       },
       {
         "title": "In a New Cookbook, Rachel Gurjar Celebrates Flavors Near and Far",
         "url": "https://www.vogue.com/article/rachel-gurjar-east-to-east-2026-10-14",
         "image": "https://assets.vogue.com/photos/6acf1bf04656b722c49ad04e/4:3/w_2560%2Cc_limit/20250707-East2East-0903.RG_select.jpeg",
         "category": "Books",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "culture",
         "author": "Emma Specter",
-        "public_id": "devon-usa/2026-10-19/6acf1bf04656b722c49ad04e_20250707-East2East-0903_RG_select"
-      },
-      {
-        "title": "Getting Booked: Here’s What 5 Models Read Backstage During the Spring 2027 Season",
-        "url": "https://www.vogue.com/article/getting-booked-what-models-read-backstage-spring-2027",
-        "image": "https://assets.vogue.com/photos/6ac6b8fec853a9b754279acd/4:3/w_2560%2Cc_limit/Valentino_ParisFashionweek_SS27_backstage_acielle_02.jpg",
-        "category": "Models",
-        "date": "2026.10.19",
-        "section": "culture",
-        "author": "Hannah Jackson",
-        "public_id": "devon-usa/2026-10-19/6ac6b8fec853a9b754279acd_Valentino_ParisFashionweek_SS27_backstag"
+        "public_id": "devon-usa/2026-10-20/6acf1bf04656b722c49ad04e_20250707-East2East-0903_RG_select"
       }
     ],
     "shopping": [
@@ -996,1329 +996,1335 @@
         "url": "https://www.vogue.com/article/tommy-tons-take",
         "image": "https://assets.vogue.com/photos/6ad134a073e7d92f19242741/4:3/w_1600%2Cc_limit/101526_Tommy's-Take-Holding_4x5.jpg",
         "category": "Fashion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Tommy Ton October 18, 2026",
-        "public_id": "devon-usa/2026-10-19/6ad134a073e7d92f19242741_101526_Tommy_s-Take-Holding_4x5"
+        "public_id": "devon-usa/2026-10-20/6ad134a073e7d92f19242741_101526_Tommy_s-Take-Holding_4x5"
       },
       {
         "title": "Eagle Eye on… Art Deco",
         "url": "https://www.vogue.com/article/eagle-eye-art-deco",
         "image": "https://assets.vogue.com/photos/6a7cd8f79c9a2bec8d5de17e/4:3/w_1600%2Cc_limit/16x9_banner_eagleeye.jpg",
         "category": "Shopping",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Alex Eagle September 8, 2026",
-        "public_id": "devon-usa/2026-10-19/6a7cd8f79c9a2bec8d5de17e_16x9_banner_eagleeye"
+        "public_id": "devon-usa/2026-10-20/6a7cd8f79c9a2bec8d5de17e_16x9_banner_eagleeye"
       },
       {
         "title": "The Hot List: 10 Must-Have Pieces, According to Instagram’s Favorite Fashion Sourcer",
         "url": "https://www.vogue.com/article/the-hot-list-with-gab-waller",
         "image": "https://assets.vogue.com/photos/6a9adaf1f2f72e76a1831b15/4:3/w_1600%2Cc_limit/090126_September%2520Gab%2520Waller%2520Collage%2520(updated).jpg",
         "category": "Fashion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Gab Waller September 8, 2026",
-        "public_id": "devon-usa/2026-10-19/6a9adaf1f2f72e76a1831b15_090126_September_Gab_Waller_Collage_upda"
+        "public_id": "devon-usa/2026-10-20/6a9adaf1f2f72e76a1831b15_090126_September_Gab_Waller_Collage_upda"
+      },
+      {
+        "title": "Victoria Beckham’s Second Gap Collection Reimagines Fall’s Essential Layers",
+        "url": "https://www.vogue.com/article/victoria-beckham-gap-collaboration-fall-2026",
+        "image": "https://assets.vogue.com/photos/6ad664d3ec15db916b269896/4:3/w_1600%2Cc_limit/Gap%2520x%2520Victoria%2520Beckham_1.jpg",
+        "category": "Fashion",
+        "date": "2026.10.20",
+        "section": "shopping",
+        "author": "Angela Tafoya October 20, 2026",
+        "public_id": "devon-usa/2026-10-20/6ad664d3ec15db916b269896_Gap_x_Victoria_Beckham_1"
+      },
+      {
+        "title": "Why the Travel Cardigan Deserves a Spot in Your Airport Wardrobe",
+        "url": "https://www.vogue.com/article/best-travel-cardigans",
+        "image": "https://assets.vogue.com/photos/6ad10fc7fa5d673bce4db4f4/4:3/w_1600%2Cc_limit/image23.jpg",
+        "category": "Fashion",
+        "date": "2026.10.20",
+        "section": "shopping",
+        "author": "Rosie Jarman October 20, 2026",
+        "public_id": "devon-usa/2026-10-20/6ad10fc7fa5d673bce4db4f4_image23"
+      },
+      {
+        "title": "The Chill Has Set! 8 Fall Coat Trends Worth Investing In",
+        "url": "https://www.vogue.com/article/fall-2026-coat-trends",
+        "image": "https://assets.vogue.com/photos/6ad113e596223eb9eaac5c0d/4:3/w_1600%2Cc_limit/final_leadholding_coattrends.jpg",
+        "category": "Fashion",
+        "date": "2026.10.20",
+        "section": "shopping",
+        "author": "Andrea Zendejas October 20, 2026",
+        "public_id": "devon-usa/2026-10-20/6ad113e596223eb9eaac5c0d_final_leadholding_coattrends"
+      },
+      {
+        "title": "6 Fall Boot Trends to Try, From Buckled Styles to Slim Knee-Highs",
+        "url": "https://www.vogue.com/article/fall-2026-boot-trends",
+        "image": "https://assets.vogue.com/photos/6ad288c267b21e4f29adda10/4:3/w_1600%2Cc_limit/boottrends_leadholding.jpeg",
+        "category": "Fashion",
+        "date": "2026.10.20",
+        "section": "shopping",
+        "author": "Christina Holevas October 19, 2026",
+        "public_id": "devon-usa/2026-10-20/6ad288c267b21e4f29adda10_boottrends_leadholding"
+      },
+      {
+        "title": "I’ve Mastered the Antiaging Skin-Care Routine",
+        "url": "https://www.vogue.com/article/anti-aging-skin-care-routine-ingredients",
+        "image": "https://assets.vogue.com/photos/6ad60d148fd949900a441ffa/4:3/w_1600%2Cc_limit/London%2520str%2520S27%25201543%2520(3).jpg",
+        "category": "Beauty",
+        "date": "2026.10.20",
+        "section": "shopping",
+        "author": "Jenny Berg October 19, 2026",
+        "public_id": "devon-usa/2026-10-20/6ad60d148fd949900a441ffa_London_str_S27_1543_3"
       },
       {
         "title": "Here’s How 14 Vogue Editors Dress for Black-Tie Weddings",
         "url": "https://www.vogue.com/article/vogue-editor-black-tie-wedding-guest-dresses",
         "image": "https://assets.vogue.com/photos/6aceb5167d3dfa69d54a9adc/4:3/w_1600%2Cc_limit/v2_101326_blacktieweddingguest_tryp.jpg",
         "category": "Wedding",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Fred Sahai October 19, 2026",
-        "public_id": "devon-usa/2026-10-19/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp"
+        "public_id": "devon-usa/2026-10-20/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp"
       },
       {
         "title": "The Best Airbnbs in Scotland for a Folkloric Fall Getaway",
         "url": "https://www.vogue.com/article/best-airbnbs-in-scotland",
         "image": "https://assets.vogue.com/photos/68e7303ef995762cd0591c96/4:3/w_1600%2Cc_limit/d80460e7-82d7-4b43-b524-3c2d8caa.jpg",
         "category": "Shopping",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Nicole Kliest October 18, 2026",
-        "public_id": "devon-usa/2026-10-19/68e7303ef995762cd0591c96_d80460e7-82d7-4b43-b524-3c2d8caa"
+        "public_id": "devon-usa/2026-10-20/68e7303ef995762cd0591c96_d80460e7-82d7-4b43-b524-3c2d8caa"
       },
       {
         "title": "The Best Airbnbs in Italy, From Puglia to the Dolomites",
         "url": "https://www.vogue.com/article/best-airbnbs-in-italy",
         "image": "https://assets.vogue.com/photos/6a18f607ebedd4e34fd1c145/4:3/w_1600%2Cc_limit/17dd91f4-c2ca-4ca4-b7a0-975a32f7c363.jpg",
         "category": "Travel",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Nicole Kliest and Elly Leavitt October 17, 2026",
-        "public_id": "devon-usa/2026-10-19/6a18f607ebedd4e34fd1c145_17dd91f4-c2ca-4ca4-b7a0-975a32f7c363"
+        "public_id": "devon-usa/2026-10-20/6a18f607ebedd4e34fd1c145_17dd91f4-c2ca-4ca4-b7a0-975a32f7c363"
       },
       {
         "title": "Up to Our Necks: Fall Accessories and Full-Tilt Maximalism Tie the Knot",
         "url": "https://www.vogue.com/article/fall-accessories-and-full-tilt-maximalism-tie-the-knot",
         "image": "https://assets.vogue.com/photos/6ad2bce2bd36e357588fcf4a/4:3/w_1600%2Cc_limit/vogue_fall_collage_03%2520(1).jpg",
         "category": "Fashion",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "shopping",
         "author": "Ciarra Lorren Zatorski Photography by Tom Blesch October 16, 2026",
-        "public_id": "devon-usa/2026-10-19/6ad2bce2bd36e357588fcf4a_vogue_fall_collage_03_1"
-      },
-      {
-        "title": "Anything But Prim! 5 Ways to Style the Modern Lady Jacket",
-        "url": "https://www.vogue.com/article/lady-jacket-outfits",
-        "image": "https://assets.vogue.com/photos/6abd1ccf894f1a4b11d71bb2/4:3/w_1600%2Cc_limit/ParisFashionweek_SS27_streetstyle_day2_philoh_04.jpg",
-        "category": "Fashion",
-        "date": "2026.10.19",
-        "section": "shopping",
-        "author": "Laura Jackson October 16, 2026",
-        "public_id": "devon-usa/2026-10-19/6abd1ccf894f1a4b11d71bb2_ParisFashionweek_SS27_streetstyle_day2_p"
-      },
-      {
-        "title": "The Model Off-Duty Uniform, Decoded",
-        "url": "https://www.vogue.com/article/model-off-duty-outfits",
-        "image": "https://assets.vogue.com/photos/6ad2922f74b40f26ae5f8784/4:3/w_1600%2Cc_limit/NYFWSS27-8E8A6364%2520(1).jpg",
-        "category": "Fashion",
-        "date": "2026.10.19",
-        "section": "shopping",
-        "author": "Christina Holevas October 16, 2026",
-        "public_id": "devon-usa/2026-10-19/6ad2922f74b40f26ae5f8784_NYFWSS27-8E8A6364_1"
-      },
-      {
-        "title": "For a Healthier Scalp, Use a Japanese Hair Brush",
-        "url": "https://www.vogue.com/article/japanese-hair-brush",
-        "image": "https://assets.vogue.com/photos/6ace72ee726a48b442eb4540/4:3/w_1600%2Cc_limit/Spazzola%2520giapponese.jpg",
-        "category": "Beauty",
-        "date": "2026.10.19",
-        "section": "shopping",
-        "author": "Laura Sandroni October 16, 2026",
-        "public_id": "devon-usa/2026-10-19/6ace72ee726a48b442eb4540_Spazzola_giapponese"
-      },
-      {
-        "title": "Zoë! Zendaya! Julianne! Shop Our Favorite Celeb Looks of the Week",
-        "url": "https://www.vogue.com/article/best-celebrity-outfits",
-        "image": "https://assets.vogue.com/photos/6ad2324069320b338cc22d74/4:3/w_1600%2Cc_limit/101626_Celeb%2520Looks%2520of%2520the%2520Week%2520holding%2520blended%2520collage.jpg",
-        "category": "Fashion",
-        "date": "2026.10.19",
-        "section": "shopping",
-        "author": "Kristina Rutkowski October 16, 2026",
-        "public_id": "devon-usa/2026-10-19/6ad2324069320b338cc22d74_101626_Celeb_Looks_of_the_Week_holding_b"
-      },
-      {
-        "title": "The Art of the Frizz-Free Blowout: 7 Steps to Know",
-        "url": "https://www.vogue.com/article/frizz-free-blowout-steps",
-        "image": "https://assets.vogue.com/photos/6ad22e3a4d4273d7590d31e8/4:3/w_1600%2Cc_limit/Paris%2520str%2520S27%25201464%2520(1).jpg",
-        "category": "Beauty",
-        "date": "2026.10.19",
-        "section": "shopping",
-        "author": "Valeriya Chupinina October 16, 2026",
-        "public_id": "devon-usa/2026-10-19/6ad22e3a4d4273d7590d31e8_Paris_str_S27_1464_1"
+        "public_id": "devon-usa/2026-10-20/6ad2bce2bd36e357588fcf4a_vogue_fall_collage_03_1"
       }
     ],
     "fashion_shows": [
       {
         "title": "An Exclusive Behind-the-Scenes Look at the 2026 Victoria’s Secret Fashion Show",
         "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-backstage-photos-2026",
-        "image": "https://assets.vogue.com/photos/6ad58e5d3de0a292845c4146/3:4/w_1024%2Cc_limit/corey-tenold-photography-66.jpg",
+        "image": "https://assets.vogue.com/photos/6ad592af74505a9a500eb36a/3:4/w_1024%2Cc_limit/1026_Victoriasecret2026_backstage_coreytenold_04.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Max Berlinger Photography by Corey Tenold",
-        "public_id": "devon-usa/2026-10-19/6ad58e5d3de0a292845c4146_corey-tenold-photography-66"
+        "public_id": "devon-usa/2026-10-20/6ad592af74505a9a500eb36a_1026_Victoriasecret2026_backstage_coreyt"
       },
       {
         "title": "Phoebe Philo Has the Last Word—Her Sophisticated, Subtly Sexy New Collection for Spring Is Here",
         "url": "https://www.vogue.com/slideshow/phoebe-philo-has-the-last-word-her-sophisticated-subtly-sexy-new-collection-for-spring-is-here",
         "image": "https://assets.vogue.com/photos/6acfeb2a5e40f82aed4e7694/1:1/w_640%2Cc_limit/Phoebe%2520Philo%2520Collection%2520F_3x4_52.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Sarah Mower",
-        "public_id": "devon-usa/2026-10-19/6acfeb2a5e40f82aed4e7694_Phoebe_Philo_Collection_F_3x4_52"
+        "public_id": "devon-usa/2026-10-20/6acfeb2a5e40f82aed4e7694_Phoebe_Philo_Collection_F_3x4_52"
       },
       {
         "title": "See How the 2026 CFDA/ Vogue Fashion Fund Finalists Imagined Signature Silhouettes for a More Sustainable Future",
         "url": "https://www.vogue.com/article/cfda-vogue-fashion-fund-sustainability-challenge-10-16-2026",
         "image": "https://assets.vogue.com/photos/6ad2280c4d4273d7590d3170/1:1/w_640%2Cc_limit/CFDA%2520Vogue%2520Fashion%2520Fund%2520Design%2520Challenge%2520DSC_9727%252020261015.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Alexandra Hildreth",
-        "public_id": "devon-usa/2026-10-19/6ad2280c4d4273d7590d3170_CFDA_Vogue_Fashion_Fund_Design_Challenge"
+        "public_id": "devon-usa/2026-10-20/6ad2280c4d4273d7590d3170_CFDA_Vogue_Fashion_Fund_Design_Challenge"
       },
       {
         "title": "In Hyères, Yui Chen Takes Top Prize",
         "url": "https://www.vogue.com/article/in-hyeres-yui-chen-takes-top-prize",
         "image": "https://assets.vogue.com/photos/6ad36eec59803160396a93cb/1:1/w_640%2Cc_limit/Yui_Chen_Press%2520_Look-1.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Tina Isaac-Goizé",
-        "public_id": "devon-usa/2026-10-19/6ad36eec59803160396a93cb_Yui_Chen_Press__Look-1"
+        "public_id": "devon-usa/2026-10-20/6ad36eec59803160396a93cb_Yui_Chen_Press__Look-1"
       },
       {
         "title": "Bare Feet, Hands-Free Handbags, and Plenty of Tights: Here Are Spring 2027’s Top Accessories Trends",
         "url": "https://www.vogue.com/article/the-best-spring-2027-accessories-trends",
         "image": "https://assets.vogue.com/photos/6ad10e9e9000a9f58a10ca76/1:1/w_640%2Cc_limit/Accessories_Trend_Report_9x16_V2.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Alexandra Hildreth",
-        "public_id": "devon-usa/2026-10-19/6ad10e9e9000a9f58a10ca76_Accessories_Trend_Report_9x16_V2"
+        "public_id": "devon-usa/2026-10-20/6ad10e9e9000a9f58a10ca76_Accessories_Trend_Report_9x16_V2"
       },
       {
         "title": "The Best Street Style Photos From the Spring 2027 Shows in Paris",
         "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-paris",
         "image": "https://assets.vogue.com/photos/6ac68f1ed86b448a55e58b9b/4:3/w_1600%2Cc_limit/ParisFashionWeek_SS27_streetstyle_day9_philoh_03.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Photography by Phil Oh",
-        "public_id": "devon-usa/2026-10-19/6ac68f1ed86b448a55e58b9b_ParisFashionWeek_SS27_streetstyle_day9_p"
+        "public_id": "devon-usa/2026-10-20/6ac68f1ed86b448a55e58b9b_ParisFashionWeek_SS27_streetstyle_day9_p"
       },
       {
         "title": "The Best Street Style from the Spring 2027 Ready-to-Wear Shows in Milan",
         "url": "https://www.vogue.com/slideshow/phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-milan",
         "image": "https://assets.vogue.com/photos/6ab947c3c66a1f81714cf4cb/4:3/w_1600%2Cc_limit/MilanFashionweek_SS27_STREETSTYLE_Day5_PhilOh_03.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Photography by Phil Oh",
-        "public_id": "devon-usa/2026-10-19/6ab947c3c66a1f81714cf4cb_MilanFashionweek_SS27_STREETSTYLE_Day5_P"
+        "public_id": "devon-usa/2026-10-20/6ab947c3c66a1f81714cf4cb_MilanFashionweek_SS27_STREETSTYLE_Day5_P"
       },
       {
         "title": "Phil Oh’s Best Street Style Photos From the Spring 2027 Shows in London",
         "url": "https://www.vogue.com/slideshow/phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-london",
         "image": "https://assets.vogue.com/photos/6ab28b4b3fc245b9ea4562f1/4:3/w_1600%2Cc_limit/LondonFashionweek_SS27_streetstyle_day4_philoh_10.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Photography by Phil Oh",
-        "public_id": "devon-usa/2026-10-19/6ab28b4b3fc245b9ea4562f1_LondonFashionweek_SS27_streetstyle_day4_"
+        "public_id": "devon-usa/2026-10-20/6ab28b4b3fc245b9ea4562f1_LondonFashionweek_SS27_streetstyle_day4_"
       },
       {
         "title": "See Phil Oh’s Best Street Style Photos From the Spring 2027 Shows in New York",
         "url": "https://www.vogue.com/slideshow/see-phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-new-york",
         "image": "https://assets.vogue.com/photos/6aaaeebda274df05bba9603a/4:3/w_1600%2Cc_limit/NYFW_SS27_streetstyle_day7_philoh_09.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Photography by Phil Oh",
-        "public_id": "devon-usa/2026-10-19/6aaaeebda274df05bba9603a_NYFW_SS27_streetstyle_day7_philoh_09"
+        "public_id": "devon-usa/2026-10-20/6aaaeebda274df05bba9603a_NYFW_SS27_streetstyle_day7_philoh_09"
       },
       {
         "title": "The Best Street Style Photos From the Spring 2027 Shows in Seoul",
         "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-seoul",
         "image": "https://assets.vogue.com/photos/6a9c779a40c71f2ce6f1c2c6/4:3/w_1600%2Cc_limit/seoulfashionweek_SS27_STREETSTYLE_DAY3_youngchulkim_17.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Photography by Young Chul Kim",
-        "public_id": "devon-usa/2026-10-19/6a9c779a40c71f2ce6f1c2c6_seoulfashionweek_SS27_STREETSTYLE_DAY3_y"
+        "public_id": "devon-usa/2026-10-20/6a9c779a40c71f2ce6f1c2c6_seoulfashionweek_SS27_STREETSTYLE_DAY3_y"
       },
       {
         "title": "The Best Street Style Photos From the Spring 2027 Shows in Tokyo",
         "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-tokyo",
         "image": "https://assets.vogue.com/photos/6a9c74f651a82ff3eb36829f/4:3/w_1600%2Cc_limit/tokyofashionweek_SS27_STREETSTYLE_DAY6_momoangela_21.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Photography by Momo Angela",
-        "public_id": "devon-usa/2026-10-19/6a9c74f651a82ff3eb36829f_tokyofashionweek_SS27_STREETSTYLE_DAY6_m"
+        "public_id": "devon-usa/2026-10-20/6a9c74f651a82ff3eb36829f_tokyofashionweek_SS27_STREETSTYLE_DAY6_m"
       },
       {
         "title": "The Best Street Style Photos From the Spring 2027 Show in Copenhagen",
         "url": "https://www.vogue.com/slideshow/copenhagen-fashion-week-street-style-spring-2027",
         "image": "https://assets.vogue.com/photos/6a74f5b2c4c043bd6ae30d6d/4:3/w_1600%2Cc_limit/COPENHAGEN_SS27_STREETSTYLE_DAY4_ACIELLE_56.jpg",
         "category": "Runway",
-        "date": "2026.10.19",
+        "date": "2026.10.20",
         "section": "fashion_shows",
         "author": "Photography by Acielle/Style Du Monde",
-        "public_id": "devon-usa/2026-10-19/6a74f5b2c4c043bd6ae30d6d_COPENHAGEN_SS27_STREETSTYLE_DAY4_ACIELLE"
+        "public_id": "devon-usa/2026-10-20/6a74f5b2c4c043bd6ae30d6d_COPENHAGEN_SS27_STREETSTYLE_DAY4_ACIELLE"
       }
     ]
   },
   "home_all": [
     {
-      "title": "Orange-Peel Silk and Veggie Cashmere: How the 2026 CFDA/ Vogue Fashion Fund Finalists Imagined Signature Silhouettes for a More Sustainable Future",
-      "url": "https://www.vogue.com/article/cfda-vogue-fashion-fund-sustainability-challenge-10-16-2026",
-      "image": "https://assets.vogue.com/photos/6ad2280c4d4273d7590d3170/3:4/w_1280,c_limit/CFDA%2520Vogue%2520Fashion%2520Fund%2520Design%2520Challenge%2520DSC_9727%252020261015.jpg",
-      "category": "Runway",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Alexandra Hildreth",
-      "public_id": "devon-usa/2026-10-19/6ad2280c4d4273d7590d3170_CFDA_Vogue_Fashion_Fund_Design_Challenge"
-    },
-    {
-      "title": "Phoebe Philo Has the Last Word—Her Sophisticated, Subtly Sexy New Collection for Spring Is Here",
-      "url": "https://www.vogue.com/slideshow/phoebe-philo-has-the-last-word-her-sophisticated-subtly-sexy-new-collection-for-spring-is-here",
-      "image": "https://assets.vogue.com/photos/6acfeb2a5e40f82aed4e7694/1:1/w_1280,c_limit/Phoebe%2520Philo%2520Collection%2520F_3x4_52.jpg",
-      "category": "Runway",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Sarah Mower",
-      "public_id": "devon-usa/2026-10-19/6acfeb2a5e40f82aed4e7694_Phoebe_Philo_Collection_F_3x4_52"
-    },
-    {
-      "title": "Prada, Miu Miu, and Lots of Chloé: Here’s How Daisy Edgar-Jones’s Stylist, Brought Elinor Dashwood to 2026 for Sense and Sensibility",
-      "url": "https://www.vogue.com/slideshow/daisy-edgar-jones-sense-and-sensibility-press-tour-dani-michelle-interview",
-      "image": "https://assets.vogue.com/photos/6ad22e77294b0e26011a48b5/1:1/w_1280,c_limit/Daisy_16x9.jpg",
-      "category": "Celebrity Style",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Hannah Jackson",
-      "public_id": "devon-usa/2026-10-19/6ad22e77294b0e26011a48b5_Daisy_16x9"
-    },
-    {
-      "title": "Visiting With Alex Katz, the 99-Year-Old Artist Who Doesn’t Stop",
-      "url": "https://www.vogue.com/article/alex-katz-tenth-decade",
-      "image": "https://assets.vogue.com/photos/6acf8b4647bda1bb0729e86b/3:4/w_1280%2Cc_limit/2026_08_05_Katz_Alex_0480+523+581+473_Final.jpg",
+      "title": "Where The Wild Things Are: Tactically Tinged Fashion Takes to the Water—and the Woods—in Maine",
+      "url": "https://www.vogue.com/article/maine-fashion-birdwatching",
+      "image": "https://assets.vogue.com/photos/6acf9dab2b72b97fe4aed2f1/3:4/w_1280,c_limit/VO1126_Birdwatching_01.jpg",
       "category": "Magazine",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Dodie Kazanjian",
-      "public_id": "devon-usa/2026-10-19/6acf8b4647bda1bb0729e86b_2026_08_05_Katz_Alex_0480_523_581_473_Fi"
+      "author": "Heidi Julavits Photography by Sebastián Faena",
+      "public_id": "devon-usa/2026-10-20/6acf9dab2b72b97fe4aed2f1_VO1126_Birdwatching_01"
     },
     {
-      "title": "Here’s How 14 Vogue Editors Dress for Black-Tie Weddings",
-      "url": "https://www.vogue.com/article/vogue-editor-black-tie-wedding-guest-dresses",
-      "image": "https://assets.vogue.com/photos/6aceb5167d3dfa69d54a9adc/3:4/w_1280%2Cc_limit/v2_101326_blacktieweddingguest_tryp.jpg",
-      "category": "Wedding",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Fred Sahai",
-      "public_id": "devon-usa/2026-10-19/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp"
-    },
-    {
-      "title": "Sheer Looks to Lingerie: Are GLP-1s Changing the Way We Dress?",
-      "url": "https://www.vogue.com/article/sheer-looks-to-lingerie-are-glp-1s-changing-the-way-we-dress",
-      "image": "https://assets.vogue.com/photos/6ad259b2e5ce533e10a202e2/3:4/w_1280%2Cc_limit/-story%2520(8).jpg",
-      "category": "Fashion Month",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Rachael Akhidenor",
-      "public_id": "devon-usa/2026-10-19/6ad259b2e5ce533e10a202e2_-story_8"
-    },
-    {
-      "title": "“We Are Facing a Pandemic of People Shrinking”: 3 Designers on the State of Size Inclusivity",
-      "url": "https://www.vogue.com/article/we-are-facing-a-pandemic-of-people-shrinking-3-designers-on-the-state-of-size-inclusivity",
-      "image": "https://assets.vogue.com/photos/6ad246fce5ce533e10a202d1/3:4/w_1280%2Cc_limit/-story.jpg",
+      "title": "6 Fall Boot Trends to Try, From Buckled Styles to Slim Knee-Highs",
+      "url": "https://www.vogue.com/article/fall-2026-boot-trends",
+      "image": "https://assets.vogue.com/photos/6ad288c267b21e4f29adda10/1:1/w_1280,c_limit/boottrends_leadholding.jpeg",
       "category": "Fashion",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Lucy Maguire",
-      "public_id": "devon-usa/2026-10-19/6ad246fce5ce533e10a202d1_-story"
+      "author": "Christina Holevas",
+      "public_id": "devon-usa/2026-10-20/6ad288c267b21e4f29adda10_boottrends_leadholding"
     },
     {
-      "title": "The Vogue Business Spring/Summer 2027 Size Inclusivity Report",
-      "url": "https://www.vogue.com/article/the-vogue-business-spring-summer-2027-size-inclusivity-report",
-      "image": "https://assets.vogue.com/photos/6ad25833eeb470219a506143/3:4/w_1280%2Cc_limit/VB-SIZE-INC-LEAD-SS27.gif",
-      "category": "Fashion Month",
-      "date": "2026.10.19",
+      "title": "A Fifth Fashion Week Capital? Shanghai Makes the Case for Itself",
+      "url": "https://www.vogue.com/article/a-fifth-fashion-week-capital-shanghai-makes-the-case-for-itself",
+      "image": "https://assets.vogue.com/photos/6acf68bc2cbeeefdc912fb15/1:1/w_1280,c_limit/00009-samuel-gui-yang-spring-2027-ready-to-wear-shanghai-credit-brand.jpg",
+      "category": "Runway",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Joe Bobowicz",
-      "public_id": "devon-usa/2026-10-19/6ad25833eeb470219a506143_VB-SIZE-INC-LEAD-SS27"
+      "author": "Tiziana Cardini",
+      "public_id": "devon-usa/2026-10-20/6acf68bc2cbeeefdc912fb15_00009-samuel-gui-yang-spring-2027-ready-"
+    },
+    {
+      "title": "“I Love Seeing a Woman Age Gracefully”: Kendall Jenner's Simple Approach to Skincare and Life",
+      "url": "https://www.vogue.com/article/kendall-jenner-beauty-interview-2026",
+      "image": "https://assets.vogue.com/photos/6ad7280e2d481af4c04ca0ae/3:4/w_1280%2Cc_limit/2300238711",
+      "category": "Skin",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Margaux Anbouba",
+      "public_id": "devon-usa/2026-10-20/6ad7280e2d481af4c04ca0ae_2300238711"
+    },
+    {
+      "title": "Adrian Danchig-Waring Bid Farewell to New York City Ballet With a Post-Show Rave",
+      "url": "https://www.vogue.com/slideshow/adrian-danchig-farewell-performance-party-new-york-city-ballet",
+      "image": "https://assets.vogue.com/photos/6ad75c657b5cf007e92d37de/3:4/w_1280%2Cc_limit/BFA_56373_8272604.jpg",
+      "category": "Parties",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Laura Regensdorf",
+      "public_id": "devon-usa/2026-10-20/6ad75c657b5cf007e92d37de_BFA_56373_8272604"
+    },
+    {
+      "title": "Creepy, Crawly, And Chic: Spider Nails Are Halloween 2026’s Breakout Manicure",
+      "url": "https://www.vogue.com/article/spider-nails-halloween-2026",
+      "image": "https://assets.vogue.com/photos/6ad729f6cf35cb21bb683a21/3:4/w_1280%2Cc_limit/SnapInsta.to_846375257_18501369814098611_1054531923699197309_n.jpg",
+      "category": "Makeup",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Margaux Anbouba",
+      "public_id": "devon-usa/2026-10-20/6ad729f6cf35cb21bb683a21_SnapInsta_to_846375257_18501369814098611"
+    },
+    {
+      "title": "The Dallas Cowboys Cheerleaders—and Ricky Martin and Pedro Sampaio—Left Brazil Thunderstruck at the NFL’s Rio Debut",
+      "url": "https://www.vogue.com/slideshow/the-dallas-cowboys-cheerleaders-ricky-martin-pedro-sampaio-nfl-rio",
+      "image": "https://assets.vogue.com/photos/6ad752850a742893d190aede/3:4/w_1280%2Cc_limit/GettyImages-2296910168.jpg",
+      "category": "Parties",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Raymond Braun",
+      "public_id": "devon-usa/2026-10-20/6ad752850a742893d190aede_GettyImages-2296910168"
+    },
+    {
+      "title": "Victoria Beckham’s Second Gap Collection Reimagines Fall’s Essential Layers",
+      "url": "https://www.vogue.com/article/victoria-beckham-gap-collaboration-fall-2026",
+      "image": "https://assets.vogue.com/photos/6ad664d3ec15db916b269896/3:4/w_1280%2Cc_limit/Gap%2520x%2520Victoria%2520Beckham_1.jpg",
+      "category": "Fashion",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Angela Tafoya",
+      "public_id": "devon-usa/2026-10-20/6ad664d3ec15db916b269896_Gap_x_Victoria_Beckham_1"
+    },
+    {
+      "title": "Bella Hadid’s Victoria’s Secret After-Party Look Channels Britney Spears",
+      "url": "https://www.vogue.com/article/bella-hadid-victorias-secret-after-party-look-10-19-2026",
+      "image": "https://assets.vogue.com/photos/6ad6240b6ce8756e83032d9c/4:3/w_2560%2Cc_limit/BGUS_3719684_020.jpg",
+      "category": "Celebrity Style",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Christian Allaire",
+      "public_id": "devon-usa/2026-10-20/6ad6240b6ce8756e83032d9c_BGUS_3719684_020"
     },
     {
       "title": "All the Stars at the 2026 Victoria’s Secret Fashion Show",
       "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-red-carpet-10-18-2026",
       "image": "https://assets.vogue.com/photos/6ad543a66ce8756e830328bd/4:3/w_2560%2Cc_limit/GettyImages-2300867467-1.jpg",
       "category": "Celebrity Style",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
       "author": "Christian Allaire",
-      "public_id": "devon-usa/2026-10-19/6ad543a66ce8756e830328bd_GettyImages-2300867467-1"
+      "public_id": "devon-usa/2026-10-20/6ad543a66ce8756e830328bd_GettyImages-2300867467-1"
     },
     {
       "title": "Kendall Jenner Finally Got Her Polka-Dot Moment at the 2026 Academy Museum Gala",
       "url": "https://www.vogue.com/slideshow/kendall-jenner-valentino-polkadots-2026-academy-museum-gala-10-18-2026",
       "image": "https://assets.vogue.com/photos/6ad525804cee9bb5341e6908/4:3/w_2560%2Cc_limit/KJ_Vogue_PaigePowell-30-1.jpg",
       "category": "Celebrity Style",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
       "author": "Christian Allaire",
-      "public_id": "devon-usa/2026-10-19/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1"
+      "public_id": "devon-usa/2026-10-20/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1"
     },
     {
       "title": "Da’Vine Joy Randolph Wanted to “Give Drama—and Body” at the 2026 Academy Museum Gala",
       "url": "https://www.vogue.com/slideshow/davine-joy-randolph-2026-academy-gala-louis-vuitton-10-18-2026",
       "image": "https://assets.vogue.com/photos/6ad4e47503a8194d85de0f45/4:3/w_2560%2Cc_limit/BH%2520GARDEN-1.jpg",
       "category": "Celebrity Style",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
       "author": "Christian Allaire",
-      "public_id": "devon-usa/2026-10-19/6ad4e47503a8194d85de0f45_BH_GARDEN-1"
+      "public_id": "devon-usa/2026-10-20/6ad4e47503a8194d85de0f45_BH_GARDEN-1"
     },
     {
-      "title": "Winona Ryder Was on the Mood Board for Emma Chamberlain’s Glam at the 2026 Academy Museum Gala",
-      "url": "https://www.vogue.com/slideshow/emma-chamberlain-academy-museum-gala-2026-10-17",
-      "image": "https://assets.vogue.com/photos/6ad4e29f8dfe2ccb142beb96/4:3/w_2560%2Cc_limit/@cibelleleviCIBELLELEVIxArmaniEmma__20.jpg",
-      "category": "Celebrity Beauty",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Anna Grace Lee",
-      "public_id": "devon-usa/2026-10-19/6ad4e29f8dfe2ccb142beb96_cibelleleviCIBELLELEVIxArmaniEmma__20"
-    },
-    {
-      "title": "An Exclusive Behind-the-Scenes Look at the 2026 Victoria’s Secret Fashion Show",
-      "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-backstage-photos-2026",
-      "image": "https://assets.vogue.com/photos/6ad58e5d3de0a292845c4146/4:3/w_1600%2Cc_limit/corey-tenold-photography-66.jpg",
-      "category": "Runway",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Max Berlinger Photography by Corey Tenold",
-      "public_id": "devon-usa/2026-10-19/6ad58e5d3de0a292845c4146_corey-tenold-photography-66"
-    },
-    {
-      "title": "Join The Waitlist | Vogue Business Global Summit: New York",
-      "url": "https://www.vogue.com/article/buy-a-ticket-vogue-business-global-summit-new-york",
-      "image": "https://assets.vogue.com/photos/6a9fd814d37209a9e50e9780/4:3/w_1600%2Cc_limit/VB-GS-NYC-ARTICLE-STORY-V3.jpg",
-      "category": "Events",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Vogue Business Team",
-      "public_id": "devon-usa/2026-10-19/6a9fd814d37209a9e50e9780_VB-GS-NYC-ARTICLE-STORY-V3"
-    },
-    {
-      "title": "Kylie Jenner Debuts on the Victoria’s Secret Runway in its $50 Million Fantasy Bra",
-      "url": "https://www.vogue.com/article/kylie-jenner-fantasy-bra-2026-victorias-secret-10-18-2026",
-      "image": "https://assets.vogue.com/photos/6ad563dad41818a4ea9e8dd3/4:3/w_1600%2Cc_limit/GettyImages-2300878305-1.jpg",
-      "category": "Fashion",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Max Berlinger",
-      "public_id": "devon-usa/2026-10-19/6ad563dad41818a4ea9e8dd3_GettyImages-2300878305-1"
-    },
-    {
-      "title": "Trinity Rodman Enters a New League at the 2026 Victoria’s Secret Fashion Show",
-      "url": "https://www.vogue.com/article/trinity-rodman-victorias-secret-fashion-show-2026-10-18",
-      "image": "https://assets.vogue.com/photos/6ad56075332660469dcfaedc/4:3/w_1600%2Cc_limit/2300876073",
-      "category": "Fashion",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Emma Specter",
-      "public_id": "devon-usa/2026-10-19/6ad56075332660469dcfaedc_2300876073"
-    },
-    {
-      "title": "Retail Executives Speak Out After Store Looting in Paris",
-      "url": "https://www.vogue.com/article/retail-executives-speak-out-after-store-looting-in-paris",
-      "image": "https://assets.vogue.com/photos/6ad5377af740f89d4b29d83d/4:3/w_1600%2Cc_limit/PROTESTS-STORY.jpg",
-      "category": "Companies",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Laure Guilbault",
-      "public_id": "devon-usa/2026-10-19/6ad5377af740f89d4b29d83d_PROTESTS-STORY"
-    },
-    {
-      "title": "The Most Evocative Period Dramas of the 21st Century",
-      "url": "https://www.vogue.com/article/best-period-dramas-to-rewatch-now",
-      "image": "https://assets.vogue.com/photos/65d754baba95676f2ce7d1bb/4:3/w_1600%2Cc_limit/001-Belle-Period-Dramas-vogue-010720-credit-Shutterstock.jpg",
-      "category": "TV & Movies",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Radhika Seth and Lisa Wong Macabasco",
-      "public_id": "devon-usa/2026-10-19/65d754baba95676f2ce7d1bb_001-Belle-Period-Dramas-vogue-010720-cre"
-    },
-    {
-      "title": "Stars Kept the Night Going at Giorgio Armani’s Academy Gala After-Party at Chateau Marmont",
-      "url": "https://www.vogue.com/slideshow/armani-academy-museum-gala-after-party-chateau-marmont",
-      "image": "https://assets.vogue.com/photos/6ad51cd64efbc831604ddba8/4:3/w_1600%2Cc_limit/Giorgio%2520Armani%2520After%2520Party%2520L1066057_SL.jpg",
-      "category": "Parties",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Kelsey Stewart",
-      "public_id": "devon-usa/2026-10-19/6ad51cd64efbc831604ddba8_Giorgio_Armani_After_Party_L1066057_SL"
-    },
-    {
-      "title": "47 Cult Horror Movies to Watch This Halloween",
-      "url": "https://www.vogue.com/slideshow/47-cult-horror-movies-to-watch-this-halloween",
-      "image": "https://assets.vogue.com/photos/6321280132b60f6ccb286f78/4:3/w_1600%2Cc_limit/shutterstock_editorial_5885454f.jpg",
-      "category": "TV & Movies",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Taylor Antrim , Radhika Seth , and Gia Yetikyel",
-      "public_id": "devon-usa/2026-10-19/6321280132b60f6ccb286f78_shutterstock_editorial_5885454f"
-    },
-    {
-      "title": "The Next Generation of Collagen Is Here—Does It Work?",
-      "url": "https://www.vogue.com/article/collagen-tripeptides",
-      "image": "https://assets.vogue.com/photos/6a3e8fbe4786d6e0bbaad815/4:3/w_1600%2Cc_limit/00-story-wellness-center.jpg",
+      "title": "Contact Sport: How Much Eye Contact Is Too much?",
+      "url": "https://www.vogue.com/article/too-much-eye-contact-reveal",
+      "image": "https://assets.vogue.com/photos/6ad24ffa06e485ebafc72784/4:3/w_1600%2Cc_limit/MCDYOCA_EC125%2520(1)%2520copy%25202.jpg",
       "category": "Wellness",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Alessandra Signorelli",
-      "public_id": "devon-usa/2026-10-19/6a3e8fbe4786d6e0bbaad815_00-story-wellness-center"
+      "author": "Margaux Anbouba",
+      "public_id": "devon-usa/2026-10-20/6ad24ffa06e485ebafc72784_MCDYOCA_EC125_1_copy_2"
     },
     {
-      "title": "Exclusive: Inside the Academy Museum Gala, Where Hollywood Let Its Hair Down",
-      "url": "https://www.vogue.com/slideshow/academy-museum-gala-2026",
-      "image": "https://assets.vogue.com/photos/6ad4a0668dfe2ccb142beb66/4:3/w_1600%2Cc_limit/2300771511.jpg",
-      "category": "Parties",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Freya Drohan",
-      "public_id": "devon-usa/2026-10-19/6ad4a0668dfe2ccb142beb66_2300771511"
-    },
-    {
-      "title": "Tommy’s Take on Why More Is More When it Comes to Accessorizing",
-      "url": "https://www.vogue.com/article/tommy-tons-take",
-      "image": "https://assets.vogue.com/photos/6ad134a073e7d92f19242741/4:3/w_1600%2Cc_limit/101526_Tommy's-Take-Holding_4x5.jpg",
+      "title": "Why the Travel Cardigan Deserves a Spot in Your Airport Wardrobe",
+      "url": "https://www.vogue.com/article/best-travel-cardigans",
+      "image": "https://assets.vogue.com/photos/6ad10fc7fa5d673bce4db4f4/4:3/w_1600%2Cc_limit/image23.jpg",
       "category": "Fashion",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Tommy Ton",
-      "public_id": "devon-usa/2026-10-19/6ad134a073e7d92f19242741_101526_Tommy_s-Take-Holding_4x5"
+      "author": "Rosie Jarman",
+      "public_id": "devon-usa/2026-10-20/6ad10fc7fa5d673bce4db4f4_image23"
     },
     {
-      "title": "The Best Airbnbs in Scotland for a Folkloric Fall Getaway",
-      "url": "https://www.vogue.com/article/best-airbnbs-in-scotland",
-      "image": "https://assets.vogue.com/photos/68e7303ef995762cd0591c96/4:3/w_1600%2Cc_limit/d80460e7-82d7-4b43-b524-3c2d8caa.jpg",
-      "category": "Shopping",
-      "date": "2026.10.19",
+      "title": "A Theory of the It-Item: Vogue Editors Present Their Picks For Spring 2027",
+      "url": "https://www.vogue.com/article/a-theory-of-the-it-item-vogue-editors-present-their-picks-for-spring-2027",
+      "image": "https://assets.vogue.com/photos/6ad6608350281c0c85cd528b/4:3/w_1600%2Cc_limit/Index_Final%2520(2).jpg",
+      "category": "Fashion",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Nicole Kliest",
-      "public_id": "devon-usa/2026-10-19/68e7303ef995762cd0591c96_d80460e7-82d7-4b43-b524-3c2d8caa"
+      "author": "Joan Kennedy",
+      "public_id": "devon-usa/2026-10-20/6ad6608350281c0c85cd528b_Index_Final_2"
     },
     {
-      "title": "The Best Dressed Stars From the 2026 Academy Museum Gala",
-      "url": "https://www.vogue.com/slideshow/best-dressed-stars-academy-museum-gala-10-15-2026",
-      "image": "https://assets.vogue.com/photos/6ad41d0d4e2eaf5dbc019845/4:3/w_1600%2Cc_limit/GettyImages-2300727774.jpg",
-      "category": "Celebrity Style",
-      "date": "2026.10.19",
+      "title": "The Chill Has Set! 8 Fall Coat Trends Worth Investing In",
+      "url": "https://www.vogue.com/article/fall-2026-coat-trends",
+      "image": "https://assets.vogue.com/photos/6ad113e596223eb9eaac5c0d/4:3/w_1600%2Cc_limit/final_leadholding_coattrends.jpg",
+      "category": "Fashion",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Andrea Zendejas",
+      "public_id": "devon-usa/2026-10-20/6ad113e596223eb9eaac5c0d_final_leadholding_coattrends"
+    },
+    {
+      "title": "How Fashion Creatives Can Avoid AI Brain Rot",
+      "url": "https://www.vogue.com/article/how-fashion-creatives-can-avoid-ai-brain-rot",
+      "image": "https://assets.vogue.com/photos/6ad63d7c436bc28b97e74faa/4:3/w_1600%2Cc_limit/AI%2520Brain%2520Slopification%2520Animation%2520Lead.gif",
+      "category": "Technology",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Amy O’Brien",
+      "public_id": "devon-usa/2026-10-20/6ad63d7c436bc28b97e74faa_AI_Brain_Slopification_Animation_Lead"
+    },
+    {
+      "title": "Rewriting the Everyday: Key Takeaways From Shanghai Fashion Week",
+      "url": "https://www.vogue.com/article/rewriting-the-everyday-key-takeaways-from-shanghai-fashion-week",
+      "image": "https://assets.vogue.com/photos/6ad625c9915e26ec31f7e623/4:3/w_1600%2Cc_limit/-story%2520(94).jpg",
+      "category": "Fashion Month",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Yiling Pan",
+      "public_id": "devon-usa/2026-10-20/6ad625c9915e26ec31f7e623_-story_94"
+    },
+    {
+      "title": "The Unlikely Longevity of Longchamp",
+      "url": "https://www.vogue.com/article/the-unlikely-longevity-of-longchamp",
+      "image": "https://assets.vogue.com/photos/6ad62f8402c246d1d20c74d6/4:3/w_1600%2Cc_limit/-story.jpg",
+      "category": "Executive Interviews",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Joe Bobowicz",
+      "public_id": "devon-usa/2026-10-20/6ad62f8402c246d1d20c74d6_-story"
+    },
+    {
+      "title": "What Will It Take to Fortify Fashion’s Supply Chains?",
+      "url": "https://www.vogue.com/article/what-will-it-take-to-fortify-fashions-supply-chains",
+      "image": "https://assets.vogue.com/photos/6ad64077835a0a12f5691f73/4:3/w_1600%2Cc_limit/-story.jpg",
+      "category": "Sustainability",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Bella Webb",
+      "public_id": "devon-usa/2026-10-20/6ad64077835a0a12f5691f73_-story"
+    },
+    {
+      "title": "Why Church’s CEO Denni Manzatto Is Banking on Made in the UK",
+      "url": "https://www.vogue.com/article/why-churchs-ceo-denni-manzatto-is-banking-on-made-in-the-uk",
+      "image": "https://assets.vogue.com/photos/6ad6563fe529c94818e99418/4:3/w_1600%2Cc_limit/-story%2520(95).jpg",
+      "category": "Executive Interviews",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Luke Leitch",
+      "public_id": "devon-usa/2026-10-20/6ad6563fe529c94818e99418_-story_95"
+    },
+    {
+      "title": "Making Marie Antoinette Is a Magical Tribute to a Genre-Defining Period Drama",
+      "url": "https://www.vogue.com/article/making-marie-antoinette-review",
+      "image": "https://assets.vogue.com/photos/6ad6abe8dce52294300fce80/4:3/w_1600%2Cc_limit/MA_800dpi_7_Credit_%2520Sofia%2520Coppola.jpg",
+      "category": "TV & Movies",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Radhika Seth",
+      "public_id": "devon-usa/2026-10-20/6ad6abe8dce52294300fce80_MA_800dpi_7_Credit__Sofia_Coppola"
+    },
+    {
+      "title": "Sweet Dreams: 8 Expert-Approved Bedtime Snacks",
+      "url": "https://www.vogue.com/article/expert-approved-bedtime-snacks",
+      "image": "https://assets.vogue.com/photos/5ee155d3987db5cdc303b55c/4:3/w_1600%2Cc_limit/0603-VO-WE17-01%2520(2).jpg",
+      "category": "Wellness",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Patsy Anthony",
+      "public_id": "devon-usa/2026-10-20/5ee155d3987db5cdc303b55c_0603-VO-WE17-01_2"
+    },
+    {
+      "title": "Inside the Grand Opening Night of Other Desert Cities on Broadway",
+      "url": "https://www.vogue.com/slideshow/opening-night-other-desert-cities",
+      "image": "https://assets.vogue.com/photos/6ad698071cc19f52cc32d740/4:3/w_1600%2Cc_limit/ODC_Opening_AndyHenderson-43.jpg",
+      "category": "Arts",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Christopher Barnard",
+      "public_id": "devon-usa/2026-10-20/6ad698071cc19f52cc32d740_ODC_Opening_AndyHenderson-43"
+    },
+    {
+      "title": "Watch Alex Consani Get Angel-Ready for the 2026 Victoria’s Secret Fashion Show",
+      "url": "https://www.vogue.com/slideshow/alex-consani-gets-ready-2026-victorias-secret-fashion-show",
+      "image": "https://assets.vogue.com/photos/6ad6787b9ebbf5ab0dbdcecb/4:3/w_1600%2Cc_limit/DSC_4842.jpg",
+      "category": "Models",
+      "date": "2026.10.20",
       "section": "home",
       "author": "Christian Allaire",
-      "public_id": "devon-usa/2026-10-19/6ad41d0d4e2eaf5dbc019845_GettyImages-2300727774"
+      "public_id": "devon-usa/2026-10-20/6ad6787b9ebbf5ab0dbdcecb_DSC_4842"
     },
     {
-      "title": "Hailey Bieber Goes Glam-Goth With Jet-Black Nails at the 2026 Academy Museum Gala",
-      "url": "https://www.vogue.com/article/hailey-bieber-academy-gala-nail-look-exclusive-bts",
-      "image": "https://assets.vogue.com/photos/6ad431a45eb0abac154f4b6b/4:3/w_1600%2Cc_limit/2300238461",
-      "category": "Celebrity Beauty",
-      "date": "2026.10.19",
+      "title": "Do Female Writers Have to Turn Themselves Into a Brand While Men Get a Pass?",
+      "url": "https://www.vogue.com/article/female-writers-brand",
+      "image": "https://assets.vogue.com/photos/6ad6505f2e08ccaf44b60577/4:3/w_1600%2Cc_limit/01-joan-didion-the-last-love-song.jpeg",
+      "category": "Books",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Audrey Noble",
-      "public_id": "devon-usa/2026-10-19/6ad431a45eb0abac154f4b6b_2300238461"
+      "author": "Krista Diamond",
+      "public_id": "devon-usa/2026-10-20/6ad6505f2e08ccaf44b60577_01-joan-didion-the-last-love-song"
     },
     {
-      "title": "Taylor Swift Is Belle of the Ball in Dior at the 2026 Academy Museum Gala",
-      "url": "https://www.vogue.com/article/taylor-swift-2026-academy-museum-gala-dior-gown-10-17-2026",
-      "image": "https://assets.vogue.com/photos/6ad4288e81592635e6ba85ac/4:3/w_1600%2Cc_limit/GettyImages-2300733935.jpg",
-      "category": "Celebrity Style",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Christian Allaire",
-      "public_id": "devon-usa/2026-10-19/6ad4288e81592635e6ba85ac_GettyImages-2300733935"
-    },
-    {
-      "title": "In Hyères, Yui Chen Takes Top Prize",
-      "url": "https://www.vogue.com/article/in-hyeres-yui-chen-takes-top-prize",
-      "image": "https://assets.vogue.com/photos/6ad36eec59803160396a93cb/4:3/w_1600%2Cc_limit/Yui_Chen_Press%2520_Look-1.jpg",
-      "category": "Runway",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Tina Isaac-Goizé",
-      "public_id": "devon-usa/2026-10-19/6ad36eec59803160396a93cb_Yui_Chen_Press__Look-1"
-    },
-    {
-      "title": "Beauty Marks: The Best Beauty Looks of the Week",
-      "url": "https://www.vogue.com/slideshow/best-beauty-looks-of-the-week-october-17",
-      "image": "https://assets.vogue.com/photos/6ad30647c18dd7a35939e316/4:3/w_1600%2Cc_limit/SnapInsta.to_848351016_18369981913244344_6331251153120141166_n.jpg",
-      "category": "Celebrity Beauty",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Anna Cafolla",
-      "public_id": "devon-usa/2026-10-19/6ad30647c18dd7a35939e316_SnapInsta_to_848351016_18369981913244344"
-    },
-    {
-      "title": "The Best Airbnbs in Italy, From Puglia to the Dolomites",
-      "url": "https://www.vogue.com/article/best-airbnbs-in-italy",
-      "image": "https://assets.vogue.com/photos/6a18f607ebedd4e34fd1c145/4:3/w_1600%2Cc_limit/17dd91f4-c2ca-4ca4-b7a0-975a32f7c363.jpg",
-      "category": "Travel",
-      "date": "2026.10.19",
-      "section": "home",
-      "author": "Nicole Kliest and Elly Leavitt",
-      "public_id": "devon-usa/2026-10-19/6a18f607ebedd4e34fd1c145_17dd91f4-c2ca-4ca4-b7a0-975a32f7c363"
-    },
-    {
-      "title": "150 Spoilery Thoughts I Had While Watching You Can See Everything",
-      "url": "https://www.vogue.com/article/150-spoilery-thoughts-i-had-while-watching-you-can-see-everything",
-      "image": "https://assets.vogue.com/photos/6ad2d711716d3869ff7a6e99/4:3/w_1600%2Cc_limit/MCDYOCA_EC124.jpg",
+      "title": "I Want What They Have, Friendship Edition: Olivia Rodrigo and Chappell Roan",
+      "url": "https://www.vogue.com/article/i-want-what-they-have-friendship-edition-olivia-rodrigo-and-chappell-roan",
+      "image": "https://assets.vogue.com/photos/6ad65c640b32460978bd7e49/4:3/w_1600%2Cc_limit/GettyImages-2197320584.jpeg",
       "category": "Opinion",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
       "author": "Emma Specter",
-      "public_id": "devon-usa/2026-10-19/6ad2d711716d3869ff7a6e99_MCDYOCA_EC124"
+      "public_id": "devon-usa/2026-10-20/6ad65c640b32460978bd7e49_GettyImages-2197320584"
     },
     {
-      "title": "In a Sprawling Theater Project, 34 Playwrights Make Drama From Democracy",
-      "url": "https://www.vogue.com/article/women-on-the-edge-of-democracy",
-      "image": "https://assets.vogue.com/photos/6ad2caf16f62fe3ea8a8f4f5/4:3/w_1600%2Cc_limit/1245273960",
-      "category": "Arts",
-      "date": "2026.10.19",
+      "title": "Inside Ejae and Samuel Kim’s Garden Wedding at Her Grandfather’s Former Home in Seoul",
+      "url": "https://www.vogue.com/slideshow/ejae-and-samuel-kim-wedding",
+      "image": "https://assets.vogue.com/photos/6ad5f62dc294fa30b52b9c94/4:3/w_1600%2Cc_limit/072%2520-%2520IMG_4086%2520PHOTO%2520BY%2520mysweetpea.snap%2520.JPG",
+      "category": "Weddings",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Carey Purcell",
-      "public_id": "devon-usa/2026-10-19/6ad2caf16f62fe3ea8a8f4f5_1245273960"
+      "author": "Shelby Wax",
+      "public_id": "devon-usa/2026-10-20/6ad5f62dc294fa30b52b9c94_072_-_IMG_4086_PHOTO_BY_mysweetpea_snap"
     },
     {
-      "title": "Up to Our Necks: Fall Accessories and Full-Tilt Maximalism Tie the Knot",
-      "url": "https://www.vogue.com/article/fall-accessories-and-full-tilt-maximalism-tie-the-knot",
-      "image": "https://assets.vogue.com/photos/6ad2bce2bd36e357588fcf4a/4:3/w_1600%2Cc_limit/vogue_fall_collage_03%2520(1).jpg",
+      "title": "I’ve Finally Found the Fall Shoes That Look Best With Jeans",
+      "url": "https://www.vogue.com/article/fall-shoes-that-look-best-with-jeans",
+      "image": "https://assets.vogue.com/photos/6ad2a4d54833c7284d7d843b/4:3/w_1600%2Cc_limit/2294987240",
+      "category": "Shopping",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Anna Cafolla and Tatiana Ojea",
+      "public_id": "devon-usa/2026-10-20/6ad2a4d54833c7284d7d843b_2294987240"
+    },
+    {
+      "title": "Victoria’s Secret? Cashmere Manicures for All",
+      "url": "https://www.vogue.com/article/victorias-secret-cashmere-manicures-2026-10-19",
+      "image": "https://assets.vogue.com/photos/6ad592ae3c712adc3421b289/4:3/w_1600%2Cc_limit/1026_Victoriasecret2026_backstage_coreytenold_03.jpg",
+      "category": "Nails",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Violet Hayward",
+      "public_id": "devon-usa/2026-10-20/6ad592ae3c712adc3421b289_1026_Victoriasecret2026_backstage_coreyt"
+    },
+    {
+      "title": "“It’s a Mindset”: Rosie Huntington-Whiteley on Returning to Victoria’s Secret 16 Years Later",
+      "url": "https://www.vogue.com/article/rosie-huntington-whiteley-victorias-secret-return-10-19-2026",
+      "image": "https://assets.vogue.com/photos/6ad62742823c2f47fe3fd0b7/4:3/w_1600%2Cc_limit/GettyImages-119751743.jpg",
       "category": "Fashion",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Ciarra Lorren Zatorski Photography by Tom Blesch",
-      "public_id": "devon-usa/2026-10-19/6ad2bce2bd36e357588fcf4a_vogue_fall_collage_03_1"
+      "author": "Alice Newbold",
+      "public_id": "devon-usa/2026-10-20/6ad62742823c2f47fe3fd0b7_GettyImages-119751743"
     },
     {
-      "title": "Anything But Prim! 5 Ways to Style the Modern Lady Jacket",
-      "url": "https://www.vogue.com/article/lady-jacket-outfits",
-      "image": "https://assets.vogue.com/photos/6abd1ccf894f1a4b11d71bb2/4:3/w_1600%2Cc_limit/ParisFashionweek_SS27_streetstyle_day2_philoh_04.jpg",
-      "category": "Fashion",
-      "date": "2026.10.19",
+      "title": "I’ve Mastered the Antiaging Skin-Care Routine",
+      "url": "https://www.vogue.com/article/anti-aging-skin-care-routine-ingredients",
+      "image": "https://assets.vogue.com/photos/6ad60d148fd949900a441ffa/4:3/w_1600%2Cc_limit/London%2520str%2520S27%25201543%2520(3).jpg",
+      "category": "Beauty",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Laura Jackson",
-      "public_id": "devon-usa/2026-10-19/6abd1ccf894f1a4b11d71bb2_ParisFashionweek_SS27_streetstyle_day2_p"
+      "author": "Jenny Berg",
+      "public_id": "devon-usa/2026-10-20/6ad60d148fd949900a441ffa_London_str_S27_1543_3"
     },
     {
-      "title": "The Model Off-Duty Uniform, Decoded",
-      "url": "https://www.vogue.com/article/model-off-duty-outfits",
-      "image": "https://assets.vogue.com/photos/6ad2922f74b40f26ae5f8784/4:3/w_1600%2Cc_limit/NYFWSS27-8E8A6364%2520(1).jpg",
-      "category": "Fashion",
-      "date": "2026.10.19",
+      "title": "Visiting With Alex Katz, the 99-Year-Old Artist Who Doesn’t Stop",
+      "url": "https://www.vogue.com/article/alex-katz-tenth-decade",
+      "image": "https://assets.vogue.com/photos/6acf8b4647bda1bb0729e86b/4:3/w_1600%2Cc_limit/2026_08_05_Katz_Alex_0480+523+581+473_Final.jpg",
+      "category": "Magazine",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Christina Holevas",
-      "public_id": "devon-usa/2026-10-19/6ad2922f74b40f26ae5f8784_NYFWSS27-8E8A6364_1"
+      "author": "Dodie Kazanjian Photography by Jason Schmidt",
+      "public_id": "devon-usa/2026-10-20/6acf8b4647bda1bb0729e86b_2026_08_05_Katz_Alex_0480_523_581_473_Fi"
     },
     {
-      "title": "Now Might Be a Good Time for a Talisman",
-      "url": "https://www.vogue.com/article/talisman-amulet-trend",
-      "image": "https://assets.vogue.com/photos/6ad2897cbeb1b24378a1148d/4:3/w_1600%2Cc_limit/00-medium.jpg",
-      "category": "Living",
-      "date": "2026.10.19",
+      "title": "Here’s How 14 Vogue Editors Dress for Black-Tie Weddings",
+      "url": "https://www.vogue.com/article/vogue-editor-black-tie-wedding-guest-dresses",
+      "image": "https://assets.vogue.com/photos/6aceb5167d3dfa69d54a9adc/4:3/w_1600%2Cc_limit/v2_101326_blacktieweddingguest_tryp.jpg",
+      "category": "Wedding",
+      "date": "2026.10.20",
       "section": "home",
-      "author": "Nicole Kliest",
-      "public_id": "devon-usa/2026-10-19/6ad2897cbeb1b24378a1148d_00-medium"
+      "author": "Fred Sahai",
+      "public_id": "devon-usa/2026-10-20/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp"
+    },
+    {
+      "title": "Sheer Looks to Lingerie: Are GLP-1s Changing the Way We Dress?",
+      "url": "https://www.vogue.com/article/sheer-looks-to-lingerie-are-glp-1s-changing-the-way-we-dress",
+      "image": "https://assets.vogue.com/photos/6ad259b2e5ce533e10a202e2/4:3/w_1600%2Cc_limit/-story%2520(8).jpg",
+      "category": "Fashion Month",
+      "date": "2026.10.20",
+      "section": "home",
+      "author": "Rachael Akhidenor",
+      "public_id": "devon-usa/2026-10-20/6ad259b2e5ce533e10a202e2_-story_8"
     },
     {
       "title": "How to Rewatch the Vogue World 2026: Milano Livestream",
       "url": "https://www.vogue.com/article/watch-the-vogue-world-2026-milan-livestream",
       "image": "https://assets.vogue.com/photos/6aa1c5a62b9168b4153c9e82/3:4/w_1024%2Cc_limit/VO1026_Bardia_VW_04.jpg",
       "category": "Culture",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Emma Specter",
-      "public_id": "devon-usa/2026-10-19/6aa1c5a62b9168b4153c9e82_VO1026_Bardia_VW_04"
+      "public_id": "devon-usa/2026-10-20/6aa1c5a62b9168b4153c9e82_VO1026_Bardia_VW_04"
     },
     {
       "title": "The Best Backstage Photos From the Spring 2027 Shows in New York",
       "url": "https://www.vogue.com/slideshow/the-best-backstage-photos-from-the-spring-2027-shows-in-new-york",
       "image": "https://assets.vogue.com/photos/6aaaa645d53ca4acf163a4a5/1:1/w_640%2Cc_limit/ThomBrowne_NYFW_SS27_backstage_acielle_05.jpg",
       "category": "Runway",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Photography by Acielle/Style Du Monde",
-      "public_id": "devon-usa/2026-10-19/6aaaa645d53ca4acf163a4a5_ThomBrowne_NYFW_SS27_backstage_acielle_0"
+      "public_id": "devon-usa/2026-10-20/6aaaa645d53ca4acf163a4a5_ThomBrowne_NYFW_SS27_backstage_acielle_0"
     },
     {
       "title": "On the Podcast: Paloma Elsesser Wants More Fearless Designers",
       "url": "https://www.vogue.com/article/on-the-podcast-paloma-elsesser-wants-more-fearless-designers",
       "image": "https://assets.vogue.com/photos/6aa81547583a35aed88c33ce/1:1/w_640%2Cc_limit/GettyImages-2214291850.jpg",
       "category": "Runway",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Alexandra Di Palma",
-      "public_id": "devon-usa/2026-10-19/6aa81547583a35aed88c33ce_GettyImages-2214291850"
+      "public_id": "devon-usa/2026-10-20/6aa81547583a35aed88c33ce_GettyImages-2214291850"
     },
     {
       "title": "From the Tory Burch Catwalk to Late Night Karaoke: A Day in the Life of Model Lulu Tenney",
       "url": "https://www.vogue.com/slideshow/lulu-tenney-model-diary",
       "image": "https://assets.vogue.com/photos/6aabecd36ffbb91686fe24e3/1:1/w_640%2Cc_limit/000044760025.jpg",
       "category": "Fashion",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Irene Kim",
-      "public_id": "devon-usa/2026-10-19/6aabecd36ffbb91686fe24e3_000044760025"
+      "public_id": "devon-usa/2026-10-20/6aabecd36ffbb91686fe24e3_000044760025"
     },
     {
       "title": "Très Chic! 10 Paris Fashion Week Looks to Recreate Now",
       "url": "https://www.vogue.com/article/fashion-week-trends",
       "image": "https://assets.vogue.com/photos/6abe69b049d6c63a9f5048c1/1:1/w_640%2Cc_limit/ParisFashionweek_SS27_streetstyle_day3_philoh_43.jpg",
       "category": "Shopping",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Laura Jackson",
-      "public_id": "devon-usa/2026-10-19/6abe69b049d6c63a9f5048c1_ParisFashionweek_SS27_streetstyle_day3_p"
+      "public_id": "devon-usa/2026-10-20/6abe69b049d6c63a9f5048c1_ParisFashionweek_SS27_streetstyle_day3_p"
     },
     {
       "title": "The Best Vintage Stores in Dallas Fort Worth",
       "url": "https://www.vogue.com/article/the-best-vintage-stores-in-dallas-fort-worth",
       "image": "https://assets.vogue.com/photos/67e2d9df25eb8a39283e3532/4:3/w_1600%2Cc_limit/VO_VintageGuide-US-Dallas.png",
       "category": "Devon's Vintage Directory",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Margaux Anbouba",
-      "public_id": "devon-usa/2026-10-19/67e2d9df25eb8a39283e3532_VO_VintageGuide-US-Dallas"
+      "public_id": "devon-usa/2026-10-20/67e2d9df25eb8a39283e3532_VO_VintageGuide-US-Dallas"
     },
     {
       "title": "The Best Vintage Stores in Milan",
       "url": "https://www.vogue.com/article/best-vintage-stores-in-milan",
       "image": "https://assets.vogue.com/photos/67e2da76929a89e77a0c6b5b/4:3/w_1600%2Cc_limit/VO_VintageGuide-EU-Milan.png",
       "category": "Devon’s Vintage Directory",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Selene Oliva and Margaux Anbouba",
-      "public_id": "devon-usa/2026-10-19/67e2da76929a89e77a0c6b5b_VO_VintageGuide-EU-Milan"
+      "public_id": "devon-usa/2026-10-20/67e2da76929a89e77a0c6b5b_VO_VintageGuide-EU-Milan"
     },
     {
       "title": "The Best Vintage Stores in São Paulo",
       "url": "https://www.vogue.com/article/best-vintage-stores-in-sao-paulo",
       "image": "https://assets.vogue.com/photos/67e2db3840b182bd675ee52d/4:3/w_1600%2Cc_limit/VO_VintageGuide-LATAM-SaoPaolo.png",
       "category": "Devon’s Vintage Directory",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Lilah Ramzi",
-      "public_id": "devon-usa/2026-10-19/67e2db3840b182bd675ee52d_VO_VintageGuide-LATAM-SaoPaolo"
+      "public_id": "devon-usa/2026-10-20/67e2db3840b182bd675ee52d_VO_VintageGuide-LATAM-SaoPaolo"
     },
     {
       "title": "The Best Vintage Stores in Beirut",
       "url": "https://www.vogue.com/article/best-vintage-stores-in-beirut",
       "image": "https://assets.vogue.com/photos/67e2db585dd9ada192622d26/4:3/w_1600%2Cc_limit/VO_VintageGuide-MENA-Beirut.png",
       "category": "Devon’s Vintage Directory",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Lilah Ramzi",
-      "public_id": "devon-usa/2026-10-19/67e2db585dd9ada192622d26_VO_VintageGuide-MENA-Beirut"
+      "public_id": "devon-usa/2026-10-20/67e2db585dd9ada192622d26_VO_VintageGuide-MENA-Beirut"
     },
     {
       "title": "The Best Vintage Stores in Tokyo",
       "url": "https://www.vogue.com/article/best-vintage-stores-in-tokyo",
       "image": "https://assets.vogue.com/photos/67e2dac61b0c936abd717c1f/4:3/w_1600%2Cc_limit/VO_VintageGuide-APAC-Tokyo.png",
       "category": "Devon'S VINTAGE DIRECTORY",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Margaux Anbouba",
-      "public_id": "devon-usa/2026-10-19/67e2dac61b0c936abd717c1f_VO_VintageGuide-APAC-Tokyo"
+      "public_id": "devon-usa/2026-10-20/67e2dac61b0c936abd717c1f_VO_VintageGuide-APAC-Tokyo"
     },
     {
       "title": "Jennifer Lawrence Revives the Punky, Chunky Belt",
       "url": "https://www.vogue.com/article/jennifer-lawrence-punky-chunky-belt-spring-2027-trend-2026-10-15",
       "image": "https://assets.vogue.com/photos/6ad10aa938e62693d1b39c07/4:3/w_2560%2Cc_limit/BGUS_3714495_005.jpg",
       "category": "Trends",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Hannah Jackson",
-      "public_id": "devon-usa/2026-10-19/6ad10aa938e62693d1b39c07_BGUS_3714495_005"
+      "public_id": "devon-usa/2026-10-20/6ad10aa938e62693d1b39c07_BGUS_3714495_005"
     },
     {
       "title": "Daisy Edgar-Jones Hops on the Graphic Tee Trend With a Vintage Deep Cut",
       "url": "https://www.vogue.com/article/daisy-edgar-jones-graphic-tee-trend-vintage-chloe-2026-10-12",
       "image": "https://assets.vogue.com/photos/6acd2b1d0e9485e6c59c24fd/4:3/w_2560%2Cc_limit/2299829405",
       "category": "Trends",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Hannah Jackson",
-      "public_id": "devon-usa/2026-10-19/6acd2b1d0e9485e6c59c24fd_2299829405"
+      "public_id": "devon-usa/2026-10-20/6acd2b1d0e9485e6c59c24fd_2299829405"
     },
     {
       "title": "Zendaya Combines Two Controversial Shoe Trends in Paris",
       "url": "https://www.vogue.com/article/zendaya-combines-two-controversial-shoe-trends-2026-10-08",
       "image": "https://assets.vogue.com/photos/6ac7dbc3850eb03a7003e753/4:3/w_2560%2Cc_limit/BGUS_3710194_009.jpg",
       "category": "Trends",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Hannah Jackson",
-      "public_id": "devon-usa/2026-10-19/6ac7dbc3850eb03a7003e753_BGUS_3710194_009"
-    },
-    {
-      "title": "Get In, Crones. This Fall We’re Dressing Like Witches",
-      "url": "https://www.vogue.com/article/witchy-dressing-trend-fall-2026",
-      "image": "https://assets.vogue.com/photos/6ab1581cccacafe78ead69ae/4:3/w_2560%2Cc_limit/GettyImages-124123419%2520(1).jpg",
-      "category": "Trends",
-      "date": "2026.10.19",
-      "section": "fashion",
-      "author": "Max Berlinger",
-      "public_id": "devon-usa/2026-10-19/6ab1581cccacafe78ead69ae_GettyImages-124123419_1"
+      "public_id": "devon-usa/2026-10-20/6ac7dbc3850eb03a7003e753_BGUS_3710194_009"
     },
     {
       "title": "The Best Street Style Photos From the Spring 2027 Shows in Shanghai",
       "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-shanghai",
       "image": "https://assets.vogue.com/photos/6ad136940d917b31f45ac2a6/4:3/w_2560%2Cc_limit/ShanghaiFashionweek_SS27_streetstyle_day6_YumengZheng_06.jpg",
       "category": "Runway",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Photography by Yumeng Zheng",
-      "public_id": "devon-usa/2026-10-19/6ad136940d917b31f45ac2a6_ShanghaiFashionweek_SS27_streetstyle_day"
+      "public_id": "devon-usa/2026-10-20/6ad136940d917b31f45ac2a6_ShanghaiFashionweek_SS27_streetstyle_day"
     },
     {
       "title": "The Best Street Style Photos From the Spring 2027 Shows in Paris",
       "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-paris",
       "image": "https://assets.vogue.com/photos/6ac68f1ed86b448a55e58b9b/4:3/w_2560%2Cc_limit/ParisFashionWeek_SS27_streetstyle_day9_philoh_03.jpg",
       "category": "Runway",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Photography by Phil Oh",
-      "public_id": "devon-usa/2026-10-19/6ac68f1ed86b448a55e58b9b_ParisFashionWeek_SS27_streetstyle_day9_p"
+      "public_id": "devon-usa/2026-10-20/6ac68f1ed86b448a55e58b9b_ParisFashionWeek_SS27_streetstyle_day9_p"
     },
     {
       "title": "The Best Street Style from the Spring 2027 Ready-to-Wear Shows in Milan",
       "url": "https://www.vogue.com/slideshow/phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-milan",
       "image": "https://assets.vogue.com/photos/6ab947c3c66a1f81714cf4cb/4:3/w_2560%2Cc_limit/MilanFashionweek_SS27_STREETSTYLE_Day5_PhilOh_03.jpg",
       "category": "Runway",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Photography by Phil Oh",
-      "public_id": "devon-usa/2026-10-19/6ab947c3c66a1f81714cf4cb_MilanFashionweek_SS27_STREETSTYLE_Day5_P"
+      "public_id": "devon-usa/2026-10-20/6ab947c3c66a1f81714cf4cb_MilanFashionweek_SS27_STREETSTYLE_Day5_P"
     },
     {
       "title": "Phil Oh’s Best Street Style Photos From the Spring 2027 Shows in London",
       "url": "https://www.vogue.com/slideshow/phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-london",
       "image": "https://assets.vogue.com/photos/6ab28b4b3fc245b9ea4562f1/4:3/w_2560%2Cc_limit/LondonFashionweek_SS27_streetstyle_day4_philoh_10.jpg",
       "category": "Runway",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Photography by Phil Oh",
-      "public_id": "devon-usa/2026-10-19/6ab28b4b3fc245b9ea4562f1_LondonFashionweek_SS27_streetstyle_day4_"
+      "public_id": "devon-usa/2026-10-20/6ab28b4b3fc245b9ea4562f1_LondonFashionweek_SS27_streetstyle_day4_"
+    },
+    {
+      "title": "An Exclusive Behind-the-Scenes Look at the 2026 Victoria’s Secret Fashion Show",
+      "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-backstage-photos-2026",
+      "image": "https://assets.vogue.com/photos/6ad592af74505a9a500eb36a/4:3/w_1600%2Cc_limit/1026_Victoriasecret2026_backstage_coreytenold_04.jpg",
+      "category": "Runway",
+      "date": "2026.10.20",
+      "section": "fashion",
+      "author": "Max Berlinger Photography by Corey Tenold",
+      "public_id": "devon-usa/2026-10-20/6ad592af74505a9a500eb36a_1026_Victoriasecret2026_backstage_coreyt"
+    },
+    {
+      "title": "Kylie Jenner Debuts on the Victoria’s Secret Runway in its $50 Million Fantasy Bra",
+      "url": "https://www.vogue.com/article/kylie-jenner-fantasy-bra-2026-victorias-secret-10-18-2026",
+      "image": "https://assets.vogue.com/photos/6ad563dad41818a4ea9e8dd3/4:3/w_1600%2Cc_limit/GettyImages-2300878305-1.jpg",
+      "category": "Fashion",
+      "date": "2026.10.20",
+      "section": "fashion",
+      "author": "Max Berlinger",
+      "public_id": "devon-usa/2026-10-20/6ad563dad41818a4ea9e8dd3_GettyImages-2300878305-1"
+    },
+    {
+      "title": "Trinity Rodman Enters a New League at the 2026 Victoria’s Secret Fashion Show",
+      "url": "https://www.vogue.com/article/trinity-rodman-victorias-secret-fashion-show-2026-10-18",
+      "image": "https://assets.vogue.com/photos/6ad56075332660469dcfaedc/4:3/w_1600%2Cc_limit/2300876073",
+      "category": "Fashion",
+      "date": "2026.10.20",
+      "section": "fashion",
+      "author": "Emma Specter",
+      "public_id": "devon-usa/2026-10-20/6ad56075332660469dcfaedc_2300876073"
+    },
+    {
+      "title": "The Best Dressed Stars From the 2026 Academy Museum Gala",
+      "url": "https://www.vogue.com/slideshow/best-dressed-stars-academy-museum-gala-10-15-2026",
+      "image": "https://assets.vogue.com/photos/6ad41d0d4e2eaf5dbc019845/4:3/w_1600%2Cc_limit/GettyImages-2300727774.jpg",
+      "category": "Celebrity Style",
+      "date": "2026.10.20",
+      "section": "fashion",
+      "author": "Christian Allaire",
+      "public_id": "devon-usa/2026-10-20/6ad41d0d4e2eaf5dbc019845_GettyImages-2300727774"
+    },
+    {
+      "title": "Taylor Swift Is Belle of the Ball in Dior at the 2026 Academy Museum Gala",
+      "url": "https://www.vogue.com/article/taylor-swift-2026-academy-museum-gala-dior-gown-10-17-2026",
+      "image": "https://assets.vogue.com/photos/6ad4288e81592635e6ba85ac/4:3/w_1600%2Cc_limit/GettyImages-2300733935.jpg",
+      "category": "Celebrity Style",
+      "date": "2026.10.20",
+      "section": "fashion",
+      "author": "Christian Allaire",
+      "public_id": "devon-usa/2026-10-20/6ad4288e81592635e6ba85ac_GettyImages-2300733935"
+    },
+    {
+      "title": "Up to Our Necks: Fall Accessories and Full-Tilt Maximalism Tie the Knot",
+      "url": "https://www.vogue.com/article/fall-accessories-and-full-tilt-maximalism-tie-the-knot",
+      "image": "https://assets.vogue.com/photos/6ad2bce2bd36e357588fcf4a/4:3/w_1600%2Cc_limit/vogue_fall_collage_03%2520(1).jpg",
+      "category": "Fashion",
+      "date": "2026.10.20",
+      "section": "fashion",
+      "author": "Ciarra Lorren Zatorski Photography by Tom Blesch",
+      "public_id": "devon-usa/2026-10-20/6ad2bce2bd36e357588fcf4a_vogue_fall_collage_03_1"
     },
     {
       "title": "Zoë! Zendaya! Julianne! Shop Our Favorite Celeb Looks of the Week",
       "url": "https://www.vogue.com/article/best-celebrity-outfits",
       "image": "https://assets.vogue.com/photos/6ad2324069320b338cc22d74/4:3/w_1600%2Cc_limit/101626_Celeb%2520Looks%2520of%2520the%2520Week%2520holding%2520blended%2520collage.jpg",
       "category": "Fashion",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Kristina Rutkowski",
-      "public_id": "devon-usa/2026-10-19/6ad2324069320b338cc22d74_101626_Celeb_Looks_of_the_Week_holding_b"
+      "public_id": "devon-usa/2026-10-20/6ad2324069320b338cc22d74_101626_Celeb_Looks_of_the_Week_holding_b"
     },
     {
-      "title": "Kim Kardashian Gets Hip With the LBD",
-      "url": "https://www.vogue.com/article/kim-kardashian-gets-hip-with-the-lbd-2026-10-16",
-      "image": "https://assets.vogue.com/photos/6ad20cd50ac52f1f413b4068/4:3/w_1600%2Cc_limit/2299879933",
+      "title": "Prada, Miu Miu, and Lots of Chloé: Here’s How Daisy Edgar-Jones’s Stylist Brought Elinor Dashwood to 2026 for Sense and Sensibility",
+      "url": "https://www.vogue.com/slideshow/daisy-edgar-jones-sense-and-sensibility-press-tour-dani-michelle-interview",
+      "image": "https://assets.vogue.com/photos/6ad22e77294b0e26011a48b5/4:3/w_1600%2Cc_limit/Daisy_16x9.jpg",
       "category": "Celebrity Style",
-      "date": "2026.10.19",
+      "date": "2026.10.20",
       "section": "fashion",
       "author": "Hannah Jackson",
-      "public_id": "devon-usa/2026-10-19/6ad20cd50ac52f1f413b4068_2299879933"
-    },
-    {
-      "title": "It’s October! Celebrate Fall Weather With the Month’s Best Dresses",
-      "url": "https://www.vogue.com/article/dresses",
-      "image": "https://assets.vogue.com/photos/698fddc9f124b1e1240cebf6/4:3/w_1600%2Cc_limit/00031-kallmeyer-fall-2026-ready-to-wear-credit-brand.jpg",
-      "category": "Shopping",
-      "date": "2026.10.19",
-      "section": "fashion",
-      "author": "Andrea Zendejas",
-      "public_id": "devon-usa/2026-10-19/698fddc9f124b1e1240cebf6_00031-kallmeyer-fall-2026-ready-to-wear-"
-    },
-    {
-      "title": "A Look Back on Veronica Leoni’s Best Red Carpet Moments at Calvin Klein",
-      "url": "https://www.vogue.com/slideshow/veronica-leoni-best-red-carpet-moments-calvin-klein-10-15-2026",
-      "image": "https://assets.vogue.com/photos/6ad0f6c0283b2fdadb7016c5/4:3/w_1600%2Cc_limit/GettyImages-2272883503.jpg",
-      "category": "Celebrity Style",
-      "date": "2026.10.19",
-      "section": "fashion",
-      "author": "Christian Allaire",
-      "public_id": "devon-usa/2026-10-19/6ad0f6c0283b2fdadb7016c5_GettyImages-2272883503"
-    },
-    {
-      "title": "Meghan Markle Makes Her First UK Public Appearance—With a Down-to-Earth New Look",
-      "url": "https://www.vogue.com/article/meghan-markle-first-uk-public-appearance-new-look",
-      "image": "https://assets.vogue.com/photos/6ad0d4f6c11c2c6537144849/4:3/w_1600%2Cc_limit/GettyImages-2300329445.jpg",
-      "category": "Royals",
-      "date": "2026.10.19",
-      "section": "fashion",
-      "author": "Olivia Allen",
-      "public_id": "devon-usa/2026-10-19/6ad0d4f6c11c2c6537144849_GettyImages-2300329445"
-    },
-    {
-      "title": "Cher Talks Being a Style Icon (”It’s Fabulous!”) and Remembers Bob Mackie",
-      "url": "https://www.vogue.com/article/cher-moncler-campaign-interview-10-14-2026",
-      "image": "https://assets.vogue.com/photos/6acf8c32aee23fffc2b34491/4:3/w_1600%2Cc_limit/MC_FW_2026_REICONS_BS_R5GB_300DPI_4X5_5_BTS_CHER_CLEAN_PRESS%2520(1).jpg",
-      "category": "Celebrity Style",
-      "date": "2026.10.19",
-      "section": "fashion",
-      "author": "Christian Allaire",
-      "public_id": "devon-usa/2026-10-19/6acf8c32aee23fffc2b34491_MC_FW_2026_REICONS_BS_R5GB_300DPI_4X5_5_"
+      "public_id": "devon-usa/2026-10-20/6ad22e77294b0e26011a48b5_Daisy_16x9"
     }
   ],
   "images_to_upload": [
     {
-      "public_id": "devon-usa/2026-10-19/6ad2280c4d4273d7590d3170_CFDA_Vogue_Fashion_Fund_Design_Challenge",
-      "file": "https://assets.vogue.com/photos/6ad2280c4d4273d7590d3170/1:1/w_640%2Cc_limit/CFDA%2520Vogue%2520Fashion%2520Fund%2520Design%2520Challenge%2520DSC_9727%252020261015.jpg",
-      "title": "See How the 2026 CFDA/ Vogue Fashion Fund Finalists Imagined Signature Silhouettes for a More Sustainable Future",
-      "url": "https://www.vogue.com/article/cfda-vogue-fashion-fund-sustainability-challenge-10-16-2026"
+      "public_id": "devon-usa/2026-10-20/6acf9dab2b72b97fe4aed2f1_VO1126_Birdwatching_01",
+      "file": "https://assets.vogue.com/photos/6acf9dab2b72b97fe4aed2f1/3:4/w_1280,c_limit/VO1126_Birdwatching_01.jpg",
+      "title": "Where The Wild Things Are: Tactically Tinged Fashion Takes to the Water—and the Woods—in Maine",
+      "url": "https://www.vogue.com/article/maine-fashion-birdwatching"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6acfeb2a5e40f82aed4e7694_Phoebe_Philo_Collection_F_3x4_52",
-      "file": "https://assets.vogue.com/photos/6acfeb2a5e40f82aed4e7694/1:1/w_640%2Cc_limit/Phoebe%2520Philo%2520Collection%2520F_3x4_52.jpg",
-      "title": "Phoebe Philo Has the Last Word—Her Sophisticated, Subtly Sexy New Collection for Spring Is Here",
-      "url": "https://www.vogue.com/slideshow/phoebe-philo-has-the-last-word-her-sophisticated-subtly-sexy-new-collection-for-spring-is-here"
+      "public_id": "devon-usa/2026-10-20/6ad288c267b21e4f29adda10_boottrends_leadholding",
+      "file": "https://assets.vogue.com/photos/6ad288c267b21e4f29adda10/4:3/w_1600%2Cc_limit/boottrends_leadholding.jpeg",
+      "title": "6 Fall Boot Trends to Try, From Buckled Styles to Slim Knee-Highs",
+      "url": "https://www.vogue.com/article/fall-2026-boot-trends"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad22e77294b0e26011a48b5_Daisy_16x9",
-      "file": "https://assets.vogue.com/photos/6ad22e77294b0e26011a48b5/1:1/w_1280,c_limit/Daisy_16x9.jpg",
-      "title": "Prada, Miu Miu, and Lots of Chloé: Here’s How Daisy Edgar-Jones’s Stylist, Brought Elinor Dashwood to 2026 for Sense and Sensibility",
-      "url": "https://www.vogue.com/slideshow/daisy-edgar-jones-sense-and-sensibility-press-tour-dani-michelle-interview"
+      "public_id": "devon-usa/2026-10-20/6acf68bc2cbeeefdc912fb15_00009-samuel-gui-yang-spring-2027-ready-",
+      "file": "https://assets.vogue.com/photos/6acf68bc2cbeeefdc912fb15/1:1/w_1280,c_limit/00009-samuel-gui-yang-spring-2027-ready-to-wear-shanghai-credit-brand.jpg",
+      "title": "A Fifth Fashion Week Capital? Shanghai Makes the Case for Itself",
+      "url": "https://www.vogue.com/article/a-fifth-fashion-week-capital-shanghai-makes-the-case-for-itself"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6acf8b4647bda1bb0729e86b_2026_08_05_Katz_Alex_0480_523_581_473_Fi",
-      "file": "https://assets.vogue.com/photos/6acf8b4647bda1bb0729e86b/3:4/w_1280%2Cc_limit/2026_08_05_Katz_Alex_0480+523+581+473_Final.jpg",
-      "title": "Visiting With Alex Katz, the 99-Year-Old Artist Who Doesn’t Stop",
-      "url": "https://www.vogue.com/article/alex-katz-tenth-decade"
+      "public_id": "devon-usa/2026-10-20/6ad7280e2d481af4c04ca0ae_2300238711",
+      "file": "https://assets.vogue.com/photos/6ad7280e2d481af4c04ca0ae/3:4/w_1280%2Cc_limit/2300238711",
+      "title": "“I Love Seeing a Woman Age Gracefully”: Kendall Jenner's Simple Approach to Skincare and Life",
+      "url": "https://www.vogue.com/article/kendall-jenner-beauty-interview-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp",
-      "file": "https://assets.vogue.com/photos/6aceb5167d3dfa69d54a9adc/4:3/w_1600%2Cc_limit/v2_101326_blacktieweddingguest_tryp.jpg",
-      "title": "Here’s How 14 Vogue Editors Dress for Black-Tie Weddings",
-      "url": "https://www.vogue.com/article/vogue-editor-black-tie-wedding-guest-dresses"
+      "public_id": "devon-usa/2026-10-20/6ad75c657b5cf007e92d37de_BFA_56373_8272604",
+      "file": "https://assets.vogue.com/photos/6ad75c657b5cf007e92d37de/3:4/w_1280%2Cc_limit/BFA_56373_8272604.jpg",
+      "title": "Adrian Danchig-Waring Bid Farewell to New York City Ballet With a Post-Show Rave",
+      "url": "https://www.vogue.com/slideshow/adrian-danchig-farewell-performance-party-new-york-city-ballet"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad259b2e5ce533e10a202e2_-story_8",
-      "file": "https://assets.vogue.com/photos/6ad259b2e5ce533e10a202e2/3:4/w_1280%2Cc_limit/-story%2520(8).jpg",
-      "title": "Sheer Looks to Lingerie: Are GLP-1s Changing the Way We Dress?",
-      "url": "https://www.vogue.com/article/sheer-looks-to-lingerie-are-glp-1s-changing-the-way-we-dress"
+      "public_id": "devon-usa/2026-10-20/6ad729f6cf35cb21bb683a21_SnapInsta_to_846375257_18501369814098611",
+      "file": "https://assets.vogue.com/photos/6ad729f6cf35cb21bb683a21/3:4/w_1280%2Cc_limit/SnapInsta.to_846375257_18501369814098611_1054531923699197309_n.jpg",
+      "title": "Creepy, Crawly, And Chic: Spider Nails Are Halloween 2026’s Breakout Manicure",
+      "url": "https://www.vogue.com/article/spider-nails-halloween-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad246fce5ce533e10a202d1_-story",
-      "file": "https://assets.vogue.com/photos/6ad246fce5ce533e10a202d1/3:4/w_1280%2Cc_limit/-story.jpg",
-      "title": "“We Are Facing a Pandemic of People Shrinking”: 3 Designers on the State of Size Inclusivity",
-      "url": "https://www.vogue.com/article/we-are-facing-a-pandemic-of-people-shrinking-3-designers-on-the-state-of-size-inclusivity"
+      "public_id": "devon-usa/2026-10-20/6ad752850a742893d190aede_GettyImages-2296910168",
+      "file": "https://assets.vogue.com/photos/6ad752850a742893d190aede/3:4/w_1280%2Cc_limit/GettyImages-2296910168.jpg",
+      "title": "The Dallas Cowboys Cheerleaders—and Ricky Martin and Pedro Sampaio—Left Brazil Thunderstruck at the NFL’s Rio Debut",
+      "url": "https://www.vogue.com/slideshow/the-dallas-cowboys-cheerleaders-ricky-martin-pedro-sampaio-nfl-rio"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad25833eeb470219a506143_VB-SIZE-INC-LEAD-SS27",
-      "file": "https://assets.vogue.com/photos/6ad25833eeb470219a506143/3:4/w_1280%2Cc_limit/VB-SIZE-INC-LEAD-SS27.gif",
-      "title": "The Vogue Business Spring/Summer 2027 Size Inclusivity Report",
-      "url": "https://www.vogue.com/article/the-vogue-business-spring-summer-2027-size-inclusivity-report"
+      "public_id": "devon-usa/2026-10-20/6ad664d3ec15db916b269896_Gap_x_Victoria_Beckham_1",
+      "file": "https://assets.vogue.com/photos/6ad664d3ec15db916b269896/4:3/w_1600%2Cc_limit/Gap%2520x%2520Victoria%2520Beckham_1.jpg",
+      "title": "Victoria Beckham’s Second Gap Collection Reimagines Fall’s Essential Layers",
+      "url": "https://www.vogue.com/article/victoria-beckham-gap-collaboration-fall-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad543a66ce8756e830328bd_GettyImages-2300867467-1",
+      "public_id": "devon-usa/2026-10-20/6ad6240b6ce8756e83032d9c_BGUS_3719684_020",
+      "file": "https://assets.vogue.com/photos/6ad6240b6ce8756e83032d9c/4:3/w_2560%2Cc_limit/BGUS_3719684_020.jpg",
+      "title": "Bella Hadid’s Victoria’s Secret After-Party Look Channels Britney Spears",
+      "url": "https://www.vogue.com/article/bella-hadid-victorias-secret-after-party-look-10-19-2026"
+    },
+    {
+      "public_id": "devon-usa/2026-10-20/6ad543a66ce8756e830328bd_GettyImages-2300867467-1",
       "file": "https://assets.vogue.com/photos/6ad543a66ce8756e830328bd/4:3/w_2560%2Cc_limit/GettyImages-2300867467-1.jpg",
       "title": "All the Stars at the 2026 Victoria’s Secret Fashion Show",
       "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-red-carpet-10-18-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1",
+      "public_id": "devon-usa/2026-10-20/6ad525804cee9bb5341e6908_KJ_Vogue_PaigePowell-30-1",
       "file": "https://assets.vogue.com/photos/6ad525804cee9bb5341e6908/4:3/w_2560%2Cc_limit/KJ_Vogue_PaigePowell-30-1.jpg",
       "title": "Kendall Jenner Finally Got Her Polka-Dot Moment at the 2026 Academy Museum Gala",
       "url": "https://www.vogue.com/slideshow/kendall-jenner-valentino-polkadots-2026-academy-museum-gala-10-18-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad4e47503a8194d85de0f45_BH_GARDEN-1",
+      "public_id": "devon-usa/2026-10-20/6ad4e47503a8194d85de0f45_BH_GARDEN-1",
       "file": "https://assets.vogue.com/photos/6ad4e47503a8194d85de0f45/4:3/w_2560%2Cc_limit/BH%2520GARDEN-1.jpg",
       "title": "Da’Vine Joy Randolph Wanted to “Give Drama—and Body” at the 2026 Academy Museum Gala",
       "url": "https://www.vogue.com/slideshow/davine-joy-randolph-2026-academy-gala-louis-vuitton-10-18-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad4e29f8dfe2ccb142beb96_cibelleleviCIBELLELEVIxArmaniEmma__20",
-      "file": "https://assets.vogue.com/photos/6ad4e29f8dfe2ccb142beb96/4:3/w_2560%2Cc_limit/@cibelleleviCIBELLELEVIxArmaniEmma__20.jpg",
-      "title": "Winona Ryder Was on the Mood Board for Emma Chamberlain’s Glam at the 2026 Academy Museum Gala",
-      "url": "https://www.vogue.com/slideshow/emma-chamberlain-academy-museum-gala-2026-10-17"
+      "public_id": "devon-usa/2026-10-20/6ad24ffa06e485ebafc72784_MCDYOCA_EC125_1_copy_2",
+      "file": "https://assets.vogue.com/photos/6ad24ffa06e485ebafc72784/4:3/w_1600%2Cc_limit/MCDYOCA_EC125%2520(1)%2520copy%25202.jpg",
+      "title": "Contact Sport: How Much Eye Contact Is Too much?",
+      "url": "https://www.vogue.com/article/too-much-eye-contact-reveal"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad58e5d3de0a292845c4146_corey-tenold-photography-66",
-      "file": "https://assets.vogue.com/photos/6ad58e5d3de0a292845c4146/3:4/w_1024%2Cc_limit/corey-tenold-photography-66.jpg",
-      "title": "An Exclusive Behind-the-Scenes Look at the 2026 Victoria’s Secret Fashion Show",
-      "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-backstage-photos-2026"
+      "public_id": "devon-usa/2026-10-20/6ad10fc7fa5d673bce4db4f4_image23",
+      "file": "https://assets.vogue.com/photos/6ad10fc7fa5d673bce4db4f4/4:3/w_1600%2Cc_limit/image23.jpg",
+      "title": "Why the Travel Cardigan Deserves a Spot in Your Airport Wardrobe",
+      "url": "https://www.vogue.com/article/best-travel-cardigans"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6a9fd814d37209a9e50e9780_VB-GS-NYC-ARTICLE-STORY-V3",
-      "file": "https://assets.vogue.com/photos/6a9fd814d37209a9e50e9780/4:3/w_1600%2Cc_limit/VB-GS-NYC-ARTICLE-STORY-V3.jpg",
-      "title": "Join The Waitlist | Vogue Business Global Summit: New York",
-      "url": "https://www.vogue.com/article/buy-a-ticket-vogue-business-global-summit-new-york"
-    },
-    {
-      "public_id": "devon-usa/2026-10-19/6aa1c5a62b9168b4153c9e82_VO1026_Bardia_VW_04",
+      "public_id": "devon-usa/2026-10-20/6aa1c5a62b9168b4153c9e82_VO1026_Bardia_VW_04",
       "file": "https://assets.vogue.com/photos/6aa1c5a62b9168b4153c9e82/3:4/w_1024%2Cc_limit/VO1026_Bardia_VW_04.jpg",
       "title": "How to Rewatch the Vogue World 2026: Milano Livestream",
       "url": "https://www.vogue.com/article/watch-the-vogue-world-2026-milan-livestream"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6aaaa645d53ca4acf163a4a5_ThomBrowne_NYFW_SS27_backstage_acielle_0",
+      "public_id": "devon-usa/2026-10-20/6aaaa645d53ca4acf163a4a5_ThomBrowne_NYFW_SS27_backstage_acielle_0",
       "file": "https://assets.vogue.com/photos/6aaaa645d53ca4acf163a4a5/1:1/w_640%2Cc_limit/ThomBrowne_NYFW_SS27_backstage_acielle_05.jpg",
       "title": "The Best Backstage Photos From the Spring 2027 Shows in New York",
       "url": "https://www.vogue.com/slideshow/the-best-backstage-photos-from-the-spring-2027-shows-in-new-york"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6aa81547583a35aed88c33ce_GettyImages-2214291850",
+      "public_id": "devon-usa/2026-10-20/6aa81547583a35aed88c33ce_GettyImages-2214291850",
       "file": "https://assets.vogue.com/photos/6aa81547583a35aed88c33ce/1:1/w_640%2Cc_limit/GettyImages-2214291850.jpg",
       "title": "On the Podcast: Paloma Elsesser Wants More Fearless Designers",
       "url": "https://www.vogue.com/article/on-the-podcast-paloma-elsesser-wants-more-fearless-designers"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6aabecd36ffbb91686fe24e3_000044760025",
+      "public_id": "devon-usa/2026-10-20/6aabecd36ffbb91686fe24e3_000044760025",
       "file": "https://assets.vogue.com/photos/6aabecd36ffbb91686fe24e3/1:1/w_640%2Cc_limit/000044760025.jpg",
       "title": "From the Tory Burch Catwalk to Late Night Karaoke: A Day in the Life of Model Lulu Tenney",
       "url": "https://www.vogue.com/slideshow/lulu-tenney-model-diary"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6abe69b049d6c63a9f5048c1_ParisFashionweek_SS27_streetstyle_day3_p",
+      "public_id": "devon-usa/2026-10-20/6abe69b049d6c63a9f5048c1_ParisFashionweek_SS27_streetstyle_day3_p",
       "file": "https://assets.vogue.com/photos/6abe69b049d6c63a9f5048c1/1:1/w_640%2Cc_limit/ParisFashionweek_SS27_streetstyle_day3_philoh_43.jpg",
       "title": "Très Chic! 10 Paris Fashion Week Looks to Recreate Now",
       "url": "https://www.vogue.com/article/fashion-week-trends"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6abd4fec275aa05570537b23_vogue_beauty-secrets-yoonchae-katseye",
+      "public_id": "devon-usa/2026-10-20/6abd4fec275aa05570537b23_vogue_beauty-secrets-yoonchae-katseye",
       "file": "https://assets.vogue.com/photos/6abd4fec275aa05570537b23/3:4/w_1024%2Cc_limit/vogue_beauty-secrets-yoonchae-katseye.jpg",
       "title": "Katseye’s Yoonchae Shares Her Secrets",
       "url": "https://www.vogue.com/article/beauty-secrets-yoonchae"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6a90bdc8328fef43de49b78b_2171111550",
+      "public_id": "devon-usa/2026-10-20/6a90bdc8328fef43de49b78b_2171111550",
       "file": "https://assets.vogue.com/photos/6a90bdc8328fef43de49b78b/1:1/w_640%2Cc_limit/2171111550",
       "title": "The “Curtain Crop” Is the Cool-Girl Haircut for Fall",
       "url": "https://www.vogue.com/article/curtain-crop-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ac3b1271fff82525c522135_v2_wrinklecreams_polaroid_beautyholding",
+      "public_id": "devon-usa/2026-10-20/6ac3b1271fff82525c522135_v2_wrinklecreams_polaroid_beautyholding",
       "file": "https://assets.vogue.com/photos/6ac3b1271fff82525c522135/1:1/w_640%2Cc_limit/v2_wrinklecreams_polaroid_beautyholding.jpg",
       "title": "The Wrinkle Creams Dermatologists Swear By",
       "url": "https://www.vogue.com/article/best-wrinkle-cream"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6abfee6ff5f28b09808daeee_IMG_1293",
+      "public_id": "devon-usa/2026-10-20/6abfee6ff5f28b09808daeee_IMG_1293",
       "file": "https://assets.vogue.com/photos/6abfee6ff5f28b09808daeee/1:1/w_640%2Cc_limit/IMG_1293.jpg",
       "title": "Brooke Eby Chronicled Her Own Death Online to Find a Cure",
       "url": "https://www.vogue.com/article/brooke-eby-als-tribute"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ac535e3b4f781883e84b959_IMG_0420",
+      "public_id": "devon-usa/2026-10-20/6ac535e3b4f781883e84b959_IMG_0420",
       "file": "https://assets.vogue.com/photos/6ac535e3b4f781883e84b959/1:1/w_640%2Cc_limit/IMG_0420.jpeg",
       "title": "Miu Miu Wants You To Embrace Messy Beauty",
       "url": "https://www.vogue.com/article/forget-clean-girl-miu-miu-wants-you-to-embrace-messy-beauty"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad00a528f6d372f3fa47810_VO0921_BeatrixFarrand_01",
+      "public_id": "devon-usa/2026-10-20/6ad00a528f6d372f3fa47810_VO0921_BeatrixFarrand_01",
       "file": "https://assets.vogue.com/photos/6ad00a528f6d372f3fa47810/3:4/w_1024%2Cc_limit/VO0921_BeatrixFarrand_01.jpg",
       "title": "How “Skillcations” Became One of the Year’s Biggest Travel Trends",
       "url": "https://www.vogue.com/article/skillcations-travel-trend"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad2897cbeb1b24378a1148d_00-medium",
+      "public_id": "devon-usa/2026-10-20/6ad2897cbeb1b24378a1148d_00-medium",
       "file": "https://assets.vogue.com/photos/6ad2897cbeb1b24378a1148d/1:1/w_640%2Cc_limit/00-medium.jpg",
       "title": "Now Might Be a Good Time for a Talisman",
       "url": "https://www.vogue.com/article/talisman-amulet-trend"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6acfdb34bb4f852a12514fe9_p_221_Japchae",
+      "public_id": "devon-usa/2026-10-20/6acfdb34bb4f852a12514fe9_p_221_Japchae",
       "file": "https://assets.vogue.com/photos/6acfdb34bb4f852a12514fe9/1:1/w_640%2Cc_limit/p.%2520221%2520Japchae.jpg",
       "title": "H Mart’s First Cookbook Is a Love Letter to Korean American Food",
       "url": "https://www.vogue.com/article/h-mart-cookbook-interview"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad1013e6e5a262bef4d7fae_0905-VO-WE92_01",
+      "public_id": "devon-usa/2026-10-20/6ad1013e6e5a262bef4d7fae_0905-VO-WE92_01",
       "file": "https://assets.vogue.com/photos/6ad1013e6e5a262bef4d7fae/1:1/w_640%2Cc_limit/0905-VO-WE92.01.jpg",
       "title": "The Allure of the Antique-Buying Vacation",
       "url": "https://www.vogue.com/article/the-allure-of-the-antique-buying-vacation"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6acfaa100ebd615a27783d39_0912-VO-EDEY20_01",
+      "public_id": "devon-usa/2026-10-20/6acfaa100ebd615a27783d39_0912-VO-EDEY20_01",
       "file": "https://assets.vogue.com/photos/6acfaa100ebd615a27783d39/3:4/w_1024%2Cc_limit/0912-VO-EDEY20.01.jpg",
       "title": "Anna Wintour on Irving Penn and Vogue Portraits , a New, Two-Volume Chronicle of History as It Happened",
       "url": "https://www.vogue.com/article/a-first-look-at-vogue-portraits"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6acf27f7b9b445d46ca9f77a_GettyImages-1354584068",
+      "public_id": "devon-usa/2026-10-20/6acf27f7b9b445d46ca9f77a_GettyImages-1354584068",
       "file": "https://assets.vogue.com/photos/6acf27f7b9b445d46ca9f77a/1:1/w_640%2Cc_limit/GettyImages-1354584068.jpg",
       "title": "I Want My Sons to Know What Happened to Me",
       "url": "https://www.vogue.com/article/i-want-my-sons-to-know-what-happened-to-me"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ace90d268b77ba97dd713ef_TCDGIRL_EC057",
+      "public_id": "devon-usa/2026-10-20/6ace90d268b77ba97dd713ef_TCDGIRL_EC057",
       "file": "https://assets.vogue.com/photos/6ace90d268b77ba97dd713ef/1:1/w_640%2Cc_limit/TCDGIRL_EC057.jpg",
       "title": "Where Will the Titular Girls of HBO’s Girls Find Themselves 10 Years Later? Some Guesses",
       "url": "https://www.vogue.com/article/where-will-the-titular-girls-of-hbos-girls-find-themselves-10-years-later-2026-10-13"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6acbe1d68630cb7731829b30_The_History_of_Tears__8",
+      "public_id": "devon-usa/2026-10-20/6acbe1d68630cb7731829b30_The_History_of_Tears__8",
       "file": "https://assets.vogue.com/photos/6acbe1d68630cb7731829b30/1:1/w_640%2Cc_limit/_The%2520History%2520of%2520Tears_(8).jpg",
       "title": "At the Bourse de Commerce, Barbara Kruger Isn’t Mincing Words",
       "url": "https://www.vogue.com/article/barbara-kruger-the-history-of-tears-remember-me-bourse"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad134a073e7d92f19242741_101526_Tommy_s-Take-Holding_4x5",
+      "public_id": "devon-usa/2026-10-20/6ad134a073e7d92f19242741_101526_Tommy_s-Take-Holding_4x5",
       "file": "https://assets.vogue.com/photos/6ad134a073e7d92f19242741/4:3/w_1600%2Cc_limit/101526_Tommy's-Take-Holding_4x5.jpg",
       "title": "Tommy’s Take on Why More Is More When it Comes to Accessorizing",
       "url": "https://www.vogue.com/article/tommy-tons-take"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6a7cd8f79c9a2bec8d5de17e_16x9_banner_eagleeye",
+      "public_id": "devon-usa/2026-10-20/6a7cd8f79c9a2bec8d5de17e_16x9_banner_eagleeye",
       "file": "https://assets.vogue.com/photos/6a7cd8f79c9a2bec8d5de17e/4:3/w_1600%2Cc_limit/16x9_banner_eagleeye.jpg",
       "title": "Eagle Eye on… Art Deco",
       "url": "https://www.vogue.com/article/eagle-eye-art-deco"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6a9adaf1f2f72e76a1831b15_090126_September_Gab_Waller_Collage_upda",
+      "public_id": "devon-usa/2026-10-20/6a9adaf1f2f72e76a1831b15_090126_September_Gab_Waller_Collage_upda",
       "file": "https://assets.vogue.com/photos/6a9adaf1f2f72e76a1831b15/4:3/w_1600%2Cc_limit/090126_September%2520Gab%2520Waller%2520Collage%2520(updated).jpg",
       "title": "The Hot List: 10 Must-Have Pieces, According to Instagram’s Favorite Fashion Sourcer",
       "url": "https://www.vogue.com/article/the-hot-list-with-gab-waller"
     },
     {
-      "public_id": "devon-usa/2026-10-19/67e2d9df25eb8a39283e3532_VO_VintageGuide-US-Dallas",
+      "public_id": "devon-usa/2026-10-20/67e2d9df25eb8a39283e3532_VO_VintageGuide-US-Dallas",
       "file": "https://assets.vogue.com/photos/67e2d9df25eb8a39283e3532/4:3/w_1600%2Cc_limit/VO_VintageGuide-US-Dallas.png",
       "title": "The Best Vintage Stores in Dallas Fort Worth",
       "url": "https://www.vogue.com/article/the-best-vintage-stores-in-dallas-fort-worth"
     },
     {
-      "public_id": "devon-usa/2026-10-19/67e2da76929a89e77a0c6b5b_VO_VintageGuide-EU-Milan",
+      "public_id": "devon-usa/2026-10-20/67e2da76929a89e77a0c6b5b_VO_VintageGuide-EU-Milan",
       "file": "https://assets.vogue.com/photos/67e2da76929a89e77a0c6b5b/4:3/w_1600%2Cc_limit/VO_VintageGuide-EU-Milan.png",
       "title": "The Best Vintage Stores in Milan",
       "url": "https://www.vogue.com/article/best-vintage-stores-in-milan"
     },
     {
-      "public_id": "devon-usa/2026-10-19/67e2db3840b182bd675ee52d_VO_VintageGuide-LATAM-SaoPaolo",
+      "public_id": "devon-usa/2026-10-20/67e2db3840b182bd675ee52d_VO_VintageGuide-LATAM-SaoPaolo",
       "file": "https://assets.vogue.com/photos/67e2db3840b182bd675ee52d/4:3/w_1600%2Cc_limit/VO_VintageGuide-LATAM-SaoPaolo.png",
       "title": "The Best Vintage Stores in São Paulo",
       "url": "https://www.vogue.com/article/best-vintage-stores-in-sao-paulo"
     },
     {
-      "public_id": "devon-usa/2026-10-19/67e2db585dd9ada192622d26_VO_VintageGuide-MENA-Beirut",
+      "public_id": "devon-usa/2026-10-20/67e2db585dd9ada192622d26_VO_VintageGuide-MENA-Beirut",
       "file": "https://assets.vogue.com/photos/67e2db585dd9ada192622d26/4:3/w_1600%2Cc_limit/VO_VintageGuide-MENA-Beirut.png",
       "title": "The Best Vintage Stores in Beirut",
       "url": "https://www.vogue.com/article/best-vintage-stores-in-beirut"
     },
     {
-      "public_id": "devon-usa/2026-10-19/67e2dac61b0c936abd717c1f_VO_VintageGuide-APAC-Tokyo",
+      "public_id": "devon-usa/2026-10-20/67e2dac61b0c936abd717c1f_VO_VintageGuide-APAC-Tokyo",
       "file": "https://assets.vogue.com/photos/67e2dac61b0c936abd717c1f/4:3/w_1600%2Cc_limit/VO_VintageGuide-APAC-Tokyo.png",
       "title": "The Best Vintage Stores in Tokyo",
       "url": "https://www.vogue.com/article/best-vintage-stores-in-tokyo"
     },
     {
-      "public_id": "devon-usa/2026-10-19/682dd1667cb49ebca75d2e7a_GettyImages-161733634",
+      "public_id": "devon-usa/2026-10-20/682dd1667cb49ebca75d2e7a_GettyImages-161733634",
       "file": "https://assets.vogue.com/photos/682dd1667cb49ebca75d2e7a/4:3/w_1600%2Cc_limit/GettyImages-161733634.jpg",
       "title": "A Golden Thread: How Turmeric Binds Indian Weddings Across the Generations",
       "url": "https://www.vogue.com/article/how-turmeric-binds-indian-weddings-across-the-generations"
     },
     {
-      "public_id": "devon-usa/2026-10-19/68237f07e858016c0e2972d9_BRIE23430_copy",
+      "public_id": "devon-usa/2026-10-20/68237f07e858016c0e2972d9_BRIE23430_copy",
       "file": "https://assets.vogue.com/photos/68237f07e858016c0e2972d9/4:3/w_1600%2Cc_limit/BRIE23430%2520copy.jpg",
       "title": "An Ethiopian-Eritrean Bride on the Quiet Power of Her Wedding-Day Braids",
       "url": "https://www.vogue.com/article/ethiopian-eritrean-bride-wedding-day-braids"
     },
     {
-      "public_id": "devon-usa/2026-10-19/682ec4473a5eae78be3c5315_WeddingTraditions_MaliHenna_DeniseStepha",
+      "public_id": "devon-usa/2026-10-20/682ec4473a5eae78be3c5315_WeddingTraditions_MaliHenna_DeniseStepha",
       "file": "https://assets.vogue.com/photos/682ec4473a5eae78be3c5315/4:3/w_1600%2Cc_limit/WeddingTraditions_MaliHenna_DeniseStephanie_002RZ.jpg",
       "title": "The Sacred Malian Henna Ceremony That Signifies the Transition From Girl to Woman",
       "url": "https://www.vogue.com/article/global-women-mali-henna-ceremony"
     },
     {
-      "public_id": "devon-usa/2026-10-19/682e288c21bf0160581428d9_IMG_4944",
+      "public_id": "devon-usa/2026-10-20/682e288c21bf0160581428d9_IMG_4944",
       "file": "https://assets.vogue.com/photos/682e288c21bf0160581428d9/4:3/w_1600%2Cc_limit/IMG_4944.jpg",
       "title": "Rainwater Baths, Milk and Honey Facials, and My Cuban Abuela",
       "url": "https://www.vogue.com/article/rainwater-baths-milk-and-honey-facials-and-my-cuban-abuela"
     },
     {
-      "public_id": "devon-usa/2026-10-19/682ebb55e5998f513e94e9c8_WeddingTraditions_KoreanMakeup_ShinaPeng",
+      "public_id": "devon-usa/2026-10-20/682ebb55e5998f513e94e9c8_WeddingTraditions_KoreanMakeup_ShinaPeng",
       "file": "https://assets.vogue.com/photos/682ebb55e5998f513e94e9c8/4:3/w_1600%2Cc_limit/WeddingTraditions_KoreanMakeup_ShinaPeng_001RZ.jpg",
       "title": "How Modern Korean Brides Are Upholding This Traditional Joseon-Era Beauty Look",
       "url": "https://www.vogue.com/article/modern-korean-brides-traditional-joseon-era-beauty-look"
     },
     {
-      "public_id": "devon-usa/2026-10-19/682f5d2e0df4b423b5c21729_STORY-WeddingHairComb_HuyLuong_006rz_cop",
+      "public_id": "devon-usa/2026-10-20/682f5d2e0df4b423b5c21729_STORY-WeddingHairComb_HuyLuong_006rz_cop",
       "file": "https://assets.vogue.com/photos/682f5d2e0df4b423b5c21729/4:3/w_1600%2Cc_limit/_STORY-WeddingHairComb_HuyLuong_006rz%2520copy.jpg",
       "title": "How a Golden Hairbrush Helped One Bride Connect to Her Chinese Heritage",
       "url": "https://www.vogue.com/article/golden-hairbrush-chinese-heritage-bride"
     },
     {
-      "public_id": "devon-usa/2026-10-19/682dde312fb7ef7a2bf439aa_vogue_italia_006",
+      "public_id": "devon-usa/2026-10-20/682dde312fb7ef7a2bf439aa_vogue_italia_006",
       "file": "https://assets.vogue.com/photos/682dde312fb7ef7a2bf439aa/4:3/w_1600%2Cc_limit/vogue_italia%2520006.jpg",
       "title": "The Deeper Meaning Behind Olive Oil’s Use as a Southern Italian Bridal Beauty Ritual",
       "url": "https://www.vogue.com/article/olive-oils-southern-italian-bridal-beauty-ritual"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad10718fec07feb109ab6dc_MG_3020_copy",
+      "public_id": "devon-usa/2026-10-20/6ad10718fec07feb109ab6dc_MG_3020_copy",
       "file": "https://assets.vogue.com/photos/6ad10718fec07feb109ab6dc/1:1/w_640%2Cc_limit/_MG_3020%2520copy.jpg",
       "title": "Sisters and Spritzes: Inside the Vogue Book Club Sense and Sensibility Screening With Daisy Edgar-Jones",
       "url": "https://www.vogue.com/slideshow/vogue-book-club-sense-and-sensibility-screening"
     },
     {
-      "public_id": "devon-usa/2026-10-19/65ce2ff2cd341596bc4ea6fc_14818_UVO_04G_PD_U30MK1",
+      "public_id": "devon-usa/2026-10-20/65ce2ff2cd341596bc4ea6fc_14818_UVO_04G_PD_U30MK1",
       "file": "https://assets.vogue.com/photos/65ce2ff2cd341596bc4ea6fc/4:3/w_1600%2Cc_limit/14818%2520UVO%252004G%2520PD%2520U30MK1.jpg",
       "title": "How We Made Vogue ’s Global Spa Guide",
       "url": "https://www.vogue.com/article/vogue-global-spa-guide-how-we-made-it"
     },
     {
-      "public_id": "devon-usa/2026-10-19/683f12a3918422581c5098ae_WORLD-SpaGuide-EynshamBaths-014RZ",
+      "public_id": "devon-usa/2026-10-20/683f12a3918422581c5098ae_WORLD-SpaGuide-EynshamBaths-014RZ",
       "file": "https://assets.vogue.com/photos/683f12a3918422581c5098ae/4:3/w_1600%2Cc_limit/_WORLD-SpaGuide-EynshamBaths-014RZ.jpg",
       "title": "The 10 Best Spas in the World",
       "url": "https://www.vogue.com/article/best-spas-in-the-world"
     },
     {
-      "public_id": "devon-usa/2026-10-19/69de9e98bf5a60e9c563af85_ANG02098_vin_eta",
+      "public_id": "devon-usa/2026-10-20/69de9e98bf5a60e9c563af85_ANG02098_vin_eta",
       "file": "https://assets.vogue.com/photos/69de9e98bf5a60e9c563af85/4:3/w_1600%2Cc_limit/ANG02098_vin%25CC%2583eta.jpg",
       "title": "The 5 Best Spas in New York City",
       "url": "https://www.vogue.com/article/best-spas-in-nyc"
     },
     {
-      "public_id": "devon-usa/2026-10-19/683f128a7925b0484c76323b_USA-SpaGuide_Amangiri_002_RZ",
+      "public_id": "devon-usa/2026-10-20/683f128a7925b0484c76323b_USA-SpaGuide_Amangiri_002_RZ",
       "file": "https://assets.vogue.com/photos/683f128a7925b0484c76323b/4:3/w_1600%2Cc_limit/_USA-SpaGuide_Amangiri_002_RZ.jpg",
       "title": "The 10 Best Spa Resorts in the United States",
       "url": "https://www.vogue.com/article/best-spas-in-the-united-states"
     },
     {
-      "public_id": "devon-usa/2026-10-19/683f130f78d116f2f3b2b15c_EUROPE-SpaGuide-DiorSpa-005RZ_copy",
+      "public_id": "devon-usa/2026-10-20/683f130f78d116f2f3b2b15c_EUROPE-SpaGuide-DiorSpa-005RZ_copy",
       "file": "https://assets.vogue.com/photos/683f130f78d116f2f3b2b15c/4:3/w_1600%2Cc_limit/_EUROPE-SpaGuide-DiorSpa-005RZ%2520copy.jpg",
       "title": "The 10 Best Spas in Europe",
       "url": "https://www.vogue.com/article/best-spas-in-europe"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ac93ab064d73b52c8121e0f_image19",
+      "public_id": "devon-usa/2026-10-20/6ac93ab064d73b52c8121e0f_image19",
       "file": "https://assets.vogue.com/photos/6ac93ab064d73b52c8121e0f/4:3/w_2560%2Cc_limit/image19.jpg",
       "title": "From Rich Plum to ’70s Glamour: 7 Fall Decor Trends Interior Designers Want You to Know",
       "url": "https://www.vogue.com/article/fall-home-decor-trends-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6abd0baea5bdfd5370ba3208_image3",
+      "public_id": "devon-usa/2026-10-20/6abd0baea5bdfd5370ba3208_image3",
       "file": "https://assets.vogue.com/photos/6abd0baea5bdfd5370ba3208/4:3/w_2560%2Cc_limit/image3.png",
       "title": "The Best Places to Buy Rugs Online, Whether You’re a Traditionalist, Minimalist, or Somewhere in Between",
       "url": "https://www.vogue.com/article/where-to-buy-rugs-online"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad2d711716d3869ff7a6e99_MCDYOCA_EC124",
+      "public_id": "devon-usa/2026-10-20/6ad2d711716d3869ff7a6e99_MCDYOCA_EC124",
       "file": "https://assets.vogue.com/photos/6ad2d711716d3869ff7a6e99/1:1/w_640%2Cc_limit/MCDYOCA_EC124.jpg",
       "title": "150 Spoilery Thoughts I Had While Watching You Can See Everything",
       "url": "https://www.vogue.com/article/150-spoilery-thoughts-i-had-while-watching-you-can-see-everything"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad129cd882a41ccf7baeb9e_IMG_6582",
+      "public_id": "devon-usa/2026-10-20/6ad129cd882a41ccf7baeb9e_IMG_6582",
       "file": "https://assets.vogue.com/photos/6ad129cd882a41ccf7baeb9e/4:3/w_2560%2Cc_limit/IMG_6582.JPG",
       "title": "Exclusive: Inside the After-Party for Kate Berlant’s New Special, Parmesan",
       "url": "https://www.vogue.com/slideshow/exclusive-inside-the-after-party-for-parmesan-kate-berlant"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad0f4dc236958f0b5d42d77_0929_SenseandSensibility_VogueBookClub_q",
+      "public_id": "devon-usa/2026-10-20/6ad0f4dc236958f0b5d42d77_0929_SenseandSensibility_VogueBookClub_q",
       "file": "https://assets.vogue.com/photos/6ad0f4dc236958f0b5d42d77/4:3/w_2560%2Cc_limit/0929_SenseandSensibility_VogueBookClub_quadirmoore_15.jpg",
       "title": "On the Podcast: Daisy Edgar-Jones Talks Sense and Sensibility , Hair Discourse, and Sisterhood",
       "url": "https://www.vogue.com/article/on-the-podcast-daisy-edgar-jones-talks-sense-and-sensibility-hair-discourse-and-sisterhood"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ace4713e42ee0c810b5d852_AHS_PENTHOUSE_ep1310_00078_f",
+      "public_id": "devon-usa/2026-10-20/6ace4713e42ee0c810b5d852_AHS_PENTHOUSE_ep1310_00078_f",
       "file": "https://assets.vogue.com/photos/6ace4713e42ee0c810b5d852/4:3/w_2560%2Cc_limit/AHS%2520PENTHOUSE_ep1310_00078_f.jpg",
       "title": "22 Thoughts I Had About Season 13, Episode 8 of American Horror Story",
       "url": "https://www.vogue.com/article/22-thoughts-i-had-about-season-13-episode-8-of-american-horror-story"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ace31c788fdbe98f91f43b3_https___cdn_sanity_io_images_xq1bjtf4_pr",
+      "public_id": "devon-usa/2026-10-20/6ace31c788fdbe98f91f43b3_https___cdn_sanity_io_images_xq1bjtf4_pr",
       "file": "https://assets.vogue.com/photos/6ace31c788fdbe98f91f43b3/4:3/w_2560%2Cc_limit/https___cdn.sanity.io_images_xq1bjtf4_production_363fc46d9a1774bdd289e121ce9db18f03698689-6000x4000.jpg",
       "title": "“She’s a Survivor, and I’d Like to Think I’ve Got a Bit of That”: Rosalind Eleazar on the Making of Misty Green",
       "url": "https://www.vogue.com/article/rosalind-eleazar-misty-green-interview"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6acfaf3245de90a800e0255f_Book_It_Stockholm_2_copy",
+      "public_id": "devon-usa/2026-10-20/6ad6505f2e08ccaf44b60577_01-joan-didion-the-last-love-song",
+      "file": "https://assets.vogue.com/photos/6ad6505f2e08ccaf44b60577/4:3/w_2560%2Cc_limit/01-joan-didion-the-last-love-song.jpeg",
+      "title": "Do Female Writers Have to Turn Themselves Into a Brand While Men Get a Pass?",
+      "url": "https://www.vogue.com/article/female-writers-brand"
+    },
+    {
+      "public_id": "devon-usa/2026-10-20/6acfaf3245de90a800e0255f_Book_It_Stockholm_2_copy",
       "file": "https://assets.vogue.com/photos/6acfaf3245de90a800e0255f/4:3/w_2560%2Cc_limit/Book%2520It%2520Stockholm%2520(2)%2520copy.jpg",
       "title": "City Hikes and Day Trips to the DMZ—Eric Ripert’s Guide to Seoul",
       "url": "https://www.vogue.com/article/eric-riperts-guide-to-seoul"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6acf1bf04656b722c49ad04e_20250707-East2East-0903_RG_select",
+      "public_id": "devon-usa/2026-10-20/6acf1bf04656b722c49ad04e_20250707-East2East-0903_RG_select",
       "file": "https://assets.vogue.com/photos/6acf1bf04656b722c49ad04e/4:3/w_2560%2Cc_limit/20250707-East2East-0903.RG_select.jpeg",
       "title": "In a New Cookbook, Rachel Gurjar Celebrates Flavors Near and Far",
       "url": "https://www.vogue.com/article/rachel-gurjar-east-to-east-2026-10-14"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ac6b8fec853a9b754279acd_Valentino_ParisFashionweek_SS27_backstag",
-      "file": "https://assets.vogue.com/photos/6ac6b8fec853a9b754279acd/4:3/w_2560%2Cc_limit/Valentino_ParisFashionweek_SS27_backstage_acielle_02.jpg",
-      "title": "Getting Booked: Here’s What 5 Models Read Backstage During the Spring 2027 Season",
-      "url": "https://www.vogue.com/article/getting-booked-what-models-read-backstage-spring-2027"
+      "public_id": "devon-usa/2026-10-20/6ad113e596223eb9eaac5c0d_final_leadholding_coattrends",
+      "file": "https://assets.vogue.com/photos/6ad113e596223eb9eaac5c0d/4:3/w_1600%2Cc_limit/final_leadholding_coattrends.jpg",
+      "title": "The Chill Has Set! 8 Fall Coat Trends Worth Investing In",
+      "url": "https://www.vogue.com/article/fall-2026-coat-trends"
     },
     {
-      "public_id": "devon-usa/2026-10-19/68e7303ef995762cd0591c96_d80460e7-82d7-4b43-b524-3c2d8caa",
+      "public_id": "devon-usa/2026-10-20/6ad60d148fd949900a441ffa_London_str_S27_1543_3",
+      "file": "https://assets.vogue.com/photos/6ad60d148fd949900a441ffa/4:3/w_1600%2Cc_limit/London%2520str%2520S27%25201543%2520(3).jpg",
+      "title": "I’ve Mastered the Antiaging Skin-Care Routine",
+      "url": "https://www.vogue.com/article/anti-aging-skin-care-routine-ingredients"
+    },
+    {
+      "public_id": "devon-usa/2026-10-20/6aceb5167d3dfa69d54a9adc_v2_101326_blacktieweddingguest_tryp",
+      "file": "https://assets.vogue.com/photos/6aceb5167d3dfa69d54a9adc/4:3/w_1600%2Cc_limit/v2_101326_blacktieweddingguest_tryp.jpg",
+      "title": "Here’s How 14 Vogue Editors Dress for Black-Tie Weddings",
+      "url": "https://www.vogue.com/article/vogue-editor-black-tie-wedding-guest-dresses"
+    },
+    {
+      "public_id": "devon-usa/2026-10-20/68e7303ef995762cd0591c96_d80460e7-82d7-4b43-b524-3c2d8caa",
       "file": "https://assets.vogue.com/photos/68e7303ef995762cd0591c96/4:3/w_1600%2Cc_limit/d80460e7-82d7-4b43-b524-3c2d8caa.jpg",
       "title": "The Best Airbnbs in Scotland for a Folkloric Fall Getaway",
       "url": "https://www.vogue.com/article/best-airbnbs-in-scotland"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6a18f607ebedd4e34fd1c145_17dd91f4-c2ca-4ca4-b7a0-975a32f7c363",
+      "public_id": "devon-usa/2026-10-20/6a18f607ebedd4e34fd1c145_17dd91f4-c2ca-4ca4-b7a0-975a32f7c363",
       "file": "https://assets.vogue.com/photos/6a18f607ebedd4e34fd1c145/4:3/w_1600%2Cc_limit/17dd91f4-c2ca-4ca4-b7a0-975a32f7c363.jpg",
       "title": "The Best Airbnbs in Italy, From Puglia to the Dolomites",
       "url": "https://www.vogue.com/article/best-airbnbs-in-italy"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad2bce2bd36e357588fcf4a_vogue_fall_collage_03_1",
+      "public_id": "devon-usa/2026-10-20/6ad2bce2bd36e357588fcf4a_vogue_fall_collage_03_1",
       "file": "https://assets.vogue.com/photos/6ad2bce2bd36e357588fcf4a/4:3/w_1600%2Cc_limit/vogue_fall_collage_03%2520(1).jpg",
       "title": "Up to Our Necks: Fall Accessories and Full-Tilt Maximalism Tie the Knot",
       "url": "https://www.vogue.com/article/fall-accessories-and-full-tilt-maximalism-tie-the-knot"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6abd1ccf894f1a4b11d71bb2_ParisFashionweek_SS27_streetstyle_day2_p",
-      "file": "https://assets.vogue.com/photos/6abd1ccf894f1a4b11d71bb2/4:3/w_1600%2Cc_limit/ParisFashionweek_SS27_streetstyle_day2_philoh_04.jpg",
-      "title": "Anything But Prim! 5 Ways to Style the Modern Lady Jacket",
-      "url": "https://www.vogue.com/article/lady-jacket-outfits"
+      "public_id": "devon-usa/2026-10-20/6ad592af74505a9a500eb36a_1026_Victoriasecret2026_backstage_coreyt",
+      "file": "https://assets.vogue.com/photos/6ad592af74505a9a500eb36a/3:4/w_1024%2Cc_limit/1026_Victoriasecret2026_backstage_coreytenold_04.jpg",
+      "title": "An Exclusive Behind-the-Scenes Look at the 2026 Victoria’s Secret Fashion Show",
+      "url": "https://www.vogue.com/slideshow/victorias-secret-fashion-show-backstage-photos-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad2922f74b40f26ae5f8784_NYFWSS27-8E8A6364_1",
-      "file": "https://assets.vogue.com/photos/6ad2922f74b40f26ae5f8784/4:3/w_1600%2Cc_limit/NYFWSS27-8E8A6364%2520(1).jpg",
-      "title": "The Model Off-Duty Uniform, Decoded",
-      "url": "https://www.vogue.com/article/model-off-duty-outfits"
+      "public_id": "devon-usa/2026-10-20/6acfeb2a5e40f82aed4e7694_Phoebe_Philo_Collection_F_3x4_52",
+      "file": "https://assets.vogue.com/photos/6acfeb2a5e40f82aed4e7694/1:1/w_640%2Cc_limit/Phoebe%2520Philo%2520Collection%2520F_3x4_52.jpg",
+      "title": "Phoebe Philo Has the Last Word—Her Sophisticated, Subtly Sexy New Collection for Spring Is Here",
+      "url": "https://www.vogue.com/slideshow/phoebe-philo-has-the-last-word-her-sophisticated-subtly-sexy-new-collection-for-spring-is-here"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ace72ee726a48b442eb4540_Spazzola_giapponese",
-      "file": "https://assets.vogue.com/photos/6ace72ee726a48b442eb4540/4:3/w_1600%2Cc_limit/Spazzola%2520giapponese.jpg",
-      "title": "For a Healthier Scalp, Use a Japanese Hair Brush",
-      "url": "https://www.vogue.com/article/japanese-hair-brush"
+      "public_id": "devon-usa/2026-10-20/6ad2280c4d4273d7590d3170_CFDA_Vogue_Fashion_Fund_Design_Challenge",
+      "file": "https://assets.vogue.com/photos/6ad2280c4d4273d7590d3170/1:1/w_640%2Cc_limit/CFDA%2520Vogue%2520Fashion%2520Fund%2520Design%2520Challenge%2520DSC_9727%252020261015.jpg",
+      "title": "See How the 2026 CFDA/ Vogue Fashion Fund Finalists Imagined Signature Silhouettes for a More Sustainable Future",
+      "url": "https://www.vogue.com/article/cfda-vogue-fashion-fund-sustainability-challenge-10-16-2026"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad2324069320b338cc22d74_101626_Celeb_Looks_of_the_Week_holding_b",
-      "file": "https://assets.vogue.com/photos/6ad2324069320b338cc22d74/4:3/w_1600%2Cc_limit/101626_Celeb%2520Looks%2520of%2520the%2520Week%2520holding%2520blended%2520collage.jpg",
-      "title": "Zoë! Zendaya! Julianne! Shop Our Favorite Celeb Looks of the Week",
-      "url": "https://www.vogue.com/article/best-celebrity-outfits"
-    },
-    {
-      "public_id": "devon-usa/2026-10-19/6ad22e3a4d4273d7590d31e8_Paris_str_S27_1464_1",
-      "file": "https://assets.vogue.com/photos/6ad22e3a4d4273d7590d31e8/4:3/w_1600%2Cc_limit/Paris%2520str%2520S27%25201464%2520(1).jpg",
-      "title": "The Art of the Frizz-Free Blowout: 7 Steps to Know",
-      "url": "https://www.vogue.com/article/frizz-free-blowout-steps"
-    },
-    {
-      "public_id": "devon-usa/2026-10-19/6ad36eec59803160396a93cb_Yui_Chen_Press__Look-1",
+      "public_id": "devon-usa/2026-10-20/6ad36eec59803160396a93cb_Yui_Chen_Press__Look-1",
       "file": "https://assets.vogue.com/photos/6ad36eec59803160396a93cb/1:1/w_640%2Cc_limit/Yui_Chen_Press%2520_Look-1.jpg",
       "title": "In Hyères, Yui Chen Takes Top Prize",
       "url": "https://www.vogue.com/article/in-hyeres-yui-chen-takes-top-prize"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ad10e9e9000a9f58a10ca76_Accessories_Trend_Report_9x16_V2",
+      "public_id": "devon-usa/2026-10-20/6ad10e9e9000a9f58a10ca76_Accessories_Trend_Report_9x16_V2",
       "file": "https://assets.vogue.com/photos/6ad10e9e9000a9f58a10ca76/1:1/w_640%2Cc_limit/Accessories_Trend_Report_9x16_V2.jpg",
       "title": "Bare Feet, Hands-Free Handbags, and Plenty of Tights: Here Are Spring 2027’s Top Accessories Trends",
       "url": "https://www.vogue.com/article/the-best-spring-2027-accessories-trends"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ac68f1ed86b448a55e58b9b_ParisFashionWeek_SS27_streetstyle_day9_p",
+      "public_id": "devon-usa/2026-10-20/6ac68f1ed86b448a55e58b9b_ParisFashionWeek_SS27_streetstyle_day9_p",
       "file": "https://assets.vogue.com/photos/6ac68f1ed86b448a55e58b9b/4:3/w_1600%2Cc_limit/ParisFashionWeek_SS27_streetstyle_day9_philoh_03.jpg",
       "title": "The Best Street Style Photos From the Spring 2027 Shows in Paris",
       "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-paris"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ab947c3c66a1f81714cf4cb_MilanFashionweek_SS27_STREETSTYLE_Day5_P",
+      "public_id": "devon-usa/2026-10-20/6ab947c3c66a1f81714cf4cb_MilanFashionweek_SS27_STREETSTYLE_Day5_P",
       "file": "https://assets.vogue.com/photos/6ab947c3c66a1f81714cf4cb/4:3/w_1600%2Cc_limit/MilanFashionweek_SS27_STREETSTYLE_Day5_PhilOh_03.jpg",
       "title": "The Best Street Style from the Spring 2027 Ready-to-Wear Shows in Milan",
       "url": "https://www.vogue.com/slideshow/phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-milan"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6ab28b4b3fc245b9ea4562f1_LondonFashionweek_SS27_streetstyle_day4_",
+      "public_id": "devon-usa/2026-10-20/6ab28b4b3fc245b9ea4562f1_LondonFashionweek_SS27_streetstyle_day4_",
       "file": "https://assets.vogue.com/photos/6ab28b4b3fc245b9ea4562f1/4:3/w_1600%2Cc_limit/LondonFashionweek_SS27_streetstyle_day4_philoh_10.jpg",
       "title": "Phil Oh’s Best Street Style Photos From the Spring 2027 Shows in London",
       "url": "https://www.vogue.com/slideshow/phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-london"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6aaaeebda274df05bba9603a_NYFW_SS27_streetstyle_day7_philoh_09",
+      "public_id": "devon-usa/2026-10-20/6aaaeebda274df05bba9603a_NYFW_SS27_streetstyle_day7_philoh_09",
       "file": "https://assets.vogue.com/photos/6aaaeebda274df05bba9603a/4:3/w_1600%2Cc_limit/NYFW_SS27_streetstyle_day7_philoh_09.jpg",
       "title": "See Phil Oh’s Best Street Style Photos From the Spring 2027 Shows in New York",
       "url": "https://www.vogue.com/slideshow/see-phil-ohs-best-street-style-photos-from-the-spring-2027-shows-in-new-york"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6a9c779a40c71f2ce6f1c2c6_seoulfashionweek_SS27_STREETSTYLE_DAY3_y",
+      "public_id": "devon-usa/2026-10-20/6a9c779a40c71f2ce6f1c2c6_seoulfashionweek_SS27_STREETSTYLE_DAY3_y",
       "file": "https://assets.vogue.com/photos/6a9c779a40c71f2ce6f1c2c6/4:3/w_1600%2Cc_limit/seoulfashionweek_SS27_STREETSTYLE_DAY3_youngchulkim_17.jpg",
       "title": "The Best Street Style Photos From the Spring 2027 Shows in Seoul",
       "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-seoul"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6a9c74f651a82ff3eb36829f_tokyofashionweek_SS27_STREETSTYLE_DAY6_m",
+      "public_id": "devon-usa/2026-10-20/6a9c74f651a82ff3eb36829f_tokyofashionweek_SS27_STREETSTYLE_DAY6_m",
       "file": "https://assets.vogue.com/photos/6a9c74f651a82ff3eb36829f/4:3/w_1600%2Cc_limit/tokyofashionweek_SS27_STREETSTYLE_DAY6_momoangela_21.jpg",
       "title": "The Best Street Style Photos From the Spring 2027 Shows in Tokyo",
       "url": "https://www.vogue.com/slideshow/the-best-street-style-photos-from-the-spring-2027-shows-in-tokyo"
     },
     {
-      "public_id": "devon-usa/2026-10-19/6a74f5b2c4c043bd6ae30d6d_COPENHAGEN_SS27_STREETSTYLE_DAY4_ACIELLE",
+      "public_id": "devon-usa/2026-10-20/6a74f5b2c4c043bd6ae30d6d_COPENHAGEN_SS27_STREETSTYLE_DAY4_ACIELLE",
       "file": "https://assets.vogue.com/photos/6a74f5b2c4c043bd6ae30d6d/4:3/w_1600%2Cc_limit/COPENHAGEN_SS27_STREETSTYLE_DAY4_ACIELLE_56.jpg",
       "title": "The Best Street Style Photos From the Spring 2027 Show in Copenhagen",
       "url": "https://www.vogue.com/slideshow/copenhagen-fashion-week-street-style-spring-2027"
     }
   ],
-  "cloudinary_folder": "devon-usa/2026-10-19",
-  "images_uploaded": 544
+  "cloudinary_folder": "devon-usa/2026-10-20",
+  "images_uploaded": 574
 }

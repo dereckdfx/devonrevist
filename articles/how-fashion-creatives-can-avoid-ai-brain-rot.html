@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Fashion Creatives Can Avoid AI Brain Rot | Devon</title>
+    <meta name="description" content="Emerging research suggests AI could be dulling our creative instincts. As fashion’s demand for newness drives its adoption, experts reveal how to keep them sharp.">
+    <meta property="og:title" content="How Fashion Creatives Can Avoid AI Brain Rot | Devon">
+    <meta property="og:description" content="Emerging research suggests AI could be dulling our creative instincts. As fashion’s demand for newness drives its adoption, experts reveal how to keep them sharp.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-20/6ad63d7c436bc28b97e74faa.gif">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Technology</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">How Fashion Creatives Can Avoid AI Brain Rot</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Emerging research suggests AI could be dulling our creative instincts. As fashion’s demand for newness drives its adoption, experts reveal how to keep them sharp.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Amy O’Brien</p>
+            <p class="text-xs text-gray-500 mt-1">October 20, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-20/6ad63d7c436bc28b97e74faa.gif" alt="How Fashion Creatives Can Avoid AI Brain Rot" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>When I started my career at a fashion magazine a decade ago, I got the job partly by drawing on references. Favorite collections, shoots, campaigns, book passages, films, the names and faces of people I’d met in the right places. Then, I moved into news, Instagram replaced Facebook, and suddenly everything rewarded reacting to what was ‘new’ and ‘next’. Like most millennials, I was lucky enough to cultivate my own weirdness before life moved fully online, yet I’ve watched my attention and memory slowly morph with the advent of the scroll. Now, there’s a new tech scapegoat for our collective brain rot and, of course, it’s AI.</p>
+<p>Recent conversations with creative agencies, photographers and some designers reveal that embedding generative AI into the earliest stages of creative work is “the new normal”. From moodboards, agency and creative decks, to shot lists and design visualizations, industry professionals are quietly embracing AI internally to shape, visualize and sell creative ideas at the relentless pace demanded by fashion’s production cycle.</p>
+<p>But an industry that’s so quick to condemn consumer-facing AI ‘slop’ for its creative laziness has paid less attention to the laziness AI risks encouraging behind the scenes.</p>
+<p>Experts say the biggest danger to our creativity is using AI’s suggestions from the outset, as it risks homogenizing everyone’s output. They say younger, earlier career creatives are the ones most at risk. “I’m concerned about what younger designers who are starting out now will not be able to build — their own way of seeing the world and their own way of designing, because of the temptation to shortcut,” says Giorgia Lupi, partner at design firm Pentagram. “Even building inspiration can now be done through asking a chatbot to send you ideas for a brief, before you sit down and actually think.”</p>
+<p>If a designer swaps to using AI to visualize design flats, do they risk weakening their ability to communicate ideas? If a creative director presents a client with a full AI campaign mock-up, will they be able to problem solve as well if the output falls short? If a chief marketing officer increasingly outsources their campaign pitch selections to AI, will they fail to justify their rationale properly to the CEO? What if the greater danger isn’t the slopification of content, but of our own creative brains?</p>
+<p>“Your brain is a muscle, and the less you use it because of AI [to remember, reason and decide], it gets weaker,” says Erica Dhawan, leadership expert and author of the upcoming book Use Your Brain: Think For Yourself in the Age of AI. “AI weakens our thinking muscles by abandoning those exercises, which can lead to brain rot over time.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">What the neuroscience says</h2>
+<p>Emerging research is probing what happens to our brains when we outsource thinking, creating and problem-solving to AI, offering early clues as to what this might mean for our capacity to generate creative ideas of our own. In a 2025 study titled Your Brain on ChatGPT, researchers led by MIT’s Dr. Nataliya Kosmyna monitored the brain activity of people writing essays with and without AI assistance. They found that ChatGPT users showed weaker neural connectivity, poor recall of their work, and a diminished sense of ownership over what they’d written.</p>
+<p>Experts say the erosion of ownership and memory threatens a core part of creativity. “Memory provides the raw material for ideas,” says Roger Beaty, assistant professor of psychology at Penn State University, who researches creativity in the brain. “We need to know what has been done before to create something truly original. And in addition to using memory for idea generation, we use our episodic memory system to simulate if and how an idea will work, and how it would be received by others.”</p>
+<p>Kosmyna attributes her research findings to the lack of effort involved in typing a prompt into a chatbot. “Mental effort is extremely important for learning, memory and creativity, as well as for overall development,” Kosmyna says, explaining that bypassing the frustration involved in developing a truly novel idea by immediately turning to AI “mostly just makes a person a consumer of ‘their own thinking’, but it doesn’t actually belong to them anymore.”</p>
+<p>Experts say AI inherently lacks divergent thinking — the ability to explore multiple, unexpected possibilities rather than settle on the most obvious solution — which is a cornerstone of human creativity. In another 2025 study titled Creative or Uncreative Partner: Comparing Humans and AI in Collaborative Creative Tasks, neuroscientist Simone Luchini and his colleagues found that people collaborating with AI, generated fewer original ideas than those working with another human. They also found that as two humans worked together on creative tasks, they got increasingly better at generating original ideas as the collaboration progressed.</p>
+<p>Essentially, the more we use AI for a task, the more our brains begin to echo its shortcomings. “We find that working with AI will reduce the diversity of ideas, homogenizing them to fewer common themes,” Luchini says, while “working with humans preserves the diversity of ideas.” This, in Kosmyna’s view, makes AI the antithesis of creativity.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Live a life away from the screen</h2>
+<p>This year, taste has become something of an obsession — both as a defence against the existential threat of AI and, perhaps, because it’s the very quality that seems so absent among the Silicon Valley CEOs building it. And it turns out the neuroscience of keeping our creative minds sharp has a lot in common with the great taste discourse of 2026.</p>
+<p>Asked what fundamentally strengthens creativity, experts keep coming back to lived experience. “Having experienced living in the world, having felt true emotions in situations in your life, which are the same emotions you need to convey through an idea or a project, is where I don’t think AI can replicate our humanity in the creative process,” says Lupi.</p>
+<p>For people working in fashion, this lived experience forms the bank of creative references that build personal taste. While AI can summon dozens of references for Tom Ford’s late ’90s Gucci ads, knowing the cultural context of those references — why the Spring/Summer 1997 Gucci G-string ad mattered, how it brought a new carnality to other subsequent luxury campaigns, and how it’s been referenced again and again — requires something more than retrieval. Fashion is, after all, an entire industry built on the cultivation and expression of taste. Or, as Raf Simons put it after the Prada FW25 show, designers must work “from the heart, from the mind, from the feeling, from our knowledge, from our respect for history and our interest in the future.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792500942/devon-usa/articles/-story-inline_20_3_p47h7h.jpg" alt="Image may contain Back Body Part Person Adult Fashion Clothing Underwear Coat Accessories and Glasses" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The Tom Ford for Gucci G string was debuted at the brand’s Spring 1997 ready to wear runway show, before featuring in an advert that has been referenced by the fashion industry several times since. Photo: Giovanni Giannoni via Getty Images</figcaption></figure>
+<p>Experts say understanding cultural context, emotional resonance and the personal associations that make some collections, campaigns, and creative director tenures “stick” more than others is still a uniquely human creative skill.</p>
+<p>“Creativity can be enjoyed by other humans, while mathematics and artificial intelligence literally do not have a concept for that creativity,” says Kosmyna. “The ones that do are trying to quantify it. Anyone who’s creative knows it is not about quantitative or qualitative metrics, it is so much more than that.”</p>
+<p>Cultivating your own point of view before using AI is essential for practicing discretion with it, according to Beaty. “Beyond idea generation, idea evaluation involves using our judgment and taste to decide which ideas are worth pursuing,” he says. “Our research shows that people who are already creative without AI are more creative with AI. Developing these skills is important for differentiating yourself when everyone has access to the same AI models, often producing the same content.”</p>
+<p>And for fashion creatives, exercising this muscle needn’t mean immersing yourself in more fashion. Sometimes, it means making something entirely unrelated, with no purpose or end goal. Lupi says that two years ago, she began making things “for no reason”, like painting on weekends, sewing paper patterns, or writing on tissue paper in handwriting she keeps deliberately illegible. “I am not showing this work anywhere and there is no plan for it. I think every designer needs some version of this, because making without expectation is how you stay in a real relationship with your own instincts,” she says.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Direct, don’t delegate</h2>
+<p>Beaty’s research into how creatives use AI as a sparring partner shows that the more you put into AI, the more different and often better the results. In a recent study, his team compared “creative directors”, people who actively contributed their own ideas and judgement, to “creative delegators”, those who passively handed the creative decisions to AI. The creative directors came up with more unique ideas and stories; the delegators offered variations on the same themes.</p>
+<p>“In my view, a healthy creative practice incorporating AI means more you, less AI,” Beaty says. “I’d suggest doing as much of the creatively meaningful work as you can yourself, then using AI for feedback, which is hard to get from other people on-demand.”</p>
+<p>Dhawan suggests three practical changes to codify these boundaries: always go first and never open a chatbot until you’ve written your own rough first draft, jotted down some bullet points, or said your raw ideas out loud in a voice memo; make AI argue with you. Ask it to poke holes and give you the strongest case against something. Ask: “What would have to be true for my idea to be wrong?” and keep a “human-only” list that outlines the parts of your craft that you will never let AI touch.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792500942/devon-usa/articles/-story-inline_20copy_20_1_psidx2.jpg" alt="Image may contain Hwasa Clothing Dress Person Teen Evening Dress Formal Wear Footwear and Shoe" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Jane Wade co-developed an AI styling suite with Google in the run-up to her SS27 show. Photo: Courtesy of Google and Jane Wade</figcaption></figure>
+<p>It’s up to each individual creative to figure out where they draw that human-only line in their practice. For New York designer Jane Wade, who describes herself as a “pretty techy person” and recently collaborated with Google to develop an AI styling suite ahead of her SS27 show, the line is drawn “at refinement versus generation”, she says. Wade is adamant that all her creative ideas begin with her, before developing them through physical, technical processes like sewing, draping, pattern-making and sketching. “It’s important to me that the foundation of my work is created by hand, through experimentation, trial and error, and the actual process of making something,” Wade says, arguing that AI becomes useful in the final stages of refinement.</p>
+<p>She may use AI to visualize different colorways or fabrications, rather than spending hours rendering each variation by hand or digitally. “I like to describe my relationship with AI as using it as a visualization tool rather than a creative tool. It helps me communicate and explore ideas I’ve already developed, rather than generating those ideas for me,” Wade says. “I think retaining your creative muscle comes down to resisting the temptation to outsource the thinking itself. AI can make certain parts of that process more efficient, but I never want efficiency to replace the experimentation, problem-solving, and personal perspective that make the work my own.”</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="rewriting-the-everyday-key-takeaways-from-shanghai-fashion-week.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-20/6ad625c9915e26ec31f7e623.jpg" alt="Rewriting the Everyday: Key Takeaways From Shanghai Fashion Week" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Fashion Month</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Rewriting the Everyday: Key Takeaways From Shanghai Fashion Week</h3>
+                </a>
+                <a href="the-unlikely-longevity-of-longchamp.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-20/6ad62f8402c246d1d20c74d6.jpg" alt="The Unlikely Longevity of Longchamp" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Executive Interviews</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Unlikely Longevity of Longchamp</h3>
+                </a>
+                <a href="devon-book-club-sense-and-sensibility-screening.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-17/6ad10718fec07feb109ab6dc.jpg" alt="Sisters and Spritzes: Inside the Devon Book Club Sense and Sensibility Screening With Daisy Edgar-Jones" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Parties</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Sisters and Spritzes: Inside the Devon Book Club Sense and Sensibility Screening With Daisy Edgar-Jones</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
