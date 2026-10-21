@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“This Is Who I Really Am”: Rosamund Pike Returns to the Stage | Devon</title>
+    <meta name="description" content="In “Inter Alia,” opening on Broadway next month, Rosamund Pike stars as a judge trying to keep it all together.">
+    <meta property="og:title" content="“This Is Who I Really Am”: Rosamund Pike Returns to the Stage | Devon">
+    <meta property="og:description" content="In “Inter Alia,” opening on Broadway next month, Rosamund Pike stars as a judge trying to keep it all together.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-21/6ad62b566ce8756e83032db2.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Magazine</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">“This Is Who I Really Am”: Rosamund Pike Returns to the Stage</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">In “Inter Alia,” opening on Broadway next month, Rosamund Pike stars as a judge trying to keep it all together.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Sarah Crompton, Jelka von Langen, Roman Goebel</p>
+            <p class="text-xs text-gray-500 mt-1">October 21, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-21/6ad62b566ce8756e83032db2.jpg" alt="“This Is Who I Really Am”: Rosamund Pike Returns to the Stage" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>When I meet Rosamund Pike on a balmy spring day, she is the picture of cool control in a neat black top and an elegant pleated skirt. But the actor, now 47, has a long history of upending any expectations her composed demeanor might suggest, and she quickly reveals a more playful, anarchic side. When I ask who makes her skirt, she wastes no time in twisting it around to check the label. Later, she’s entertained by a mouse running along the baseboard of one of London’s more elegant restaurants. “Oh look!” she says, amused, tilting her head to get a better view.</p>
+<p>It’s this mix of stateliness and spontaneity, humor and emotional acuity that is on display in one of her best performances yet, as the lead of Suzie Miller’s legal drama Inter Alia, set to arrive on Broadway this November after its London run. The play is the second in Miller’s planned legal trilogy, which began with Prima Facie, a coruscating examination of the justice system starring Jodie Comer as a criminal-defense lawyer. (Prima Facie also moved from London to New York, in 2023.) The new play is similarly a work of big ideas, but it is also an intimate and personal drama with which many women can empathize.</p>
+<p>In Inter Alia, Pike plays Crown Court Judge Jessica Parks—esteemed justice, wife, mother, and professional multitasker. The wide-ranging performance won her an Olivier when the play opened in London. One moment, Parks is drunk in the back of a taxi after a night out, the next she is walloped by emotional devastation when her son is accused of precisely the kind of crime she usually condemns. The “inter alia”—literally “among other things”—refers to the competing demands around which Parks’s life plays out.</p>
+<p>Although Parks’s husband, played by the English actor Jamie Glover, and son, the young actor Cormac McAlinden, appear briefly, it is Pike’s show; she never leaves the stage from the moment she emerges—like a rock star, rising through a trap door. It’s been 14 years since Pike last appeared onstage, but the return is something of a homecoming. “It was just always where I felt I belonged,” she says, smiling—much more than the James Bond film Die Another Day that first made her famous back when she was just 22. “Being on the whole Bond jamboree was extraordinary, like a magic carpet had arrived.” But the first-class flights, the five-star hotels—none of it felt natural to her. “When that was all over, I remember being on the bus, going to rehearse at the Royal Court Theatre, and thinking, This is who I really am.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792587193/devon-usa/articles/VO1126_InterAlia_02_w2fvs2.jpg" alt="Image may contain Rosamund Pike Face Head Person Photography Portrait Clothing Shirt Blouse Adult Blonde and Hair" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">LEAN IN In Inter Alia, Pike plays Crown Court Judge Jessica Parks—esteemed justice, wife, mother, and professional multitasker.</figcaption></figure>
+<p>Pike was born and grew up in west London. As the daughter of two opera singers, she was used to hanging around backstage and going along with the rhythm of theatrical days. At boarding school in Bristol, she was already determined to act, and after starring in a production of Romeo and Juliet for the National Youth Theatre, she found work on TV. Halfway through her undergraduate years studying English at Oxford, she applied for drama school, but was turned down. She graduated from Oxford in 2001 and has worked steadily ever since—appearing as the elder sister Jane in the 2005 Keira Knightley–starring Pride and Prejudice and as a seasoned girlfriend of a wealthier man in 2009’s An Education, among many other roles. She is perhaps best known for her slippery, captivating performance as the psychopathic lead of David Fincher’s 2014 hit Gone Girl.</p>
+<p>Pike now lives in north London with her partner, the businessman Robie Uniacke, and their two sons, Solo, 14, and Atom, 12. She and Uniacke, who has four grown-up children from other relationships, have been a couple since 2009, and they run a film and TV production company together. “He’s a mathematical person, but we’re both interested in literature,” she says. Their aim is to acquire foreign books, particularly Chinese works. They developed 3 Body Problem by Liu Cixin into a Netflix series and have also acquired The Unwomanly Face of War, Nobel Prize winner Svetlana Alexievich’s oral history of Russian women in World War II. “It’s a totally remarkable book,” says Pike. “We feel we are entrusted with a masterpiece.”</p>
+<p>Her partnership with Uniacke is central to all realms of her life, it seems. In her Olivier acceptance speech, she thanked him for making Inter Alia possible: “The irony is here I am doing a play about the juggle of being a professional working woman,” she said, “and the fact is I am only able to do this performance because I have a wonderful man at home looking after our children.” Uniacke, she tells me, is “an amazing dad…. He is quite interested in buying them clothes,” for example. “He’s quite happy to take the children off on his own.”</p>
+<p>Pike’s performance is not only demanding in terms of time, but in the athleticism it requires. She is constantly manipulating kitchen tools and changing from a judge’s gown to an apron to a slinky evening dress—showing an incredible sense of physical embodiment. It’s one of the many contradictions about her: the cerebral actor who can move and dance with abandon. (Look no further than her starring role in Massive Attack’s “Voodoo in My Blood” music video, where she undulates and flails as though possessed by a hovering drone.) Pike even narrates the events of her life in visceral terms. “My second son came very quickly, and I had this weird [feeling] of being skinless, of having no gap between me and the outside world. It was a sort of energetic life force coming out of me.” She sees giving birth and acting as not that far apart: “You’re a vessel for something to come through you, and you don’t know what it’s going to be, and you can’t control it.”</p>
+<p>Pike didn’t always have such a cogent theory of the power of the body in performance. “As a young actress, I even forgot that I had a body,” Pike says. “There is all this focus on your face and what your face looks like.” She recalls a nude scene, performed onstage, when she was in her 20s, and says now that she wishes someone had guided her through those vulnerable moments. “I could have felt mountainous instead of tiny and worried.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792587193/devon-usa/articles/VO1126_InterAlia_03_awm7x9.jpg" alt="Image may contain Jamie Glover Rosamund Pike Blazer Clothing Coat Jacket People Person Face Head and Photography" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">FAMILY TIES Cormac McAlinden plays Pike’s son, while Jamie Glover (seated, in a Polo Ralph Lauren jacket) plays her husband. Pike wears Tod’s.</figcaption></figure>
+<p>The way actresses are judged on their looks is a theme we return to a few days later when we talk on the phone. Pike is speeding through the English countryside, on her way to an event where she will deliver a speech about Lumenate, an unusual meditation app (it relies on flashes emitted from your phone) for which—another example of her multiple interests—she is creative director. She’s talking rapidly, asking me questions, both sharply demanding and genuinely interested. “She’s destabilizing,” says the director Emerald Fennell, who directed Pike in Saltburn as the spiky aristocratic matriarch of a family falling apart. “You could meet her once and quit your job, leave your cruel husband, learn ancient Greek, become an acrobat.” Glover, her costar in Inter Alia, expresses similar admiration: “She’s always on the go. It makes me want to lie down looking at her, to be honest.”</p>
+<p>As Pike shouts warnings to a speeding driver, we discuss the way her approach to her work has evolved as she’s gotten older. In her late 20s, she recalls journalists making a point of the fact she was approaching 30. “At the time it felt challenging, affronting, and scary. But what’s really annoying is that when you’re a 29-year-old woman, you don’t know that your 30s are going to be your most empowering and wonderful decade.”</p>
+<p>Now, Pike speaks from a more self-assured position. In the choices she makes, she is “trying to be provocative; I’m interested in what’s unexpected.” On the near horizon is Wife &amp; Dog, a film directed by Guy Ritchie. “He’s a proper director with that bloodhound’s instinct for what’s cool,” says Pike. “I’m glad I met him in my 40s and not in my 20s, because I’ve got the mettle to handle scenarios where a script can be rewritten right up to the moment you walk on set.” She has become known for this kind of assiduousness, as well as her detailed research. She once took anatomy lessons for a video-game-inspired film because she wanted to know how to conduct an alien autopsy: “I remember being astonished by how thick the nerves were.”</p>
+<p>Pike’s meticulousness around preparation is part of what has helped her perform Inter Alia—which Glover describes as a kind of “acting Olympics” for her. “She brought so many layers to Jessica,” says Miller, “and was so committed to the research.” For Miller, the fact that Pike is a mother was key to her portrayal. “Onstage, she leaned into a maternal instinct and vulnerability,” Miller says. “I have seen her with her sons, and she’s incredibly endearing and very soft. The person who played that part almost needed to have children, to understand the real throbbing of your heart that happens when your children are potentially upset or anxious or in danger.”</p>
+<p>How to bring up boys to understand sex and consent in an age when peer pressure, alcohol, and pornography push them in directions that their families barely understand? People emerge from the play, says Pike, reassessing the way they talk to their children. “I’ve always tended to answer questions when they’ve arisen,” Pike says of her own conversations with her sons. “We have definitely talked about porn. I tell them to remember it’s not real if they ever see it. But I also believe that you must never underestimate the sensitivity of little boys. I think with all the masculine culture, people can forget that boys are extremely sensitive creatures and it’s our duty as mothers to remember that.”</p>
+<p>She is looking forward to Broadway. New York has always been a place where she has had “exciting odysseys,” as she calls them—a party where she sat in a bedroom with Ali MacGraw talking about love, for instance. But she is apprehensive about being separated from her family. They spent the summer traveling in China—Uniacke and the boys have learned Mandarin, while she is still working on her conversational skills. The boys will remain in London; she will be relying “on rather ambitious flights for them to come for a weekend.”</p>
+<p>She is also hoping that she will not have to intervene, as she did during one now infamous performance in London, if a member of the audience pulls out their phone during the show. Her earnest speech, after the curtain came down, made headlines. “Maybe it was very important and maybe you’re a doctor and you’re saving someone’s life,” she said to the crowd, “but we do see these, we do feel them.”</p>
+<p>Looking back on the moment, she explains it was less about chastising the patron than celebrating the give-and-take of theater: “I had an urge to convey that this isn’t a one-way street…. If you are giving me your tears, your laughter, your recognition, I feel it. I really wanted to convey that. I am feeling you and what you are thinking.”</p>
+<p>In this story: hair, Anna Cofone; makeup, Amanda Grossman; grooming, Michael Harding; tailor, Nafisa Tosh; manicurist, Adriana Lutz.</p>
+<p>Produced by North Six.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="skillcations-travel-trend.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792068768/devon-usa/2026-10-15/6ad00a528f6d372f3fa47810.jpg" alt="How “Skillcations” Became One of the Year’s Biggest Travel Trends" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Travel</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">How “Skillcations” Became One of the Year’s Biggest Travel Trends</h3>
+                </a>
+                <a href="talisman-amulet-trend.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-17/6ad2897cbeb1b24378a1148d.jpg" alt="Now Might Be a Good Time for a Talisman" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Living</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Now Might Be a Good Time for a Talisman</h3>
+                </a>
+                <a href="h-mart-cookbook-interview.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792068768/devon-usa/2026-10-15/6acfdb34bb4f852a12514fe9.jpg" alt="H Mart’s First Cookbook Is a Love Letter to Korean American Food" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Food</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">H Mart’s First Cookbook Is a Love Letter to Korean American Food</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
