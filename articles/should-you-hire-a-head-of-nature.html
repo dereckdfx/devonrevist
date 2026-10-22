@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Should You Hire a Head of Nature? | Devon</title>
+    <meta name="description" content="Nature is rising up the sustainability agenda, and becoming integral to long-term business resilience. More fashion companies are bringing in experts to lead the way.">
+    <meta property="og:title" content="Should You Hire a Head of Nature? | Devon">
+    <meta property="og:description" content="Nature is rising up the sustainability agenda, and becoming integral to long-term business resilience. More fashion companies are bringing in experts to lead the way.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-22/6ad8e619c95b0bf776697ff6.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Sustainability</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">Should You Hire a Head of Nature?</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Nature is rising up the sustainability agenda, and becoming integral to long-term business resilience. More fashion companies are bringing in experts to lead the way.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Bella Webb</p>
+            <p class="text-xs text-gray-500 mt-1">October 22, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-22/6ad8e619c95b0bf776697ff6.jpg" alt="Should You Hire a Head of Nature?" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>This story is part of ‘The Business Case for Nature’, a series exploring fashion’s impact on nature and vice versa. Read more here.</p>
+<p>Not that long ago, the idea of launching a company dedicated to nature strategy might’ve seemed “crazy”. Then the pandemic hit, prompting people to slow down and reconnect with nature. The idea suddenly didn’t seem so out-there.</p>
+<p>This is the story of Biodiversify, co-founded by Dr. Samuel Sinclair and Dr. Michael Burgass back in 2019, with support from French luxury group Kering. What followed Covid could be described as a “nature boom”, says Sinclair. A wave of service providers, consultants and tech startups appeared, looking to cash in on the previously overlooked impact of business on nature, and vice versa. Sustainability regulations were gaining pace in the EU; the Taskforce on Nature-Related Financial Disclosures (TNFD) launched in 2021 to help companies map their nature risks and dependencies; and the Science-based Targets Initiative introduced its nature-specific framework in 2023 (SBTN). In a bid to keep up with the emerging nature movement, leading companies started hiring nature leads.</p>
+<p>Fashion’s nature risks and dependencies are wide-reaching, from cotton harvests ravaged by drought and leather supply chains riddled with deforestation, to manufacturing hubs struggling with water scarcity and retail networks affected by flooding. But quantifying something as sprawling and systemic as nature is no small feat, which is why science-based frameworks are so critical.</p>
+<p>But progress is never linear. A global shift to the political right and a renewed emphasis on European competitiveness in 2024 saw major sustainability regulations reduced in scope or watered down. A slew of nature-related consultancies shuttered or trimmed their headcount, and several key fashion groups followed suit, downsizing their sustainability teams and targets. “There was a huge pullback in compliance consulting, where the extent of the work is about creating a TNFD report and putting it on your website,” explains Sinclair. “But companies that genuinely want to do something about nature because they think it’s a serious issue beyond compliance — that market has steadily risen.”</p>
+<p>Nature is rising up the corporate agenda once again. At New York Climate Week in September, and the Textile Exchange conference this month, nature was a major topic. There are a few reasons for nature coming into focus, says Hannah Phang, co-founder and chief marketing officer of sustainability consultancy The Now Work. For many companies, the climate function — which focuses primarily on decarbonization — has matured into a “well-oiled machine” with clear paths to progress and measurable success metrics, allowing sustainability teams to turn their attention to other topics, such as water, biodiversity and social impact. At the same time, climate is becoming increasingly politicized as others roll back public commitments, either fearing political backlash or believing that they no longer fall in the scope of key regulations.</p>
+<p>Nature, however, is seen as a non-partisan issue. And, after a summer of seemingly endless heatwaves, droughts and wildfires, it is more visible than ever.</p>
+<p>Devon Business asked the early-movers operating in the business of nature to share best practices and key considerations for setting up a winning nature team.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792673451/devon-usa/articles/-story-inline_n0hnr2.jpg" alt="Image may contain Nature Ground Outdoors Field Grassland Animal Livestock Mammal Sheep Scenery Cattle and Cow" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Nature leads are often brought in for smaller remits, only to find that, once they start mapping the brand’s nature risks, their work becomes central to the long-term business resilience strategy. Photo: Kering</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Setting the nature lead up for success</h2>
+<p>Setting up any new team comes with its challenges. You have to work out the best infrastructure, reporting lines and incentives to set them up for success.</p>
+<p>Executive buy-in is crucial, says Tony Goldner, CEO of the Taskforce on Nature-Related Financial Disclosures (TNFD). “One of the most critical success factors is having a senior level sponsor to support this work internally,” he explains. “That can be the chief sustainability officer, the CFO or the CEO, but they need to be empowered from the top level, and they need budget for consultants, data and initiatives.”</p>
+<p>For nature teams, there are two key considerations, adds Phang: accountability and communication. “Is it just the sustainability team that’s accountable for achieving nature targets, or is it embedded into other teams’ KPIs as well?” she asks. “And can you set up your nature lead with a point person in finance, to help them calculate and communicate the financial implications of the nature strategy in a way that different stakeholders across the business can understand?” This impact on numbers can also help nature leads make the business case for their strategies, which ensures their survival when budgets are squeezed.</p>
+<p>At Kering, the nature team sits under the sustainable programs umbrella, alongside circularity and its Material Innovation Lab (MIL). But it also works very closely with sustainable performance — which covers stewardship, working directly with garment manufacturers (Tier 1) and material producers (Tier 2) — as well as sustainable finance, which looks at risk reduction. “The nature team doesn’t need to be big, because we have diversified teams that can take a paradisciplinary approach to figure out very complex challenges,” says Rachel Kolbe Semhoun, head of sustainable sourcing and nature initiatives at Kering.</p>
+<p>One disputed factor is whether or not the word ‘nature’ actually appears in the nature lead’s job title. Before joining Kering in 2024, Kolbe Semhoun spent a decade as the chief sustainability officer of a large agricultural company, building the team from scratch, and finding new metrics of success that accounted for positive nature impacts and regeneration. When she joined Kering, she says it was the prospect of having nature in her title, and therefore being able to focus solely on its conservation and regeneration, that sealed the deal.</p>
+<p>But beyond Kering, it can be a double-edged sword. “Some people misunderstand what nature actually means,” she explains. “They think it’s about the birds and the butterflies, and they can afford to not care about that. I don’t know if nature is always the best word to communicate the real adaptation and resilience work we’re doing.”</p>
+<p>Likewise, H&amp;M Group’s impact lead for biodiversity and ecosystems Jennie Granström says ‘biodiversity’ — which is often used interchangeably with nature, despite having a more specific, scientific definition — can also be confusing. “Biodiversity is a hard topic to grasp, because it’s so wide,” she explains. “I don’t think the concept of ecosystems is particularly well understood either — internally or externally. But when it comes to the component parts of biodiversity — like deforestation or land use — those topics are understood and prioritized.”</p>
+<p>Ultimately, it’s not necessarily the title that matters most, but how it is understood and integrated into the rest of the business, says Kari Stoever, head of impact at environmental non-profit Canopy. “Does it help to have a subject matter expert advising internally? Absolutely. But the most important thing is to take the widest lens you can and look at impact across all planetary boundaries, so you have a clear sense of what trade-offs you can afford to make.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792673451/devon-usa/articles/-story-inline_20copy_o24vrs.jpg" alt="Image may contain Nature Outdoors Slope Mountain Valley Water Grass and Plant" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">To make a meaningful impact, fashion’s nature leads have to collaborate with multiple stakeholders, including policymakers, land managers, producers and insurers. One example of this is H&amp;M Group’s regenerative wool project in the Eastern Cape Drakensberg Grasslands, developed in collaboration with WWF. Photo: WWF / Angus Burns</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">An outsized remit</h2>
+<p>Very few companies understand why they’ve hired a nature lead when they do, says Sinclair. “They might think they’ve hired someone to do nature compliance, but what they’re really asking is for that person to assess the company’s nature-related risks,” he explains. “If they don’t listen to that person, they’re screwed. So part of the process is that person figuring out in real-time what their job actually is, and getting leadership on board with it.”</p>
+<p>But once a business starts mapping its nature risks and dependencies, it quickly becomes clear that nature is central to business resilience, and addressing this requires a long-term, holistic approach that few companies are set up for. To truly integrate nature, businesses would need to rethink the exponential growth model and extractive practices they have historically leaned on. “Whether we agree that maximizing shareholder returns is the right bottom line or not, that is still a widely held worldview and the reason most businesses exist,” says Stoever. “If that were to change, we could look at growth in a much more dynamic way, but it takes visionary leaders to say yes when there is so much uncertainty.”</p>
+<p>In many instances, a nature lead might find that their underlying motivation is at odds with their employer’s, causing friction and making their — suddenly outsized — remit difficult to fulfil. But progress comes when nature leads remember that they’re on the same team and start to function like nature’s translator, rather than an activist acting on its behalf, says Phang.</p>
+<p>“This year, we’ve seen sustainability teams trying to get better at speaking the same language as the rest of the business. Nature provides a great opportunity to flex that muscle,” she explains. “You could speak to your CEO about the risks to your supply chain and the effect on business resilience, but you could also speak to your materials team about how it will affect the drape and quality of natural materials moving forward. There are so many different angles to nature that you can figure out which element will land best with different stakeholders.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Embedding nature in the wider business</h2>
+<p>The breadth of nature is a blessing and a curse. While TNFD generally coordinates with sustainability or nature workers, these teams often pull data and insights from across their respective businesses, says Goldner.</p>
+<p>In fact, he says one of the most surprising findings from five years of TNFD has been how effectively nature can break down barriers between departments, while encouraging cross-functional collaboration — something sustainability teams have historically struggled with. “My role is one of the most interlinked with all the areas connected to sustainability,” agrees H&amp;M’s Granström. “All the investments we make in other workstreams are somehow connected to benefits for biodiversity and nature.”</p>
+<p>Nature teams often grapple with huge, existential questions. The trick is to find a way forward that doesn’t make the rest of the business back away in fear. “With sustainability currently, we tend to look at everything in a global way. But that’s when everything starts to feel overwhelming, like it’s too complicated, and there is too much rivalry, conflict of interest or anxiety around the geopolitical contexts. It starts to feel impossible,” says Kolbe Semhoun. “If we focus on concrete, local solutions, we can actually get the right stakeholders around the table. We can agree on the questions we’re going to ask and how we’re going to get the answers.”</p>
+<p>Nature doesn’t fit into a neat box, nor does it have neat metrics of success. It is highly place-based and context-specific, and it requires an ecosystem approach that balances multiple trade-offs and unintended consequences. Businesses need to bear this in mind when establishing a nature team and measuring its impact. “We have to embrace the fact that nature — and your nature strategy — is not going to look the same everywhere. It might sound complex, but what the business world forgets is that life is complex,” says Kolbe Semhoun. “If you think you can just simplify life, you’re mistaken.”</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="best-vintage-stores-in-milan.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2da76929a89e77a0c6b5b.png" alt="The Best Vintage Stores in Milan" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in Milan</h3>
+                </a>
+                <a href="best-vintage-stores-in-sao-paulo.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2db3840b182bd675ee52d.png" alt="The Best Vintage Stores in São Paulo" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in São Paulo</h3>
+                </a>
+                <a href="best-vintage-stores-in-beirut.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2db585dd9ada192622d26.png" alt="The Best Vintage Stores in Beirut" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in Beirut</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
