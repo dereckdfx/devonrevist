@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Brands Are Chasing Purity in a Polluted World | Devon</title>
+    <meta name="description" content="As pollution anxiety grows across the globe, many brands are betting big on purifying products and devices. But does doomscrolling equate to real product demand?">
+    <meta property="og:title" content="Beauty Brands Are Chasing Purity in a Polluted World | Devon">
+    <meta property="og:description" content="As pollution anxiety grows across the globe, many brands are betting big on purifying products and devices. But does doomscrolling equate to real product demand?">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-23/6ada325bc3fad7cb052f97af.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Wellness</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">Beauty Brands Are Chasing Purity in a Polluted World</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">As pollution anxiety grows across the globe, many brands are betting big on purifying products and devices. But does doomscrolling equate to real product demand?</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Tracy Achonwa</p>
+            <p class="text-xs text-gray-500 mt-1">October 23, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-23/6ada325bc3fad7cb052f97af.jpg" alt="Beauty Brands Are Chasing Purity in a Polluted World" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>Pollution and purification have long been the focus of fringe Reddit forums and conspiracy theory dinner chat, but as of late, a broader consumer is feeling like there’s something in the water. From incidents such as the Flint river sewage spill in Michigan and new calls for UK lawmakers to tackle polluted air, public confidence in air quality and municipal water quality is reaching record lows, fueled by greater awareness around forever chemicals and anxieties bred by the daily doomscroll.</p>
+<p>On TikTok, there are 513,000 posts on “how to purify tap water at home” to date. The beauty and wellness industries are starting to take note, creating products and devices that promise purification for the skin, scalp and hair.</p>
+<p>“For us, it has never been about fearmongering,” says Adam Bedford, co-founder and CEO at purification brand Sans, whose sleek filtration systems are a hit with wellness-conscious aesthetes. On track to hit $100 million in revenue this year, the brand’s product assortment has grown to address all kinds of elemental concerns, starting with air purifiers (priced at $480+) and now encompassing filters that can remove contaminants from both drinking and bathing water supply. Sans profits have grown exponentially since 2020, when it did $1 million in its first year. “We’re not building business around triggers or trends — we’re grounded in provable improvements to air and water quality and growing trust through transparent testing,” he says. “It certainly feels like the right space to be building in, because there are tailwinds and an increasing number of people that care about purification.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792759932/devon-usa/articles/-story-inline_20_61_w2xq4d.jpg" alt="Image may contain Device Bottle and Shaker" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Sans’s recent release is well positioned to capture consumers shopping for renter-friendly countertop reverse osmosis devices online. There were 292K searches for ‘best reverse osmosis water filter’ on TikTok this month. Photo: Courtesy of Sans</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Water filtration white space</h2>
+<p>Hard water, found in the southwest and midwest of the US, the south of England, and large parts of Southern Europe, is a growing consumer concern, with limescale and build-up proven to increase risk of skin conditions like eczema, and reduce the efficacy of skin and hair products.</p>
+<p>Founded in Liverpool, purification brand Curo aims to tackle the problem. Specializing in a stylish suite of KD55 showerhead filters, the brand has recently been picked up by leading UK retailer Boots. For its founder Harry Bilby, filtration wasn’t just booming business — it was personal. “I suffered badly with dermatitis in my beard, I’d brush and be covered in flakes,” he explains. “On a holiday abroad, my symptoms strangely cleared up.”</p>
+<p>Back on home soil, Bilby went down a rabbit hole of research that revealed 52 contaminants in Liverpool tap water. “Chlorine, arsenic and pesticides were just a few of the things I found. The water companies are obliged to tell customers, but they often bury it in misleading, hard-to-find reports in the backlinks of their websites,” Bilby says. Since, he’s built an open-source report aggregating water quality data for postcodes across the UK, plus expanded Curo’s offering to include filters that fit directly on consumer faucets.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792759932/devon-usa/articles/-story-inline_20copy_20_58_jatlun.jpg" alt="Image may contain Indoors Tape Bathroom and Room" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Widely considered the gold standard for in-shower filters, KDF-55 sediment features alongside granules of activated carbon inside Curo’s showerhead cartridge. Photo: Curo Skin</figcaption></figure>
+<p>Dermatologists and trichologists online have been legitimizing such devices as part of their social media prescriptions for alleviated eczema, improved hair growth, and clearer skin. The market is ripe for similar filtered showerheads, and not yet at a saturation point in the UK — though with new, luxe launches from Water2, HelloKlean and Sans on the horizon, strong competitors are emerging in the space.</p>
+<p>How, then, do you differentiate your product offer before the purification market hits saturation? Karlee Zhang, CMO and co-founder of water purification brand Hello Klean, has a pretty solid playbook to draw from. The brand, which specializes in filtering shower heads, is on track to double year-on-year growth to hit £20 million in revenue by the end of 2026.</p>
+<p>“Education has to be available, relatable and bite-sized: if we’re using niche lingo from plumbing language, it can overwhelm the consumer. We found success translating things into a context the beauty and wellness consumer already knows and understands,” Zhang explains. To further capitalize on demand, Hello Klean launched a supporting cast of chelating hair and body care products, which chemically bind to and remove hard water build-up.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792759932/devon-usa/articles/-story-inline_20copy_202_20_39_i8gycg.jpg" alt="Image may contain Blade Razor Weapon Bottle Cabinet and Furniture" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The latest addition to Hello Klean’s product assortment is the Showerhead+, a smart filter which incorporates app syncing to let consumers monitor filter lifespan, as well as in shower habits like the use of water at temperatures damaging to skin and hair. Photo: Courtesy of Hello Klean</figcaption></figure>
+<p>These products, including its Anti Breakage Hard Water Shampoo (£12), work in tandem with the hero showerhead SKU (£120). But they also perform on their own, offering lower friction, entry-level avenues into the Hello Klean world. (With the shampoo, for example, customers can buy into the HK ecosystem at a tenth of the cost of the latest Showerhead+).</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Something in the air</h2>
+<p>Polluted water isn’t the only cause for concern among the wellness set. Post-pandemic, attention has turned to airborne contaminants, too.</p>
+<p>Enter Matt Jennings, director of innovation at Dyson. Responsible for engineering many of the brand’s market-leading designs, he’s well-versed in what consumers across demographics want — and need — in the air purification space. ”What we notice is people can be very reactive to large scale or visible sources of pollution. For example, during events like the pandemic or wildfires, we see a spike in demand for air purifiers,” he explains.</p>
+<p>What’s less known is that indoor activity — cooking, keeping pets, burning candles and spraying perfumes — generates pollutants and volatile organic compounds (VOCs), Jennings adds. “The data shows that indoor air quality is generally worse than it is outdoors,” he says, “so educating the consumer with validated research has become a big part of our strategy.”</p>
+<h3 class="text-xl md:text-2xl font-semibold text-black pt-2">Instagram content</h3>
+<p>New for 2026, Dyson’s Find+Follow Purifier incorporates intelligent machine learning sensors to follow users around a room, directing cool, purified air where it’s needed most. Its distinctive, gilded design has proven popular with affluent customers, because they inspire trust via advanced engineering while possessing distinct experiential allure. In an era where consumers are seeking solutions for climate changes, protection from airborne diseases and cachet that comes with ‘no-tox’ lifestyles, such designs set Dyson apart from its competitors in the air treatment space.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792759932/devon-usa/articles/-story-inline_20copy_203_20_28_qsonhe.jpg" alt="Image may contain Takayuki Suzuki Architecture Building Foyer Indoors Adult Person Floor Couch and Furniture" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">The Find + Follow Air Purifier senses areas of high air pollutants in the home – such as where residents are cooking, smoking or burning candles – and adjusts its position to clean this air. Photo: Courtesy of Dyson</figcaption></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Pure hearted</h2>
+<p>As efficient as air and water purifiers may be, some companies are pushing purification to the extreme, with blood purifying wellness procedures. At London’s Clarify Clinics, founder Yael Cohen has developed the controversial Clari Procedure, a patented two-hour IV treatment that claims to purify the blood plasma.</p>
+<p>“A lot of our patients are interested in removing microplastics and forever chemicals inside, essentially addressing the toxin burden in the body and the system-wide inflammation associated with it,” Yael says. “In simple terms, it’s subtractive medicine — aiming to remove things from your blood plasma that shouldn’t be there, while gently preserving the things that should like your blood cells.”</p>
+<p>Apheresis (blood purifying) originated within the healthcare space, but the new wave of private clinic procedures like Clari is not arriving without scrutiny. Critics in the medical community highlight concerns over costs, risks, and a lack of peer-reviewed, long-term benefits, particularly of filtering plastics from the blood of otherwise healthy people outside of a standard hospital setting.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792759932/devon-usa/articles/-story-inline_20copy_204_20_15_yrbi5b.jpg" alt="Image may contain Wiring" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Inside Clarify Clinic’s proprietary centrifuge machine, which is designed to filter contaminants out of human blood. Photo: Courtesy of Clarify Clinics</figcaption></figure>
+<p>Cognisant of the skeptics, the founders say the Clari procedure is not a cure, but should be viewed as a tool in a wider kit of lifestyle adjustments that can reduce contaminant exposure. “Clari provides a first-of-its-kind, incremental benefit, but it is more of a turbocharging catalyst to lifestyle changes people still have to make,” says David Cohen, chemical engineer and board member at Clarify Clinic. “We advise our patients that there are many ways that do not entail our procedure to lower your exposure, like not drinking out of plastic water bottles, opting for natural fibers instead of things like polyester underwear, and reducing use of products containing PFAS.”</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Clean cosmetics — legitimate or language laundering?</h2>
+<p>Cosmetic brands catering to these lifestyle shifts could see more uptake from the discerning consumer. Some, like 14 Day Mani, have already benefited from building this into their offer at the start. “Hema-free wasn’t a trend for us — it was one of the founding principles,” says founder Susan Cummings, in reference to her choice to omit Hema (a chemical commonly found causing skin irritation in gel polishes) from all 14 Day Mani products.</p>
+<p>The brand also stocked TPO-free nail polishes well before the recent ban — following the gel polish ingredient’s correlation with reproductive risk. “I wanted to develop a professional-quality manicure system that delivered exceptional results while taking a more considered approach to ingredients,” Cummins says. “My philosophy has always been that beautiful nails should never come at the expense of health.&quot;</p>
+<p>It’s a sentiment echoed by Neal’s Yard Remedies CEO Anabel Kindersley, who in 2016, successfully lobbied UK Parliament to ban the use of microplastic beads in rinse-off cosmetics. “The renewed conversation around PFAs is prompting many people to take a closer look at the ingredients in their beauty products, but we have always taken the precautionary principle: if there is reasonable doubt about an ingredient, we would rather leave it out. That has shaped our formulations.”</p>
+<p>Authenticity is the watchword here. While there is demand, the clued-up beauty customer can sniff out virtue signaling from a mile off. Clean language alone no longer cuts it, according to findings from a 2026 WGSN report. Beauty brands positioning around purity must present meaningful results in order to substantiate any claims — and to actually earn sales.</p>
+<p>“Consumers are more discerning about ingredient language — ‘natural’ is not a synonym for effective, and ‘synthetic’ is not a synonym for unsafe,” concurs Rita El Khouri, research and innovation SVP at K18. The brand’s Peptide Detox shampoo, which adsorbs hard water deposits to thoroughly clean hair, has amassed 238,000 impressions on TikTok this month and can consistently be found topping the app’s section for popular searches. “Our launches resonate when the consumer can connect the promise to evidence that the intervention creates meaningful improvements,” adds El Khouri.</p>
+<p>With the purification industry tracking to reach $35 billion in less than a decade, the brands that capitalize on purification with prescient solutions have opportunity ahead.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="best-vintage-stores-in-milan.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2da76929a89e77a0c6b5b.png" alt="The Best Vintage Stores in Milan" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in Milan</h3>
+                </a>
+                <a href="best-vintage-stores-in-sao-paulo.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2db3840b182bd675ee52d.png" alt="The Best Vintage Stores in São Paulo" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in São Paulo</h3>
+                </a>
+                <a href="best-vintage-stores-in-beirut.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-09-23/67e2db585dd9ada192622d26.png" alt="The Best Vintage Stores in Beirut" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Devon’s Vintage Directory</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The Best Vintage Stores in Beirut</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
