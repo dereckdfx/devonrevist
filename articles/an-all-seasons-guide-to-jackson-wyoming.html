@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Travel Guide to Jackson, Wyoming | Devon</title>
+    <meta name="description" content="Where to stay, eat, and play in the gateway to Jackson, Wyoming, the gateway to Yellowstone National Park and home of Jackson Hole Ski resort.">
+    <meta property="og:title" content="The Ultimate Travel Guide to Jackson, Wyoming | Devon">
+    <meta property="og:description" content="Where to stay, eat, and play in the gateway to Jackson, Wyoming, the gateway to Yellowstone National Park and home of Jackson Hole Ski resort.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-24/61d453c3069d2a61c3d376e1.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Shopping</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">The Ultimate Travel Guide to Jackson, Wyoming</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Where to stay, eat, and play in the gateway to Jackson, Wyoming, the gateway to Yellowstone National Park and home of Jackson Hole Ski resort.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Lindsay Cohn</p>
+            <p class="text-xs text-gray-500 mt-1">October 23, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-24/61d453c3069d2a61c3d376e1.jpg" alt="The Ultimate Travel Guide to Jackson, Wyoming" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>Avid skiers champion Jackson Hole, Wyoming, for its slopeside action. Nature lovers, artists (Ansel Adams found a muse in the Snake River), and outdoor adventurers know the gateway to Yellowstone and Grand Teton National Parks is more than just a winter sports destination. It’s a four-season playground for wildlife safaris, fly fishing, foliage-filled fall hikes, and, of course, shredding fresh powder. Jackson Hole is a place where purple mountain majesties aren’t just something you sing about, and American bison (colloquially called buffalo) do, in fact, roam.</p>
+<p>Even before touching down, visitors are welcomed in true American West style by the splendor of the Tetons, the winding river, and the verdant valley in all its glory—Jackson Hole Airport (JAC) is the only commercial airport in the United States set inside a national park. Once on the ground, the vast expanse becomes more discernible in its nuance and beauty, studded with old ranches, sagebrush-covered plains, and herds of elk.</p>
+<p>While riding the Jackson Hole Aerial Tram or drinking a beer at the Mangy Moose, you might spot a local wearing a T-shirt that reads “Jackson sucks, tell your friends”—a half-joking slogan meant to deter over-tourism. Though, to be clear, Jackson Hole is doing a lot more than selling tongue-in-cheek souvenir tees to help protect its natural beauty and authentic character as popularity grows. Operators on the ground are working hard to promote responsible tourism and conservation-oriented activities.</p>
+<p>In between alpine adventures and peeping wildlife, the Western-tinged town of Jackson provides opportunities to browse galleries, shop for leather cowboy boots, and toss back whisky. And, at the end of fresh-air-filled days, weary travelers have no shortage of inviting places to hang up their hats, thanks to the expanding hospitality landscape—from newcomers like Hoback Club and Faraway Jackson to recently upgraded favorites such as Hotel Jackson.</p>
+<p>For those feeling inspired to head out West, Devon’s guide to Jackson Hole is full of tried-and-true staples as well as exciting openings, whether you&#x27;re visiting for the height of summer, winter ski season, or the quieter charms of spring and fall.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Where to Stay</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846029/devon-usa/articles/JAC_462_f8sibu.jpg" alt="Image may contain Architecture Building Hotel Resort Plant Tree Urban City and Fir" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Four Seasons Hotels &amp; Resorts</figcaption></figure>
+<p>Four Seasons Jackson Hole has everything you’d want in a luxurious slopeside base. Ski-in/ski-out access? A year-round heated outdoor pool? A spa for massages and oxygen therapy? Check, check, check. With spacious rooms and suites, plus multi-bedroom residences, babysitting, and close proximity to the disc-golf course in Teton Village, it’s the preeminent place for families, particularly those who need a bit of extra space (no doubt, a full kitchen and a fireplace, too). Couples will find plenty to appeal—especially cocktails at the speakeasy 80 Proof, an elegant steak dinner at Steadfire, and evening stargazing with wine and charcuterie.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846030/devon-usa/articles/Room_322_Hero_hwahnb.jpg" alt="Image may contain Furniture Indoors Interior Design Chair Couch Lamp Table Home Decor Architecture and Building" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Hotel Jackson</figcaption></figure>
+<p>Nestled in the heart of downtown Jackson, the 55-key Hotel Jackson pays homage to its surroundings with rustic yet modern western decor, the intimate Sacajawea Library for cocktails and books about the American West, and a concierge to coordinate excursions to national parks. In May 2026, the property debuted The Retreat at Hotel Jackson, a sleek wood-clad concept designed by TruexCullins, featuring nine luxury suites; a spa for aromatherapy massages, hydrofacials, sauna sessions, and relaxing in the fire-warmed lounge; a sleek fitness center; and Juliette, a rooftop restaurant with views of Snow King Mountain and the town square.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846029/devon-usa/articles/Caldera_Lobby_644_ptozrn.jpg" alt="Image may contain Fireplace Indoors Interior Design Architecture Building Furniture Living Room Room and Chandelier" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">HyperFocal: 0 Photo: Courtesy of Caldera House</figcaption></figure>
+<p>Located right at the base of Jackson Hole Mountain, Caldera House is not your traditional hotel. It’s better characterized as an intimate retreat, boasting framed Ansel Adams photographs, Lindsey Adelman light fixtures, and just a handful of two- to four-bedroom suites—all impeccably designed with nods to both Scandi minimalism and the rugged charm of the American West. The discreet après-ski lounge, complete with outdoor fire pits, plunge pool, and locker room, is open exclusively to club members and hotel guests. And, if this kind of thing matters to you: Gigi Hadid and the Kardashians have stayed here.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846029/devon-usa/articles/Faraway_20Jackson_20Hole_20-_20Sure_20Hand_203_smm7as.jpg" alt="Image may contain Indoors Interior Design Architecture Building Dining Room Dining Table Furniture Room and Table" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Faraway Jackson Hole</figcaption></figure>
+<p>Following the success of the Faraway’s escapes in Martha’s Vineyard, Nantucket, and Sag Harbor, the brand expanded to Jackson Hole in July. A modern maximalist take on the rustic rancher getaway, the new property possesses the same playful character as its East Coast siblings but with decidedly Western flair—dark wood, pillows embroidered with horses, antler accents, and stone—across its 90 guest rooms and suites, 48 fire-warmed residences, indoor swimming pool, cozy lobby lounge, and Mountain West-inspired restaurant. You also can’t beat the Teton Village location, steps from the aerial tram and ski lifts.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846029/devon-usa/articles/HC_015_TWF_ajbaod.jpg" alt="Image may contain Dining Table Furniture Table Architecture Building Dining Room Indoors Room and Restaurant" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Tuck Fauntleroy</figcaption></figure>
+<p>While no one is debating the merits of a swank slopeside resort, for travelers who don’t want to sacrifice the comforts and space of a private house, Hoback Club ticks all the boxes. Jackson Hole&#x27;s first and only ski-in, ski-out ultra-luxury private club and residences, which opened in January 2026, has five-star amenities, personalized service, and accommodations that rival the swishiest rentals. Every guest gets the full VIP treatment—bespoke itineraries (think: fly fishing and wildlife safaris in Grand Teton National Park), access to a hydrotherapy circuit and a Himalayan salt room, and private chefs.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846029/devon-usa/articles/11_20-_20Rooftop_eirmu2.jpg" alt="Image may contain Couch Furniture Terrace Nature Outdoors Scenery Table Architecture Building Indoors and Lounge" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of The Cloudveil</figcaption></figure>
+<p>For those keen to stay in town, there’s no better, more central location than The Cloudveil, situated on Jackson’s historic Town Square. The property defines contemporary cozy with rooms decorated with natural hues, custom wood, and leather furnishings. There’s a Parisian-influenced bistro for oysters, French onion soup, and steak frites on the ground floor, as well as a rooftop for stiff drinks and stirring Snow King Mountain views. Speaking of the great outdoors, before answering the call of adventure, we’d suggest asking one of the nature-savvy concierges to coordinate an excursion.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846030/devon-usa/articles/AlpineHouse-_20Room_203_sg27lg.jpg" alt="Image may contain Indoors Interior Design Bed Furniture Home Decor and Lamp" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Alpine House</figcaption></figure>
+<p>The Alpine House is an intimate and relaxed adults-oriented base in the town of Jackson. Originally founded by former U.S. Olympians Hans and Nancy Johnstone, and reimagined by owner Erik Warner, the property recently reopened following a revamp by Brooklyn-based Elizabeth Roberts Architects that tossed out the saddles and taxidermy, replacing kitsch with alpine cool. Rooms are compact but filled with charm: walls painted a rich forest green, wrought iron beds, Indigenous-inspired geometric quilts, and electric fireplaces. The Kitchen serves salumi plates and local bread, perfect for refueling after skiing, snowmobile tours, and horseback riding at Turpin Meadow Ranch.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846030/devon-usa/articles/679afcd4-1416-4fb0-8ae0-e0daa2265081_wywqfs.jpg" alt="Image may contain Fireplace Indoors Hearth Interior Design Electronics Screen Computer Hardware Hardware and Monitor" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of the Airbnb photographer community</figcaption></figure>
+<p>Jackson Hole has many Airbnbs to pick from; if you want more space (and privacy), this is the accommodation route to take. This property, a four-bedroom that’s within walking distance of both Teton Village and Jackson Hole Mountain Resort, can sleep up to 16 guests—for those planning a big group trip, it makes an excellent home base. A hot tub, fully equipped chef’s kitchen, and several outdoor areas give you plenty of space to stretch out.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846030/devon-usa/articles/c71ef2af3e3d1099-image_173363056_mgp74u.jpg" alt="Image may contain Wood Indoors Interior Design Hardwood Stained Wood Chair Furniture Nature Outdoors and Scenery" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Homes &amp; Villas by Mariott Bonvoy</figcaption></figure>
+<p>Situated in Teton Village and almost entirely surrounded by forest, this home makes disconnecting easy. (For starters, your closest neighbor is likely some form of wildlife.) Inside, a large stone fireplace connects an open-plan living area and dining room; there’s wood paneling everywhere, and more than one piece of rustic log furniture to really cement that cabin feel. With five bedrooms and five and a half bathrooms, this spot is well-suited for a large group.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">What to Do</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846030/devon-usa/articles/Wildflower_50k_2026_GrahamGroth-39_bmhokm.jpg" alt="Image may contain Mountain Mountain Range Nature Outdoors Peak Wilderness Slope Rock and Scenery" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Graham Groth / Courtesy of Visit Jackson Hole</figcaption></figure>
+<p>This entry is almost too broad, but no trip to Jackson is complete without a trip through this miraculous wonder—whether on foot, wheels, or water. The Taggart Lake Loop and Lakeshore Trail are considered beginner-friendly options. The Jenny Lake Trail requires moderate exertion. For a challenge, trek to Lake Solitude or tackle the Surprise and Amphitheater Lakes Trail. If you’re back-country hiking, make sure to pack some bear spray. Go paddleboarding at String Lake, a tranquil body of water with spectacular views of the mountain. Rent a bike and ride to Jenny Lake.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846030/devon-usa/articles/SONA-JHETA-00041_fszhy3.jpg" alt="Image may contain Car Transportation Vehicle Animal Cattle Cow Livestock Mammal Adult and Person" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Jackson Hole EcoTour Adventures</figcaption></figure>
+<p>Yes, this activity, at least in part, takes place in Grand Teton National Park. And, sure, it’s almost statistically impossible not to see a moose, elk, or buffalo while trekking through the Wyoming expanses; however, a dedicated wildlife experience (I highly recommend booking through Jackson Hole EcoTour Adventures) ensures not just spying critters but fostering a deeper appreciation for the diverse and complex ecosystem of Jackson Hole.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846031/devon-usa/articles/SackettJoey-JHMR-VisitJacksonHole-46_sbsu6r.jpg" alt="Image may contain Nature Outdoors Clothing Glove Person Snow Leisure Activities Skiing Sport Helmet and Piste" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Ski Jackson Hole</figcaption></figure>
+<p>Jackson Hole Mountain Resort is one of the hardest mountains in North America, with only 10 percent of its terrain meant for beginners. Though this shouldn’t put novices off powder pursuits. There are excellent instructions and some gentle runs for first-timers and the pint-sized crowd. For intermediate to advanced skiers, it’s an especially challenging, adventurous dream. If you’re a (skilled and experienced) risk taker, descend Corbet&#x27;s Couloir, which, with its steep, rocky drop-in, is hailed as “America’s scariest ski run.”</p>
+<p>In the summertime, when skiing is off the table, adrenaline junkies can still get a rush climbing Jackson’s Via Ferrata—for the uninitiated, it’s a route that allows you to scale rock faces with cables and steel rungs. There are beginner, intermediate, and advanced routes, with challenging man-made obstacles thrown in for fun. Expect suspension bridges and a 35-foot vertical “sky ladder.</p>
+<p>Tucked off the Antelope Flats Road, Mormon Row is a collection of abandoned structures dating back to the 1890s. Not only does it stand as a preeminent example of classic Western homestead architecture, but it also has one of the best views that doesn’t require hoofing it up a mountain, with plains flowing seamlessly into the Tetons.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846031/devon-usa/articles/JHMR-Tram-17_dyavyl.jpg" alt="Image may contain Nature Outdoors Snow Transportation Vehicle Ski Lift and Bridge" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Jackson Hole Aerial Tram</figcaption></figure>
+<p>Most people think about the slopes in the winter, but the Jackson Hole Aerial Tram glides upward 4,139 vertical feet (in just 12 minutes, we should add) in the spring, summer, and fall, providing sunny views of the peaks and valley. Beyond the unbeatable vistas and souvenir photo ops, the &quot;Top of the World&quot; means access to hiking trails and waffles at Corbet&#x27;s Cabin.</p>
+<p>Of course, you can see plenty of wildlife in the parks, but for art lovers and folks who prefer to view representations of wild animals, rather than the real thing, the National Museum of Wildlife Art is the only museum in the country dedicated solely to wildlife art, encompassing works from prominent artists such as Georgia O’Keeffe, Robert Kuhn, and John James Audubon, as well as life-size sculptures on an outdoor trail facing the National Elk Refuge.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846031/devon-usa/articles/JHMR-Scenic-and-Wildlife-29_kk5ewq.jpg" alt="Image may contain Animal Deer Elk Mammal Wildlife and Antelope" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Amy Jimmerson / Courtesy of the National Elk Refuge</figcaption></figure>
+<p>The National Elk Refuge, located just outside downtown Jackson, attracts both casual wildlife observers and professional photographers. It’s best visited in the winter and early spring (mid-December through early April) when the elk and wolves are most active. During the frosty season, the sleigh rides are a big hit with families.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846031/devon-usa/articles/orig_20_3_eflory.jpg" alt="Image may contain Nature Night Outdoors Lighting Telescope Car Transportation Vehicle Clothing and Glove" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Snow King Observatory &amp; Planetarium</figcaption></figure>
+<p>Jackson has many claims to fame; among them, it’s home to the nation’s only observatory and planetarium on a ski resort​. The area ​was already a hit with stargazers due to the prime cosmos-peeping conditions: ​minimal light pollution​ and high elevation​. This out-of-this-world addition to the area gives visitors the opportunity to stare up at the cosmos from the top of Snow King Mountain, a unique experience that’s guaranteed to leave you starry-eyed.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Where to Eat and Drink</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846031/devon-usa/articles/Caldera-House---Corsa0143_nuegva.jpg" alt="Image may contain Indoors Chair Furniture Bar and Restaurant" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Caldera House</figcaption></figure>
+<p>Glorietta is best described as an Italian-meets-Western trattoria. Because what else would you call a restaurant that serves elk bolognese, bone marrow with amaretto shots, and bison? For dessert, order the donuts with winter spice sugar and apple cider reduction.</p>
+<p>You can’t order wrong at Corsa, the Italian restaurant at Caldera House, at the base of Teton Village. Those looking for après-ski comfort food should opt for classic margarita pizza or spicy vodka rigatoni. For more elevated fare, order the braised short rib or scallops. Be sure to save room for the apple crisp dessert.</p>
+<p>A fixture of fine American dining for over thirty years, Snake River is a beloved Jackson Hole institution, welcoming repeat diners for decades. Patrons return regularly to feast on distinct dishes like steak tartare pizza, bone-in pork chop, and roasted duck in the Western, log-cabin-esque dining room with a deep sense of place.</p>
+<p>Don&#x27;t let Jackson&#x27;s thousand-mile distance from the ocean throw you off the scent of fresh seafood—this town serves up some seriously good sushi. Stop by Kampai for both local fish and delicacies flown in from Japan. With menu items that aim cheekily to embody a contrarian spirit—take the “John Galt” roll, a nod to Ayn Rand&#x27;s libertarian manifesto Atlas Shrugged—there&#x27;s no forgetting you’re in Wyoming.</p>
+<p>Hand Fire Pizza offers up a wide array of—you guessed it—hand-fired pizzas inside the historic Teton Theater building. It&#x27;s perfect for, well, everyone: Kids will go for the classic cheese pizza. Adults, meanwhile, can opt for artisanal pies like the “squashed,” comprised of winter squash, dried cherries, caramelized onions, mozzarella, and local goat cheese. An added bonus? Hand Fire Pizza pledges to use locally grown, organic produce and sustainably raised, fairly sourced meats.</p>
+<p>No trip to Jackson would be complete without a stop at Persephone, the charming bakery, coffee shop, and cafe that was a 2020 James Beard award nominee for best pastry chef. Breakfast calls for Quiche Lorraine or brioche French toast. If you’re stopping by for lunch, order the truffled prosciutto sandwich. For a sweet treat, you can’t go wrong with a vanilla latte and a s’mores cookie or an almost-croissant dusted with powdered sugar.</p>
+<p>Most people need a caffeine boost in the morning. When the day starts at sunrise for wildlife safaris, hiking, or skiing, that java jolt is even more important. Before striking out on adventure, head to Snake River Roasting Company for a small-batch specialty coffee and hearty breakfast burrito.</p>
+<p>Picnic is a café in West Jackson from the same team behind Persephone. For the warm and airy design, local firm E/YE Design, took inspiration from what they call the “Jackson uniform”: used denim. It’s open for breakfast and lunch, and the health-focused menu includes nourishing favorites like a breakfast burrito, the Jackson Hippie sandwich, and avocado toast.</p>
+<p>After a day hiking, skiing, or shopping, nothing hits quite like a scoop of ice cream. Jackson Drug hand-makes its creamy confections in-house with dairy from Idaho Falls. A scoop of the huckleberry is a must-order. The Moose Tracks flavor benefits “Wyldlife for Tomorrow.” The milkshakes are not to be missed either. If you’re traveling with a crew, share one of the generously sized brownie sundaes.</p>
+<p>Every mountain needs a tried-and-true après-ski bar—and for Teton Village, that’s the Mangy Moose. Order a beer and some chicken wings while defrosting from hitting the slopes. An added bonus? There&#x27;s often live music around the classic ski quitting time of 3:30 p.m. While it’s still chill by slopeside standards, for Jackson this place sometimes gets pretty rowdy during peak season.</p>
+<p>Is Million Dollar Cowboy Bar touristy? Sure. Does that make it any less fun? Nope. It’s the ultimate western watering hole, with horse saddle bar seats, longhorn taxidermy, and an extensive whiskey collection. At 8:30 p.m. almost every night, a live country act takes the stage—bringing the cowboy-clad crowd to the dance floor (or, at least, anyone not playing pool).</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Where to Shop</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792846031/devon-usa/articles/6.7.2023_20Jackson_20Store_20and_20Bolo_20Ties-005_cxbjyx.jpg" alt="Image may contain Indoors Wood Furniture and Shop" loading="lazy" class="w-full h-auto"/><figcaption class="text-xs text-gray-500 mt-2">Photo: Courtesy of Kemo Sabe</figcaption></figure>
+<p>Womenfolk is a vintage and consignment shop that specializes in high fashion with a Western edge. During my recent visit, I spied a Ralph Lauren hand-knit silk cardigan and Yves Saint Laurent fringe lambskin leather knickers. Beyond name brands, there’s an assortment of old turquoise jewelry, fine-crafted belts, statement fringe jackets, quality denim, and cowboy boots.</p>
+<p>Dallas native Lela Rose spent many years living and working in New York before relocating to Wilson, where she opened her first Wyoming shop, followed by an outpost in downtown Jackson in 2026. The shop, located at 98 Center Street, stocks a curated mix of Lela Rose ready-to-wear and Western-inspired pieces, including vintage cowboy boots as well as hand-embellished shirts and accessories.</p>
+<p>It takes 10 to 12 months for Christy Sing Robertson to make one of her hand-crafted cowboy hats. But customers (including Devon editors) think it’s well worth the wait to choose from premium felt bodies, satin linings, and gold-stamped leather, creating more than just a western accessory but a piece of wearable art.</p>
+<p>The immensely popular, high-end western store out of Aspen set up shop in Jackson a few years back, hawking its splurge-worthy hats—which you can get branded with your initials—cowboy boots, belt buckles, bolo ties, and more. More, in this case, means fine diamond jewelry and vintage Gucci bags.</p>
+<p>Because cold is no excuse not to make a fashion statement, go to Habits, a high-end boutique in the town of Jackson, to score the latest from brands like Jamie Haller, Studio Nicholson, Guest in Residence, Raquel Allegra, and Wales Bonner—as well as funkier, cutting-edge pieces from Dutch artist Rop Man Mierlo’s Wild Animals line.</p>
+<p>While wandering around Jackson, it’s not whether you’ll find a fabulous hat, but rather where you decide to purchase one. JW Bennett hand-crafts both custom and ready-to-wear hats, ranging from Guatemalan palm straw accented with indigo ribbons for summer to felt styles with vintage grosgrain.</p>
+<p>Made is a small, well-curated gift shop, stocked with everything from National Park-themed playing cards to huckleberry honey and artisanal mugs. It’s the perfect place to pick up a souvenir for both yourself and anyone else in your life who wants a piece of the West.</p>
+<p>If you’re looking to get more into the Teton lifestyle, ir at least dress the part, Piper Jackson Hole is a good spot to pick up a few on-theme essentials, including woven alpaca sweaters, low-rise baggy denim, The Great plush embroidered pullovers, and Rachel Comey oversized wool coats.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">When to Visit</h2>
+<p>No matter when you visit, a trip to Jackson is always focused on the outdoors. In the winter, the culture revolves around snow sports like skiing, snowboarding, snowshoeing, and snowmobiling. In the summer, most folks gravitate to activities like hiking, fishing, and rafting.</p>
+<p>In winter, temperatures typically hover in the 20s during the day and teens at night. Single digits—and even colder conditions, especially at elevation on Jackson Hole Mountain—are not uncommon. In July and August, daytime temperatures generally reach the upper 70s and low 80s, with plenty of blue-sky days and dramatic swings from warm, sunny afternoons to crisp evenings.</p>
+<p>Winter, especially during holiday weeks, sees a significant influx of visitors. In the summer, expect more people and longer waits. Those looking for a quieter time to visit, as well as colorful foliage and excellent wildlife viewing, should opt for the fall shoulder season in September or early-to-mid October. It’s important to note that many restaurants and shops temporarily shutter in November and April to prepare for the upcoming peak seasons. Although Grand Teton National Park is open every day of the year, many facilities such as campgrounds and visitor centers are closed or have reduced hours from November through April.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="ms-senior-america-pageant.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-24/6ad926ed57151ca916abf9d2.jpg" alt="At the Ms. Senior America Pageant, Beauty Is Forever" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Wellness</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">At the Ms. Senior America Pageant, Beauty Is Forever</h3>
+                </a>
+                <a href="best-halloween-stoops.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-24/6ad8e3ca39ced85d1287658e.jpg" alt="New York’s Best-Dressed Halloween Stoops Are Spooky, Kooky, Autumnal Delights" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Living</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">New York’s Best-Dressed Halloween Stoops Are Spooky, Kooky, Autumnal Delights</h3>
+                </a>
+                <a href="hunters-moon-2026-full-moon-astrology-every-star-sign.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-24/6adb8500665a124410db9de8.jpg" alt="The 2026 Hunter’s Moon Is Coming—Here’s What It Means for Every Star Sign" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Living</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">The 2026 Hunter’s Moon Is Coming—Here’s What It Means for Every Star Sign</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
