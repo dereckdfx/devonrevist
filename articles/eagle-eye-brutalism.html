@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle Eye on… Brutalism | Devon</title>
+    <meta name="description" content="Designer and creative director Alex Eagle on why brutalism feels so current—and how to bring the style home.">
+    <meta property="og:title" content="Eagle Eye on… Brutalism | Devon">
+    <meta property="og:description" content="Designer and creative director Alex Eagle on why brutalism feels so current—and how to bring the style home.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-25/6ada1685a8b6e4e44f120491.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Shopping</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">Eagle Eye on… Brutalism</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">Designer and creative director Alex Eagle on why brutalism feels so current—and how to bring the style home.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Alex Eagle</p>
+            <p class="text-xs text-gray-500 mt-1">October 25, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-25/6ada1685a8b6e4e44f120491.jpg" alt="Eagle Eye on… Brutalism" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>Eagle Eye exists to explain the gaps—between how we dress and how we live; between the spaces you’re drawn to and the coat you keep reaching for. Each month, London-based designer and creative director Alex Eagle will tap her roster of friends and experts to explore the “why” behind a certain theme—why we’re drawn to certain things, and how those instincts quietly form over years without us really noticing. It’s a column rooted in interior design, with many branches (and, of course, a curated edit of shoppable products to boot).</p>
+<p>For more fashion-meets-home inspiration and Alex&#x27;s favorite finds of the moment, head to her digital storefront, powered by VETTE.</p>
+<p>Taking its name from “béton brut” (French for “raw concrete”), brutalism evolved from the broader modernist philosophy, rising in influence with postwar cities built for a new world. Originally, it was an architectural ethos focused on functionality and honest materials. Today, it’s often read as severe—but this overlooks how much brightness and space these buildings typically hold. Take the Barbican in London, for example. It was built as a utopian dream, and that’s what I love about it—it’s full of light and softness; the exterior coldness is only temporary.</p>
+<p>There’s a rawness to the style, but also an integrity and a confidence. Gallerist Max Radford thinks it feels particularly relevant right now because it’s a return to simplicity in a time of uncertainty: “I think the optimism of a new world that the original movement was imbued in ties into this—it’s about looking forward in a positive way through an aesthetic.” Andrew Taylor-Parr, the image director for Comme des Garçons (who actually lives in the Barbican), notices the appeal of raw materials and strong form against the modern backdrop of visual noise and commercial polish. “I think people appreciate it more now, across interiors, furniture, and fashion,” he adds. Furniture designer and writer Amelia Stevens sees it as a response to increased sustainability efforts, too: “As we become more conscious of accumulating only that which will stand the test of time, brutalism offers an answer without compromising chicness.”</p>
+<p>The subject sits close to home. The original 180 The Strand, Sir Frederick Gibberd’s 1970s brutalist landmark, stands next door to our studio here in London and shapes my work with Eagle + Hodges: We try to focus on material shown as-is, with nothing disguised. I spoke with Radford, Taylor-Parr, and Stevens to dig deeper into the style and its key tenets—fully embodied, the ethics of brutalism can go beyond architecture to apply to the way you live, the things you choose to have around you, and the way you put things together. There’s something very strong about that sense of simplicity and purpose.</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Concrete, Reinterpreted</h2>
+<p>Concrete is one of the first things I think of when I hear the word brutalism. It’s best when it is imperfect, and although people think of it as this very industrial material, there’s depth to it. I’m taking an abstract interpretation here, looking closer at the individual components of concrete to translate it into fashion: a surface that shows how it was made, texture left unfinished, some weight. Try a cashmere jumper, with a knitted slub texture that gives it an unfinished feel, or a stripped-back trench coat, whose rigid structure contrasts with a soft cotton fabric.</p>
+<p>“I think the appeal of concrete is the way it takes on the material qualities of whatever it is cast against. Often, you can see the imprint of the material in which it was cast—it can resemble marble or stone, or the rough knots and seams of wooden planks,” explains Stevens. She points to Martin Laforet’s works as examples of concrete’s versatility. For a smaller touch, Serax’s round stool is an understated way to bring a bit of the material home.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932939/devon-usa/articles/3_v862iy.jpg" alt="Image may contain: Accessories, Jewelry, Ring, Diamond, Gemstone, and Silver" loading="lazy" class="w-full h-auto"/></figure>
+<p>Chan Luu</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">sapphire thumb ring</h2>
+<p>EAGLE EYE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932939/devon-usa/articles/8_tk8bgk.jpg" alt="Image may contain: Clothing, Coat, Overcoat, and Trench Coat" loading="lazy" class="w-full h-auto"/></figure>
+<p>Alex Eagle</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Bolton trench coat</h2>
+<p>ALEX EAGLE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932939/devon-usa/articles/19_lhrvmu.jpg" alt="Image may contain: Clothing, and T-Shirt" loading="lazy" class="w-full h-auto"/></figure>
+<p>Rick Owens</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Level T-shirt</h2>
+<p>NET-A-PORTER</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932939/devon-usa/articles/1_jhudnu.jpg" alt="Image may contain: Accessories, Buckle, and Belt" loading="lazy" class="w-full h-auto"/></figure>
+<p>Déhanche</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Hollyhock belt</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932939/devon-usa/articles/13_qsa6bt.jpg" alt="Image may contain: Clothing, Knitwear, Sweater, Sweatshirt, Long Sleeve, and Sleeve" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Hanover jumper</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932939/devon-usa/articles/24_t3fr3e.jpg" alt="Image may contain: Cylinder, Furniture, Tape, Bottle, and Shaker" loading="lazy" class="w-full h-auto"/></figure>
+<p>Serax</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">x Marie Michielssen Pawn stool</h2>
+<p>FINNISH DESIGN SHOP</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932940/devon-usa/articles/17_z5fqcc.jpg" alt="Image may contain: Furniture, Table, Desk, Dining Table, Computer, and Electronics" loading="lazy" class="w-full h-auto"/></figure>
+<p>Martin Laforêt</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Bureau A 104 table</h2>
+<p>Shop at</p>
+<p>CARPENTERS</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932940/devon-usa/articles/9_xthbcd.jpg" alt="Image may contain: Clothing, Long Sleeve, Sleeve, Coat, Jacket, Blazer, Knitwear, and Sweater" loading="lazy" class="w-full h-auto"/></figure>
+<p>Maison Margiela</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">printed bodysuit</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">A Monochromatic Palette</h2>
+<p>Here’s a lesson learned early by brutalism enthusiasts: If you take away color, then materials do all the talking. “It forces you to only focus on form, proportion, and texture,” explains Radford. “Working tonally through a color can also create a far more interesting result.” Veronica De Piante’s Gaia burgundy ankle boots are what I think of when I think of material honesty: Handcrafted in Italy, the heel from wood and leather with a patent finish, each material speaks for itself.</p>
+<p>Calf hair, plush velvet, lacquered furniture… these are all materials that give interest to a simple palette. In interiors, our Thames table gives a room a mood boost with its shiny finish; exactly what a single-material scheme needs.</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932940/devon-usa/articles/10_oemgmn.jpg" alt="Image may contain: Clothing, Skirt, and Pottery" loading="lazy" class="w-full h-auto"/></figure>
+<p>Nour Hammour</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Elyse skirt</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932940/devon-usa/articles/5_iein81.jpg" alt="Image may contain: Coffee Table, Furniture, Table, and Dining Table" loading="lazy" class="w-full h-auto"/></figure>
+<p>Eagle + Hodges</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Thames table</h2>
+<p>EAGLE + HODGES</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932941/devon-usa/articles/23_bi6zpb.jpg" alt="Image may contain: Pottery, Bowl, Jar, Art, Porcelain, Vase, and Glass" loading="lazy" class="w-full h-auto"/></figure>
+<p>Gachot</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Murano glass vase</h2>
+<p>ARTEMEST</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932941/devon-usa/articles/26_ce0hlm.jpg" alt="Image may contain: Clothing, Footwear, Shoe, High Heel, and Boot" loading="lazy" class="w-full h-auto"/></figure>
+<p>Veronica de Piante</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Gaia boots</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932941/devon-usa/articles/6_kqfnlm.jpg" alt="Image may contain: Blazer, Clothing, Coat, Jacket, Velvet, Formal Wear, and Suit" loading="lazy" class="w-full h-auto"/></figure>
+<p>Khaite</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Rolo jacket</h2>
+<p>KHATE</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932942/devon-usa/articles/11_wnexch.jpg" alt="Image may contain: Accessories, Bag, Handbag, Purse, and Tote Bag" loading="lazy" class="w-full h-auto"/></figure>
+<p>Alaïa</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">calf hair shoulder bag</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932942/devon-usa/articles/7_rvkfxh.jpg" alt="Image may contain: Clothing, and Glove" loading="lazy" class="w-full h-auto"/></figure>
+<p>Kallmeyer</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Park gloves</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932942/devon-usa/articles/4_yp7h2x.jpg" alt="Image may contain: Pottery, Jar, Vase, Cookware, Pot, and Smoke Pipe" loading="lazy" class="w-full h-auto"/></figure>
+<p>Lee Song-am</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">black clay vase</h2>
+<p>ABASK</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Sharp Lines</h2>
+<p>Brutalism’s geometric forms and sharp lines give it a sense of strength and presence, helping to define a space in one fell swoop. Stevens takes a modernist approach to brutalism with her stainless steel tables: It has a solid base, yet its proportions are slender. Nordic Knots’s rug is one way to add a slight edge to your floors, as its sharp geometry on soft wool juxtaposes the severity of the shapes.</p>
+<p>In fashion, this is where tailoring comes into play. “A strong shoulder, precise seam, or exaggerated proportion can completely change a silhouette—there’s something very architectural about good tailoring,” adds Taylor-Parr. The Corris trouser from The Frankie Shop is a great example: a sharp pleat in the middle creates structure and sharpness, making it a solid foundation in your wardrobe (the neutral, cement-like color is a plus!).</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932942/devon-usa/articles/2_scqbm8.jpg" alt="Image may contain: Clothing, Footwear, Shoe, High Heel, and Wedge" loading="lazy" class="w-full h-auto"/></figure>
+<p>The Row</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Liisa heels</h2>
+<p>THE ROW</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932942/devon-usa/articles/27_dkgenb.jpg" alt="Image may contain: Home Decor, and Rug" loading="lazy" class="w-full h-auto"/></figure>
+<p>Nordic Knots</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Tradition 02 rug</h2>
+<p>NORDIC KNOTS</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932943/devon-usa/articles/28_cpqqnl.jpg" alt="Image may contain: Furniture" loading="lazy" class="w-full h-auto"/></figure>
+<p>CB2</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">x Sandra Githinji Toron pedestal table</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932943/devon-usa/articles/14_gcjzsv.jpg" alt="Image may contain: Clothing, Pants, Home Decor, Linen, Skirt, and Khaki" loading="lazy" class="w-full h-auto"/></figure>
+<p>The Frankie Shop</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Corris trousers</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932943/devon-usa/articles/16_sdirxw.jpg" alt="Image may contain: Electronics, Hardware, Clothing, Swimwear, Cushion, Home Decor, Accessories, Bag, and Handbag" loading="lazy" class="w-full h-auto"/></figure>
+<p>Jil Sander</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">cropped top</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932943/devon-usa/articles/30_jzoixk.jpg" alt="Image may contain: Furniture, Table, Sink, and Sink Faucet" loading="lazy" class="w-full h-auto"/></figure>
+<p>Amelia Stevens</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Species of Table and Other Pieces table</h2>
+<p>MAX RADFORD</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932943/devon-usa/articles/18_brjfdx.jpg" alt="Image may contain: Accessories, Sunglasses, and Glasses" loading="lazy" class="w-full h-auto"/></figure>
+<p>Saint Laurent</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">SL 963 sunglasses</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932943/devon-usa/articles/12_gq1jcx.jpg" alt="Image may contain: Accessories, Gemstone, Jewelry, Earring, and Sapphire" loading="lazy" class="w-full h-auto"/></figure>
+<p>Julietta</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Vale earrings</h2>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Absence of Ornament</h2>
+<p>“Without ornament, material and construction become much more important,” says Taylor-Parr. It’s not as easy as it seems—in both interiors and fashion, using a restrained approach is a balancing act. “It’s a wonderful exercise in design that forces you to find clever solutions,” adds Stevens. “There’s something to be said for balancing rational form with a sophisticated material palette to prevent a space from becoming sterile.”</p>
+<p>Take, for instance, Ann Demeulemeester’s silk dress. It has no embellishment to lean on; the drape, the seams, and the line of the silhouette do all the work, and it still looks grand. Or the Saddle martini table from Arhaus: a pared-back piece that’s warm enough on its own, but that’s also a perfect canvas for playful decor. “At home, this restraint needs to be balanced with warmth—natural materials, texture, books, art, and objects that have meaning,” continues Taylor-Parr. “To me, simplicity should feel personal, not empty.”</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932944/devon-usa/articles/32_wwlzzr.jpg" alt="Image may contain: Furniture, Table, Bench, and Wood" loading="lazy" class="w-full h-auto"/></figure>
+<p>Arhaus</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Saddle martini table</h2>
+<p>ARHAUS</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932944/devon-usa/articles/15_e5zyui.jpg" alt="Image may contain: Cuff, Electronics, and Hardware" loading="lazy" class="w-full h-auto"/></figure>
+<p>Dévé</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Santo Sospir bangle</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932944/devon-usa/articles/20_cpy1yc.jpg" alt="Image may contain: Clothing, Dress, Formal Wear, Evening Dress, Fashion, and Robe" loading="lazy" class="w-full h-auto"/></figure>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">sheer dress</h2>
+<p>FARFETCH</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932944/devon-usa/articles/25_orhlbd.jpg" alt="Image may contain: Clothing, Dress, Fashion, Formal Wear, Gown, Skirt, and Robe" loading="lazy" class="w-full h-auto"/></figure>
+<p>Ann Demeulemeester</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Aaricia dress</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932945/devon-usa/articles/21_qdtdle.jpg" alt="Image may contain: Clothing, Coat, Blouse, Long Sleeve, Sleeve, Jacket, Knitwear, and Sweater" loading="lazy" class="w-full h-auto"/></figure>
+<p>Almina Concept</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">snap jacket</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932944/devon-usa/articles/31_kezifx.jpg" alt="Image may contain: Antler" loading="lazy" class="w-full h-auto"/></figure>
+<p>Michael Harjes</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">Brutalist candleholders</h2>
+<p>ANCIEN</p>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932945/devon-usa/articles/22_ua4hqj.jpg" alt="Image may contain: Art, Porcelain, Pottery, Cookware, Pot, Cup, Jar, and Vase" loading="lazy" class="w-full h-auto"/></figure>
+<p>H&amp;M</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">stonewear mugs</h2>
+<figure class="my-10"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792932945/devon-usa/articles/29_j73fwc.jpg" alt="Image may contain: Clothing, Footwear, Shoe, and Sneaker" loading="lazy" class="w-full h-auto"/></figure>
+<p>A.Emery</p>
+<h2 class="text-2xl md:text-3xl font-semibold text-black pt-4">The Spencer flats</h2>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="couture-council-luncheon-2026-diane-von-furstenberg.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-25/6adcdc105bf38644fa129f49.jpg" alt="Inside the Couture Council Luncheon, Where Diane von Furstenberg Was Celebrated as a “Force of Nature”" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Parties</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Inside the Couture Council Luncheon, Where Diane von Furstenberg Was Celebrated as a “Force of Nature”</h3>
+                </a>
+                <a href="from-the-archives-dream-sweets.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-25/6ad78758a1206c3435576b1d.jpg" alt="From the Archives: America’s Enduring Appetite for Candy" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Magazine</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">From the Archives: America’s Enduring Appetite for Candy</h3>
+                </a>
+                <a href="skillcations-travel-trend.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792068768/devon-usa/2026-10-15/6ad00a528f6d372f3fa47810.jpg" alt="How “Skillcations” Became One of the Year’s Biggest Travel Trends" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Travel</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">How “Skillcations” Became One of the Year’s Biggest Travel Trends</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>

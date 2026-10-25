@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From the Archives: America’s Enduring Appetite for Candy | Devon</title>
+    <meta name="description" content="With Halloween treats on his mind, Jeffrey Steingarten investigates America&#x27;s enduring appetite for candy.">
+    <meta property="og:title" content="From the Archives: America’s Enduring Appetite for Candy | Devon">
+    <meta property="og:description" content="With Halloween treats on his mind, Jeffrey Steingarten investigates America&#x27;s enduring appetite for candy.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-25/6ad78758a1206c3435576b1d.jpg">
+    <link rel="icon" href="https://i.ibb.co/h191t3k2/Devon-Title-logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        window.tailwind = window.tailwind || {};
+        window.tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Jost', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['"Bodoni Moda"', 'Didot', 'Times New Roman', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .sidebar { transform: translateX(100%); transition: transform 0.3s ease-in-out; }
+        .sidebar.open { transform: translateX(0); }
+        .sidebar nav a {
+            opacity: 0; transform: translateX(12px);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+        }
+        .sidebar.open nav a { opacity: 1; transform: translateX(0); }
+        .sidebar.open nav a:nth-child(1) { transition-delay: 0.05s; }
+        .sidebar.open nav a:nth-child(2) { transition-delay: 0.08s; }
+        .sidebar.open nav a:nth-child(3) { transition-delay: 0.11s; }
+        .sidebar.open nav a:nth-child(4) { transition-delay: 0.14s; }
+        .sidebar.open nav a:nth-child(5) { transition-delay: 0.17s; }
+        .sidebar.open nav a:nth-child(6) { transition-delay: 0.20s; }
+        .sidebar.open nav a:nth-child(7) { transition-delay: 0.23s; }
+        .sidebar.open nav a:nth-child(8) { transition-delay: 0.26s; }
+        .sidebar.open nav a:nth-child(9) { transition-delay: 0.29s; }
+        .sidebar.open nav a:nth-child(10) { transition-delay: 0.32s; }
+        .link-underline { position: relative; display: inline-block; padding-bottom: 2px; }
+        .link-underline::after {
+            content: ''; position: absolute; width: 0; height: 1px; bottom: 0; left: 0;
+            background-color: currentColor; transition: width 0.25s ease;
+        }
+        .link-underline:hover::after { width: 100%; }
+        .hero-wordmark {
+            font-family: "Bodoni Moda", Didot, serif;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 0.85;
+            font-size: clamp(3.5rem, 14vw, 9.5rem);
+            color: #fff;
+            text-shadow: 0 2px 40px rgba(0,0,0,0.25);
+        }
+    </style>
+</head>
+<body class="bg-white text-black font-sans flex flex-col min-h-screen antialiased">
+
+    <!-- Overlay + right MENU drawer -->
+    <div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden transition-opacity opacity-0" onclick="closeAll()"></div>
+    <aside id="sidebarMenu" class="sidebar fixed top-0 right-0 h-full w-72 bg-white border-l border-gray-200 z-50 shadow-2xl flex flex-col">
+        <div class="p-5 flex justify-between items-center border-b border-gray-200">
+            <h2 class="text-sm font-semibold tracking-[0.25em] text-black uppercase">Menu</h2>
+            <button onclick="toggleMenu()" class="text-gray-500 hover:text-black p-2" aria-label="Close menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 text-[12px] font-medium tracking-[0.18em] text-gray-600 uppercase overflow-y-auto no-scrollbar pb-20">
+            <a href="../subscribe.html" class="text-black hover:bg-gray-50 p-3 transition-colors">Subscribe</a>
+            <a href="../index.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Home</a>
+            <a href="../fashion.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Fashion</a>
+            <a href="../runway.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Runway</a>
+            <a href="../shopping.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Shopping</a>
+            <a href="../beauty.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Beauty</a>
+            <a href="../culture.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Culture</a>
+            <a href="../lifestyle.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Living</a>
+            <a href="../devon-world.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Devon World</a>
+            <a href="../account.html" class="hover:text-black hover:bg-gray-50 p-3 transition-colors">Account</a>
+        </nav>
+    </aside>
+
+    <!-- Sticky white header chrome (Vogue.com USA) -->
+    <header class="w-full bg-white sticky top-0 z-30">
+        <!-- Utility strip -->
+        <div class="w-full border-b border-gray-100">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-3 px-4 py-1.5 text-[10px] tracking-[0.12em] text-gray-500 uppercase">
+                <span>Your All Access Pass</span>
+                <span class="text-gray-300">·</span>
+                <a href="../subscribe.html" class="hover:text-black transition-colors font-medium">Get the App</a>
+            </div>
+        </div>
+
+        <!-- Main header row -->
+        <div class="max-w-[1400px] mx-auto grid grid-cols-3 items-center px-4 md:px-8 h-[64px] md:h-[84px]">
+            <!-- LEFT: black SUBSCRIBE -->
+            <div class="flex items-center justify-start">
+                <a href="../subscribe.html" class="inline-flex items-center justify-center bg-black text-white text-[10px] md:text-[11px] font-semibold tracking-[0.22em] uppercase px-4 md:px-6 py-2.5 md:py-3 hover:bg-neutral-800 transition-colors">
+                    Subscribe
+                </a>
+            </div>
+
+            <!-- CENTER: DEVON wordmark -->
+            <div class="flex items-center justify-center">
+                <a href="../index.html" class="select-none" aria-label="Devon USA home">
+                    <span class="font-serif font-bold tracking-[0.18em] uppercase text-black text-[34px] sm:text-[44px] md:text-[56px] leading-none">DEVON</span>
+                </a>
+            </div>
+
+            <!-- RIGHT: search + account + MENU -->
+            <div class="flex items-center justify-end gap-3 md:gap-5">
+                <button type="button" onclick="toggleSearch()" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <a href="../account.html" class="text-black hover:opacity-60 transition-opacity p-1" aria-label="Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.2"></circle><path d="M5.5 19.5c1.8-3.2 4.1-4.5 6.5-4.5s4.7 1.3 6.5 4.5"></path></svg>
+                </a>
+                <button type="button" onclick="toggleMenu()" class="flex items-center gap-2 text-black hover:opacity-60 transition-opacity p-1" aria-label="Open menu">
+                    <span class="hidden sm:inline text-[11px] font-semibold tracking-[0.2em] uppercase">Menu</span>
+                    <svg width="20" height="14" viewBox="0 0 24 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square">
+                        <line x1="0" y1="1" x2="24" y2="1"></line>
+                        <line x1="0" y1="7" x2="24" y2="7"></line>
+                        <line x1="0" y1="13" x2="24" y2="13"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Primary nav -->
+        <nav class="hidden md:block w-full border-t border-gray-200">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-6 lg:gap-9 px-4 py-3.5 text-[11px] lg:text-[12px] font-medium tracking-[0.16em] text-black uppercase">
+                <a href="../fashion.html" class="link-underline hover:opacity-60">Fashion</a>
+                <a href="../runway.html" class="link-underline hover:opacity-60">Runway</a>
+                <a href="../shopping.html" class="link-underline hover:opacity-60">Shopping</a>
+                <a href="../beauty.html" class="link-underline hover:opacity-60">Beauty</a>
+                <a href="../culture.html" class="link-underline hover:opacity-60">Culture</a>
+                <a href="../lifestyle.html" class="link-underline hover:opacity-60">Living</a>
+                <a href="../devon-business.html" class="link-underline hover:opacity-60">Devon Business</a>
+                <a href="../devon-world.html" class="link-underline hover:opacity-60">Devon World</a>
+            </div>
+        </nav>
+
+        <!-- Secondary trending strip -->
+        <div class="w-full border-t border-b border-gray-200 bg-white">
+            <div class="max-w-[1400px] mx-auto flex items-center justify-center gap-4 md:gap-7 px-4 py-2.5 text-[10px] md:text-[11px] font-normal tracking-[0.08em] text-gray-600 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Devon World 2026: Milano</a>
+                <span class="text-gray-300">|</span>
+                <a href="../devon-world.html" class="hover:text-black transition-colors">Rewatch the Show</a>
+                <span class="text-gray-300">|</span>
+                <a href="../hollywood.html" class="hover:text-black transition-colors">Red Carpet</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">Best Dressed</a>
+                <span class="text-gray-300">|</span>
+                <a href="../trends.html" class="hover:text-black transition-colors">Details</a>
+                <span class="text-gray-300">|</span>
+                <a href="../latest.html" class="hover:text-black transition-colors">More</a>
+            </div>
+        </div>
+
+        <!-- Search panel -->
+        <div id="search-panel" class="hidden border-b border-gray-200 bg-white">
+            <form class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex gap-3" action="#" onsubmit="return false;">
+                <input id="search-input" type="search" placeholder="Search Devon USA" class="flex-1 border border-gray-300 px-4 py-3 text-sm outline-none focus:border-black" />
+                <button type="button" class="px-5 py-3 bg-black text-white text-[11px] tracking-[0.2em] uppercase">Search</button>
+            </form>
+        </div>
+    </header>
+<main class="flex-1 w-full">
+    <article class="pb-10">
+        <header class="max-w-3xl mx-auto px-4 md:px-8 pt-10 md:pt-14 text-center">
+            <p class="text-[11px] font-bold tracking-[0.2em] uppercase text-black mb-4">Magazine</p>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.08] text-black mb-5">From the Archives: America’s Enduring Appetite for Candy</h1>
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">With Halloween treats on his mind, Jeffrey Steingarten investigates America&#x27;s enduring appetite for candy.</p>
+            <p class="text-[11px] font-bold tracking-[0.18em] uppercase text-black">By Jeffrey Steingarten</p>
+            <p class="text-xs text-gray-500 mt-1">October 25, 2026</p>
+        </header>
+        <figure class="max-w-5xl mx-auto px-4 md:px-8 mt-8"><img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-25/6ad78758a1206c3435576b1d.jpg" alt="From the Archives: America’s Enduring Appetite for Candy" class="w-full h-auto max-h-[85vh] object-cover"/></figure>
+        <div class="max-w-2xl mx-auto px-5 md:px-0 py-10 md:py-14 font-serif text-[19px] md:text-[20px] leading-[1.7] text-gray-900 space-y-7">
+<p>“Dream Sweets,” by Jeffrey Steingarten, was originally published in the October 2009 issue of Devon.</p>
+<p>Whether you&#x27;re four or 40, it&#x27;s never too early to start planning for Halloween. And planning means candy. If you&#x27;re an average American, you consume a half-pound of candy a week, a good deal more around Halloween. If you&#x27;re a way subaverage American, you may be in trouble. Remember the study about ten years ago from the Harvard School of Public Health? People who eat candy live longer than people who eat none at all. Eat candy or die? No, the figures are not quite so dramatic as that. But don&#x27;t say I didn&#x27;t warn you.</p>
+<p>Before you can stock up on candy, you need to know what candy is. As usual, square one is the Oxford English Dictionary, which defines candy as “crystallized sugar, made by repeated boiling and slow evaporation, more fully called sugar candy; also any confection made of, or incrusted with this.” Sounds sensible as far as it goes. But they left out the sweet part, the idea that candy is sweet. (Many sugars are not particularly sweet.) And that the sugar in candy is sometimes replaced by a nonnutritive sweetener, where nonnutritive means “noncaloric” (and is rarely successful at simulating candy). The U.S. Census Bureau, which counts candy as well as people, excludes cough drops, medicated candy, roasted peanuts, and unsweetened popcorn, and who could argue? It divides up the rest among chocolate confections, non-chocolate confections, and chewing gum. (I would also exclude pastries, but here the distinctions become sticky. True candy never requires you to eat it with utensils. I haven&#x27;t told you about my trip to Syria around a year ago; in Damascus, we visited Le Maison Pistache d&#x27;Alep, widely considered the greatest sweetshop in the Middle East. The confections were nearly all tiny pastries, beautifully made from the finest handmade phyllo dough you can imagine and filled with nuts, especially pistachios, dates, honey, and sugars. You eat these tiny gems by hand. Are they candy?) The Census Bureau divides non-chocolate confections into six categories: hard candy (such as sour balls, candy canes, lollipops, lemon drops, and brittles punctuated by nuts); chewy candy (such as caramel; toffee, which is stiffer than caramel; taffy; and nougat, grainy or smooth); soft candy (like fudge, candy corn, jellies, and gummy worms); iced or coated candy; panned candy (rolled in a circular pan to form a shell, as in jelly beans and Red Hots and jawbreakers and their cousins, which are nearly all shell—that is, many shells formed upon one another); and licorice (my favorite).</p>
+<p>Or we can define candy as whatever they sell in candy stores. To my mind, there are four, maybe five, pivotal candy stores on the island of Manhattan. Of course, there&#x27;s Dylan&#x27;s. I would tell you all about Dylan&#x27;s if you didn&#x27;t already know all about Dylan&#x27;s. Founded a few years back by Dylan Lauren (Ralph&#x27;s daughter), this is the most perfect American candy store in existence, all three airy floors designed and decorated in the happiest possible manner, each clever, colorful detail conveying the deepest candy love imaginable. Most of the candy is in spotless Plexiglas bins, hundreds of them, and throughout the shop are fresh confections such as ice cream, sodas, a chocolate fountain. My only disappointment is the sadly inadequate licorice department. Nevertheless, Dylan&#x27;s remains a New York City landmark.</p>
+<p>Papabubble, on Broome Street in Little Italy, arrived from Barcelona shortly before Halloween 2007. They sell only hard candy, made fresh daily, by hand, right before your eyes, each piece a gaily striped little cylinder that reminds you of Christmas. The flavors change—tomorrow, they say, they&#x27;ll add watermelon and passion fruit. The tiny, beautiful shop is shiny with white tile, stainless steel, and pale wood, and one wall is stacked with candy whose intricate designs and rainbow flavors produce an infinite variety.</p>
+<p>In Chinatown there are three shops quite near one another, all called Munchies Paradise in English and Aji Ichiban (Japanese for “superior taste,” but written in Chinese characters). To be sure you&#x27;ve found the right store, scrutinize the black character on the far right of the white sign and make sure that it resembles a pile of three suitcases or cardboard boxes—a large, rectangular box balanced atop the two smaller, square boxes, which sit next to each other at the bottom. That&#x27;s how I remember Chinese characters. If you wonder why Aji Ichiban would put its three Manhattan stores so close to one another, you will also wonder why Aji Ichiban has 100 shops in Hong Kong.</p>
+<p>What&#x27;s candy for the goose may be a savory munchy for the gander. (The Chinese and Japanese palates are different enough from ours that you can&#x27;t always tell dessert from the main course—Japanese pickles at dessert time, candied olives at the start of dinner in Shanghai.) Yes, at Aji Ichiban there are cellophane-wrapped gums and jellies, made rubbery and nearly flavorless for the Asian taste, and clear hard candies wrapped around very salty nuts, but there are also a fine mango leather and irresistible sheets of beef and pork jerky—soft, thin, cured, candied, spicy, and sweet, with a hint of piquant pepper—easily worth a trip to Chinatown. For the Chinese, I suppose, this, too, is candy.</p>
+<p>Economy Candy has stocked and sold every mass-market American candy you&#x27;ve ever eaten or seen or heard of since its founding in 1937 near the iconic Lower East Side corner of Rivington and Essex. The shop is clean and happy, well organized (but neither modernized nor gentrified), and packed from floor to ceiling with candy. The music—unobtrusive, noninvasive—runs the gamut from “My Boyfriend&#x27;s Back” to “Let&#x27;s Twist Again (Like We Did Last Summer).” The hereditary owner, Jerry Cohen, passes the most stringent test of an incurable, hopelessly besotted candy lover, which is that he can never get enough candy corn. Need I mention that I am in Jerry&#x27;s precise class and category when it comes to candy corn, which except for its unique appearance is the least interesting candy ever made? Only indiscriminate, promiscuous lovers of candy, any candy, could conceivably stomach a pound or two of candy corn before dinner, as Jerry Cohen and I can without heavy breathing. A few years ago I was introduced to a presumptive successor to the orange, yellow, and white classic. Its layers were pastel pink, lavender, and off-white, and each color came with its own individual flavor. Jerry Cohen has no sympathy for pastel candy corn. I&#x27;m still on the fence.</p>
+<p>Did you know that a cup of candy corn has fewer calories than a cup of raisins?</p>
+<p>Standing in Economy Candy, I was immersed in the sweets of my boyhood, a thousand madeleines each triggering a five-volume novel giving way to the involuntary memories released by the next candy bar. It was exhausting. There were Skybars; chocolate Ice Cubes; French Chew Taffy in chocolate, vanilla, strawberry, and banana; Adams Black Jack and Clove chewing gum; bubble-gum cigars and cigarettes; Fruit Stripe gum; chocolate cigarettes; candy buttons (the colored dots attached to white paper); Pez dispensers and refills; Pop Rocks; Nik-L-Nip; Necco Wafers; wax lips; wax fangs; Chuckles; Chunky bars; Clark bars; Oh Henry! bars; Sugar Daddy; Bit-O-Honey; Heath bars; Charms fruit squares; Charleston Chews in vanilla, chocolate, and strawberry; Zero candy bars, Tootsie Rolls in many sizes; old-fashioned candy sticks; Mega Bruiser Jawbreakers; Jelly Belly Wrecking Ball Jawbreakers; Got Milk? Chocolate Straws; Atomic Fireballs; Goelitz Caramel Cream Centers; Jolly Ranchers; Banana Split taffy chews; mini Twix bars; mini Snickers bars.</p>
+<p>But wait! Let&#x27;s pause here to consider the Snickers bar and its ramifications. It was born in 1930 and is today the most popular candy bar in the United States, which undoubtedly means the world. Its invention came near the end of the most creative period in the history of the American candy industry. Sure, in 1854, the first prepacked box of Whitman&#x27;s chocolates was introduced, guaranteeing to the American populace a standard of staleness, of flavorlessness, for years to come. And yes, in 1861, Richard Cadbury came up with the Valentine box of chocolates, thus forging an indissoluble link between candy and the lucrative holiday calendar for all time to come. But none of this had the slightest importance compared with the creation in the 1880s, by the Wunderle Candy Company, of the first candy corn. Or the dawning in 1893 of the age of Wrigley and its Juicy Fruit gum! The Hershey&#x27;s milk-chocolate bar emerged in 1900, followed by Necco Wafers in 1901 (Necco is an acronym for the New England Confectionery Company, which only a year later created those little pastel-colored sugary hearts bearing Valentine&#x27;s messages). The LifeSaver was developed (in peppermint only) in 1912. The following decade saw the emergence of the Baby Ruth, Chuckles, Goldenberg&#x27;s Peanut Chews, the Mounds bar, and the malty Milky Way bar, always a favorite of mine and the first of many signal achievements of the Mars family. As the decade closed, the Heath bar saw the light of day, as did Bit-O-Honey, Milk Duds, and Reese&#x27;s Peanut Butter Cups. To some these were the Roaring Twenties. To us it was a key decade in the history of American food, a pinnacle and zenith in the annals of American candy. What an exciting time it must have been to be alive!</p>
+<p>The earliest two or three years of the thirties were nothing to sneeze at, either, but then the Depression took hold. First came the Snickers bar, then Tootsie Roll Pops, Red Hots, and 3 Musketeers. It would take ten years before another immortal was born, in 1941: the very M&amp;M itself, again from the arsenal of Mars. The industrial candies of those golden years have only increased in popularity since then, and nothing has risen up in challenge. Nearly two-thirds of American candy brands are at least 50 years old.</p>
+<p>The age of giants has passed; the years of greatness are fled. Yet we are eating more sugar every year. Something sinister is happening. Have you noticed that your local movie theater has started to carry only candies that nobody has ever heard of—no Milky Ways, no Snickers, perhaps one or two bags of M&amp;Ms? Their motive? Greed, the desire to boost their tawdry profits by cutting costs, by buying cheaper candy, then charging us the same inflated $4.50. Did you know that movie theaters make most of their money at the concession stand, not by selling tickets? And unless you smuggle in a large plastic bag of Fun Size 3 Musketeers bars, the theater owners and their oligopolistic practices can easily force their inferior candy on you.</p>
+<p>But as I was saying, at Economy Candy the air was aromatic with the cool breath of candy and with the aromatic memories it induced, the perfume of Sen-Sen breath freshener, of Mary Janes and Tootsie Rolls, Smarties, Necco Wafers in mini rolls, Circus Peanuts, assorted fruit slices, Jordan almonds, Jujubes, Jujyfruits, Mexican Hats, Haribo Raspberry and Blackberry Gummis, gumdrops, orange slices, spice drops, Good &amp; Plenty, Fox&#x27;s U-bet chocolate syrup (no, not a candy, but demanding mention nonetheless), ethereal crystals of rock-candy swizzle sticks colored white or red, green or yellow, pink, orange, blue or purple (all really quite beautiful in the light), Hot Tamales, Jaw Busters, Sno-Caps, Goobers, Raisinets, and Red Hots.</p>
+<p>Have I mentioned that all these candies were from only one department at Economy Candy—the old-fashioned-favorites department? And that I&#x27;ve named only favorites whose appearance, taste, texture, and aroma I vividly recollect? Overcome by floods of involuntary memories, not all pleasant, I steadied myself with several large handfuls of pistachios (not the prized Iranian and Turkish varieties but the currently inferior California type), then chatted with Jerry, who is terrifically optimistic about the future of the candy business, of the Lower East Side, and of California pistachios. But I was beginning to feel that it might be time for me to put aside childish things—not entirely, not aggressively, but just appropriately. Much as I would have enjoyed swallowing an entire party-size bag of the new orange and black Halloween M&amp;Ms, which had just arrived in the shop, I suddenly felt the need for a truly adult confection. And as I had already excluded the extremely-expensive-chocolate-bonbon category, of which Manhattan has several fine exemplars, the only source in the entire city would be Fauchon, our local branch of the famed Parisian delicacy store on the place de la Madeleine. The French have an entire menu of adult candies, of which two of my favorites are pâte de fruits (little rectangles of fruit jelly, naturally and assertively flavored and tinted, then dressed in a thin coating of white sugar crystals), and candied fruit or candied citrus peel (poached for enough time that the sugar syrup penetrates every part of the fruit or peel; the peel can then be dipped into tempered chocolate or sugar).</p>
+<p>As my taxi arrived at Fauchon on Park Avenue in midtown, I saw that the entire shop had disappeared. I checked the address. Fauchon had been a large store, wide and deep and high, with lots of airy space between the displays. And now somehow it was gone. I telephoned a friend; Fauchon had closed two years before. I guess I had been extremely fashion-forward in my craving for adult candy. But I have been fashion-forward many times before in my life. There was only one solution, and that was couture. I would have to make them myself, by hand.</p>
+<p>Pierre Hermé&#x27;s candied grapefruit rind is unusual in that he includes the pith—the bitter white layer beneath the yellow skin.</p>
+<p>Adapted from Desserts by Pierre Hermé, written by Dorie Greenspan</p>
+<p>Wash 4 large grapefruits, preferably pink. With a sharp knife, slice off the top and bottom inch of each fruit so that it can stand upright. Cut the grapefruits from top to bottom into sections, flesh, rind, and all, so that each section is 1 inch wide at its widest. Trim the flesh adhering to the rind on each section so that it is only 1/8-inch thick. Discard any seeds. The result should be more or less rectangular pieces of grapefruit rind, each between 2 and 3 inches long. In a large pot bring at least 8 quarts of water to a boil over high heat, add the grapefruit sections, and cook for 2 minutes. With a slotted spoon or skimmer, remove the grapefruit sections to a strainer or colander and rinse under cold running water for 2 minutes. Return the grapefruit to the boiling water and repeat the procedure twice. Set aside.</p>
+<p>Into a medium-large pot, pour 4 cups of water and add 1/4 cup freshly squeezed lemon juice, 1 star anise, the pulp scraped out of a nice fat, moist vanilla bean, split, and 10 black peppercorns, bruised with a rolling pin or a hammer, depending on your gender. Bring to a boil and stir in 2 1/2 cups of white sugar. Add all the blanched grapefruit rind. Reduce to a simmer, cover, and cook for 1 1/2 hours, adjusting the heat as necessary. Remove the pot from the heat and leave overnight, still covered.</p>
+<p>Put the candied grapefruit rinds on a rack and let dry for a day or two. (The drying can be helped along by training an electric fan on the rinds.) Toss the dry grapefruit rinds in what the French call crystallized sugar and we call “sanding sugar.” (Ordinary granulated sugar is too fine. We found sanding sugar at New York Cake &amp; Baking Supply, which does mail order.)</p>
+<p>Dylan&#x27;s Candy Bar: 1011 Third Ave; (646) 735-0078.</p>
+<p>Economy Candy: 108 Rivington Street; (212) 254-1531.</p>
+<p>Munchies Paradise (Aji Ichiban): 23 East Broadway; 167 Hester Street; 37 Mott Street; (212) 233-7650.</p>
+<p>Papabubble: 380 Broome Street; (212) 966-2599.</p>
+            
+        </div>
+    </article>
+
+        <section class="max-w-7xl mx-auto px-4 md:px-6 mt-16 mb-12">
+            <div class="border-t border-b border-gray-200 py-3 md:py-4 mb-8">
+                <h2 class="text-lg md:text-xl font-light tracking-wide text-gray-700 uppercase">MORE FROM DEVON</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="skillcations-travel-trend.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792068768/devon-usa/2026-10-15/6ad00a528f6d372f3fa47810.jpg" alt="How “Skillcations” Became One of the Year’s Biggest Travel Trends" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Travel</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">How “Skillcations” Became One of the Year’s Biggest Travel Trends</h3>
+                </a>
+                <a href="talisman-amulet-trend.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/devon-usa/2026-10-17/6ad2897cbeb1b24378a1148d.jpg" alt="Now Might Be a Good Time for a Talisman" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Living</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">Now Might Be a Good Time for a Talisman</h3>
+                </a>
+                <a href="h-mart-cookbook-interview.html" class="group flex flex-col items-start">
+                    <div class="w-full overflow-hidden mb-4 bg-gray-100 aspect-[4/5]">
+                        <img src="https://res.cloudinary.com/dhx58lnzb/image/upload/f_auto,q_auto,c_limit,w_1600/v1792068768/devon-usa/2026-10-15/6acfdb34bb4f852a12514fe9.jpg" alt="H Mart’s First Cookbook Is a Love Letter to Korean American Food" loading="lazy" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"/>
+                    </div>
+                    <p class="text-[9px] md:text-[10px] font-bold tracking-widest uppercase text-black mb-2">Food</p>
+                    <h3 class="text-xl font-serif text-black leading-snug group-hover:underline">H Mart’s First Cookbook Is a Love Letter to Korean American Food</h3>
+                </a>
+            </div>
+        </section>
+</main>
+    <footer class="bg-black text-white pt-16 pb-10 mt-24 border-t border-neutral-900">
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            <div class="md:col-span-4">
+                <a href="../index.html" class="font-serif font-bold tracking-[0.18em] uppercase text-white text-4xl md:text-5xl leading-none">DEVON</a>
+                <p class="mt-4 text-[11px] tracking-[0.2em] uppercase text-neutral-500">USA</p>
+                <div class="flex gap-3 mt-8">
+                    <a href="https://www.instagram.com/devonmagazine/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-white transition-colors" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">More on Devon</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../fashion.html" class="hover:text-white">Fashion</a></li>
+                    <li><a href="../runway.html" class="hover:text-white">Runway</a></li>
+                    <li><a href="../beauty.html" class="hover:text-white">Beauty</a></li>
+                    <li><a href="../lifestyle.html" class="hover:text-white">Living</a></li>
+                    <li><a href="../shopping.html" class="hover:text-white">Shopping</a></li>
+                    <li><a href="../culture.html" class="hover:text-white">Culture</a></li>
+                    <li><a href="../devon-world.html" class="hover:text-white">Devon World</a></li>
+                    <li><a href="../hollywood.html" class="hover:text-white">Hollywood</a></li>
+                </ul>
+            </div>
+            <div class="md:col-span-4">
+                <h4 class="text-[10px] font-semibold tracking-[0.22em] uppercase mb-6 text-neutral-500">Devon Network</h4>
+                <ul class="text-[11px] font-medium tracking-[0.14em] text-neutral-300 space-y-4 uppercase">
+                    <li><a href="../index.html" class="hover:text-white">Devon USA</a></li>
+                    <li><a href="https://stadereck.github.io/devonrevista/index.html" class="hover:text-white">Devon México</a></li>
+                    <li><a href="../devon-business.html" class="hover:text-white">Devon Business</a></li>
+                    <li><a href="../subscribe.html" class="hover:text-white">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-3 gap-y-2 text-[9px] tracking-[0.14em] text-neutral-500 uppercase">
+                <a href="../terms.html" class="hover:text-white">User Agreement</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../privacy.html" class="hover:text-white">Privacy Policy</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../about.html" class="hover:text-white">About Us</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../mediakit.html" class="hover:text-white">Media Kit</a>
+                <span class="text-neutral-700">|</span>
+                <a href="../subscribe.html" class="hover:text-white">Newsletter</a>
+            </div>
+            <div class="relative">
+                <button id="country-selector-btn" class="flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs hover:border-neutral-400 transition-colors tracking-wide">
+                    USA
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div id="country-dropdown" class="absolute bottom-full mb-2 right-0 w-40 bg-neutral-950 border border-neutral-700 shadow-2xl hidden flex-col z-50">
+                    <a href="https://stadereck.github.io/devonrevista/index.html" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 border-b border-neutral-800 uppercase">Mexico</a>
+                    <a href="https://stadereck.github.io/devonrevist/" class="px-5 py-3 text-[11px] font-semibold tracking-widest text-neutral-400 hover:text-white hover:bg-neutral-900 uppercase">USA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const overlay = document.getElementById('overlay');
+        const sidebar = document.getElementById('sidebarMenu');
+        function showOverlay() {
+            overlay.classList.remove('hidden');
+            setTimeout(() => overlay.classList.remove('opacity-0'), 10);
+        }
+        function hideOverlay() {
+            overlay.classList.add('opacity-0');
+            setTimeout(() => overlay.classList.add('hidden'), 300);
+            sidebar.classList.remove('open');
+        }
+        function toggleMenu() {
+            sidebar.classList.toggle('open');
+            if (sidebar.classList.contains('open')) showOverlay(); else hideOverlay();
+        }
+        function closeAll() { hideOverlay(); }
+        function toggleSearch() {
+            const p = document.getElementById('search-panel');
+            p.classList.toggle('hidden');
+            if (!p.classList.contains('hidden')) document.getElementById('search-input').focus();
+        }
+        const countryBtn = document.getElementById('country-selector-btn');
+        const countryDropdown = document.getElementById('country-dropdown');
+        if (countryBtn && countryDropdown) {
+            countryBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                countryDropdown.classList.toggle('hidden');
+            });
+            document.addEventListener('click', () => countryDropdown.classList.add('hidden'));
+        }
+    </script>
+</body>
+</html>
